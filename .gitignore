@@ -1,4 +1,7 @@
 .DS_Store
 .vscode
 .sass-cache/
-code/
+code/*
+!code/shared/
+_site/code/*
+!_site/code/shared/

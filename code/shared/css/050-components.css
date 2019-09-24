@@ -1,0 +1,26 @@
+/* ----------------------------------------------------------------------------
+components.css                                                                  
+Enthält alle Regeln zu Komponenten.  
+
+Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
+----------------------------------------------------------------------------*/
+
+
+/* GUIContainer
+-----------------------------------------------------------------------------*/
+
+.GUIContainer{
+    position: relative;
+    display: block;
+    padding: 20px;
+}
+
+
+
+
+/* Navigation
+-----------------------------------------------------------------------------*/
+
+#nav{
+    position: sticky;
+}
