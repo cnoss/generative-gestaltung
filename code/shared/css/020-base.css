@@ -43,10 +43,11 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     Schrift
     ----------------------------------------*/
     --fontsize: 1em;
-    --fontsize-s: 0.75em;
-    --fontsize-l: 1.25em;
-    --fontsize-xl: 1.5em;
-    --fontsize-xxl: 2.5em;
+    --fontsize-xs: 0.5rem;
+    --fontsize-s: 0.75rem;
+    --fontsize-l: 1.25rem;
+    --fontsize-xl: 1.5rem;
+    --fontsize-xxl: 2.5rem;
 
     --font-family: Menlo, Consolas, Helvetica, Lucida, sans-serif;
 

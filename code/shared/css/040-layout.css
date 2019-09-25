@@ -59,15 +59,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 /* Console
 -----------------------------------------------------------------------------*/
 
-#console{
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  min-height: 200px;
-  max-height: 400px;
-  opacity: 0.8;
-}
+
 
 
 
