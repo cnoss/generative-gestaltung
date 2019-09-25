@@ -11,7 +11,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 h2 {
     color: var(--color-mi-pink);
-    margin-bottom: var(--space-stack-xxl);
+    margin-bottom: var(--xxl);
 }
 
 h3,
@@ -20,7 +20,7 @@ h4 {
 }
 
 h3 {
-    padding-top: var(--space-stack-xl);
+    padding-top: var(--xl);
 }
 
 h2+h3,
@@ -34,11 +34,11 @@ h3:first-of-type {
 
 .title,
 .subtitle {
-    margin-bottom: var(--space-stack);
+    margin-bottom: var(--m);
 }
 
 .title+.subtitle {
-    margin-top: calc(var(--space-stack-s) - var(--space-stack));
+    margin-top: calc(var(--s) - var(--m));
 }
 
 

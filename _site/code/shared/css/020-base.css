@@ -29,34 +29,16 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62 */
     --content-width: 960px;
     /*
-    Innenabstände umlaufend, z.B. für Buttons.
+    Groessen
     ----------------------------------------*/
-    --space-inset: 1rem;
-    --space-inset-s: 0.5rem;
-    --space-inset-l: 1.5rem;
-    --space-inset-xl: 2rem;
-    /* 
-    Vertikale Abstände von Stapeln, also
-    Elementen, die untereinander angeordnet 
-    werden.
-    ----------------------------------------*/
-    --space-stack: 1rem;
-    --space-stack-xs: 0.25rem;
-    --space-stack-s: 0.5rem;
-    --space-stack-l: 1.5rem;
-    --space-stack-xl: 2rem;
-    --space-stack-xxl: 4rem;
-    /* 
-    Horizontale Abstände von Reihen, also
-    Elementen, die nebeneinander angeordnet 
-    werden.
-    ----------------------------------------*/
-    --space-inline: 1rem;
-    --space-inline-xs: 0.25rem;
-    --space-inline-s: 0.5rem;
-    --space-inline-l: 1.5rem;
-    --space-inline-xl: 2rem;
-    /* 
+    --xxs: 0.25rem;
+    --xs:  0.5rem;
+    --s:   0.75rem;
+    --m:   1rem;
+    --l:   1.25rem;
+    --xl:   1.5rem;
+    -xxl:   2rem;
+
     Schrift
     ----------------------------------------*/
     --fontsize: 1em;

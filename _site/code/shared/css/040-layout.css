@@ -16,6 +16,10 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 /* Canvas
 -----------------------------------------------------------------------------*/
 
+#canvas{
+  padding: var(--xxl);
+}
+
 #canvas.fullscreen {
   position: absolute;
   left: 0;
@@ -35,12 +39,12 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 -----------------------------------------------------------------------------*/
 
 .section {
-    padding-bottom: var(--space-stack-xl);
+    padding-bottom: var(--xl);
 }
 
 .section__header {
     border-top: var(--color-borders) 1px dotted;
-    padding-top: var(--space-stack-xxl);
+    padding-top: var(--xxl);
 }
 
 
@@ -49,7 +53,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 .grid {
     display: grid;
-    grid-column-gap: var(--space-inset);
+    grid-column-gap: var(--m);
 }
 
 .grid-is-3 {
