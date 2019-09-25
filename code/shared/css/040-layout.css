@@ -5,14 +5,23 @@ Enthält alle übergreifenden typographischen Regeln.
 Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 ----------------------------------------------------------------------------*/
 
-
-/* Content
+/* Navigation
 -----------------------------------------------------------------------------*/
 
-.content {
-    padding: var(--space-inset-l);
-    margin: 0 auto;
-    max-width: var(--content-width);
+#nav{
+  position: sticky;
+}
+
+
+/* Canvas
+-----------------------------------------------------------------------------*/
+
+#canvas {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 

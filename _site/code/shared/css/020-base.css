@@ -20,9 +20,9 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     --color-mi-lila-light: #C8BBCE;
     --color-mi-black: #231f20;
     --color-mi-grau: #aaaaaa;
-    --color-text: #000;
-    --color-headlines: #666;
-    --color-backgrounds: #efefef;
+    --color-text: #eee;
+    --color-headlines: #bbb;
+    --color-backgrounds: ##000;
     --color-borders: rgba(0, 0, 0, 0.3);
     /* 
     Abstände. Hierzu gibt es auch ein schönes Konzept
@@ -73,6 +73,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 body {
     font-size: 1.8rem;
     color: var(--color-text);
+    background-color: var(--color-backgrounds);
 }
 
 li,
