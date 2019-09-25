@@ -18,25 +18,43 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 #canvas{
   position: absolute;
-  left: var(--xxl);
-  right: var(--xxl);
-  top: var(--xxl);
-  bottom: var(--xxl);
+  width: 50vw;
+  height: 50vh;
+  left: 25vw;
+  top: 25vh;
 }
 
-#canvas.fullscreen {
+#canvas.is-fullscreen {
+  width: 100vw;
+  height: 100vh;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
 }
 
-#canvas.16by9 {
+#canvas.is-16by9 {
   position: relative;
   margin: auto;
   width: 100vw
   height: calc(100*9/16)vw;
 }
+
+#canvas.is-small {
+  width: 30vw;
+  height: 30vh;
+  left: calc(50vw - 15vw);
+  top: calc(50vh - 15vh);
+}
+
+#canvas.is-large {
+  width: 80vw;
+  height: 80vh;
+  left: calc(50vw - 40vw);
+  top: calc(50vh - 40vh);
+}
+
+
 
 
 /* Section
