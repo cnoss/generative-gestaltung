@@ -17,11 +17,14 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 -----------------------------------------------------------------------------*/
 
 #canvas{
-  padding: var(--xxl);
+  position: absolute;
+  left: var(--xxl);
+  right: var(--xxl);
+  top: var(--xxl);
+  bottom: var(--xxl);
 }
 
 #canvas.fullscreen {
-  position: absolute;
   left: 0;
   right: 0;
   top: 0;
@@ -29,6 +32,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 }
 
 #canvas.16by9 {
+  position: relative;
   margin: auto;
   width: 100vw
   height: calc(100*9/16)vw;
