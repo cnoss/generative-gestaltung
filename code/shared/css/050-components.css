@@ -12,7 +12,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 .GUIContainer{
     position: relative;
     display: block;
-    padding: 20px;
+    padding: var(--xl);
 }
 
 
