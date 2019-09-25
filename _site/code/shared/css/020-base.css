@@ -39,6 +39,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     --xl:   1.5rem;
     --xxl:   2rem;
 
+    /*
     Schrift
     ----------------------------------------*/
     --fontsize: 1em;
@@ -46,6 +47,9 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     --fontsize-l: 1.25em;
     --fontsize-xl: 1.5em;
     --fontsize-xxl: 2.5em;
+
+    --font-family: Menlo, Consolas, Helvetica, Lucida, sans-serif;
+
 }
 
 
@@ -56,6 +60,7 @@ body {
     font-size: 1.8rem;
     color: var(--color-text);
     background-color: var(--color-backgrounds);
+    font-family: var(--font-family);
 }
 
 li,
