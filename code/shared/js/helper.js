@@ -37,11 +37,11 @@ function helperNavElements() {
   function pimpConsole() { 
     let drawingParams = document.createElement("p");
     drawingParams.setAttribute("id", "drawingParams");
-    helperGlobals.canvas.console.appendChild(drawingParams);
+    helperGlobals.console.appendChild(drawingParams);
 
     let canvasParams = document.createElement("p");
     canvasParams.setAttribute("id", "canvasParams");
-    helperGlobals.canvas.console.appendChild(canvasParams);
+    helperGlobals.console.appendChild(canvasParams);
   }
 
   function checkWrap() { 
