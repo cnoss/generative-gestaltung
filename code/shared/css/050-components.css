@@ -58,6 +58,13 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
   top: calc(50vh - 40vh);
 }
 
+#canvas.is-fixed {
+  width: 500px;
+  height: 500px;
+  left: calc(50vw - 250px);
+  top: calc(50vh - 270px);
+}
+
 
 
 
