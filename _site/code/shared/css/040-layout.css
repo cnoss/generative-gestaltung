@@ -56,25 +56,6 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 
 
-/* Console
------------------------------------------------------------------------------*/
-
-#console{
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  
-  background-color: var(--color-mi-lila);
-  padding: var(--l);
-  font-size: var(--fontsize-s);
-  color: rgba(255,255,255,0.7);
-
-  font-family: var(--font-family-condensed);
-}
-
-
-
 /* Section
 -----------------------------------------------------------------------------*/
 
