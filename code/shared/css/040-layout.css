@@ -10,49 +10,10 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 #nav{
   position: sticky;
+  z-index: 1;
 }
 
 
-/* Canvas
------------------------------------------------------------------------------*/
-
-#canvas{
-  position: absolute;
-  width: 50vw;
-  height: 50vh;
-  left: 25vw;
-  top: 25vh;
-}
-
-#canvas.is-fullscreen {
-  width: 100vw;
-  height: 100vh;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-
-#canvas.is-16by9 {
-  position: relative;
-  margin: auto;
-  width: 100vw
-  height: calc(100*9/16)vw;
-}
-
-#canvas.is-small {
-  width: 30vw;
-  height: 30vh;
-  left: calc(50vw - 15vw);
-  top: calc(50vh - 15vh);
-}
-
-#canvas.is-large {
-  width: 80vw;
-  height: 80vh;
-  left: calc(50vw - 40vw);
-  top: calc(50vh - 40vh);
-}
 
 
 

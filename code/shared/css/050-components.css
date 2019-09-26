@@ -9,12 +9,120 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 /* GUIContainer
 -----------------------------------------------------------------------------*/
 
-.GUIContainer{
-    position: relative;
-    display: block;
-    padding: var(--xl);
+.GUIContainer {
+  position: relative;
+  display: block;
+  padding: var(--xl);
+}
+
+
+/* Canvas
+-----------------------------------------------------------------------------*/
+
+#canvas {
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  left: 25vw;
+  top: 25vh;
+  z-index: 0;
+}
+
+#canvas.is-fullscreen {
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#canvas.is-16by9 {
+  left: 5vw;
+  top: calc(50vh - (100*9 /32 * 1vw));
+  width: 90vw;
+  height: calc(100*9 /16 * 1vw);
+}
+
+#canvas.is-small {
+  width: 30vw;
+  height: 30vh;
+  left: calc(50vw - 15vw);
+  top: calc(50vh - 15vh);
+}
+
+#canvas.is-large {
+  width: 80vw;
+  height: 80vh;
+  left: calc(50vw - 40vw);
+  top: calc(50vh - 40vh);
 }
 
 
 
 
+/* Navigation
+-----------------------------------------------------------------------------*/
+
+#nav-wrap {
+  text-align: right;
+}
+
+#nav-wrap .nav-item {
+  display: inline-block;
+  margin: var(--m);
+}
+
+#nav-wrap .nav-item .button {
+  color: var(--color-mi-lila);
+  padding: var(--xs);
+  transition: all 0.2s;
+}
+
+#nav-wrap .nav-item .button:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+#nav-wrap .nav-item .button.active {
+  opacity: 0.5;
+}
+
+
+
+
+/* Console
+-----------------------------------------------------------------------------*/
+
+#console {
+
+  transition: all 0.5s;
+  position: absolute;
+  max-height: 2px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  padding-left: var(--l);
+  padding-right: var(--l);
+
+  background-color: var(--color-mi-lila);
+
+  font-size: var(--fontsize-s);
+  color: var(--color-text);
+
+  font-family: var(--font-family-condensed);
+  overflow: hidden;
+}
+
+#console p {
+  opacity: 0;
+}
+
+#console.active {
+  max-height: 40px;
+}
+
+#console.active p {
+  opacity: 0.8;
+}
