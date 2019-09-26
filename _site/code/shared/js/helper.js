@@ -32,6 +32,10 @@ let helperGlobals = {
 /* Functions
 ----------------------------------------------------------------------------*/
 
+function helperPrettifyLogs(data) {
+  return JSON.stringify(data).replace(/{|}|"/g, "").replace(/,/g, " // ");
+}
+
 function helperNavElements() {
   
   function pimpConsole() { 
