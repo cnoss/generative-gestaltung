@@ -12,7 +12,7 @@ https://cnoss.github.io/generative-gestaltung/
 /* Config & Vars
 ----------------------------------------------------------------------------*/
 
-let wrapGlobals = {
+let helperGlobals = {
   nav: document.getElementById("nav"),
   canvas: document.getElementById("canvas"),
   console: document.getElementById("console"),
@@ -31,11 +31,8 @@ let wrapGlobals = {
 /* Functions
 ----------------------------------------------------------------------------*/
 
-function navElements () { 
-  let data = {};
-  data.previous = false;
-  data.next = false;
-  
+function helperNavElements () { 
+
   function checkWrap() { 
     let navWrap = document.querySelector("#nav-wrap");
     if (navWrap === null) {
@@ -50,20 +47,20 @@ function navElements () {
     }
   }
 
-  function generateNavitem(type, target) { 
+  function generateNavitems() { 
 
     let navWrap = checkWrap();
     
     let navItem = document.createElement("div");
     navItem.classList.add("nav-item");
-    navItem.classList.add(type);
-    navItem.setAttribute("id", "nav-item-" + type);
+    navItem.classList.add("button");
+    navItem.setAttribute("id", "nav-item-button");
     
     /* Info Toggling */
     let infoButton = document.createElement("i");
     infoButton.setAttribute("class", "material-icons button");
     infoButton.addEventListener("click", function () { 
-      wrapGlobals.console.classList.toggle('active');
+      helperGlobals.console.classList.toggle('active');
       this.classList.toggle('active');
     }, false);
 
@@ -76,14 +73,14 @@ function navElements () {
     canvasSizeButton.setAttribute("class", "material-icons button");
     canvasSizeButton.addEventListener("click", function () {
       let nextIndex = false;
-      wrapGlobals.consoleStates.forEach(function(state, index) {
-        if(wrapGlobals.canvas.classList.contains(state)){
-          wrapGlobals.canvas.classList.remove(state);
+      helperGlobals.consoleStates.forEach(function(state, index) {
+        if(helperGlobals.canvas.classList.contains(state)){
+          helperGlobals.canvas.classList.remove(state);
           nextIndex = index +1;
         }
       });
-      let newCanvasState = (wrapGlobals.consoleStates[nextIndex]) ? wrapGlobals.consoleStates[nextIndex] : wrapGlobals.consoleStates[0];
-      wrapGlobals.canvas.classList.add(newCanvasState);
+      let newCanvasState = (helperGlobals.consoleStates[nextIndex]) ? helperGlobals.consoleStates[nextIndex] : helperGlobals.consoleStates[0];
+      helperGlobals.canvas.classList.add(newCanvasState);
       resizeMyCanvas();
     }, false);
 
@@ -95,7 +92,7 @@ function navElements () {
     
   }
   this.init = function() { 
-    generateNavitem("toggleConsole", "#console"); 
+    generateNavitems(); 
   }
 }
 
@@ -105,5 +102,5 @@ function navElements () {
 /* Main
 ----------------------------------------------------------------------------*/
 
-let nav = new navElements();
-nav.init();
+let navHelper = new helperNavElements();
+navHelper.init();
