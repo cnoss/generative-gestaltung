@@ -126,3 +126,17 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 #console.active p {
   opacity: 0.8;
 }
+
+#console #drawingParams,
+#console #canvasParams{
+  display: inline-block;
+}
+
+#console #drawingParams{
+  width: 60%;
+}
+
+#console #canvasParams{
+  width: 30%;
+}
+
