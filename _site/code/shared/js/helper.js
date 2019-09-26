@@ -103,6 +103,7 @@ function helperNavElements() {
     
   }
   this.init = function () { 
+    pimpConsole();
     generateNavitems(); 
   }
 }
