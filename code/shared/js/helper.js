@@ -17,7 +17,8 @@ let helperGlobals = {
   canvas: document.getElementById("canvas"),
   console: document.getElementById("console"),
   consoleStates: 
-    [
+    [ 
+      'is-fixed',
       'is-standard',
       'is-fullscreen',
       'is-16by9',
@@ -31,7 +32,17 @@ let helperGlobals = {
 /* Functions
 ----------------------------------------------------------------------------*/
 
-function helperNavElements () { 
+function helperNavElements() {
+  
+  function pimpConsole() { 
+    let drawingParams = document.createElement("p");
+    drawingParams.setAttribute("id", "drawingParams");
+    helperGlobals.canvas.console.appendChild(drawingParams);
+
+    let canvasParams = document.createElement("p");
+    canvasParams.setAttribute("id", "canvasParams");
+    helperGlobals.canvas.console.appendChild(canvasParams);
+  }
 
   function checkWrap() { 
     let navWrap = document.querySelector("#nav-wrap");
@@ -91,7 +102,7 @@ function helperNavElements () {
     navWrap.appendChild(navItem);
     
   }
-  this.init = function() { 
+  this.init = function () { 
     generateNavitems(); 
   }
 }
