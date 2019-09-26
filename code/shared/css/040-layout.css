@@ -69,6 +69,8 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
   padding: var(--l);
   font-size: var(--fontsize-s);
   color: rgba(255,255,255,0.7);
+
+  font-family: var(--font-family-condensed);
 }
 
 
