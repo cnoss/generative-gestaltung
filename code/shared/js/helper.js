@@ -91,6 +91,7 @@ function helperNavElements() {
         }
       });
       let newCanvasState = (helperGlobals.consoleStates[nextIndex]) ? helperGlobals.consoleStates[nextIndex] : helperGlobals.consoleStates[0];
+      canvasParams.state = newCanvasState;
       helperGlobals.canvas.classList.add(newCanvasState);
       resizeMyCanvas();
     }, false);

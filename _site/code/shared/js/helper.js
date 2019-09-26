@@ -37,11 +37,11 @@ function helperNavElements() {
   function pimpConsole() { 
     let drawingParams = document.createElement("p");
     drawingParams.setAttribute("id", "drawingParams");
-    helperGlobals.canvas.console.appendChild(drawingParams);
+    helperGlobals.console.appendChild(drawingParams);
 
     let canvasParams = document.createElement("p");
     canvasParams.setAttribute("id", "canvasParams");
-    helperGlobals.canvas.console.appendChild(canvasParams);
+    helperGlobals.console.appendChild(canvasParams);
   }
 
   function checkWrap() { 
@@ -91,6 +91,7 @@ function helperNavElements() {
         }
       });
       let newCanvasState = (helperGlobals.consoleStates[nextIndex]) ? helperGlobals.consoleStates[nextIndex] : helperGlobals.consoleStates[0];
+      canvasParams.state = newCanvasState;
       helperGlobals.canvas.classList.add(newCanvasState);
       resizeMyCanvas();
     }, false);
