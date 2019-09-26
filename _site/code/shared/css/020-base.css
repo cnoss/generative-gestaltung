@@ -24,7 +24,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 }
 
 @font-face {
-  font-family: 'IBMPlexCondensed';
+  font-family: 'IBMPlexCondensedBold';
   font-style: normal;
   font-weight: 700;
   src: local('IBM Plex Sans Condensed Fett'), url('https://cnoss.github.io/generative-gestaltung/code/shared/fonts/IBM_Plex_Sans_Condensed/IBMPlexSansCondensed-Bold.woff2') format('woff2');
