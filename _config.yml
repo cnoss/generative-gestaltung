@@ -6,7 +6,7 @@
 name: Generative Gestaltung
 
 # Short bio or description (displayed in the header)
-description: Kurs in Designing Futures 1 // Code & Context
+description: Kurs im Modul «Designing Futures 1» // Code & Context
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /generative-gestaltung/assets/images/Keyvisual_White_Heavy_Strokes-110px.png
@@ -82,7 +82,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Zur Abtrannung der Aufgabe
-excerpt_separator: "<!--aufgabe-->"
+excerpt_separator: "<!--more-->"
 
 # Use the following plug-ins
 plugins_dir:
@@ -108,6 +108,8 @@ collections:
   links:
     output: false
   news:
+    output: false
+  home:
     output: false
 
 defaults:

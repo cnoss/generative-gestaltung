@@ -6,6 +6,8 @@
 @import "variables";
 @import "bulma";
 @import "overrides";
+@import "components";
+@import "blocks";
 
 // Syntax highlighting @import is at the bottom of this file
 
@@ -403,7 +405,7 @@ $tt-grid-height: 60px;
   margin-bottom: $bfs *2;
 }
 
-.content {
+.content.is-simple{
 
   p,
   li,

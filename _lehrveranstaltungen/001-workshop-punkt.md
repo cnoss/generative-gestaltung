@@ -1,5 +1,5 @@
 ---
-titel: Punkt & p5.js Basics
+titel: Punkt
 kuerzel: w-lmw
 verantwortlich: cn
 typ: workshop
@@ -9,7 +9,12 @@ empfohlene-voraussetzungen:
 published: true
 dauer: 240
 raum: 422
-info: tbd.
+flag: show-at-homepage
+teaserImageURL: /assets/images/P2.3.jpg
+info: |
+  Das einfachste und kleinste Gestaltungselement ist der Punkt. Mathematisch betrachtet ist er unendlich klein. Das hilft uns aber wenig, darum setzen wir uns darüber hinweg. Ein Punkt steht nicht im Nichts, sondern erst steht auf irgendeiner begrenzten Fläche, dem Format. 
+
+  Zunächst nutzen wir nur den Gestaltungsparamater Position. Später nutzen wir auch Größe, Anzahl, Tonwert, Deckkraft und werden darüber hinaus Gestaltgesetze anwenden.  
 ---
 
 ## Worum geht es?

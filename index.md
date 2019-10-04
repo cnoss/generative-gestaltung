@@ -1,6 +1,6 @@
 ---
 layout: home
-titel: Über das Modul
+titel: Über den Kurs
 ---
 
 {% include functions/resolve-urls.html target="lias-pruefung" %}

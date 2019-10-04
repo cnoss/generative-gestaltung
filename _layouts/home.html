@@ -3,6 +3,7 @@ layout: default
 ---
 
 {% assign news = site.news %}
+{% assign homeBlocks = site.home %}
 
 <section class="section">
   <div class="container">
@@ -29,11 +30,8 @@ layout: default
 			{% include news.html news=news %}
 		</div>
 	</div>
-	-->
-  <hr>
-  <div class="container zweispalter">
-    <div class="content">
-      {{ content }}
-    </div>
-  </div>
+  -->
 </section>
+
+
+{% include home.html blocks=homeBlocks %}

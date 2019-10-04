@@ -10,6 +10,7 @@ published: true
 dauer: 210
 raum: 422
 info: tbd.
+
 ---
 
 ## Worum geht es?

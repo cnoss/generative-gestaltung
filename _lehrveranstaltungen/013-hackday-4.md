@@ -1,5 +1,5 @@
 ---
-titel: Hackday 4
+titel: Vorstellung der Prüfungsaufgabe // Hackday 4
 kuerzel: w-lmw
 verantwortlich: cn
 typ: hack

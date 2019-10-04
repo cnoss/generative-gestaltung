@@ -17,7 +17,7 @@
 
 <body data-url="{{page.url}}">
   <section class="hero is-info is-large"
-    style="background-image: url({{ site.baseurl }}/images/hero.svg); background-size: contain; background-repeat: no-repeat; background-position: center center;">
+    style="background-image: url({{ site.baseurl }}/assets/images/P3.png); background-size: contain; background-repeat: no-repeat; background-position: center center;">
     <!-- Hero header: will stick at the top -->
     <div class="hero-head">
       <header class="nav">
@@ -31,7 +31,7 @@
             <span></span>
           </span>
           <div class="nav-right nav-menu">
-            <a href="{{ site.baseurl }}/angebote/" class="nav-item">Veranstaltungen</a>
+            <!--a href="{{ site.baseurl }}/angebote/" class="nav-item">Veranstaltungen</a-->
             <a href="{{ site.baseurl }}/timetable/" class="nav-item">Zeitplan</a>
             <!--a href="{{ site.baseurl }}/niveaustufen/" class="nav-item">Artefakte & Bewertung</a-->
             <!--a href="{{ site.baseurl }}/nomenklatur/" class="nav-item">Nomenklatur</a-->
@@ -49,32 +49,17 @@
     </div>
 
     <!-- Hero content: will be in the middle -->
-    <div class="hero-body is-header">
+    <div class="hero-body is-header has-background-radient">
       <div class="container">
-        <h1 class="title is-1">
+        <h1 class="title is-1 has-text-shadow">
           {{ site.name }}
         </h1>
-        <h2 class="subtitle is-3">
+        <h2 class="subtitle is-3 has-text-shadow">
           {{ site.description }}
         </h2>
       </div>
     </div>
 
-    <!-- Hero footer: will stick at the bottom -->
-    <!--div class="hero-foot">
-	    <nav class="tabs is-boxed is-fullwidth">
-	      <div class="container">
-	        <ul>
-	          <li class="is-active"><a>Overview</a></li>
-	          <li><a>Modifiers</a></li>
-	          <li><a>Grid</a></li>
-	          <li><a>Elements</a></li>
-	          <li><a>Components</a></li>
-	          <li><a>Layout</a></li>
-	        </ul>
-	      </div>
-	    </nav>
-	  </div-->
   </section>
 
   {{ content }}
@@ -85,7 +70,7 @@
         <div class="column">
           <ul class="menu-list">
             <li><a href="{{ site.baseurl }}/" class="nav-item">Startseite</a></li>
-            <li><a href="{{ site.baseurl }}/angebote/" class="nav-item">Veranstaltungen</a></li>
+            <!--li><a href="{{ site.baseurl }}/angebote/" class="nav-item">Veranstaltungen</a></li-->
             <li><a href="{{ site.baseurl }}/timetable/" class="nav-item">Zeitplan</a></li>
             <!--li><a href="{{ site.baseurl }}/niveaustufen/" class="nav-item">Artefakte & Bewertung</a></li-->
             <!--li><a href="{{ site.baseurl }}/nomenklatur/" class="nav-item">Nomenklatur</a></li-->

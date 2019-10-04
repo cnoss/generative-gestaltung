@@ -3523,149 +3523,149 @@ a.box:active {
   height: 1rem;
 }
 
-.table, .content table {
+.table, .content.is-simple table {
   background-color: white;
   color: #363636;
   margin-bottom: 1.5rem;
 }
-.table td, .content table td,
+.table td, .content.is-simple table td,
 .table th,
-.content table th {
+.content.is-simple table th {
   border: 1px solid #dbdbdb;
   border-width: 0 0 1px;
   padding: 0.5em 0.75em;
   vertical-align: top;
 }
-.table td.is-white, .content table td.is-white,
+.table td.is-white, .content.is-simple table td.is-white,
 .table th.is-white,
-.content table th.is-white {
+.content.is-simple table th.is-white {
   background-color: white;
   border-color: white;
   color: #0a0a0a;
 }
-.table td.is-black, .content table td.is-black,
+.table td.is-black, .content.is-simple table td.is-black,
 .table th.is-black,
-.content table th.is-black {
+.content.is-simple table th.is-black {
   background-color: #0a0a0a;
   border-color: #0a0a0a;
   color: white;
 }
-.table td.is-light, .content table td.is-light,
+.table td.is-light, .content.is-simple table td.is-light,
 .table th.is-light,
-.content table th.is-light {
+.content.is-simple table th.is-light {
   background-color: whitesmoke;
   border-color: whitesmoke;
   color: #363636;
 }
-.table td.is-dark, .content table td.is-dark,
+.table td.is-dark, .content.is-simple table td.is-dark,
 .table th.is-dark,
-.content table th.is-dark {
+.content.is-simple table th.is-dark {
   background-color: #363636;
   border-color: #363636;
   color: whitesmoke;
 }
-.table td.is-primary, .content table td.is-primary,
+.table td.is-primary, .content.is-simple table td.is-primary,
 .table th.is-primary,
-.content table th.is-primary {
+.content.is-simple table th.is-primary {
   background-color: #c81e0f;
   border-color: #c81e0f;
   color: #fff;
 }
-.table td.is-info, .content table td.is-info,
+.table td.is-info, .content.is-simple table td.is-info,
 .table th.is-info,
-.content table th.is-info {
+.content.is-simple table th.is-info {
   background-color: #222;
   border-color: #222;
   color: #fff;
 }
-.table td.is-success, .content table td.is-success,
+.table td.is-success, .content.is-simple table td.is-success,
 .table th.is-success,
-.content table th.is-success {
+.content.is-simple table th.is-success {
   background-color: #ea5a00;
   border-color: #ea5a00;
   color: #fff;
 }
-.table td.is-warning, .content table td.is-warning,
+.table td.is-warning, .content.is-simple table td.is-warning,
 .table th.is-warning,
-.content table th.is-warning {
+.content.is-simple table th.is-warning {
   background-color: #aaaaaa;
   border-color: #aaaaaa;
   color: rgba(0, 0, 0, 0.7);
 }
-.table td.is-danger, .content table td.is-danger,
+.table td.is-danger, .content.is-simple table td.is-danger,
 .table th.is-danger,
-.content table th.is-danger {
+.content.is-simple table th.is-danger {
   background-color: #ff3860;
   border-color: #ff3860;
   color: #fff;
 }
-.table td.is-narrow, .content table td.is-narrow,
+.table td.is-narrow, .content.is-simple table td.is-narrow,
 .table th.is-narrow,
-.content table th.is-narrow {
+.content.is-simple table th.is-narrow {
   white-space: nowrap;
   width: 1%;
 }
-.table th, .content table th {
+.table th, .content.is-simple table th {
   color: #363636;
   text-align: left;
 }
-.table tr:hover, .content table tr:hover {
+.table tr:hover, .content.is-simple table tr:hover {
   background-color: #fafafa;
 }
-.table tr.is-selected, .content table tr.is-selected {
+.table tr.is-selected, .content.is-simple table tr.is-selected {
   background-color: #c81e0f;
   color: #fff;
 }
-.table tr.is-selected a, .content table tr.is-selected a,
+.table tr.is-selected a, .content.is-simple table tr.is-selected a,
 .table tr.is-selected strong,
-.content table tr.is-selected strong {
+.content.is-simple table tr.is-selected strong {
   color: currentColor;
 }
-.table tr.is-selected td, .content table tr.is-selected td,
+.table tr.is-selected td, .content.is-simple table tr.is-selected td,
 .table tr.is-selected th,
-.content table tr.is-selected th {
+.content.is-simple table tr.is-selected th {
   border-color: #fff;
   color: currentColor;
 }
-.table thead td, .content table thead td,
+.table thead td, .content.is-simple table thead td,
 .table thead th,
-.content table thead th {
+.content.is-simple table thead th {
   border-width: 0 0 2px;
   color: #363636;
 }
-.table tfoot td, .content table tfoot td,
+.table tfoot td, .content.is-simple table tfoot td,
 .table tfoot th,
-.content table tfoot th {
+.content.is-simple table tfoot th {
   border-width: 2px 0 0;
   color: #363636;
 }
-.table tbody tr:last-child td, .content table tbody tr:last-child td,
+.table tbody tr:last-child td, .content.is-simple table tbody tr:last-child td,
 .table tbody tr:last-child th,
-.content table tbody tr:last-child th {
+.content.is-simple table tbody tr:last-child th {
   border-bottom-width: 0;
 }
-.table.is-bordered td, .content table.is-bordered td,
+.table.is-bordered td, .content.is-simple table.is-bordered td,
 .table.is-bordered th,
-.content table.is-bordered th {
+.content.is-simple table.is-bordered th {
   border-width: 1px;
 }
-.table.is-bordered tr:last-child td, .content table.is-bordered tr:last-child td,
+.table.is-bordered tr:last-child td, .content.is-simple table.is-bordered tr:last-child td,
 .table.is-bordered tr:last-child th,
-.content table.is-bordered tr:last-child th {
+.content.is-simple table.is-bordered tr:last-child th {
   border-bottom-width: 1px;
 }
-.table.is-fullwidth, .content table.is-fullwidth {
+.table.is-fullwidth, .content.is-simple table.is-fullwidth {
   width: 100%;
 }
-.table.is-narrow td, .content table.is-narrow td,
+.table.is-narrow td, .content.is-simple table.is-narrow td,
 .table.is-narrow th,
-.content table.is-narrow th {
+.content.is-simple table.is-narrow th {
   padding: 0.25em 0.5em;
 }
-.table.is-striped tbody tr:not(.is-selected):nth-child(even), .content table.is-striped tbody tr:not(.is-selected):nth-child(even) {
+.table.is-striped tbody tr:not(.is-selected):nth-child(even), .content.is-simple table.is-striped tbody tr:not(.is-selected):nth-child(even) {
   background-color: #fafafa;
 }
-.table.is-striped tbody tr:not(.is-selected):nth-child(even):hover, .content table.is-striped tbody tr:not(.is-selected):nth-child(even):hover {
+.table.is-striped tbody tr:not(.is-selected):nth-child(even):hover, .content.is-simple table.is-striped tbody tr:not(.is-selected):nth-child(even):hover {
   background-color: whitesmoke;
 }
 
@@ -8046,6 +8046,113 @@ label.panel-block:hover {
   border-top: 0;
 }
 
+.has-top-seperator {
+  border-top: solid 1px #aaaaaa;
+  margin-top: 0;
+  padding-top: 1.4rem;
+}
+
+.has-transparent-seperator {
+  padding-bottom: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+.has-transparent-double-seperator {
+  padding-bottom: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+
+.has-background {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.has-text-shadow {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.has-background-radient {
+  position: relative;
+}
+
+.has-background-radient::before {
+  content: '';
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  left: 0;
+  background-size: auto;
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0), #000);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  opacity: 1;
+  z-index: 0;
+}
+
+/* BuildingBlock
+########################################################################### */
+.buildingBlock .title {
+  font-size: 1.4rem;
+}
+.buildingBlock h2, .buildingBlock h3 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* Herotext
+########################################################################### */
+.herotext {
+  font-size: 1.4rem;
+  line-height: 120%;
+}
+@media (min-width: 999px) {
+  .herotext {
+    line-height: 130%;
+  }
+}
+@media (min-width: 768px) {
+  .herotext {
+    font-size: 1.8rem;
+    line-height: 140%;
+  }
+}
+
+/* Simpletext
+########################################################################### */
+/* ItemsOverview
+########################################################################### */
+.itemsOverview .image.has-border img {
+  border: solid 1px #aaaaaa;
+}
+.itemsOverview .image.is-max-half {
+  padding-top: 50%;
+}
+.itemsOverview .image.is-max-half > img {
+  bottom: 0;
+  left: 25%;
+  position: absolute;
+  right: 25%;
+  top: 0;
+  height: 100%;
+  width: 50%;
+}
+.itemsOverview .is-align-variant-1 .columns {
+  flex-direction: row-reverse;
+}
+@media (min-width: 999px) {
+  .itemsOverview .is-text {
+    margin-top: -2rem;
+  }
+  .itemsOverview .is-align-variant-0 .image.is-max-half > img {
+    left: 50%;
+    right: 0;
+  }
+  .itemsOverview .is-align-variant-1 .image.is-max-half > img {
+    left: 0;
+    right: 25%;
+  }
+}
+
 /**************/
 /* BASE RULES */
 /**************/
@@ -8366,44 +8473,44 @@ html {
   margin-bottom: 2rem;
 }
 
-.content {
+.content.is-simple {
   /*ul{
 		margin-left: 1em;
 	}*/
 }
-.content p,
-.content li,
-.content table {
+.content.is-simple p,
+.content.is-simple li,
+.content.is-simple table {
   max-width: 36rem;
 }
-.content h1 {
+.content.is-simple h1 {
   font-size: 1.6rem;
   font-weight: 500;
 }
-.content h2 {
+.content.is-simple h2 {
   font-size: 1.4rem;
   font-weight: 500;
 }
-.content h3 {
+.content.is-simple h3 {
   font-size: 1rem;
   font-weight: 600;
 }
-.content h4 {
+.content.is-simple h4 {
   font-size: 1rem;
   font-weight: 600;
 }
-.content h5 {
+.content.is-simple h5 {
   font-size: 1rem;
   font-weight: 600;
 }
-.content h6 {
+.content.is-simple h6 {
   font-size: 1rem;
   font-weight: 600;
 }
-.content dl {
+.content.is-simple dl {
   margin-bottom: 1rem;
 }
-.content dl dt {
+.content.is-simple dl dt {
   display: block;
   float: left;
   min-width: 10px;
@@ -8411,47 +8518,47 @@ html {
   font-weight: bold;
   color: #222;
 }
-.content dl dd {
+.content.is-simple dl dd {
   /*border-bottom: solid 1px $grey-light; */
   padding: 0.125rem 0;
   margin-left: 0;
 }
-.content dl dt::after {
+.content.is-simple dl dt::after {
   content: ":";
   display: inline-block;
   padding-right: 0.25rem;
 }
-.content table a,
-.content table a:not(.button) {
+.content.is-simple table a,
+.content.is-simple table a:not(.button) {
   border: none;
 }
-.content table th {
+.content.is-simple table th {
   font-weight: 600;
 }
-.content table .no-border th,
-.content table .no-border td {
+.content.is-simple table .no-border th,
+.content.is-simple table .no-border td {
   border: none;
 }
-.content table.tab-schwerpunktmodule th {
+.content.is-simple table.tab-schwerpunktmodule th {
   width: 40%;
 }
-.content table.tab-schwerpunktmodule th + th + th {
+.content.is-simple table.tab-schwerpunktmodule th + th + th {
   width: 20%;
 }
-.content .footnotes {
+.content.is-simple .footnotes {
   border-top: solid 1px #9313ce;
   padding-bottom: 1rem;
   border-bottom: solid 1px #9313ce;
 }
-.content .img-responsive {
+.content.is-simple .img-responsive {
   width: 100%;
 }
-.content figure {
+.content.is-simple figure {
   border-top: dotted 1px #ea5a00;
   padding-top: 1rem;
   margin-top: 1rem;
 }
-.content figure figcaption {
+.content.is-simple figure figcaption {
   display: block;
   padding-bottom: 0.5rem;
   padding-top: 1rem;
@@ -8461,21 +8568,21 @@ html {
   border-top: dotted 1px #ea5a00;
   text-align: left;
 }
-.content td.pm {
+.content.is-simple td.pm {
   background-color: #222;
 }
-.content td.spp {
+.content.is-simple td.spp {
   background-color: #ea5a00;
 }
-.content td.spmw,
-.content td.spm {
+.content.is-simple td.spmw,
+.content.is-simple td.spm {
   background-color: #c81e0f;
 }
-.content td.pm-grau,
-.content td.wpm {
+.content.is-simple td.pm-grau,
+.content.is-simple td.wpm {
   background-color: #a69b9e;
 }
-.content .lighten * {
+.content.is-simple .lighten * {
   color: #aaa;
 }
 
