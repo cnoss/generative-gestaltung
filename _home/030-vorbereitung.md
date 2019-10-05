@@ -13,7 +13,7 @@ Im Kurs nutzen wir [p5.js](https://p5js.org/) als Javascript Library. Somit soll
 <!--more-->
 
 ## The Coding Train
-[Daniel Shiffmann](https://shiffman.net/about/) stellt eine wirklich schönes Tutorialserie zum Thema [Code! Programming with p5.js](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA) auf Youtube bereit. Diese richtet sich eigentlich an absolute Programmiernovizen, aber ob des hohen Unterhaltungswertes von Daniel ist die Serie uneingeschränkt zu empfehlen!
+[Daniel Shiffmann](https://shiffman.net/about/) stellt eine wirklich schöne Tutorialserie zum Thema [Code! Programming with p5.js](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA) auf Youtube bereit. Diese richtet sich eigentlich an absolute Programmiernovizen, aber wegen des hohen Unterhaltungswertes von Daniel ist die Serie uneingeschränkt zu empfehlen!
 
 ## The Nature of Code
 Vom gleichen Autor gibt es das Buch [The Nature of Code](https://natureofcode.com/), was für einen äußerst günstigen Kurs als E-Book erhältlich ist. Dies führt als Vorbereitung sicherlich schon etwas zu weit, ist aber trotzdem sehr interessant und inspirierend.
