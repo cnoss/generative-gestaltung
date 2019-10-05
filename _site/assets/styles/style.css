@@ -8458,6 +8458,8 @@ html {
 /**************/
 * {
   word-wrap: normal;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
   hyphens: auto;
 }
 

@@ -129,7 +129,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 }
 
 #console.active {
-  max-height: 40px;
+  max-height: auto;
 }
 
 #console.active p {

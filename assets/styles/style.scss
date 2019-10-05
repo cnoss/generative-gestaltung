@@ -390,6 +390,8 @@ $tt-grid-height: 60px;
 
 * {
   word-wrap: normal;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
   hyphens: auto;
 }
 
