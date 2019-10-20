@@ -10,7 +10,7 @@ published: true
 dauer: 210
 raum: 422
 flag: show-at-homepage
-teaserImageURL: /assets/images/P-farbe.jpg
+teaserImageURL: /assets/images/p-farbe-3-klein.jpg
 info: |
   Jetzt wird es bunt. Wir bleiben immer noch beim Punkt als Gestaltungselement, aber nehmen jetzt etwas systematischer Farbe und Transparenz hinzu. Wie befassen und kurz mit den verschiedenen Farbssystemen und Farbwahrnehmung und lassen dann verschiedene Regeln rund um die farbige Welt in unseren Code einfließen.
 ---

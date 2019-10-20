@@ -9,7 +9,10 @@ empfohlene-voraussetzungen:
 published: true
 dauer: 480
 raum: 422
-info: tbd.
+flag: show-at-homepage
+teaserImageURL: /assets/images/p-linie.jpg
+info: |
+  Weiter geht es zur Linie. Auch hier nutzen wir Raster in denen wir gerade Linien zunächst horizontal und vertikal anordnen. Danach experimentieren wir mit Lage und Farbe der Linien. Schlussendlich befassen wir uns mit Kurven und Schwingungsfiguren.
 ---
 
 ## Worum geht es?
