@@ -137,3 +137,13 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 }
 
 
+
+
+/* Preview Video
+-----------------------------------------------------------------------------*/
+
+.previewVideo{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
