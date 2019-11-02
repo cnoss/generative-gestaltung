@@ -8439,6 +8439,19 @@ html {
   }
 }
 
+/* ######################################################################### */
+/* ######################################################################### */
+.content .highlight {
+  background-color: #efefef;
+  padding: 0;
+}
+.content .highlight code {
+  font-family: "Courier New", Courier, monospace;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
 .panel {
   margin-bottom: 2rem;
 }
@@ -8447,10 +8460,14 @@ html {
   color: #c81e0f;
 }
 
-.link-overview .link-overview__item + .link-overview__item {
+.assignment-overview .assignment-overview__item + .assignment-overview__item {
   border-top: solid 1px #aaaaaa;
   margin-top: 1rem;
   padding-top: 1rem;
+}
+
+.assignment-overview__item h2 {
+  margin-bottom: 0 !important;
 }
 
 /**************/
@@ -8586,6 +8603,25 @@ html {
 }
 .content.is-simple .lighten * {
   color: #aaa;
+}
+
+@media screen and (min-width: 1024px) {
+  .is-large h1 {
+    font-size: 1rem;
+  }
+  .is-large h2 {
+    font-size: 2.2rem;
+  }
+  .is-large h3 {
+    font-size: 2rem;
+  }
+  .is-large h1, .is-large h2, .is-large h3 {
+    font-weight: bold;
+  }
+  .is-large p, .is-large li, .is-large td, .is-large code, .is-large pre {
+    font-size: 1.8rem;
+    line-height: 130%;
+  }
 }
 
 .zweispalter h2 {

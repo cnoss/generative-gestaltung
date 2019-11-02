@@ -14,5 +14,9 @@
 {% endif %}
 {% endfor %}
 
+{% if ausgabe | size < 3 %}
+{% assign ausgabe = ausgabe | push: voraussetzungen %}
+{% endif %}
+
 {% comment %}  Ausgabe vorbereiten {% endcomment %} 
 {% assign voraussetzungen = ausgabe | join: ", " %}

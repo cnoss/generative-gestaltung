@@ -51,6 +51,7 @@ url: https://th-koeln.github.io/
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: "/generative-gestaltung"
+editbase: "https://github.com/cnoss/generative-gestaltung/edit/master/"
 
 #
 # !! You don't need to change any of the configuration flags below !!
@@ -105,6 +106,8 @@ collections:
     output: false
   snippets:
     output: false
+  assignments:
+    output: true
   links:
     output: false
   news:
@@ -122,6 +125,6 @@ defaults:
   -
     scope:
       path: ""
-      type: faq
+      type: assignments
     values:
-      layout: faq
+      layout: assignment

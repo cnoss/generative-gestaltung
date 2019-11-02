@@ -367,6 +367,25 @@ $tt-grid-height: 60px;
   }
 }
 
+/* ######################################################################### */
+// Code
+/* ######################################################################### */
+
+.content{
+  .highlight{
+    background-color: $mi-bg;
+    padding: 0;
+
+    code{
+      font-family: $family-mono;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+  }
+}
+
 //////////////
 // Links 
 //////////////
@@ -378,11 +397,16 @@ $tt-grid-height: 60px;
   color: $mi-pink;
 }
 
-.link-overview .link-overview__item+.link-overview__item {
+.assignment-overview .assignment-overview__item+.assignment-overview__item {
   border-top: solid 1px $mi-grau;
   margin-top: 1rem;
   padding-top: 1rem;
 }
+
+.assignment-overview__item h2{
+  margin-bottom: 0 !important;
+}
+
 
 /**************/
 /* Content    */
@@ -557,6 +581,33 @@ $tt-grid-height: 60px;
   .lighten {
     * {
       color: #aaa;
+    }
+  }
+}
+
+.is-large{
+
+  @media screen and (min-width: $desktop){
+
+    h1{
+      font-size: $bfs;
+    }
+
+    h2{
+      font-size: $bfs * 2.2;
+    }
+
+    h3{
+      font-size: $bfs * 2;
+    }
+
+    h1, h2, h3{
+      font-weight: bold;
+    }
+
+    p, li, td, code, pre{
+      font-size: $bfs * 1.8;
+      line-height: 130%;
     }
   }
 }

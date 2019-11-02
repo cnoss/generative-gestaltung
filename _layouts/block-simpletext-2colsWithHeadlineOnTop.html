@@ -1,7 +1,7 @@
 {% assign contentArray = page.content | markdownify | split: site.excerpt_separator %}
 <div class="section buildingBlock">
   <div class="container {{page.additionalClasses}}">
-    <h2 class="title">{{page.titel}}</h2>
+    <h2 class="title" id="{{page.titel |slugify}}">{{page.titel}}</h2>
     <div class="columns">
       <div class="column is-one-half">
         <div class="content">
