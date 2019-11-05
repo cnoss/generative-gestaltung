@@ -8441,11 +8441,38 @@ html {
 
 /* ######################################################################### */
 /* ######################################################################### */
-.content .highlight {
-  background-color: #efefef;
-  padding: 0;
+section.is-inverted {
+  min-height: 100vh;
+  background-color: #000;
+  color: #ddd;
 }
-.content .highlight code {
+section.is-inverted h1, section.is-inverted h2, section.is-inverted h3, section.is-inverted h4, section.is-inverted strong {
+  color: #999;
+}
+section.is-inverted .content div.highlighter-rouge .highlight {
+  background-color: #444;
+}
+section.is-inverted .content div.highlighter-rouge .highlight code {
+  color: #fff;
+}
+section.is-inverted hr {
+  background-color: #444;
+  border: none;
+  display: block;
+  height: 1px;
+  margin: 1.5rem 0;
+}
+
+/* ######################################################################### */
+/* ######################################################################### */
+.content div.highlighter-rouge {
+  margin-bottom: 2rem;
+}
+.content div.highlighter-rouge .highlight {
+  background-color: #efefef;
+  padding: 0 1rem;
+}
+.content div.highlighter-rouge .highlight code {
   font-family: "Courier New", Courier, monospace;
   color: #000;
   margin: 0;
@@ -8606,21 +8633,25 @@ html {
 }
 
 @media screen and (min-width: 1024px) {
-  .is-large h1 {
+  .content.is-large h1 {
     font-size: 1rem;
   }
-  .is-large h2 {
+  .content.is-large h2 {
+    padding-top: 2rem;
     font-size: 2.2rem;
   }
-  .is-large h3 {
+  .content.is-large h3 {
     font-size: 2rem;
   }
-  .is-large h1, .is-large h2, .is-large h3 {
+  .content.is-large h1, .content.is-large h2, .content.is-large h3 {
     font-weight: bold;
   }
-  .is-large p, .is-large li, .is-large td, .is-large code, .is-large pre {
+  .content.is-large p, .content.is-large li, .content.is-large td, .content.is-large code, .content.is-large pre {
     font-size: 1.8rem;
     line-height: 130%;
+  }
+  .content.is-large code {
+    font-size: 1.4rem;
   }
 }
 

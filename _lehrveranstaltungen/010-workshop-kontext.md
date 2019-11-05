@@ -11,14 +11,3 @@ dauer: 480
 raum: 422
 info: tbd.
 ---
-
-## Worum geht es?
-tbd.
-
-## Was muss ich vorbereiten und/ oder mitbringen?
-tbd.
-
-## Material
-tbd.
-
-https://whatwebcando.today/device-position.html

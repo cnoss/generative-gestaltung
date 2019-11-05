@@ -367,22 +367,58 @@ $tt-grid-height: 60px;
   }
 }
 
+
+/* ######################################################################### */
+// Inverted Mode
+/* ######################################################################### */
+
+section.is-inverted{
+  min-height: 100vh;
+  background-color: #000;
+  color: #ddd;
+
+  h1, h2, h3, h4, strong{
+    color: #999;
+  }
+
+  .content div.highlighter-rouge .highlight{
+    background-color: #444;
+    code{
+      color: #fff;
+    }
+  }
+
+  hr {
+    background-color:#444;
+    border: none;
+    display: block;
+    height: 1px;
+    margin: 1.5rem 0;
+  }
+}
+
+
 /* ######################################################################### */
 // Code
 /* ######################################################################### */
 
 .content{
-  .highlight{
-    background-color: $mi-bg;
-    padding: 0;
 
-    code{
-      font-family: $family-mono;
-      color: #000;
-      margin: 0;
-      padding: 0;
+  div.highlighter-rouge{
+
+    margin-bottom: $bfs *2;
+
+    .highlight{
+      background-color: $mi-bg;
+      padding: 0 $bfs;
+  
+      code{
+        font-family: $family-mono;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
     }
-
   }
 }
 
@@ -438,8 +474,6 @@ $tt-grid-height: 60px;
   table {
     max-width: $bfs * 36;
   }
-
-
 
   h1 {
     font-size: $bfs * 1.6;
@@ -585,7 +619,7 @@ $tt-grid-height: 60px;
   }
 }
 
-.is-large{
+.content.is-large{
 
   @media screen and (min-width: $desktop){
 
@@ -594,6 +628,7 @@ $tt-grid-height: 60px;
     }
 
     h2{
+      padding-top: $bfs *2;
       font-size: $bfs * 2.2;
     }
 
@@ -608,6 +643,10 @@ $tt-grid-height: 60px;
     p, li, td, code, pre{
       font-size: $bfs * 1.8;
       line-height: 130%;
+    }
+
+    code{
+      font-size: $bfs * 1.4;
     }
   }
 }

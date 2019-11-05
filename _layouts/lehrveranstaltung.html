@@ -40,10 +40,7 @@ layout: default
                 {% assign check = page.empfohlene-voraussetzungen | strip_newlines %} {% if check != "" %} {% include /functions/resolve-voraussetzungen.html voraussetzungen=page.empfohlene-voraussetzungen %}
                 <dt>Empfohlene Trainings und Workshops als Vorraussetzung</dt>
                 <dd>{{voraussetzungen}}</dd>
-                {% endif %} {% assign check = page.info | strip_newlines %} {% if check != "" %}
-                <dt>Info</dt>
-                <dd>{{page.info}}</dd>
-                {% endif %}
+                {% endif %} 
 
             </dl>
         </div>
@@ -51,10 +48,16 @@ layout: default
 
     <div class="modulbeschreibung">
         <div class="container">
-            <div class="content">
+            <div class="content  is-simple">
                 {% assign check = page.termine | strip_newlines %} {% if check != "" %}
+              
                 <h2>Termine</h2>
                 {% include termine-auf-veranstaltungsseite.html termine=page.termine default-raum=page.raum %} {% endif %} 
+
+                <hr>
+                {% assign check = page.info | strip_newlines %} {% if check != "" %}
+                <p class="is-teaser">{{page.info}}</p>
+                {% endif %}
                 {{ content }}
             </div>
         </div>

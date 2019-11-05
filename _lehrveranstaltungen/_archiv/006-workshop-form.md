@@ -11,12 +11,3 @@ dauer: 210
 raum: 422
 info: tbd.
 ---
-
-## Worum geht es?
-tbd.
-
-## Was muss ich vorbereiten und/ oder mitbringen?
-tbd.
-
-## Material
-tbd.

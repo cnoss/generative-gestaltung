@@ -14,14 +14,6 @@ teaserImageURL: /assets/images/P2.3.jpg
 info: |
   Das einfachste und kleinste Gestaltungselement ist der Punkt. Mathematisch betrachtet ist er unendlich klein. Das hilft uns aber wenig, darum setzen wir uns darüber hinweg. Ein Punkt steht nicht im Nichts, sondern er steht auf irgendeiner begrenzten Fläche, dem Format. 
 
-  Zunächst nutzen wir nur den Gestaltungsparamater Position. Später nutzen wir auch Größe, Anzahl, Tonwert sowie Deckkraft und werden darüber hinaus Gestaltgesetze anwenden.  
+  Zunächst nutzen wir nur den Gestaltungsparamater Position. Später nutzen wir auch Größe, Anzahl, Tonwert sowie Deckkraft und versuchen Grundlagen der Räumlichkeit auf unsere Kompositionen anwenden.  
 ---
 
-## Worum geht es?
-tbd.
-
-## Was muss ich vorbereiten und/ oder mitbringen?
-tbd.
-
-## Material
-tbd.

@@ -12,7 +12,6 @@ raum: 422
 info: Wie funktioniert der Kurs und das technische Setup?
 ---
 
-## Worum geht es?
 In dieser Session gibt es einen kurzen thematischen Rundflug über das Themenfeld, sowie die Kursinhalte und -ziele. Wir schauen uns eine inspirierende Projekte an und kümmern uns um sinnvolle technische Setups.
 
 
