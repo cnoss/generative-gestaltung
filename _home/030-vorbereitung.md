@@ -10,6 +10,9 @@ Wir legen am ersten Tag direkt los. Somit ist es unabdingbar, dass Sie sich und 
 
 Im Kurs nutzen wir [p5.js](https://p5js.org/) als Javascript Library. Somit sollte Ihre Editor/ IDE idealerweise Code Coloring für Javascript unterstützen. Code Completion ist auch praktisch und für verschiedene Editoren wie [Atom](https://atom.io/) oder [Visual Studio Code](https://code.visualstudio.com/) verfügbar.
 
+## Javascript
+P5 ist eine Javascript Library. Daher sind Kenntnisse in dieser populären Scriptsprache äußerst praktisch. Eine der aktuell besten Dokumentation dazu, ist die [MDN Webdocs JavaScript-Referenz](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference) des Mozilla Developer Networks.
+
 <!--more-->
 
 ## The Coding Train

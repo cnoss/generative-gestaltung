@@ -9,5 +9,7 @@ empfohlene-voraussetzungen:
 published: true
 dauer: 360
 raum: 422
-info: tbd.
+info: |
+  Heute gibt es die erste Challenge. Yeah!
 ---
+

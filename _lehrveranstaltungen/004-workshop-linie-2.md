@@ -6,7 +6,7 @@ typ: workshop
 pflicht: false
 termine: 2019-11-14 10:00
 empfohlene-voraussetzungen:
-published: true
+published: false
 dauer: 180
 raum: 422
 flag: show-at-homepage
