@@ -10,6 +10,6 @@ published: true
 dauer: 360
 raum: 422
 info: |
-  Heute gibt es die erste Challenge. Yeah!
+  Heute gibt es die erste Challenge. Den Ausgangspunkt bilden einige Vorgaben, die den Rahmen bestimmen. Innerhalb diesen Rahmens, soll eine möglichst interessantes Motiv oder eine Motivreihe entwickelt werden.
 ---
 

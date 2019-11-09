@@ -26,8 +26,16 @@ feedback:
   name: Feedback & Support 
   max-teilnehmer: 25
 
+retro:
+  name: Retro 
+  max-teilnehmer: 25
+
 pruefung:
   name: Prüfung 
+  max-teilnehmer: 30
+
+openspace:
+  name: Open Space 
   max-teilnehmer: 30
 
 other:

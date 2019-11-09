@@ -8294,6 +8294,9 @@ html {
   background-color: #c81e0f;
 }
 .timetable .timetable-wrap .veranstaltung.feedback, .timetable .timetable-wrap .veranstaltung.hack {
+  background-color: #333;
+}
+.timetable .timetable-wrap .veranstaltung.pruefung, .timetable .timetable-wrap .veranstaltung.retro {
   background-color: #222;
 }
 .timetable .timetable-wrap .veranstaltung.orga {

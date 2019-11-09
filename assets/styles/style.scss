@@ -183,7 +183,11 @@ $tt-grid-height: 60px;
         background-color: $mi-pink;
       }
 
-      &.feedback, &.hack {
+      &.feedback, &.hack{
+        background-color: #333;
+      }
+
+      &.pruefung, &.retro {
         background-color: $mi-blau;
       }
 

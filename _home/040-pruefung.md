@@ -4,6 +4,6 @@ layout: block-simpletext
 additionalClasses: has-top-seperator
 ---
 
-Die Prüfung findet im Rahmen einer Codingsession/ Kurzprojekt statt. Die zu bearbeitende Aufgabe wird am Donnerstag in der zweiten Kurswoche ausgegeben. An dem Tag gibt es zunächst einen relativ kurzen Slot zur Ideenfindung. Danach wird an der Umsetzung gearbeitet. Die Ergebnisse werden am nächsten Vormittag [präsentiert und bewertet](https://coco.study/pruefungsformen/). Die Bewertung erfolgt entlang eines Niveaustufenmodells, dass in Kürze über diese Website bereit gestellt wird.
+Der Kurs wird benotet. Die Note wird auf Basis eine Gestaltungsporfolios gebildet. Das Portfolio wird am letzten Tag des Workshops [präsentiert, argumentiert und reflektiert](https://coco.study/pruefungsformen/).
 
-Weitere Informationen folgen :)
+Die Bewertung erfolgt entlang eines Niveaustufenmodells. Hier finden Sie weitere Informationen zum [Portfolio und dessen Bewertung](gestaltungsportfolio).
