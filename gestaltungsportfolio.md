@@ -16,7 +16,7 @@ Das Gestaltungsportfolio besteht aus einer Auswahl Ihrer Arbeitsergebnisse der W
 Insgesamt umfasst das Portfolio also **fünf Artefakte**. Definieren Sie bitte eines Ihrer Artefakte als **Hauptmotiv**. Selbiges wird in der Bewertung besonders berücksichtigt. 
 
 ## Bereitstellung der Artefakte
-tbd.
+Das Portfolio stellen Sie bitte via GitLab Page zur Verfügung. Hierfür steht auch ein passender [Startercode](https://git.coco.study/students/ws1920/df12/startercode-gestaltungsportfolio) zur Verfügung. Diesen bitte *clonen* oder kopieren. Hier finden Sie ein [Beispiel für ein Gestaltungsportfolio](https://students.pages.coco.study/ws1920/df12/startercode-gestaltungsportfolio/). 
 
 
 ## Portfoliopräsentation

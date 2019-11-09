@@ -8666,6 +8666,9 @@ section.is-inverted hr {
   .zweispalter .content > * {
     margin-left: 50% !important;
   }
+  .zweispalter .content h2 {
+    font-size: 1.5rem;
+  }
   .zweispalter .content h3 {
     font-size: 1rem;
     font-weight: 700;

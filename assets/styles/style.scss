@@ -666,7 +666,9 @@ section.is-inverted{
       >* {
         margin-left: 50% !important;
       }
-
+      h2{
+        font-size: $bfs * 1.5;
+      }
       h3 {
         font-size: $bfs;
         font-weight: 700;
