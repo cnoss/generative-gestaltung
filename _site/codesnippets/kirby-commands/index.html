@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <title>Kirby Commands – Generative Gestaltung – Kurs im Modul «Designing Futures 1» // Code & Context</title>
+
+  <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans&PT+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/generative-gestaltung/assets/styles/style.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="/generative-gestaltung/assets/images/favicon.ico">
+
+</head>
+
+<body data-url="/codesnippets/kirby-commands/">
+  <section class="hero is-info is-large"
+    style="background-image: url(/generative-gestaltung/assets/images/P3.2.png); background-size: contain; background-repeat: no-repeat; background-position: center center;">
+    <!-- Hero header: will stick at the top -->
+    <div class="hero-head has-background-radient">
+  <header class="nav">
+    <div class="container">
+      <div class="nav-left">
+        <a href="/generative-gestaltung/" class="nav-item"><img src="/generative-gestaltung/assets/images/Keyvisual_White_Heavy_Strokes-110px.png" /></a>
+      </div>
+      <span class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+      <div class="nav-right nav-menu">
+        <!--a href="/generative-gestaltung/angebote/" class="nav-item">Veranstaltungen</a-->
+        <a href="/generative-gestaltung/timetable/" class="nav-item">Zeitplan</a>
+        <!--a href="/generative-gestaltung/niveaustufen/" class="nav-item">Artefakte & Bewertung</a-->
+        <!--a href="/generative-gestaltung/nomenklatur/" class="nav-item">Nomenklatur</a-->
+        <!--a href="/generative-gestaltung/gestaltungsportfolio/" class="nav-item">Gestaltungsportfolio</a-->
+        <!--a href="/generative-gestaltung/projekt-2018/" class="nav-item">Projekt</a-->
+        <!--a href="/generative-gestaltung/challenge-2017/" class="nav-item">Challenge</a-->
+        <!--a href="/generative-gestaltung/links/" class="nav-item">Links</a-->
+        <!--a href="/generative-gestaltung/faq/" class="nav-item">FAQ</a-->
+        <!--a href="https://github.com/th-koeln/mi-bachelor-wba1/issues/new" class="nav-item">Frage stellen</a-->
+        <!--a href="https://github.com/th-koeln/mi-bachelor-wba1/wiki" class="nav-item">WBA1 Wiki</a-->
+
+      </div>
+    </div>
+  </header>
+</div>
+
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body is-header has-background-radient">
+      <div class="container">
+        <h1 class="title is-1 has-text-shadow">
+          Generative Gestaltung
+        </h1>
+        <h2 class="subtitle is-3 has-text-shadow">
+          Kurs im Modul «Designing Futures 1» // Code & Context
+        </h2>
+      </div>
+    </div>
+
+  </section>
+
+  
+
+<section class="section">
+  <div class="container">
+    <div class="content">
+      <div class="columns">
+        <div class="column is-8">
+          <h1>Kirby Commands</h1>
+        </div>
+
+        <div class="column is-4 has-text-right">
+          <a target="_blank" href="_codesnippets/kirby-commands.md"><span class="icon"><i class="fa fa-edit"></i></span>
+            Bearbeiten</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  
+  <div class="container codesnippet">
+    <div class="content">
+      <p>Ein paar Kirby Commands für die Übung. Eine komplette Übersicht gibt es auf der <a href="https://getkirby.com/docs/guide">Kirby Site</a>.</p>
+
+<h2 id="alle-items-holen">Alle Items holen</h2>
+
+<figure class="highlight">
+  <pre><code class="language-php" data-lang="php">  <span class="c">&lt;!-- alle items holen --&gt;</span>
+  <span class="cp">&lt;?php</span> <span class="k">foreach</span> <span class="p">(</span><span class="nx">page</span><span class="p">(</span><span class="s1">'graphics'</span><span class="p">)</span><span class="o">-&gt;</span><span class="na">children</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">limit</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span> <span class="k">as</span> <span class="nv">$item</span><span class="p">)</span><span class="o">:</span> <span class="cp">?&gt;</span>
+    
+    <span class="c">&lt;!-- item nur anzeigen, wenn es einen Langtext gibt --&gt;</span>
+    <span class="cp">&lt;?php</span> <span class="k">if</span><span class="p">(</span><span class="nv">$item</span><span class="o">-&gt;</span><span class="na">Longtext</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">length</span><span class="p">()</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">)</span><span class="o">:</span> <span class="cp">?&gt;</span>
+
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"</span><span class="cp">&lt;?=</span><span class="nv">$item</span><span class="o">-&gt;</span><span class="na">url</span><span class="p">()</span><span class="cp">?&gt;</span><span class="s">"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;li&gt;</span>
+      <span class="c">&lt;!-- exemplarisch mal zwei Felder anzeigen --&gt;</span>
+      <span class="cp">&lt;?=</span> <span class="nv">$item</span><span class="o">-&gt;</span><span class="na">BildURL</span><span class="p">()</span> <span class="cp">?&gt;</span>
+      <span class="cp">&lt;?=</span> <span class="nv">$item</span><span class="o">-&gt;</span><span class="na">Title</span><span class="p">()</span> <span class="cp">?&gt;</span>
+      <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/a&gt;</span>
+    <span class="cp">&lt;?php</span> <span class="k">endif</span> <span class="cp">?&gt;</span>
+  <span class="cp">&lt;?php</span> <span class="k">endforeach</span><span class="cp">?&gt;</span></code></pre>
+</figure>
+
+<h2 id="snippet-einbinden">Snippet einbinden</h2>
+
+<figure class="highlight">
+  <pre><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span> <span class="nx">snippet</span><span class="p">(</span><span class="s1">'m/image-with-caption/template'</span><span class="p">,</span> <span class="p">[</span><span class="s2">"url"</span><span class="o">=&gt;</span><span class="nv">$page</span><span class="o">-&gt;</span><span class="na">BildURL</span><span class="p">(),</span> <span class="s2">"caption"</span><span class="o">=&gt;</span><span class="nv">$page</span><span class="o">-&gt;</span><span class="na">Longtext</span><span class="p">()]);</span> <span class="cp">?&gt;</span></code></pre>
+</figure>
+
+<h2 id="datenfelder-anzeigen">Datenfelder anzeigen</h2>
+
+<figure class="highlight">
+  <pre><code class="language-php" data-lang="php"><span class="nt">&lt;figure</span> <span class="na">class=</span><span class="s">"m-image-with-caption"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"</span><span class="cp">&lt;?=</span><span class="nv">$url</span><span class="cp">?&gt;</span><span class="s">"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;figcaption&gt;</span>
+  <span class="cp">&lt;?=</span><span class="nv">$caption</span><span class="o">-&gt;</span><span class="na">html</span><span class="p">()</span><span class="cp">?&gt;</span>
+  <span class="nt">&lt;/figcaption&gt;</span>
+<span class="nt">&lt;/figure&gt;</span></code></pre>
+</figure>
+
+    </div>
+  </div>
+</section>
+
+<!--section class="section">
+	<div class="modulbeschreibung">
+		<div class="container">
+			<div class="content">
+				
+			
+			Gulp Commands
+	  	
+			Kirby Commands
+	  	
+			SASS Commands
+	  	
+	  	</div>
+		</div>
+	</div>
+</section-->
+
+  <footer class="footer is-non-print">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <ul class="menu-list">
+          <li><a href="/generative-gestaltung/" class="nav-item">Startseite</a></li>
+          <li><a href="/generative-gestaltung/timetable/" class="nav-item">Zeitplan</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <div class="content is-small">
+          <p markdown="1">Website zum Kurs «Generative Gestaltung» im [Studiengang Code &
+            Context](https://www.th-koeln.de/studium/code--context-bachelor_62103.php) der [TH
+            Köln](https://www.th-koeln.de/hochschule/impressum_8159.php).</p>
+          <p markdown="1">Verantwortlicher Dozent ist [Prof. Christian Noss](https://github.com/cnoss).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.3/showdown.min.js"></script>
+<script type="text/javascript" src="/generative-gestaltung/assets/js/gg.js"></script>
+</body>
+
+</html>

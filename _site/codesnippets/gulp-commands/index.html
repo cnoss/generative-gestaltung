@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <title>Gulp Commands – Generative Gestaltung – Kurs im Modul «Designing Futures 1» // Code & Context</title>
+
+  <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans&PT+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/generative-gestaltung/assets/styles/style.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="/generative-gestaltung/assets/images/favicon.ico">
+
+</head>
+
+<body data-url="/codesnippets/gulp-commands/">
+  <section class="hero is-info is-large"
+    style="background-image: url(/generative-gestaltung/assets/images/P3.2.png); background-size: contain; background-repeat: no-repeat; background-position: center center;">
+    <!-- Hero header: will stick at the top -->
+    <div class="hero-head has-background-radient">
+  <header class="nav">
+    <div class="container">
+      <div class="nav-left">
+        <a href="/generative-gestaltung/" class="nav-item"><img src="/generative-gestaltung/assets/images/Keyvisual_White_Heavy_Strokes-110px.png" /></a>
+      </div>
+      <span class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+      <div class="nav-right nav-menu">
+        <!--a href="/generative-gestaltung/angebote/" class="nav-item">Veranstaltungen</a-->
+        <a href="/generative-gestaltung/timetable/" class="nav-item">Zeitplan</a>
+        <!--a href="/generative-gestaltung/niveaustufen/" class="nav-item">Artefakte & Bewertung</a-->
+        <!--a href="/generative-gestaltung/nomenklatur/" class="nav-item">Nomenklatur</a-->
+        <!--a href="/generative-gestaltung/gestaltungsportfolio/" class="nav-item">Gestaltungsportfolio</a-->
+        <!--a href="/generative-gestaltung/projekt-2018/" class="nav-item">Projekt</a-->
+        <!--a href="/generative-gestaltung/challenge-2017/" class="nav-item">Challenge</a-->
+        <!--a href="/generative-gestaltung/links/" class="nav-item">Links</a-->
+        <!--a href="/generative-gestaltung/faq/" class="nav-item">FAQ</a-->
+        <!--a href="https://github.com/th-koeln/mi-bachelor-wba1/issues/new" class="nav-item">Frage stellen</a-->
+        <!--a href="https://github.com/th-koeln/mi-bachelor-wba1/wiki" class="nav-item">WBA1 Wiki</a-->
+
+      </div>
+    </div>
+  </header>
+</div>
+
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body is-header has-background-radient">
+      <div class="container">
+        <h1 class="title is-1 has-text-shadow">
+          Generative Gestaltung
+        </h1>
+        <h2 class="subtitle is-3 has-text-shadow">
+          Kurs im Modul «Designing Futures 1» // Code & Context
+        </h2>
+      </div>
+    </div>
+
+  </section>
+
+  
+
+<section class="section">
+  <div class="container">
+    <div class="content">
+      <div class="columns">
+        <div class="column is-8">
+          <h1>Gulp Commands</h1>
+        </div>
+
+        <div class="column is-4 has-text-right">
+          <a target="_blank" href="_codesnippets/gulp-commands.md"><span class="icon"><i class="fa fa-edit"></i></span>
+            Bearbeiten</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  
+  <div class="container codesnippet">
+    <div class="content">
+      <h2 id="sass-für-assets-und-snippets-kompilieren">SASS für assets und snippets kompilieren</h2>
+
+<figure class="highlight">
+  <pre><code class="language-sass" data-lang="sass"><span class="nt">const</span> <span class="nt">gulp</span> <span class="o">=</span> <span class="nt">require</span><span class="o">(</span><span class="s1">'gulp'</span><span class="o">);</span>
+<span class="nt">const</span> <span class="nt">sass</span> <span class="o">=</span> <span class="nt">require</span><span class="o">(</span><span class="s1">'gulp-sass'</span><span class="o">);</span>
+<span class="nt">const</span> <span class="nt">del</span> <span class="o">=</span> <span class="nt">require</span><span class="o">(</span><span class="s1">'del'</span><span class="o">);</span>
+<span class="nt">const</span> <span class="nt">concat</span> <span class="o">=</span> <span class="nt">require</span><span class="o">(</span><span class="s1">'gulp-concat'</span><span class="o">)</span>
+<span class="nt">const</span> <span class="nt">sourcemaps</span> <span class="o">=</span> <span class="nt">require</span><span class="o">(</span><span class="s1">'gulp-sourcemaps'</span><span class="o">);</span>
+
+<span class="nt">const</span> <span class="nt">snippets</span> <span class="o">=</span> <span class="s2">"src/site/snippets/"</span><span class="o">;</span>
+<span class="nt">const</span> <span class="nt">paths</span> <span class="o">=</span> <span class="err">{</span>
+  <span class="na">styles</span><span class="p">:</span> <span class="err">{</span>
+    <span class="nl">src</span><span class="p">:</span>  <span class="p">[</span><span class="s1">'src/assets/scss/*.scss'</span><span class="o">,</span> <span class="n">snippets</span> <span class="o">+</span> <span class="s1">'**/*.scss'</span><span class="p">]</span><span class="o">,</span>
+    <span class="na">tmp</span><span class="p">:</span>  <span class="s1">'src/tmp/'</span><span class="o">,</span>
+    <span class="na">dest</span><span class="p">:</span> <span class="s1">'src/assets/css/'</span>
+  <span class="err">}</span>
+<span class="err">}</span>
+
+<span class="nt">gulp</span><span class="nc">.task</span><span class="o">(</span><span class="s1">'styles'</span><span class="o">,</span> <span class="o">()</span> <span class="o">=&gt;</span> <span class="err">{</span>
+  <span class="nt">return</span> <span class="nt">gulp</span><span class="nc">.src</span><span class="o">(</span><span class="nt">paths</span><span class="nc">.styles.src</span><span class="o">)</span>
+    <span class="nc">.pipe</span><span class="o">(</span><span class="nt">gulp</span><span class="nc">.dest</span><span class="o">(</span><span class="nt">paths</span><span class="nc">.styles.tmp</span><span class="o">))</span>
+    <span class="nc">.pipe</span><span class="o">(</span><span class="nt">sourcemaps</span><span class="nc">.init</span><span class="o">())</span>
+    <span class="nc">.pipe</span><span class="o">(</span><span class="nt">concat</span><span class="o">(</span><span class="s1">'site.scss'</span><span class="o">))</span>
+    <span class="nc">.pipe</span><span class="o">(</span><span class="nt">sass</span><span class="o">()</span><span class="nc">.on</span><span class="o">(</span><span class="s1">'error'</span><span class="o">,</span> <span class="nt">sass</span><span class="nc">.logError</span><span class="o">))</span>
+    <span class="nc">.pipe</span><span class="o">(</span><span class="nt">sourcemaps</span><span class="nc">.write</span><span class="o">(</span><span class="s2">"."</span><span class="o">))</span>
+    <span class="nc">.pipe</span><span class="o">(</span><span class="nt">gulp</span><span class="nc">.dest</span><span class="o">(</span><span class="nt">paths</span><span class="nc">.styles.dest</span><span class="o">));</span>
+<span class="err">}</span><span class="o">);</span>
+
+<span class="nt">gulp</span><span class="nc">.task</span><span class="o">(</span><span class="s1">'clean'</span><span class="o">,</span> <span class="o">()</span> <span class="o">=&gt;</span> <span class="err">{</span>
+    <span class="nt">return</span> <span class="nt">del</span><span class="o">([</span>
+      <span class="nt">paths</span><span class="nc">.styles.tmp</span><span class="o">,</span> <span class="nt">paths</span><span class="nc">.styles.dest</span>
+    <span class="o">]);</span>
+<span class="err">}</span><span class="o">);</span>
+
+<span class="nt">gulp</span><span class="nc">.task</span><span class="o">(</span><span class="s1">'default'</span><span class="o">,</span> <span class="nt">gulp</span><span class="nc">.series</span><span class="o">([</span><span class="s1">'clean'</span><span class="o">,</span> <span class="s1">'styles'</span><span class="o">]));</span>
+<span class="nt">gulp</span><span class="nc">.task</span><span class="o">(</span><span class="s1">'watch'</span><span class="o">,</span> <span class="o">()</span> <span class="o">=&gt;</span> <span class="err">{</span>
+  <span class="nt">gulp</span><span class="nc">.watch</span><span class="o">(</span><span class="nt">paths</span><span class="nc">.styles.src</span><span class="o">,</span> <span class="o">(</span><span class="nt">done</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="err">{</span>
+      <span class="nt">gulp</span><span class="nc">.series</span><span class="o">([</span><span class="s1">'clean'</span><span class="o">,</span> <span class="s1">'styles'</span><span class="o">])(</span><span class="nt">done</span><span class="o">);</span>
+  <span class="err">}</span><span class="o">);</span>
+<span class="err">}</span><span class="o">);</span></code></pre>
+</figure>
+
+
+    </div>
+  </div>
+</section>
+
+<!--section class="section">
+	<div class="modulbeschreibung">
+		<div class="container">
+			<div class="content">
+				
+			
+			Gulp Commands
+	  	
+			Kirby Commands
+	  	
+			SASS Commands
+	  	
+	  	</div>
+		</div>
+	</div>
+</section-->
+
+  <footer class="footer is-non-print">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <ul class="menu-list">
+          <li><a href="/generative-gestaltung/" class="nav-item">Startseite</a></li>
+          <li><a href="/generative-gestaltung/timetable/" class="nav-item">Zeitplan</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <div class="content is-small">
+          <p markdown="1">Website zum Kurs «Generative Gestaltung» im [Studiengang Code &
+            Context](https://www.th-koeln.de/studium/code--context-bachelor_62103.php) der [TH
+            Köln](https://www.th-koeln.de/hochschule/impressum_8159.php).</p>
+          <p markdown="1">Verantwortlicher Dozent ist [Prof. Christian Noss](https://github.com/cnoss).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.3/showdown.min.js"></script>
+<script type="text/javascript" src="/generative-gestaltung/assets/js/gg.js"></script>
+</body>
+
+</html>

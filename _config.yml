@@ -104,16 +104,14 @@ collections:
     output: true
   faq:
     output: false
-  snippets:
-    output: false
   assignments:
     output: true
   links:
     output: false
-  news:
-    output: false
   home:
     output: false
+  codesnippets:
+    output: true
 
 defaults:
   -
@@ -128,3 +126,9 @@ defaults:
       type: assignments
     values:
       layout: assignment
+  -
+    scope:
+      path: ""
+      type: codesnippets
+    values:
+      layout: codesnippets
