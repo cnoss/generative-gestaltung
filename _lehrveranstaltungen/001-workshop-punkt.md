@@ -17,3 +17,6 @@ info: |
   Zunächst nutzen wir nur den Gestaltungsparamater Position. Später nutzen wir auch Größe, Anzahl, Tonwert sowie Deckkraft und versuchen Grundlagen der Räumlichkeit auf unsere Kompositionen anwenden.  
 ---
 
+## Aufgaben
+- [Aufgabenset 1: Einzelne Punkte](/generative-gestaltung/assignments/02-punkt-01-basics/)
+- [Aufgabenset 2: Lineare Anordnungen](/generative-gestaltung/assignments/02-punkt-02-basics/)
