@@ -2,7 +2,7 @@
 <html lang="de">
 
 <head>
-  <title>Kirby Commands – Generative Gestaltung – Kurs im Modul «Designing Futures 1» // Code & Context</title>
+  <title>Console Log – Generative Gestaltung – Kurs im Modul «Designing Futures 1» // Code & Context</title>
 
   <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -15,7 +15,7 @@
 
 </head>
 
-<body data-url="/codesnippets/kirby-commands/">
+<body data-url="/codesnippets/console-log/">
   <section class="hero is-info is-large"
     style="background-image: url(/generative-gestaltung/assets/images/P3.2.png); background-size: contain; background-repeat: no-repeat; background-position: center center;">
     <!-- Hero header: will stick at the top -->
@@ -32,6 +32,8 @@
       </span>
       <div class="nav-right nav-menu">
         <!--a href="/generative-gestaltung/angebote/" class="nav-item">Veranstaltungen</a-->
+        <a href="/generative-gestaltung/assignments/" class="nav-item">Assignments</a>
+        <a href="/generative-gestaltung/codesnippets/" class="nav-item">Code Snippets</a>
         <a href="/generative-gestaltung/timetable/" class="nav-item">Zeitplan</a>
         <!--a href="/generative-gestaltung/niveaustufen/" class="nav-item">Artefakte & Bewertung</a-->
         <!--a href="/generative-gestaltung/nomenklatur/" class="nav-item">Nomenklatur</a-->
@@ -69,11 +71,11 @@
     <div class="content">
       <div class="columns">
         <div class="column is-8">
-          <h1>Kirby Commands</h1>
+          <h1>Console Logging</h1>
         </div>
 
         <div class="column is-4 has-text-right">
-          <a target="_blank" href="_codesnippets/kirby-commands.md"><span class="icon"><i class="fa fa-edit"></i></span>
+          <a target="_blank" href="_codesnippets/console-log.md"><span class="icon"><i class="fa fa-edit"></i></span>
             Bearbeiten</a>
         </div>
       </div>
@@ -84,44 +86,29 @@
   
   <div class="container codesnippet">
     <div class="content">
-      <p>Ein paar Kirby Commands für die Übung. Eine komplette Übersicht gibt es auf der <a href="https://getkirby.com/docs/guide">Kirby Site</a>.</p>
+      <h2 id="ein-paar-snippets-fürs-debugging-in-der-web-developer-konsole">Ein paar Snippets für’s Debugging in der Web-Developer Konsole</h2>
 
-<h2 id="alle-items-holen">Alle Items holen</h2>
+<p>Eine vollständige Übersicht finden Sie bei den <a href="https://developer.mozilla.org/de/docs/Web/API/Console/log">MDN WebDocs</a>.</p>
 
-<figure class="highlight">
-  <pre><code class="language-php" data-lang="php">  <span class="c">&lt;!-- alle items holen --&gt;</span>
-  <span class="cp">&lt;?php</span> <span class="k">foreach</span> <span class="p">(</span><span class="nx">page</span><span class="p">(</span><span class="s1">'graphics'</span><span class="p">)</span><span class="o">-&gt;</span><span class="na">children</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">limit</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span> <span class="k">as</span> <span class="nv">$item</span><span class="p">)</span><span class="o">:</span> <span class="cp">?&gt;</span>
-    
-    <span class="c">&lt;!-- item nur anzeigen, wenn es einen Langtext gibt --&gt;</span>
-    <span class="cp">&lt;?php</span> <span class="k">if</span><span class="p">(</span><span class="nv">$item</span><span class="o">-&gt;</span><span class="na">Longtext</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">length</span><span class="p">()</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">)</span><span class="o">:</span> <span class="cp">?&gt;</span>
+<h3 id="einen-einfachen-text-ausgeben">Einen einfachen Text ausgeben</h3>
 
-    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"</span><span class="cp">&lt;?=</span><span class="nv">$item</span><span class="o">-&gt;</span><span class="na">url</span><span class="p">()</span><span class="cp">?&gt;</span><span class="s">"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;li&gt;</span>
-      <span class="c">&lt;!-- exemplarisch mal zwei Felder anzeigen --&gt;</span>
-      <span class="cp">&lt;?=</span> <span class="nv">$item</span><span class="o">-&gt;</span><span class="na">BildURL</span><span class="p">()</span> <span class="cp">?&gt;</span>
-      <span class="cp">&lt;?=</span> <span class="nv">$item</span><span class="o">-&gt;</span><span class="na">Title</span><span class="p">()</span> <span class="cp">?&gt;</span>
-      <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;/a&gt;</span>
-    <span class="cp">&lt;?php</span> <span class="k">endif</span> <span class="cp">?&gt;</span>
-  <span class="cp">&lt;?php</span> <span class="k">endforeach</span><span class="cp">?&gt;</span></code></pre>
-</figure>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.log("Ein einfacher Text");
+</code></pre></div></div>
 
-<h2 id="snippet-einbinden">Snippet einbinden</h2>
+<h3 id="eine-variable-ausgeben">Eine Variable ausgeben</h3>
 
-<figure class="highlight">
-  <pre><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span> <span class="nx">snippet</span><span class="p">(</span><span class="s1">'m/image-with-caption/template'</span><span class="p">,</span> <span class="p">[</span><span class="s2">"url"</span><span class="o">=&gt;</span><span class="nv">$page</span><span class="o">-&gt;</span><span class="na">BildURL</span><span class="p">(),</span> <span class="s2">"caption"</span><span class="o">=&gt;</span><span class="nv">$page</span><span class="o">-&gt;</span><span class="na">Longtext</span><span class="p">()]);</span> <span class="cp">?&gt;</span></code></pre>
-</figure>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.log(variable);
+</code></pre></div></div>
 
-<h2 id="datenfelder-anzeigen">Datenfelder anzeigen</h2>
+<h3 id="mehrere-variablen-ausgeben">Mehrere Variablen ausgeben</h3>
 
-<figure class="highlight">
-  <pre><code class="language-php" data-lang="php"><span class="nt">&lt;figure</span> <span class="na">class=</span><span class="s">"m-image-with-caption"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"</span><span class="cp">&lt;?=</span><span class="nv">$url</span><span class="cp">?&gt;</span><span class="s">"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;figcaption&gt;</span>
-  <span class="cp">&lt;?=</span><span class="nv">$caption</span><span class="o">-&gt;</span><span class="na">html</span><span class="p">()</span><span class="cp">?&gt;</span>
-  <span class="nt">&lt;/figcaption&gt;</span>
-<span class="nt">&lt;/figure&gt;</span></code></pre>
-</figure>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.log(variable1, variable2);
+</code></pre></div></div>
+
+<h3 id="kombination-aus-text-und-variablen-ausgeben">Kombination aus Text und Variablen ausgeben</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.log("Ich bin ein Text: " + variable2);
+</code></pre></div></div>
 
     </div>
   </div>
@@ -133,11 +120,7 @@
 			<div class="content">
 				
 			
-			Gulp Commands
-	  	
-			Kirby Commands
-	  	
-			SASS Commands
+			Console Logging
 	  	
 	  	</div>
 		</div>
