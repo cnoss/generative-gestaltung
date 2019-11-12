@@ -7,7 +7,9 @@ tags: Punkt
 Erzeugen Sie ein Raster bestehend aus 10x10 schwarzen Punkten. Die Formation soll zentriert ausgerichtet sein.
 
 ## P3.1 Unruhe im Raster
-Erzeugen Sie ein Raster bestehend aus 20x10 schwarzen Punkten. Die Formation soll zentriert ausgerichtet sein. Die Größe der Punkte und Abstände soll sich nach der Größe der Zeichenfläche richten. Entlang der X-Achse soll die Ordnung der Punkte abnehmen, d.h. die Punkte ganz links im Raster haben alle den gleichen Abstand, je weiter ein Punkt jedoch rechts positioniert ist, desto stärker bricht er aus dem Raster aus.
+Erzeugen Sie ein Raster bestehend aus 20x10 schwarzen Punkten. Die Formation soll zentriert ausgerichtet sein. Die Größe der Punkte und Abstände soll sich nach der Größe der Zeichenfläche richten. Entlang der X-Achse soll die Ordnung der Punkte abnehmen, d.h. die Punkte ganz links im Raster haben alle den gleichen Abstand, je weiter ein Punkt jedoch rechts positioniert ist, desto stärker bricht er aus dem Raster aus. Binden Sie die Progession des Unruhewerts an einen Slider.
+
+**Für Profis:** binden Sie die Anzahl der Punkte und den Abstand zwischen den Punkten an einen Slider. Der Abstand sollte dabei nicht absolut sein, sondern ein Vielfaches der *berechneten* Punktgröße. 
 
 ## P3.2 Unruheintensität abhängig von Mausposition
 Wie zuvor, aber diesmal richtet sich die Intensität der Zufallswerts nach der Mausposition: je weiter sich die Maus rechts auf der Zeichenfläche befindet, desto größer ist der Zufallswert.

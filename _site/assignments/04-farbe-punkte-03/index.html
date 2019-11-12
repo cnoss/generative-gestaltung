@@ -54,7 +54,7 @@
     <div class="content is-large">
       <div class="columns">
         <div class="column is-8">
-          <h1>Farbige Punkte</h1>
+          <h1>Farbige Punkte, Master Class</h1>
         </div>
         <div class="column is-4 has-text-right">
           <a target="_blank" href="https://github.com/cnoss/generative-gestaltung/edit/master/_assignments/04-farbe-punkte-03.md"><span
@@ -67,52 +67,7 @@
   
   <div class="container">
     <div class="content is-large">
-      <h2 id="f1-farbige-punkte">F1 Farbige Punkte</h2>
-<p>Erzeugen Sie eine lineare Anordnung von beliebig vielen Punkten. Die Farbe der Punkte soll entlang des Farbkreises sein. Koppeln Sie ggf. verschiedene Parameter an Eingaben, z.B. über die Maus oder Tastatur.</p>
-
-<h2 id="f11-farbige-punkte-mit-gui">F1.1 Farbige Punkte mit GUI</h2>
-<p>Wir nutzen den Sketch von zuvor, aber ergänzen diesen um eine GUI Komponente zur Steuerung der Parameter. Dazu verwenden wir die Library <a href="https://github.com/bitcraftlab/p5.gui">p5.gui</a>. Im Startercode ist die GUI bereits vorbereitet. Zur Nutzung setzen Sie den Wert von <em>canvasParams.gui</em> auf <em>true</em>:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let canvasParams = {
-  holder: document.getElementById("canvas"),
-  state: false,
-  mouseX: false,
-  mouseY: false,
-  background: 0,
-  gui: false
-};
-</code></pre></div></div>
-
-<h2 id="f12-farbige-punkte-im-kreis">F1.2 Farbige Punkte im Kreis</h2>
-<p>Wieder erzeugen wir farbige Punkte entlang des Farbkreises, diesmal jedoch in einer kreisförmigen Anordnung. Über die GUI sollen folgende Parameter steuerbar sein:</p>
-<ul>
-  <li>Anzahl der Punkte</li>
-  <li>Größe der Punkte</li>
-  <li>Radius der Gesamtformation</li>
-  <li>Umfang des Farbkreises</li>
-  <li>Alphawert der Punkte</li>
-</ul>
-
-<h2 id="f2-farbiges-punktraster">F2 Farbiges Punktraster</h2>
-<p>Erzeugen Sie ein flächenfüllendes Punktraster. Der Farbwert (hue) ist zunächst 120. Auf der X-Achse soll die Sättungabnehmen und auf der Y-Achse die Helligkeit. Die <a href="https://p5js.org/reference/#/p5/map">Map Funktion</a> ist hier wieder sehr hilfreich.</p>
-
-<p>Im nächsten Schritt soll der Farbwert stetig im Farbkreis wandern, also immer von 0 bis 360° Grad.</p>
-
-<h2 id="f22-komplementärkontrast">F2.2 Komplementärkontrast</h2>
-<p>Erzeugen Sie, wie zuvor, ein flächenfüllendes Punktraster. Die Helligkeit soll mit der Y-Achse nach unten hin abnehmen. Erzeugen Sie einen Komplementärkontrast auf der X-Achse an der Position der Maus, d.h. alle Punkte links nehmen der Maus haben die Ausgangsfarbe und alle Punkte rechts neben der Maus die zugehörige Komplementärfarbe. Sie könnten die Ausgangsfarbe an die Y-Position der Maus binden.</p>
-
-<h2 id="f23-hell-dunkel-kontrast">F2.3 Hell-Dunkel Kontrast</h2>
-<p>Wir erzeugen wieder ein flächenfüllendes Punktraster. Diesmal soll ein Hell-Dunkel oder Bunt-Unbunt Kontrast realisiert werden. Die Herausforderung ist die Platzierung der Kontrastfläche radial um den Mauszeiger. Hierbei kann die <a href="https://p5js.org/reference/#/p5/dist">Dist Funktion</a> gute Dienste leisten, denn mit ihrer Hilfe können wir den Abstand von zwei Punkten errechnen.</p>
-
-<h2 id="f24-quantitätskontrast">F2.4 Quantitätskontrast</h2>
-<p>Wir erzeugen wieder ein flächenfüllendes Punktraster. Diesmal soll ein Quantitätskontrast realisiert werden. Die Herausforderung ist die Platzierung der Punkte in Kombination mit einem einstellbaren Verhältniswert zwischen der Grund- und der Kontrastfarbe. Folgende Parameter sollten über die GUI steuerbar sein:</p>
-<ul>
-  <li>Farbwinkel der Grundfarbe</li>
-  <li>Winkelabstand der Kontrastfarbe</li>
-  <li>Mengenverteilung zwischen Grund- und Kontrastfarbe</li>
-</ul>
-
-<h2 id="f3-radiales-raster">F3 Radiales Raster</h2>
+      <h2 id="f3-radiales-raster">F3 Radiales Raster</h2>
 <p>Jetzt wird es etwas komplex. Wir erstellen ein radiales Raster aus Punkten. Dabei soll die Punktgröße und ein Startradius via Slider editierbar sein. Dann wird, ausgehend von diesen beiden Parametern, ermittelt, wie viele Punkte auf der zugehörigen Kreisbahn angeordnet werden können. Hmmm, klingt einfach, ist es aber nicht. Hierfür könnte die Berechnung des Umfangs hilfreich sein:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let U = TWO_PI * radius;

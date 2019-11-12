@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <title>03 Linien 02 – Generative Gestaltung – Kurs im Modul «Designing Futures 1» // Code & Context</title>
+
+  <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans&PT+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/generative-gestaltung/assets/styles/style.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="/generative-gestaltung/assets/images/favicon.ico">
+
+</head>
+
+<body data-url="/assignments/03-linien-02/">
+  <section class="hero is-info is-large">
+    <!-- Hero header: will stick at the top -->
+    <div class="hero-head has-background-radient">
+  <header class="nav">
+    <div class="container">
+      <div class="nav-left">
+        <a href="/generative-gestaltung/" class="nav-item"><img src="/generative-gestaltung/assets/images/Keyvisual_White_Heavy_Strokes-110px.png" /></a>
+      </div>
+      <span class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+      <div class="nav-right nav-menu">
+        <!--a href="/generative-gestaltung/angebote/" class="nav-item">Veranstaltungen</a-->
+        <a href="/generative-gestaltung/timetable/" class="nav-item">Zeitplan</a>
+        <!--a href="/generative-gestaltung/niveaustufen/" class="nav-item">Artefakte & Bewertung</a-->
+        <!--a href="/generative-gestaltung/nomenklatur/" class="nav-item">Nomenklatur</a-->
+        <!--a href="/generative-gestaltung/gestaltungsportfolio/" class="nav-item">Gestaltungsportfolio</a-->
+        <!--a href="/generative-gestaltung/projekt-2018/" class="nav-item">Projekt</a-->
+        <!--a href="/generative-gestaltung/challenge-2017/" class="nav-item">Challenge</a-->
+        <!--a href="/generative-gestaltung/links/" class="nav-item">Links</a-->
+        <!--a href="/generative-gestaltung/faq/" class="nav-item">FAQ</a-->
+        <!--a href="https://github.com/th-koeln/mi-bachelor-wba1/issues/new" class="nav-item">Frage stellen</a-->
+        <!--a href="https://github.com/th-koeln/mi-bachelor-wba1/wiki" class="nav-item">WBA1 Wiki</a-->
+
+      </div>
+    </div>
+  </header>
+</div>
+    </div>
+  </section>
+
+  <section class="section is-inverted">
+  <div class="container">
+    <div class="content is-large">
+      <div class="columns">
+        <div class="column is-8">
+          <h1>Linien, Level 2 – Beziés und radiale Anordnungen</h1>
+        </div>
+        <div class="column is-4 has-text-right">
+          <a target="_blank" href="https://github.com/cnoss/generative-gestaltung/edit/master/_assignments/03-linien-02.md"><span
+              class="icon"><i class="fa fa-edit"></i></span> Bearbeiten</a>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="content is-large">
+      <h2 id="l2-überlagerung-mit-bezier-kurven">L2 Überlagerung mit Bezier Kurven</h2>
+<p>Erzeugen Sie eine interessante Komposition aus einem Raster mit <a href="https://p5js.org/reference/#/p5/bezier">Bezier Kurven</a>.</p>
+
+<h2 id="l4-linien-in-radialer-anordnung">L4 Linien in radialer Anordnung</h2>
+<p>Erzeugen Sie ein radiales Linienraster mit konzentrischer Anordnung, d.h. die Linien beginnen alle in der Mitte der Zeichenfläche und gehen dann radial nach außen. Nutzen Sie z.B. verschiedene Linienlägen, Linienstärken oder gar mehrere konzentrische Formationen auf der Z-Achse, um eine interessante Gesamtkomposition zu erzielen.</p>
+
+<h2 id="l41-tordierte-radiale-anordnung">L4.1 Tordierte radiale Anordnung</h2>
+<p>Erzeugen Sie wieder ein radiales Linienraster. Diesmal sollte sich die Startkoordinate der jeweiligen Linie auf einer Kreisbahn befinden, so dass im Ergebnis eine radiale Formation mit einem «Loch» in der Mitte entsteht. Jetzt sollten die beiden Kreise via Slider gegeneinander verdreht werden können. Versuchen Sie die verschiedenen Parameter des Sketches dahingehend zu optimieren, dass eine möglichst spannende Gesamtkomposition entsteht. Es ist hilfreich möglichst viele Parameter an Slider zu binden und den Wertebereich ggf. auch in den negativen Bereich zu legen.</p>
+
+<h2 id="l43-tordierte-radiale-anordnung-mit-ellipsen">L4.3 Tordierte radiale Anordnung mit Ellipsen</h2>
+<p>Wie 4.1, aber diesmal verwenden Sie keine Kreisbahnen, sondern elliptische Bahnen. Dazu einfach verschiedene Radien für die Berechnung der X- und Y-Position verwenden.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let x = cos(angle) * radius1;
+let y = sin(angle) * radius2;
+</code></pre></div></div>
+
+    </div>
+  </div>
+</section>
+
+
+</body>
+
+</html>
