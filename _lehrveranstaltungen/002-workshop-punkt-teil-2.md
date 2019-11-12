@@ -7,7 +7,7 @@ pflicht: false
 termine: 2019-11-12 10:00
 empfohlene-voraussetzungen:
 published: true
-dauer: 210
+dauer: 180
 raum: 422
 flag: show-at-homepage
 teaserImageURL: /assets/images/P3.jpg
