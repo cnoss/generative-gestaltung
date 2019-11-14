@@ -21,5 +21,46 @@ Wir erzeugen zwei Linienraster und verdrehen diese gegeneinander via Slider.
 ## L1.5 Überlagerung für Große
 Wir erzeugen viele Linienraster und verdrehen diese gegeneinander via Slider. Mit einem Tastendruck soll stets ein weiteres Raster addiert werden.
 
+Hier könnte zum ersten Mal eine Klasse hilfreich sein. Die entsprechende Klasse könnte in Javascript wie folgt implementiert werden:
+
+```
+class Grid {
+  constructor( angle ) { 
+    this.angle = angle;
+  }
+  show() { 
+    translate(width / 2, height / 2);
+    rotate(this.angle);
+    translate(width / -2, height / -2);
+    let distance = width / drawingParams.lines;
+    for (let i = 0; i < drawingParams.lines; i++) { 
+      line(i * distance, 0, i * distance, height);
+    }
+  }
+  edit(angle) { 
+    this.angle = angle;
+  }
+}
+```
+
+In der *setup* Funktion und beim Drücken einer bestimmten Taste würde eine neue Instanz dieser Klasse einem Array zugefügt:
+
+```
+let grids = [];
+…
+grids.push(new Grid(drawingParams.angle)); 
+```
+
+Und in der *Draw* Funktion wird das Array durchlaufen und die Darstellung getriggert:
+
+```
+grids.forEach(
+  (item, index) => { 
+    item.show();
+    lastGrid = index;
+  }
+);
+```
+
 ## L1.6 Angeschnittene Linienraster
 Erzeugen Sie zwei Linienraster mit horizontalen Linien verschiedener Länge. Ein Linienraster soll dabei links an der Zeichenfläche anschlagen, das andere rechts. Die Länge der Linien sollte variieren, so dass in der Mitte teilweise Überschneidungen und teilweise Negativräume entstehen.

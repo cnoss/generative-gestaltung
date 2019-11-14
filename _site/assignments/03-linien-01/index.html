@@ -87,6 +87,44 @@
 <h2 id="l15-überlagerung-für-große">L1.5 Überlagerung für Große</h2>
 <p>Wir erzeugen viele Linienraster und verdrehen diese gegeneinander via Slider. Mit einem Tastendruck soll stets ein weiteres Raster addiert werden.</p>
 
+<p>Hier könnte zum ersten Mal eine Klasse hilfreich sein. Die entsprechende Klasse könnte in Javascript wie folgt implementiert werden:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Grid {
+  constructor( angle ) { 
+    this.angle = angle;
+  }
+  show() { 
+    translate(width / 2, height / 2);
+    rotate(this.angle);
+    translate(width / -2, height / -2);
+    let distance = width / drawingParams.lines;
+    for (let i = 0; i &lt; drawingParams.lines; i++) { 
+      line(i * distance, 0, i * distance, height);
+    }
+  }
+  edit(angle) { 
+    this.angle = angle;
+  }
+}
+</code></pre></div></div>
+
+<p>In der <em>setup</em> Funktion und beim Drücken einer bestimmten Taste würde eine neue Instanz dieser Klasse einem Array zugefügt:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let grids = [];
+…
+grids.push(new Grid(drawingParams.angle)); 
+</code></pre></div></div>
+
+<p>Und in der <em>Draw</em> Funktion wird das Array durchlaufen und die Darstellung getriggert:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>grids.forEach(
+  (item, index) =&gt; { 
+    item.show();
+    lastGrid = index;
+  }
+);
+</code></pre></div></div>
+
 <h2 id="l16-angeschnittene-linienraster">L1.6 Angeschnittene Linienraster</h2>
 <p>Erzeugen Sie zwei Linienraster mit horizontalen Linien verschiedener Länge. Ein Linienraster soll dabei links an der Zeichenfläche anschlagen, das andere rechts. Die Länge der Linien sollte variieren, so dass in der Mitte teilweise Überschneidungen und teilweise Negativräume entstehen.</p>
 
