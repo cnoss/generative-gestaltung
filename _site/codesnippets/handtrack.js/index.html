@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <title>Handtrack.js – Generative Gestaltung – Kurs im Modul «Designing Futures 1» // Code & Context</title>
+
+  <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans&PT+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/generative-gestaltung/assets/styles/style.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="/generative-gestaltung/assets/images/favicon.ico">
+
+</head>
+
+<body data-url="/codesnippets/handtrack.js/">
+  <section class="hero is-info is-large"
+    style="background-image: url(/generative-gestaltung/assets/images/P3.2.png); background-size: contain; background-repeat: no-repeat; background-position: center center;">
+    <!-- Hero header: will stick at the top -->
+    <div class="hero-head has-background-radient">
+  <header class="nav">
+    <div class="container">
+      <div class="nav-left">
+        <a href="/generative-gestaltung/" class="nav-item"><img src="/generative-gestaltung/assets/images/Keyvisual_White_Heavy_Strokes-110px.png" /></a>
+      </div>
+      <span class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+      <div class="nav-right nav-menu">
+        <!--a href="/generative-gestaltung/angebote/" class="nav-item">Veranstaltungen</a-->
+        <a href="/generative-gestaltung/assignments/" class="nav-item">Assignments</a>
+        <a href="/generative-gestaltung/codesnippets/" class="nav-item">Code Snippets</a>
+        <a href="/generative-gestaltung/timetable/" class="nav-item">Zeitplan</a>
+        <!--a href="/generative-gestaltung/niveaustufen/" class="nav-item">Artefakte & Bewertung</a-->
+        <!--a href="/generative-gestaltung/nomenklatur/" class="nav-item">Nomenklatur</a-->
+        <!--a href="/generative-gestaltung/gestaltungsportfolio/" class="nav-item">Gestaltungsportfolio</a-->
+        <!--a href="/generative-gestaltung/projekt-2018/" class="nav-item">Projekt</a-->
+        <!--a href="/generative-gestaltung/challenge-2017/" class="nav-item">Challenge</a-->
+        <!--a href="/generative-gestaltung/links/" class="nav-item">Links</a-->
+        <!--a href="/generative-gestaltung/faq/" class="nav-item">FAQ</a-->
+        <!--a href="https://github.com/th-koeln/mi-bachelor-wba1/issues/new" class="nav-item">Frage stellen</a-->
+        <!--a href="https://github.com/th-koeln/mi-bachelor-wba1/wiki" class="nav-item">WBA1 Wiki</a-->
+
+      </div>
+    </div>
+  </header>
+</div>
+
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body is-header has-background-radient">
+      <div class="container">
+        <h1 class="title is-1 has-text-shadow">
+          Generative Gestaltung
+        </h1>
+        <h2 class="subtitle is-3 has-text-shadow">
+          Kurs im Modul «Designing Futures 1» // Code & Context
+        </h2>
+      </div>
+    </div>
+
+  </section>
+
+  
+
+<section class="section">
+  <div class="container">
+    <div class="content">
+      <div class="columns">
+        <div class="column is-8">
+          <h1>Handtrack.js</h1>
+        </div>
+
+        <div class="column is-4 has-text-right">
+          <a target="_blank" href="_codesnippets/handtrack.js.md"><span class="icon"><i class="fa fa-edit"></i></span>
+            Bearbeiten</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  
+  <div class="container codesnippet">
+    <div class="content">
+      <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="n">let</span> <span class="n">videoCapture</span><span class="p">;</span>
+<span class="n">const</span> <span class="n">handimg</span> <span class="p">=</span> <span class="n">document</span><span class="p">.</span><span class="n">getElementById</span><span class="p">(</span><span class="s2">"handimage"</span><span class="p">);</span>
+<span class="n">const</span> <span class="n">canvasHT</span> <span class="p">=</span> <span class="n">document</span><span class="p">.</span><span class="n">getElementById</span><span class="p">(</span><span class="s2">"canvasHT"</span><span class="p">);</span>
+<span class="n">const</span> <span class="n">context</span> <span class="p">=</span> <span class="n">canvasHT</span><span class="p">.</span><span class="n">getContext</span><span class="p">(</span><span class="s2">"2d"</span><span class="p">);</span>
+
+<span class="n">const</span> <span class="n">modelParams</span> <span class="p">=</span> <span class="p">{</span>
+  <span class="n">flipHorizontal</span><span class="p">:</span> <span class="nb">true</span><span class="p">,</span>   <span class="p">//</span> <span class="n">flip</span> <span class="n">e</span><span class="p">.</span><span class="n">g</span> <span class="n">for</span> <span class="n">video</span>  
+  <span class="n">maxNumBoxes</span><span class="p">:</span> <span class="m">20</span><span class="p">,</span>        <span class="p">//</span> <span class="n">maximum</span> <span class="n">number</span> <span class="k">of</span> <span class="n">boxes</span> <span class="k">to</span> <span class="n">detect</span>
+  <span class="n">iouThreshold</span><span class="p">:</span> <span class="m">0.5</span><span class="p">,</span>      <span class="p">//</span> <span class="n">ioU</span> <span class="n">threshold</span> <span class="n">for</span> <span class="n">non</span><span class="p">-</span><span class="k">max</span> <span class="n">suppression</span>
+  <span class="n">scoreThreshold</span><span class="p">:</span> <span class="m">0.6</span><span class="p">,</span>    <span class="p">//</span> <span class="n">confidence</span> <span class="n">threshold</span> <span class="n">for</span> <span class="n">predictions</span><span class="p">.</span>
+<span class="p">}</span>
+
+<span class="n">let</span> <span class="n">imgindex</span> <span class="p">=</span> <span class="m">1</span><span class="p">;</span>
+<span class="n">let</span> <span class="n">isVideo</span> <span class="p">=</span> <span class="nb">false</span><span class="p">;</span>
+<span class="n">let</span> <span class="k">model</span> <span class="p">=</span> <span class="n">null</span><span class="p">;</span>
+
+
+<span class="p">/*</span> <span class="p">###########################################################################</span>
+<span class="n">Custom</span> <span class="n">Functions</span>
+<span class="p">############################################################################</span> <span class="p">*/</span>
+
+<span class="k">function</span> <span class="n">startVideo</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">handTrack</span><span class="p">.</span><span class="n">startVideo</span><span class="p">(</span><span class="n">videoCapture</span><span class="p">).</span><span class="k">then</span><span class="p">(</span><span class="k">function</span> <span class="p">(</span><span class="n">status</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">status</span><span class="p">)</span> <span class="p">{</span>
+          <span class="n">isVideo</span> <span class="p">=</span> <span class="nb">true</span>
+          <span class="n">runDetection</span><span class="p">()</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+      <span class="p">}</span>
+  <span class="p">});</span>
+<span class="p">}</span>
+
+<span class="k">function</span> <span class="n">runDetection</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">model</span><span class="p">.</span><span class="n">detect</span><span class="p">(</span><span class="n">videoCapture</span><span class="p">).</span><span class="k">then</span><span class="p">(</span><span class="n">predictions</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="p">//</span><span class="n">console</span><span class="p">.</span><span class="nb">log</span><span class="p">(</span><span class="s2">"Predictions: "</span><span class="p">,</span> <span class="n">predictions</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">predictions</span><span class="p">[</span><span class="m">0</span><span class="p">])</span> <span class="p">{</span>
+      <span class="p">[</span><span class="n">drawingParams</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">drawingParams</span><span class="p">.</span><span class="n">y</span><span class="p">,</span> <span class="n">drawingParams</span><span class="p">.</span><span class="n">w</span><span class="p">]</span> <span class="p">=</span> <span class="n">predictions</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">bbox</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">predictions</span><span class="p">[</span><span class="m">1</span><span class="p">])</span> <span class="p">{</span>
+      <span class="p">[</span><span class="n">drawingParams</span><span class="p">.</span><span class="n">cw</span><span class="p">]</span> <span class="p">=</span> <span class="n">predictions</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">bbox</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">isVideo</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">requestAnimationFrame</span><span class="p">(</span><span class="n">runDetection</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">});</span>
+<span class="p">}</span>
+
+
+<span class="p">/*</span> <span class="p">###########################################################################</span>
+<span class="n">P5</span> <span class="n">Functions</span>
+<span class="p">############################################################################</span> <span class="p">*/</span>
+
+
+<span class="k">function</span> <span class="n">setup</span><span class="p">()</span> <span class="p">{</span>
+
+  <span class="n">let</span> <span class="n">canvas</span> <span class="p">=</span> <span class="n">createCanvas</span><span class="p">(</span><span class="n">canvasParams</span><span class="p">.</span><span class="n">w</span><span class="p">,</span> <span class="n">canvasParams</span><span class="p">.</span><span class="n">h</span><span class="p">);</span>
+  <span class="n">canvas</span><span class="p">.</span><span class="n">parent</span><span class="p">(</span><span class="s2">"canvas"</span><span class="p">);</span>
+
+  
+  <span class="n">colorMode</span><span class="p">(</span><span class="n">HSB</span><span class="p">,</span> <span class="m">360</span><span class="p">,</span> <span class="m">100</span><span class="p">,</span> <span class="m">100</span><span class="p">,</span> <span class="m">100</span><span class="p">);</span>
+  <span class="n">noStroke</span><span class="p">();</span>
+  <span class="n">angleMode</span><span class="p">(</span><span class="n">DEGREES</span><span class="p">);</span>
+
+  <span class="n">let</span> <span class="n">sketchGUI</span> <span class="p">=</span> <span class="n">createGui</span><span class="p">(</span><span class="s1">'Params'</span><span class="p">);</span>
+  <span class="n">sketchGUI</span><span class="p">.</span><span class="n">addObject</span><span class="p">(</span><span class="n">drawingParams</span><span class="p">);</span>
+
+  <span class="p">//</span> <span class="n">Video</span> <span class="n">Input</span>
+  <span class="n">pixelDensity</span><span class="p">(</span><span class="m">1</span><span class="p">);</span>
+  <span class="n">video</span> <span class="p">=</span> <span class="n">createCapture</span><span class="p">(</span><span class="n">VIDEO</span><span class="p">);</span>
+  <span class="n">video</span><span class="p">.</span><span class="n">size</span><span class="p">(</span><span class="m">320</span><span class="p">,</span> <span class="m">240</span><span class="p">);</span>
+  <span class="n">video</span><span class="p">.</span><span class="n">class</span><span class="p">(</span><span class="s2">"previewVideo"</span><span class="p">);</span>
+  <span class="n">video</span><span class="p">.</span><span class="n">id</span><span class="p">(</span><span class="s2">"video"</span><span class="p">);</span>
+  <span class="n">videoCapture</span> <span class="p">=</span> <span class="n">document</span><span class="p">.</span><span class="n">getElementById</span><span class="p">(</span><span class="s2">"video"</span><span class="p">);</span>
+  <span class="n">video</span><span class="p">.</span><span class="n">hide</span><span class="p">();</span>
+
+  <span class="p">//</span> <span class="nf">Load</span> <span class="n">the</span> <span class="k">model</span> <span class="k">and</span> <span class="n">start</span> <span class="n">video</span>
+  <span class="n">handTrack</span><span class="p">.</span><span class="nf">load</span><span class="p">(</span><span class="n">modelParams</span><span class="p">).</span><span class="k">then</span><span class="p">(</span><span class="n">lmodel</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="k">model</span> <span class="p">=</span> <span class="n">lmodel</span>
+    <span class="n">startVideo</span><span class="p">();</span>
+  <span class="p">});</span>
+
+  <span class="p">//</span> <span class="n">only</span> <span class="n">call</span> <span class="n">draw</span> <span class="n">when</span> <span class="k">then</span> <span class="n">gui</span> <span class="n">is</span> <span class="n">changed</span>
+  <span class="p">//</span> <span class="n">noLoop</span><span class="p">();</span>
+<span class="p">}</span>
+
+</code></pre></div></div>
+
+    </div>
+  </div>
+</section>
+
+<!--section class="section">
+	<div class="modulbeschreibung">
+		<div class="container">
+			<div class="content">
+				
+			
+			Console Logging
+	  	
+			Handtrack.js
+	  	
+			Klassen in Javascript
+	  	
+	  	</div>
+		</div>
+	</div>
+</section-->
+
+  <footer class="footer is-non-print">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <ul class="menu-list">
+          <li><a href="/generative-gestaltung/" class="nav-item">Startseite</a></li>
+          <li><a href="/generative-gestaltung/timetable/" class="nav-item">Zeitplan</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <div class="content is-small">
+          <p markdown="1">Website zum Kurs «Generative Gestaltung» im [Studiengang Code &
+            Context](https://www.th-koeln.de/studium/code--context-bachelor_62103.php) der [TH
+            Köln](https://www.th-koeln.de/hochschule/impressum_8159.php).</p>
+          <p markdown="1">Verantwortlicher Dozent ist [Prof. Christian Noss](https://github.com/cnoss).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.3/showdown.min.js"></script>
+<script type="text/javascript" src="/generative-gestaltung/assets/js/gg.js"></script>
+</body>
+
+</html>
