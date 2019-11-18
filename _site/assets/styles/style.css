@@ -8261,6 +8261,7 @@ html {
 .timetable .timetable-wrap .veranstaltung {
   width: 100%;
   background-color: #999;
+  overflow: hidden;
   border-bottom: solid 1px rgba(255, 255, 255, 0.7);
   border-right: solid 1px rgba(255, 255, 255, 0.7);
   padding: 0.5rem;

@@ -7,8 +7,9 @@ pflicht: false
 termine: 2019-11-21 10:00
 empfohlene-voraussetzungen:
 published: true
-dauer: 420
+dauer: 360
 raum: 422
-info: |
-  Heute gibt es die erste Challenge. Den Ausgangspunkt bilden einige Vorgaben, die den Rahmen bestimmen. Innerhalb diesen Rahmens, soll eine möglichst interessantes Motiv oder eine Motivreihe entwickelt werden.
+info: 
 ---
+
+ Heute kann an den Aufgaben für das Gestaltungsportfolio und am Gestaltungsportfolio selbst weiter gearbeitet werden. Wer Support und Feedback braucht - ich bin den ganzen Tag da.
