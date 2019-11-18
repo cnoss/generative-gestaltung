@@ -21,5 +21,6 @@ info: |
 - [Bewegte Formen](/generative-gestaltung/assignments/05-flaeche-04/)
 
 ## Material 
+- [Folien Fläche](/generative-gestaltung/material/010-Flaeche.pdf)
 - [Folien Figur & Grund](/generative-gestaltung/material/020-figur-und-grund.pdf)
 - [Folien Abstände & Proportionen](/generative-gestaltung/material/systematische-proportionen-und-abstaende.pdf)

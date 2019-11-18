@@ -22,3 +22,4 @@ info: |
 
 ## Material
 - [Foliensatz Räumlichkeit](/generative-gestaltung/material/raeumlichkeit.pdf)
+- [Foliensatz Gestaltgesetze](/generative-gestaltung/material/gestaltgesetze.pdf)
