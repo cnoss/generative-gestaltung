@@ -67,7 +67,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 }
 
 #canvas.mouseLockActive{
-  border: solid 1px var(--mi-pink);
+  border: solid 1px var(--color-mi-pink);
 }
 
 
