@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% assign assignments = site.assignments | sort: 'title' %}
-{% assign tabtags = "Basics|Inspirationen|Punkt|Linie|Farbe|Fläche|Form|Kontext|Hackday" | split: "|" %}
+{% assign tabtags = "Basics|Inspirationen|Punkt|Linie|Farbe|Fläche|Form|Kontext|Hackday|Freiarbeit" | split: "|" %}
 
 <section class="section">
   <div class="container">
@@ -43,7 +43,7 @@ layout: default
           <div class="assignment-overview__item">
             <a href="{{assignment.url | relative_url}}">
             <h2 class="title is-2" id="{{ assignment.id }}">{{ assignment.titel }}</h2>
-            <p style="color: #999999;">{{assignment.tags | join:', '}}</p>
+            <p style="color: #999999;">{{assignment.tags | join:' '}}</p>
             </a>
           </div>
           {% endfor %}
@@ -58,7 +58,7 @@ layout: default
           <div class="assignment-overview__item">
               <a href="{{assignment.url | relative_url}}">
               <h2 class="title is-2" id="{{ assignment.id }}">{{ assignment.titel }}</h2>
-              <p style="color: #999999;">{{assignment.tags | join:', '}}</p>
+              <p style="color: #999999;">{{assignment.tags | join:' '}}</p>
               </a>
             </div>
           {% endif %} {% endfor %}

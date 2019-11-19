@@ -66,6 +66,10 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
   top: calc(50vh - 270px);
 }
 
+#canvas.mouseLockActive{
+  border: solid 1px var(--color-mi-pink);
+}
+
 
 
 

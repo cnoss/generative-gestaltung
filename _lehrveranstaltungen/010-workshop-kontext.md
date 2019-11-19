@@ -14,3 +14,8 @@ info: |
 ---
 
 Heute wird außerdem das Thema für die zweite freie Arbeit vorgestellt.
+
+## Assignments
+- [Simple Inputs](/generative-gestaltung/assignments/06-kontext-01/)
+- [Camera & Audio Input](/generative-gestaltung/assignments/06-kontext-02/)
+- [External Input](/generative-gestaltung/assignments/06-kontext-03/)
