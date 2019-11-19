@@ -8880,6 +8880,10 @@ pre code {
   padding-bottom: 56.34%;
 }
 
+.js-video.is-half {
+  padding-bottom: 28.17%;
+}
+
 .js-video.vimeo {
   padding-top: 0;
 }

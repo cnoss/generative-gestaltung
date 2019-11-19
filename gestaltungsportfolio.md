@@ -18,6 +18,7 @@ Insgesamt umfasst das Portfolio also **fünf Artefakte**. Definieren Sie bitte e
 ## Bereitstellung der Artefakte
 Das Portfolio stellen Sie bitte via GitLab Page zur Verfügung. Hierfür steht auch ein passender [Startercode](https://git.coco.study/students/ws1920/df12/startercode-gestaltungsportfolio) zur Verfügung. Diesen bitte *clonen* oder kopieren. Hier finden Sie ein [Beispiel für ein Gestaltungsportfolio](https://students.pages.coco.study/ws1920/df12/startercode-gestaltungsportfolio/). 
 
+{% include youtube.html id="Q45CyttzC0w" class="is-half" %}
 
 ## Portfoliopräsentation
 
