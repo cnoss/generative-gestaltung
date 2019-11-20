@@ -2,7 +2,7 @@
 <html lang="de">
 
 <head>
-  <title>Console Log – Generative Gestaltung – Kurs im Modul «Designing Futures 1» // Code & Context</title>
+  <title>Audioinput – Generative Gestaltung – Kurs im Modul «Designing Futures 1» // Code & Context</title>
 
   <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -15,7 +15,7 @@
 
 </head>
 
-<body data-url="/codesnippets/console-log/">
+<body data-url="/codesnippets/audioinput/">
   <section class="hero is-info is-large"
     style="background-image: url(/generative-gestaltung/assets/images/P3.2.png); background-size: contain; background-repeat: no-repeat; background-position: center center;">
     <!-- Hero header: will stick at the top -->
@@ -71,11 +71,11 @@
     <div class="content">
       <div class="columns">
         <div class="column is-8">
-          <h1>Console Logging</h1>
+          <h1>Audio Input</h1>
         </div>
 
         <div class="column is-4 has-text-right">
-          <a target="_blank" href="_codesnippets/console-log.md"><span class="icon"><i class="fa fa-edit"></i></span>
+          <a target="_blank" href="_codesnippets/audioinput.md"><span class="icon"><i class="fa fa-edit"></i></span>
             Bearbeiten</a>
         </div>
       </div>
@@ -86,29 +86,12 @@
   
   <div class="container codesnippet">
     <div class="content">
-      <h2 id="ein-paar-snippets-fürs-debugging-in-der-web-developer-konsole">Ein paar Snippets für’s Debugging in der Web-Developer Konsole</h2>
+      <div class="js-video widescreen vimeo ">
+  <iframe src="https://www.youtube.com/embed/v4jgr0ppw8Q" frameborder="0" allowfullscreen=""></iframe>
+</div>
 
-<p>Eine vollständige Übersicht finden Sie bei den <a href="https://developer.mozilla.org/de/docs/Web/API/Console/log">MDN WebDocs</a>.</p>
+<p>Mindestens ein Teilnehmer und ich hatten Probleme beim Audio Input. Das Problem hierbei ist, dass hierzu die <a href="https://developer.mozilla.org/de/docs/Web/API/Web_Audio_API">Web Audio API</a> genutzt wird, die speziellen Sicherheitsrichtlinien unterworfen ist. Eine davon ist die Nutzung von <em>https</em>. Das Video oben zeigt, wie eine <em>https</em> Verbindung für die Live Server Extension von Visual Studio Code erzeugt werden kann. Bei mir hat dies, in Kombination mit der Nutzung von <a href="https://www.mozilla.org/de/firefox/new/">Firefox</a> geholfen.</p>
 
-<h3 id="einen-einfachen-text-ausgeben">Einen einfachen Text ausgeben</h3>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.log("Ein einfacher Text");
-</code></pre></div></div>
-
-<h3 id="eine-variable-ausgeben">Eine Variable ausgeben</h3>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.log(variable);
-</code></pre></div></div>
-
-<h3 id="mehrere-variablen-ausgeben">Mehrere Variablen ausgeben</h3>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.log(variable1, variable2);
-</code></pre></div></div>
-
-<h3 id="kombination-aus-text-und-variablen-ausgeben">Kombination aus Text und Variablen ausgeben</h3>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.log("Ich bin ein Text: " + variable2);
-</code></pre></div></div>
 
     </div>
   </div>
