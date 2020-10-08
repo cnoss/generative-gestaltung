@@ -1,0 +1,28 @@
+I"�<h2 id="c1-zeichnen-mit-der-maus">C1 Zeichnen mit der Maus</h2>
+<p>Wir zeichen Punkte, bezogen auf die aktuelle Mausposition auf den Screen. Wir zeichenen die Punkte genau da, wo sich die Maus aktuell befindet. Welche Mechaniken aus der realen Welt können wir auf die Zeichnung übertragen?</p>
+
+<h2 id="c12-rorschach-alike">C1.2 Rorschach alike</h2>
+<p>Wir zeichen wieder Punkte oder Linien auf den Screen, aber jetzt spiegeln wir die Zeichnung über die Mittelachse(n). Die Spiegelungen lassen sich recht einfach mit folgendem Ansatz realisieren:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>push();
+translate(width,height);
+scale(-1.0, -1.0);
+ellipse(x, y, size);
+pop();
+</code></pre></div></div>
+
+<h2 id="c13-mandala">C1.3 Mandala</h2>
+<p>Wie zuvor, aber diesmal kopieren wir die Zeichnung rotierend auf der Montagefläche. Hierzu müssen wir mit <a href="https://p5js.org/reference/#/p5/createGraphics">createGraphics</a> eine Art <em>virtuelle Zeichenfläche</em> erzeugen, die wie dann auf unserer Hauptzeichenfläche platzieren.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>virtualCanvas = createGraphics(width, height);
+…
+virtualCanvas.ellipse(posX, posY, size);
+…
+for (let i = 0; i &lt;= drawingParams.virtualCanvases; i++) { 
+  push()
+  rotate(i * drawingParams.rotAngle);
+  image(virtualCanvas, width * -0.5, height * -0.5);
+  pop();
+}
+</code></pre></div></div>
+:ET

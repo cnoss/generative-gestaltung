@@ -1,0 +1,10 @@
+I"�<h2 id="f3-radiales-raster">F3 Radiales Raster</h2>
+<p>Jetzt wird es etwas komplex. Wir erstellen ein radiales Raster aus Punkten. Dabei soll die Punktgröße und ein Startradius via Slider editierbar sein. Dann wird, ausgehend von diesen beiden Parametern, ermittelt, wie viele Punkte auf der zugehörigen Kreisbahn angeordnet werden können. Hmmm, klingt einfach, ist es aber nicht. Hierfür könnte die Berechnung des Umfangs hilfreich sein:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let U = TWO_PI * radius;
+</code></pre></div></div>
+
+<p>Da die Punktgröße ja durch den Slider vorgegeben ist und die Wahrscheinlichkeit, dass der Umfang der Kreisbahn zufällig genauso groß ist, um die ermittelte Anzahl der Punkte darauf platziert zu können, müssen wir die Punkte in einem gleichmäßigen Abstand auf der Kreisbahn platzieren. Hierfür ist die Nutzung des Bogenmaßes(Radian) ziemlich praktisch. P5 bietet mit <a href="https://p5js.org/reference/#/p5/degrees">degrees</a> und <a href="https://p5js.org/reference/#/p5/radians">radians</a> Funktionen zur Umrechnung von Grad- in Bogenmaß. Im Ergebnis sollte ein Kreisring aus Punkten entstehen.</p>
+
+<p>Dann erzeugen wir meherere dieser Ringe, wobei die Anzahl auch via Slider eingestellt werden kann. Der Radius der Ringe sollte jeweils so erhöht werden, dass ein gleichmäßiges Raster entsteht. Nun können wir hier einige Parameter zur Farbsteuerung mit Geometrieparametern verknüpfen.</p>
+:ET

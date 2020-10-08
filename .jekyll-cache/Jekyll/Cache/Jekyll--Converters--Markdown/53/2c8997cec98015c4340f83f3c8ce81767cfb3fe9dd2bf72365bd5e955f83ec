@@ -1,0 +1,57 @@
+I"�<h2 id="c5-bilddaten">C5 Bilddaten</h2>
+<p>Nutzung eines Bildes als Datenquelle. Dazu nehmen wir ein bestehendes Foto, laden es in P5, vergröbern die Auflösung, anaysieren die Pixel und zeichnen das Bild zunächst mit Punkten nach. Die Punktgröße sollte minimal 3px sein, sonst wird der Rechner etwas zu warm. Der Canvas sollte aus gleichem Grund die Klasse <em>is-fixed</em> haben. Danach sind folgende Ergänzungen im Code erforderlich:</p>
+
+<p><strong>Bild vorladen</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function preload() {
+  loadImage('img/farbig.jpg', setImage);
+}
+</code></pre></div></div>
+
+<p><strong>Bild skalieren und bereit stellen</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function setImage(loadedImageFile) {
+  img = loadedImageFile;
+  img.resize(500, 0);
+}
+</code></pre></div></div>
+
+<p><strong>Pixelwerte akquirieren</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let px = int(gridX * rectSize);
+let py = int(gridY * rectSize);
+let i = (py * img.width + px) * 4;
+fill(img.pixels[i], img.pixels[i+1], img.pixels[i+2], 255);
+</code></pre></div></div>
+
+<h2 id="c6-daten-vom-smartphone-via-tramontana">C6 Daten vom Smartphone via Tramontana</h2>
+<p>Via <a href="https://tramontana.xyz/tramontanajavascriptgettingstarted_2_2">Tramonata</a> verknüpfen wir unseren Sketch mit dem Smartphone. Das ist recht einfach, aber schlecht dokumentiert. Wir müssen zunächst die <a href="https://tramontana.xyz/">Tramontana App</a> auf unserem Smartphone installieren und das Smartphone und der Rechner müssen im gleichen Netzsegment sein. Die p5.js Unterstützung ist gerade mal zwei Monate alt. Daher sind <a href="https://github.com/pierdr/Tramontana-for-Javascript">Dokumentation</a> und Beispiele noch sehr rudimentär.</p>
+
+<p><strong>Tramontana remote verbinden</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>device.start("IP_ADRESSE_DIE_AUF_DEM_GERAET_GEZEIGT_WIRD", function (e) {
+  if (e == undefined) {
+    device.makeVibrate();
+    device.subscribeAttitude( 60 ,function(ip,e){
+      drawingParams.deviceData.r = e.r;
+      drawingParams.deviceData.y = e.y;
+      drawingParams.deviceData.p = e.p;
+      // e.r = roll (x)
+      // e.y = yaw (y)
+      // e.p = pitch (z)
+      // console.log(e);
+    });
+    device.subscribeDistance(function(ip, e) { 
+      drawingParams.deviceData.distance = e;
+      // console.log(e);
+    });      
+  } else { 
+    console.log(e);
+  }
+});
+</code></pre></div></div>
+
+<p><strong>Daten verwerten</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let x = map(drawingParams.deviceData.r, 0, 3, 0, width / 2);
+let y = map(drawingParams.deviceData.p, 0, 1.5, 0, height / 2);
+let bg = map(drawingParams.deviceData.y, 0, 1.5, 0, 255);
+background(bg);
+ellipse(x, y, 20);
+</code></pre></div></div>
+:ET

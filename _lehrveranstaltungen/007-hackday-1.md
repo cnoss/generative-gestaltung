@@ -15,4 +15,4 @@ info: |
 
 ## Assignments
 
-- [Hackday 1 - Fun with Times Tables](/generative-gestaltung/assignments/05-hackday/)
+- [Hackday 1 - Fun with Times Tables](/generative-gestaltung/assignments/99-hackday-1/)

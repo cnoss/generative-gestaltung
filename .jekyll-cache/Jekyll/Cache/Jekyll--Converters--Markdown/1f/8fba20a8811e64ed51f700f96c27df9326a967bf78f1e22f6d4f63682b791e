@@ -1,0 +1,24 @@
+I"�<h2 id="ein-paar-snippets-fürs-debugging-in-der-web-developer-konsole">Ein paar Snippets für’s Debugging in der Web-Developer Konsole</h2>
+
+<p>Eine vollständige Übersicht finden Sie bei den <a href="https://developer.mozilla.org/de/docs/Web/API/Console/log">MDN WebDocs</a>.</p>
+
+<h3 id="einen-einfachen-text-ausgeben">Einen einfachen Text ausgeben</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.log("Ein einfacher Text");
+</code></pre></div></div>
+
+<h3 id="eine-variable-ausgeben">Eine Variable ausgeben</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.log(variable);
+</code></pre></div></div>
+
+<h3 id="mehrere-variablen-ausgeben">Mehrere Variablen ausgeben</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.log(variable1, variable2);
+</code></pre></div></div>
+
+<h3 id="kombination-aus-text-und-variablen-ausgeben">Kombination aus Text und Variablen ausgeben</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.log("Ich bin ein Text: " + variable2);
+</code></pre></div></div>
+:ET

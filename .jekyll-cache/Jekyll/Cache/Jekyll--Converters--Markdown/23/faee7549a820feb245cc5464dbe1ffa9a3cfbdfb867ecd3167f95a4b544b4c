@@ -1,0 +1,19 @@
+I"�<h2 id="f2-farbiges-punktraster">F2 Farbiges Punktraster</h2>
+<p>Erzeugen Sie ein flächenfüllendes Punktraster. Der Farbwert (hue) ist zunächst 120. Auf der X-Achse soll die Sättung abnehmen und auf der Y-Achse die Helligkeit. Die <a href="https://p5js.org/reference/#/p5/map">Map Funktion</a> ist hier wieder sehr hilfreich.</p>
+
+<p>Im nächsten Schritt soll der Farbwert stetig im Farbkreis wandern, also immer von 0 bis 360° Grad.</p>
+
+<h2 id="f22-komplementärkontrast">F2.2 Komplementärkontrast</h2>
+<p>Erzeugen Sie, wie zuvor, ein flächenfüllendes Punktraster. Die Helligkeit soll mit der Y-Achse nach unten hin abnehmen. Erzeugen Sie einen Komplementärkontrast auf der X-Achse an der Position der Maus, d.h. alle Punkte links nehmen der Maus haben die Ausgangsfarbe und alle Punkte rechts neben der Maus die zugehörige Komplementärfarbe. Sie könnten die Ausgangsfarbe an die Y-Position der Maus binden.</p>
+
+<h2 id="f23-hell-dunkel-kontrast">F2.3 Hell-Dunkel Kontrast</h2>
+<p>Wir erzeugen wieder ein flächenfüllendes Punktraster. Diesmal soll ein Hell-Dunkel oder Bunt-Unbunt Kontrast realisiert werden. Die Herausforderung ist die Platzierung der Kontrastfläche radial um den Mauszeiger. Hierbei kann die <a href="https://p5js.org/reference/#/p5/dist">Dist Funktion</a> gute Dienste leisten, denn mit ihrer Hilfe können wir den Abstand von zwei Punkten errechnen.</p>
+
+<h2 id="f24-quantitätskontrast">F2.4 Quantitätskontrast</h2>
+<p>Wir erzeugen wieder ein flächenfüllendes Punktraster. Diesmal soll ein Quantitätskontrast realisiert werden. Die Herausforderung ist die Platzierung der Punkte in Kombination mit einem einstellbaren Verhältniswert zwischen der Grund- und der Kontrastfarbe. Folgende Parameter sollten über die GUI steuerbar sein:</p>
+<ul>
+  <li>Farbwinkel der Grundfarbe</li>
+  <li>Winkelabstand der Kontrastfarbe</li>
+  <li>Mengenverteilung zwischen Grund- und Kontrastfarbe</li>
+</ul>
+:ET

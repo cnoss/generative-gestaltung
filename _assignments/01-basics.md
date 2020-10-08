@@ -8,8 +8,9 @@ In diesem Kurs geht es primär nicht um eleganten, performaten (na gut, machmal 
 
 ---
 
+<!--
 ## Teams
-Wir arbeiten in 3-er Teams. Jeder erarbeitet seine eigene Lösung, also hier wird zunächst kein Pair Programming praktiziert. Die Teams sind aber erste Anlaufstelle bei Fragen, Problemen und Feedbackwünschen. In den Teams werden Ideen entwickelt und diskutiert. Die Teammitglieder sind Sparringspartner und Advocati Diaboli. Die Teams sitzen räumlich zusammen. Die Teams werden jeden Tag ausgelost und somit neu zusammen gestellt.
+Wir arbeiten in 3-er Teams. Jeder erarbeitet seine eigene Lösung, also hier wird zunächst kein Pair Programming praktiziert. Die Teams sind aber erste Anlaufstelle bei Fragen, Problemen und Feedbackwünschen. In den Teams werden Ideen entwickelt und diskutiert. Die Teammitglieder sind Sparringspartner und Advocati Diaboli. Die Teams sitzen räumlich zusammen. Die Teams werden jeden Tag ausgelost und somit neu zusammen gestellt. -->
 
 ## Startpaket klonen und ausprobieren
 Bitte klonen Sie sich folgendes [Starterpaket](https://git.coco.study/staff/df01/startercode). Auf der Basis werden wir die nächsten Tage arbeiten, also bitte an einen sinnvollen Platz legen ;)
