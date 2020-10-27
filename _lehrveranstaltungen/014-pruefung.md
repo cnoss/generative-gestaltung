@@ -4,11 +4,11 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: pruefung
 pflicht: false
-termine: 2019-11-22 10:00
+termine: 2021-01-15 10:00
 empfohlene-voraussetzungen:
 published: true
 dauer: 180
-raum: 422
+raum: https://th-koeln.zoom.us/j/81865505201
 info: | 
   Heute stellt jeder Teilnehmer sein Hauptmotiv vor. Die Vorstellung wird mit bewertet. 
 ---

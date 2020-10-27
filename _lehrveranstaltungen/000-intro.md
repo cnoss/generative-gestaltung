@@ -4,11 +4,11 @@ kuerzel: v-ko
 verantwortlich: cn
 typ: vortrag
 pflicht: false
-termine: 2019-11-11 11:11
+termine: 2021-01-04 10:00
 empfohlene-voraussetzungen: Grundkenntnisse Javascript, Coding Essentials I
 published: true
-dauer: 109
-raum: 422
+dauer: 120
+raum: https://th-koeln.zoom.us/j/81865505201
 info: Wie funktioniert der Kurs und das technische Setup?
 ---
 

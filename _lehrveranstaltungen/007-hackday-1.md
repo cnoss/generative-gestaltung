@@ -1,14 +1,14 @@
 ---
-titel: Hackday 1
+titel: Hackday 1 (na gut, halber Tag)
 kuerzel: w-lmw
 verantwortlich: cn
 typ: hack
 pflicht: false
-termine: 2019-11-15 10:00
+termine: 2021-01-11 10:00
 empfohlene-voraussetzungen:
 published: true
-dauer: 360
-raum: 422
+dauer: 390
+raum: https://th-koeln.zoom.us/j/81865505201
 info: |
   Heute gibt es die erste Challenge. Den Ausgangspunkt bilden einige Vorgaben, die den Rahmen bestimmen. Innerhalb diesen Rahmens, soll eine möglichst interessantes Motiv oder eine Motivreihe entwickelt werden.
 ---

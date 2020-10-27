@@ -4,11 +4,11 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: workshop
 pflicht: false
-termine: 2019-11-18 10:00
+termine: 2021-01-08 10:00
 empfohlene-voraussetzungen:
 published: true
-dauer: 360
-raum: 422
+dauer: 180
+raum: https://th-koeln.zoom.us/j/81865505201
 info: |
   Zu guter Letzt befassen wir uns mit der Fläche. Hier haben wir, gegenüber der Linie, als wesentlichen zusätzlichen Gestaltungsparameter, das Verhältnis und die Form. 
 ---

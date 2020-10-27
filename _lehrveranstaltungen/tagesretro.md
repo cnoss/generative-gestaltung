@@ -4,11 +4,11 @@ kuerzel: v-ko
 verantwortlich: cn
 typ: retro
 pflicht: false
-termine: 2019-11-11 17:00, 2019-11-12 17:00, 2019-11-14 17:00, 2019-11-18 16:00, 2019-11-19 16:00, 2019-11-21 16:00
+termine: 2021-01-04 16:30, 2021-01-05 16:30, 2021-01-07 16:30, 2021-01-11 16:30, 2021-01-12 16:30, 2021-01-14 16:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 30
-raum: 422
+raum: https://th-koeln.zoom.us/j/81865505201
 info: |
   Wir schauen uns einige Ergebnisse, Learnings und Arbeitsstände des Tages an und rekapitulieren die wesentlichen Themen und Herausforderungen.
 ---
