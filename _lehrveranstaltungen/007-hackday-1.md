@@ -1,5 +1,5 @@
 ---
-titel: Hackday 1 (na gut, halber Tag)
+titel: Hackday 1
 kuerzel: w-lmw
 verantwortlich: cn
 typ: hack

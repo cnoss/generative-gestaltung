@@ -7,7 +7,7 @@ pflicht: false
 termine: 2021-01-04 10:00
 empfohlene-voraussetzungen: Grundkenntnisse Javascript, Coding Essentials I
 published: true
-dauer: 120
+dauer: 90
 raum: https://th-koeln.zoom.us/j/81865505201
 info: Wie funktioniert der Kurs und das technische Setup?
 ---
