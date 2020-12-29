@@ -9,3 +9,6 @@ Die grundlegenden Informationen zum Kurs finden Sie auch in der [Kursbeschreibun
 
 ## Einbettung des Kurses
 Der Kurs ist Teil des Moduls «Designing Futures 1». Weitere Informationen zum Modul finden Sie in der [Modulbeschreibung](https://coco.study/module/120-designing-futures-1/). Das Modul ist wiederum Teil des Kompetenzclusters [Creative Coding](https://coco.study/kompetenzbereiche/#kompetenzbereiche-0180-crea).
+
+## Links
+- [Startercode und weitere Repos zum Kurs](https://git.coco.study/students/ws2021/df12-generative-gestaltung)
