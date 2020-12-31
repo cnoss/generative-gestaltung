@@ -11,18 +11,20 @@ Der Kurs orientiert sich an den Themen Punkt, Linie, Fläche, Farbe & Kontext. D
 
 ## Inhalt des Portfolios
 
-Das Gestaltungsportfolio besteht aus einer Auswahl Ihrer Arbeitsergebnisse der Workshops. Bitte wählen Sie jeweils **das beste Artefakt** aus: Punkt, Linie, Fläche, Farbe und Freie Arbeit (Hackday).
+Das Gestaltungsportfolio besteht aus einer Auswahl Ihrer Arbeitsergebnisse zu den einzelnen Themen. Bitte wählen Sie jeweils **das beste Artefakt** aus: Punkt, Linie, Fläche, Farbe und Freie Arbeit (Hackday). Sie sollten jeweils ein Artefakt wählen, welches eine eigene Auseinandersetzung mit dem Thema erkennen lässt.
 
-Insgesamt umfasst das Portfolio also **fünf Artefakte**. Definieren Sie bitte eines Ihrer Artefakte als **Hauptmotiv**. Selbiges wird in der Bewertung besonders berücksichtigt. 
+Insgesamt umfasst das Portfolio **fünf Artefakte**. Definieren Sie bitte eines Ihrer Artefakte als **Hauptmotiv**. Selbiges wird in der Bewertung besonders berücksichtigt. 
 
-## Bereitstellung der Artefakte
-Das Portfolio stellen Sie bitte via GitLab Page zur Verfügung. Hierfür steht auch ein passender [Startercode](https://git.coco.study/students/ws1920/df12/startercode-gestaltungsportfolio) zur Verfügung. Diesen bitte *clonen* oder kopieren. Hier finden Sie ein [Beispiel für ein Gestaltungsportfolio](https://students.pages.coco.study/ws1920/df12/startercode-gestaltungsportfolio/). 
+## Bereitstellung/ Abgabetermin des Portfolios
+Das Portfolio muss bis zum 19. Februar 2021 via GitLab Page zur Verfügung gestellt werden. Hierfür wird in Kürze auch ein passender Startercode bereit gestellt. Darüber hinaus finden Sie hier ein kurzes Video, in dem der Prozess erklärt wird.
 
-{% include youtube.html id="Q45CyttzC0w" class="is-half" %}
+<!-- Hierfür steht auch ein passender [Startercode](https://git.coco.study/students/ws1920/df12/startercode-gestaltungsportfolio) zur Verfügung. Diesen bitte *clonen* oder kopieren. Hier finden Sie ein [Beispiel für ein Gestaltungsportfolio](https://students.pages.coco.study/ws1920/df12/startercode-gestaltungsportfolio/). 
 
-## Portfoliopräsentation
+{% include youtube.html id="Q45CyttzC0w" class="is-half" %}-->
 
-Zur Vorstellung Ihres Portfolios haben Sie **7 Minuten** Zeit. Dies wird nicht ausreichen, um alle Artefakte vorzustellen. Wählen Sie daher Ihre besten und interessantesten Artefakte aus. Argumentieren Sie objektiv, fundiert und fachlich. Begründen Sie Ihre Gestaltung anstatt sie zu beschreiben.
+## Präsentation eines Motivs
+
+Am [letzten Tag der Veranstaltung](/generative-gestaltung/lehrveranstaltungen/014-pruefung/) stellt jeder Teilnehmer eines seiner Motive vor. Dazu stehen pro Vorstellung **5 Minuten** zur Verfügung. Wählen Sie das Artefakt aus, welches sie gestalterisch am Besten argumentieren können. Versuchen Sie möglichst objektiv, fundiert, fachlich und professionell zu erläutern. Begründen Sie Ihre Gestaltung anstatt sie zu beschreiben.
 
 ## Bewertung
 
@@ -32,7 +34,7 @@ Das Portfolio und die zugehörige Präsentation werden auf Basis des folgenden N
 - In den Arbeiten lässt sich eine intensive Auseinandersetzung mit dem Thema der Aufgabe/ Fragestellung erkennen.
 - Die Arbeiten lassen ein gutes Verständnis der zugrundeliegenden Aufgabe/ Fragestellung erkennen.
 - Die Lösungen sind eigenständig, interessant und können überraschen.
-- Das Portfolio wurde objektiv, fundiert und sicher vorgestellt.
+- Eines der Motive wurde objektiv, fundiert und sicher vorgestellt.
 - Die Arbeiten und Diskussion zeugen von einem großen gestalterischen und algorithmischen Repertoire.
 - Die Arbeiten wurden handwerklich sauber umgesetzt und präzise als auch prägnant auf der Portfolioseite dokumentiert.
 
@@ -40,7 +42,7 @@ Das Portfolio und die zugehörige Präsentation werden auf Basis des folgenden N
 - In den Arbeiten lässt sich eine intensive Auseinandersetzung mit der Aufgabe/ Fragestellung erkennen.
 - Die Arbeiten lassen ein gutes Verständnis der zugrundeliegenden Aufgabe/ Fragestellung erkennen.
 - Die Lösungen sind eigenständig und interessant.
-- Das Portfolio wurde objektiv und fundiert vorgestellt.
+- Eines der Motive wurde objektiv und fundiert vorgestellt.
 - Die Arbeiten und Diskussion zeugen von einem recht großen gestalterischen und algorithmischen Repertoire.
 - Die Arbeiten wurden verständlich auf der Portfolioseite dokumentiert.
 
@@ -48,15 +50,15 @@ Das Portfolio und die zugehörige Präsentation werden auf Basis des folgenden N
 - In den Arbeiten lässt sich eine Auseinandersetzung mit der Aufgabe/ Fragestellung erkennen.
 - Die Arbeiten lassen ein grundlegendes Verständnis der zugrundeliegenden Aufgabe/ Fragestellung erkennen.
 - Die Lösungen sind eigenständig.
-- Das Portfolio wurde vorgestellt.
+- Eines der Motive wurde vorgestellt.
 - Die Arbeiten und Diskussion zeugen von einem gewissen gestalterischen und algorithmischen Repertoire.
-- Die Arbeiten wurden verständlich auf der Portfolioseite dokumentiert.
+- Die Arbeiten wurden auf der Portfolioseite dargestellt.
 
 **Akzeptable Lösung**
 - Die Arbeiten lassen ein grundlegendes Verständnis der zugrundeliegenden Aufgabe/ Fragestellung erkennen.
 - Die Arbeiten und Diskussion zeugen von einem gewissen gestalterischen und algorithmischen Repertoire.
-- Das Portfolio wurde vorgestellt.
-- Die Arbeiten wurden auf der Portfolioseite dokumentiert.
+- Eines der Motive wurde vorgestellt.
+- Die Arbeiten wurden auf der Portfolioseite dargestellt.
 
 **Schlechte Lösung**
 - Die Arbeiten lassen keine Auseinandersetzung mit der Aufgabe/ Fragestellung erkennen.

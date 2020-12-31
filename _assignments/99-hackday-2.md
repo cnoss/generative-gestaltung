@@ -1,7 +1,7 @@
 ---
-titel: Interactive || Filigree Transformation
+titel: TBD
 tags: Hackday, Freiarbeit
 ---
 
-In der zweiten freien Arbeit sollte sich mit dem Thema *Transformation* befasst werden und  mindestens einer der Aspekte **Interaktivität** und **Feingliedrigkeit** sollte im Ergebnis erkennbar sein.
+Thema kommt noch.
 

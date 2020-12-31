@@ -4,7 +4,7 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: training
 pflicht: false
-termine: 2021-01-04 15:00, 2021-01-04 17:00, 2021-01-05 15:00, 2021-01-07 15:00, 2021-01-11 15:00, 2021-01-12 15:00, 2021-01-14 15:00
+termine: 2021-01-04 15:00, 2021-01-05 15:00, 2021-01-07 15:00, 2021-01-11 15:00, 2021-01-12 15:00, 2021-01-14 15:00
 empfohlene-voraussetzungen:
 published: true
 dauer: 90
