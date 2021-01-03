@@ -95,6 +95,8 @@ fill(img.pixels[i], img.pixels[i+1], img.pixels[i+2], 255);
 <h2 id="c6-daten-vom-smartphone-via-tramontana">C6 Daten vom Smartphone via Tramontana</h2>
 <p>Via <a href="https://tramontana.xyz/tramontanajavascriptgettingstarted_2_2">Tramonata</a> verknüpfen wir unseren Sketch mit dem Smartphone. Das ist recht einfach, aber schlecht dokumentiert. Wir müssen zunächst die <a href="https://tramontana.xyz/">Tramontana App</a> auf unserem Smartphone installieren und das Smartphone und der Rechner müssen im gleichen Netzsegment sein. Die p5.js Unterstützung ist gerade mal zwei Monate alt. Daher sind <a href="https://github.com/pierdr/Tramontana-for-Javascript">Dokumentation</a> und Beispiele noch sehr rudimentär.</p>
 
+<p>Im Startercode muss in der <em>index.html</em> der <em>Tramontana</em> Codeblock einkommentiert werden.</p>
+
 <p><strong>Tramontana remote verbinden</strong></p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>device.start("IP_ADRESSE_DIE_AUF_DEM_GERAET_GEZEIGT_WIRD", function (e) {
   if (e == undefined) {

@@ -38,7 +38,7 @@ mic.getLevel();
 ```
 
 ## C4 & C4.1 Handtracking
-Jetzt wird es lustig … und komlex. Wir nutzen [Handtracking.js](https://github.com/victordibia/handtrack.js/) zur Steuerung. Dazu brauchen wir ein bisschen zusätzlichen Code.
+Jetzt wird es lustig … und komlex. Wir nutzen [Handtracking.js](https://github.com/victordibia/handtrack.js/) zur Steuerung. Dazu brauchen wir ein bisschen zusätzlichen Code. In der *ìndex.html* muss der Codeblock für *Handtrack.js* einkommentiert werden.
 
 **Ergänzungen für den Deklarationsblock**
 ```

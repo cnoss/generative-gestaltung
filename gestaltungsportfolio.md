@@ -31,39 +31,39 @@ Am [letzten Tag der Veranstaltung](/generative-gestaltung/lehrveranstaltungen/01
 Das Portfolio und die zugehörige Präsentation werden auf Basis des folgenden Niveaustufenmodells bewertet.
 
 **Beste Lösung**
-- In den Arbeiten lässt sich eine intensive Auseinandersetzung mit dem Thema der Aufgabe/ Fragestellung erkennen.
-- Die Arbeiten lassen ein gutes Verständnis der zugrundeliegenden Aufgabe/ Fragestellung erkennen.
+- In den Arbeiten lässt sich eine intensive Auseinandersetzung mit Aufgabe/ Fragestellung/ Thema erkennen.
+- Die Arbeiten lassen ein gutes Verständnis der zugrundeliegenden Aufgabe/ Fragestellung/ Thema erkennen.
 - Die Lösungen sind eigenständig, interessant und können überraschen.
 - Eines der Motive wurde objektiv, fundiert und sicher vorgestellt.
 - Die Arbeiten und Diskussion zeugen von einem großen gestalterischen und algorithmischen Repertoire.
-- Die Arbeiten wurden handwerklich sauber umgesetzt und präzise als auch prägnant auf der Portfolioseite dokumentiert.
+- Die Arbeiten wurden handwerklich sauber umgesetzt und präzise als auch prägnant auf der Portfolioseite vorgestellt.
 
 **Gute Lösung**
-- In den Arbeiten lässt sich eine intensive Auseinandersetzung mit der Aufgabe/ Fragestellung erkennen.
-- Die Arbeiten lassen ein gutes Verständnis der zugrundeliegenden Aufgabe/ Fragestellung erkennen.
+- In den Arbeiten lässt sich eine intensive Auseinandersetzung mit Aufgabe/ Fragestellung/ Thema erkennen.
+- Die Arbeiten lassen ein gutes Verständnis der zugrundeliegenden Aufgabe/ Fragestellung/ Thema erkennen.
 - Die Lösungen sind eigenständig und interessant.
 - Eines der Motive wurde objektiv und fundiert vorgestellt.
 - Die Arbeiten und Diskussion zeugen von einem recht großen gestalterischen und algorithmischen Repertoire.
-- Die Arbeiten wurden verständlich auf der Portfolioseite dokumentiert.
+- Die Arbeiten wurden verständlich auf der Portfolioseite vorgestellt.
 
 **Passable Lösung**
-- In den Arbeiten lässt sich eine Auseinandersetzung mit der Aufgabe/ Fragestellung erkennen.
-- Die Arbeiten lassen ein grundlegendes Verständnis der zugrundeliegenden Aufgabe/ Fragestellung erkennen.
+- In den Arbeiten lässt sich eine Auseinandersetzung mit der Aufgabe/ Fragestellung/ Thema erkennen.
+- Die Arbeiten lassen ein grundlegendes Verständnis der zugrundeliegenden Aufgabe/ Fragestellung/ Thema erkennen.
 - Die Lösungen sind eigenständig.
 - Eines der Motive wurde vorgestellt.
 - Die Arbeiten und Diskussion zeugen von einem gewissen gestalterischen und algorithmischen Repertoire.
 - Die Arbeiten wurden auf der Portfolioseite dargestellt.
 
 **Akzeptable Lösung**
-- Die Arbeiten lassen ein grundlegendes Verständnis der zugrundeliegenden Aufgabe/ Fragestellung erkennen.
+- Die Arbeiten lassen ein grundlegendes Verständnis der zugrundeliegenden Aufgabe/ Fragestellung/ Thema erkennen.
 - Die Arbeiten und Diskussion zeugen von einem gewissen gestalterischen und algorithmischen Repertoire.
 - Eines der Motive wurde vorgestellt.
 - Die Arbeiten wurden auf der Portfolioseite dargestellt.
 
 **Schlechte Lösung**
-- Die Arbeiten lassen keine Auseinandersetzung mit der Aufgabe/ Fragestellung erkennen.
-- Die Arbeiten lassen kaum ein Verständnis der zugrundeliegenden Aufgabe/ Fragestellung erkennen.
+- Die Arbeiten lassen keine Auseinandersetzung mit der Aufgabe/ Fragestellung/ Thema erkennen.
+- Die Arbeiten lassen kaum ein Verständnis der zugrundeliegenden Aufgabe/ Fragestellung/ Thema erkennen.
 - Das Portfolio wurde sehr subjektiv, wenig fachlich oder gar nicht vorgestellt.
-- Die Arbeiten wurden unvollständig oder gar nicht auf der Portfolioseite dokumentiert.
+- Die Arbeiten wurden unvollständig oder gar nicht auf der Portfolioseite dargestellt.
 
 --- 
