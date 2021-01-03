@@ -1,5 +1,5 @@
 ---
-titel: Feedback zu den Arbeiten/ zum Arbeitsstand, Recap
+titel: Recap & Vorstellung einiger Arbeitsergebnisse
 kuerzel: v-ko
 verantwortlich: cn
 typ: retro

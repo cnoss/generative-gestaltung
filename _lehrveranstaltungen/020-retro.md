@@ -1,5 +1,5 @@
 ---
-titel: Wechselseitiges Feedback zum Kurs // Stand der Community & Reflection Projekte
+titel: Keep, Drop, Try
 kuerzel: w-lmw
 verantwortlich: cn
 typ: retro

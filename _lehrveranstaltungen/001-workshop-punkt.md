@@ -17,6 +17,11 @@ info: |
   Zunächst nutzen wir nur den Gestaltungsparamater Position. Später nutzen wir auch Größe, Anzahl, Tonwert sowie Deckkraft und versuchen Grundlagen der Räumlichkeit auf unsere Kompositionen anzuwenden.  
 ---
 
-## Aufgaben
+## Material 
+Zugangscode ist *screendesign*
+- [Semiotik](https://th-koeln.github.io/mi-bachelor-screendesign/download/workshops/punkt-linie/010-theorie-semiotik.pdf)
+- [Der Punkt](https://th-koeln.github.io/mi-bachelor-screendesign/download/workshops/punkt-linie/020-punkt.pdf)
+
+## Assignments
 - [Aufgabenset 1: Einzelne Punkte](/generative-gestaltung/assignments/02-punkt-01-basics/)
 - [Aufgabenset 2: Lineare Anordnungen](/generative-gestaltung/assignments/02-punkt-02-basics/)
