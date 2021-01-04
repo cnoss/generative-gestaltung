@@ -17,7 +17,7 @@ info: |
 
 ## Material
 Zugangscode ist *screendesign*
-- [Foliensatz](https://th-koeln.github.io/mi-bachelor-screendesign/download/inputs/woche-9/farbe.pdf)
+- [Foliensatz Farbe](https://th-koeln.github.io/mi-bachelor-screendesign/download/inputs/woche-9/farbe.pdf)
 - [Adobe Kuler](https://color.adobe.com/de/create)
 
 ## Assignments

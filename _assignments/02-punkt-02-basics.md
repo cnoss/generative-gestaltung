@@ -4,7 +4,7 @@ tags: Punkt
 ---
 
 ## P2 Punkte linear angeordnet
-Platzieren Sie beliebig viele schwarze Punkte einer Größe, linear auf der X-Achse angeordnet. Zentrieren Sie die Formation auf der weißen Zeichenfläche. Verwenden Sie zur Erzeugung der Formation eine hübsche [Schleife](https://developer.mozilla.org/de/docs/Web/JavaScript/Guide/schleifen_und_iterationen).
+Platzieren Sie beliebig viele schwarze Punkte einer Größe, linear auf der X-Achse angeordnet. Zentrieren Sie die Formation auf der weißen Zeichenfläche. Hierbei könnte die [ellipseMode](ellipseMode(CENTER);) Funktion helfen. Verwenden Sie zur Erzeugung der Formation eine hübsche [Schleife](https://developer.mozilla.org/de/docs/Web/JavaScript/Guide/schleifen_und_iterationen).
 
 ## P2.1 Punktgröße ist abhängig von der Größe der Zeichenfläche
 Jetzt wird's ein bissl komplex. Die Punkte werden wieder linear angeordnet. Die Anzahl der Punkte wird durch Sie definiert, z.B. 16. Die Punkte werden linear angeordnet und im Format zentriert. Der Abstand zwischen zwei Punkten entspricht dem Durchmesser der Punkte. Die Größe und damit auch der Abstand soll sich automatisch nach der Größe der Zeichenfläche richten. Hierbei könnte eventuell die p5 Transform Prozedur [translate](https://p5js.org/reference/#/p5/translate) helfen.
