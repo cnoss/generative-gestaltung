@@ -18,5 +18,12 @@ additionalClasses: has-top-seperator
 - [git - Der einfache Einstieg](https://rogerdudler.github.io/git-guide/index.de.html)
 - [Code! Programming with p5.js Serie auf YouTube](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 
+## VSCode & Erweiterungen
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+- [p5.js Snippets](https://marketplace.visualstudio.com/items?itemName=acidic9.p5js-snippets)
+- [JShint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.jshint)
+
 ## Misc
 - [A Powerline style prompt for your shell](https://github.com/b-ryan/powerline-shell)
