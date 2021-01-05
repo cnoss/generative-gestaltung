@@ -13,7 +13,7 @@ Platzieren Sie den Punkt in der Mitte der Zeichenfläche. Hier helfen die p5 Umg
 Positionieren Sie den Punkt auf der X-Achse auf entsprechend der Mausposition. Hierfür brauchen wir das p5 MouseEvent [mouseX](https://p5js.org/reference/#/p5/mouseX).
 
 ## P1.3 Beweglicher Punkt bis zum Rand
-Positionieren Sie den Punkt auf der X-Achse entsprechend der Mausposition, allerdings soll sich der Punkt nicht über den Rand der Zeichenfläche hinaus bewegen. Ok, hier muss ein bisschen gerechnet werden.
+Positionieren Sie den Punkt auf der X-Achse entsprechend der Mausposition, allerdings soll sich der Punkt nicht über den Rand der Zeichenfläche hinaus bewegen. Ok, hier muss ein bisschen gerechnet werden. Hier könnte auch die [constrain](https://p5js.org/reference/#/p5/constrain) helfen.
 
 ## P1.4 Punktgröße steht im Verhältnis zur Zeichenfläche
 Bislang hatte der Punkt eine absolute Größe. Jetzt soll sich die Größe des Punktes auf die Zeichenfläche beziehen, d.h. bei veränderter Größe der Zeichenfläche, soll auch der Punkt seine Größe ändern.
