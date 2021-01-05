@@ -11,9 +11,9 @@ Der Kurs orientiert sich an den Themen Punkt, Linie, Fläche, Farbe & Kontext. D
 
 ## Inhalt des Portfolios
 
-Das Gestaltungsportfolio besteht aus einer Auswahl Ihrer Arbeitsergebnisse zu den einzelnen Themen. Bitte wählen Sie jeweils **das beste Artefakt** aus: Punkt, Linie, Fläche, Farbe und Freie Arbeit (Hackday). Sie sollten jeweils ein Artefakt wählen, welches eine eigene Auseinandersetzung mit dem Thema erkennen lässt.
+Das Gestaltungsportfolio besteht aus einer Auswahl Ihrer Arbeitsergebnisse zu den einzelnen Themen. Bitte wählen Sie jeweils **das beste Artefakt** zu den Themen Punkt, Linie oder Fläche, ein Artefakt zum Thema Farbe und eine Freie Arbeit (Hackday). Sie sollten jeweils ein Artefakt wählen, welches eine eigene Auseinandersetzung mit dem Thema erkennen lässt.
 
-Insgesamt umfasst das Portfolio **fünf Artefakte**. Definieren Sie bitte eines Ihrer Artefakte als **Hauptmotiv**. Selbiges wird in der Bewertung besonders berücksichtigt. 
+Insgesamt umfasst das Portfolio **drei Artefakte**. Definieren Sie bitte eines Ihrer Artefakte als **Hauptmotiv**. Selbiges wird in der Bewertung besonders berücksichtigt. 
 
 ## Bereitstellung/ Abgabetermin des Portfolios
 Das Portfolio muss bis zum 19. Februar 2021 via GitLab Page zur Verfügung gestellt werden. Hierfür wird in Kürze auch ein passender Startercode bereit gestellt. Darüber hinaus finden Sie hier ein kurzes Video, in dem der Prozess erklärt wird.
