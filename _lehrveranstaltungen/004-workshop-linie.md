@@ -23,3 +23,4 @@ Zugangscode ist *screendesign*
 ## Assignments
 - [Linien, Level 1 – Anordnungen im Raster](/generative-gestaltung/assignments/03-linien-01/)
 - [Linien, Level 2 – Beziés und radiale Anordnungen](/generative-gestaltung/assignments/03-linien-02/)
+- [Linien, Level 3 – Interaktion mit der Maus](/generative-gestaltung/assignments/03-linien-03/)
