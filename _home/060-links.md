@@ -23,6 +23,7 @@ additionalClasses: has-top-seperator
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - [p5.js Snippets](https://marketplace.visualstudio.com/items?itemName=acidic9.p5js-snippets)
 - [JShint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.jshint)
+- [Linting with ESLint](https://www.youtube.com/watch?v=clzTwZgMlqE)
 
 ## Misc
 - [A Powerline style prompt for your shell](https://github.com/b-ryan/powerline-shell)
