@@ -79,9 +79,9 @@ Dann hätten wir bei jedem Klick das Array *balls* um eine neue Instanz von *Bal
 
 ```
 balls.forEach(
-  (ball, index) => { 
-    ball.zeichnen();
-  }
+    function (ball) { 
+      ball.zeichnen();
+    }
 );
 ```
 
