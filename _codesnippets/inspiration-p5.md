@@ -40,4 +40,4 @@ Natürlich Bewegung in den Sketches macht sie meist interessanter und lebendiger
 
 
 ## Beispiel: Wiederholung mit sehr dünnen Strichstärken
-Mit Hilfe von Wiederholung und kleinen Variationen kann die Nutzung von sehr dünnen Strichstärken durch die resultierende Überlagerung zu überaus interessanten Ergebnissen führen. Hier ein [Beispiel](http://www.generative-gestaltung.de/2/sketches/?02_M/M_2_5_01) anhand einer Lissajous-Figur. Ein weiteres Beispiel zeigt eine [Malmaschine](https://www.youtube.com/watch?v=5yumD0ezoVE&feature=emb_logo) in der realen Welt.
+Mit Hilfe von Wiederholung und kleinen Variationen kann die Nutzung von sehr dünnen Strichstärken durch die resultierende Überlagerung zu überaus interessanten Ergebnissen führen. Hier ein [Beispiel](http://www.generative-gestaltung.de/2/sketches/?02_M/M_2_5_01) anhand einer Lissajous-Figur. Ein weiteres Beispiel zeigt eine [Malmaschine](https://www.youtube.com/watch?v=5yumD0ezoVE&feature=emb_logo) in der realen Welt. Und weil es so schon ist gleich noch ein Beispiel. In diesem Fall ein [Harmonopraph](https://www.youtube.com/watch?v=HJYvc-ISrf8).
