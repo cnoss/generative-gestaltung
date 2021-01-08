@@ -2,7 +2,7 @@
 <html lang="de">
 
 <head>
-  <title>Unruhe Im Raster – Generative Gestaltung – Kurs im Modul «Designing Futures 1» // Code & Context</title>
+  <title>Inspiration P5 – Generative Gestaltung – Kurs im Modul «Designing Futures 1» // Code & Context</title>
 
   <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -15,7 +15,7 @@
 
 </head>
 
-<body data-url="/codesnippets/unruhe-im-raster/">
+<body data-url="/codesnippets/inspiration-p5/">
   <section class="hero is-info is-large"
     style="background-image: url(/generative-gestaltung/assets/images/P3.2.png); background-size: contain; background-repeat: no-repeat; background-position: center center;">
     <!-- Hero header: will stick at the top -->
@@ -71,11 +71,11 @@
     <div class="content">
       <div class="columns">
         <div class="column is-8">
-          <h1>Mögliche Lösung zur Aufgabe «Unruhe im Raster»</h1>
+          <h1>Interessante P5.js Funktionen und Beispiele</h1>
         </div>
 
         <div class="column is-4 has-text-right">
-          <a target="_blank" href="_codesnippets/unruhe-im-raster.md"><span class="icon"><i class="fa fa-edit"></i></span>
+          <a target="_blank" href="_codesnippets/inspiration-p5.md"><span class="icon"><i class="fa fa-edit"></i></span>
             Bearbeiten</a>
         </div>
       </div>
@@ -86,11 +86,36 @@
   
   <div class="container codesnippet">
     <div class="content">
-      <div class="js-video widescreen vimeo ">
-  <iframe src="https://www.youtube.com/embed/YNg97brwSZ8" frameborder="0" allowfullscreen=""></iframe>
-</div>
+      <h2 id="farbabmischung">Farbabmischung</h2>
 
-<p>Zu dieser Aufgabe hatten wir keine soooo schöne Lösung gefunden. Hier wird eine Lösung beschrieben, deren Ergebnis zwar schön ist, die jedoch sehr viel Code benötigt. Hier finden Sie den <a href="https://git.coco.study/cnoss/startercode/tree/master/p3.3-unruhe">Code zum Lösungsansatz</a>.</p>
+<p>Mit der p5 Funktion <a href="https://p5js.org/reference/#/p5/lerpColor">LerpColor</a> können Sie einen Farbwert zwischen zwei gegebenen Farben ermitteln. Im Umgang mit Farbe ist das manchmal sehr hilfreich.</p>
+
+<h2 id="strecken-teilen">Strecken teilen</h2>
+
+<p>Ähnlich wie <em>LerpColor</em> lässt sich mit der <a href="https://p5js.org/reference/#/p5/lerp">Lerp</a>-Funktion eine Strecke teilen, bzw. ein Wert zwischen zwei Werten ermitteln.</p>
+
+<h2 id="transformationen">Transformationen</h2>
+
+<p>Sobald wir mit Formen arbeiten, sind <a href="https://p5js.org/reference/#group-Transform">Transformationen</a> jeglicher Art mitunter sehr praktisch und hilfreich.</p>
+
+<h2 id="beispiel-kollisionsberechnung">Beispiel: Kollisionsberechnung</h2>
+
+<p>Bewegung fasziniert oftmals, daher hier ein Codebeispiel zum Thema <a href="https://p5js.org/examples/motion-circle-collision.htm">Kollision</a>.</p>
+
+<h2 id="beispiel-ausrichtung-auf-die-maus">Beispiel: Ausrichtung auf die Maus</h2>
+
+<p>Hierzu ist die Berechung des <a href="https://p5js.org/reference/#/p5/atan2">arctan2</a> sehr hilfreich. Hier ein <a href="https://p5js.org/examples/math-arctangent.html">komplettes Beispiel</a>.</p>
+
+<h2 id="beispiel-abstand-berechnen">Beispiel: Abstand berechnen</h2>
+
+<p>Die Bezugnahme auf die Mausposition oder andere Eingabegeräte kann sehr interessant sein und lädt den Betrachter oft zur Interation ein. Hier ist die Berechnung des <a href="https://p5js.org/examples/math-distance-2d.html">Distanz</a> oftmals erforderlich.</p>
+
+<h2 id="beispiel-lineare-interpolation">Beispiel: Lineare Interpolation</h2>
+
+<p>Natürlich Bewegung in den Sketches macht sie meist interessanter und lebendiger. Hierfür ist die Zuhilfenahme von <a href="https://p5js.org/examples/math-linear-interpolation.html">Linearer Interpolation</a> oftmals eine große Hilfe.</p>
+
+<h2 id="beispiel-wiederholung-mit-sehr-dünnen-strichstärken">Beispiel: Wiederholung mit sehr dünnen Strichstärken</h2>
+<p>Mit Hilfe von Wiederholung und kleinen Variationen kann die Nutzung von sehr dünnen Strichstärken durch die resultierende Überlagerung zu überaus interessanten Ergebnissen führen. Hier ein <a href="http://www.generative-gestaltung.de/2/sketches/?02_M/M_2_5_01">Beispiel</a> anhand einer Lissajous-Figur. Ein weiteres Beispiel zeigt eine <a href="https://www.youtube.com/watch?v=5yumD0ezoVE&amp;feature=emb_logo">Malmaschine</a> in der realen Welt.</p>
 
     </div>
   </div>

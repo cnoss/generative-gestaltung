@@ -2,7 +2,7 @@
 <html lang="de">
 
 <head>
-  <title>02 Punkt 03 Advanced – Generative Gestaltung – Kurs im Modul «Designing Futures 1» // Code & Context</title>
+  <title>03 Linien 03 – Generative Gestaltung – Kurs im Modul «Designing Futures 1» // Code & Context</title>
 
   <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -15,7 +15,7 @@
 
 </head>
 
-<body data-url="/assignments/02-punkt-03-advanced/">
+<body data-url="/assignments/03-linien-03/">
   <section class="hero is-info is-large">
     <!-- Hero header: will stick at the top -->
     <div class="hero-head has-background-radient">
@@ -56,10 +56,10 @@
     <div class="content is-large">
       <div class="columns">
         <div class="column is-8">
-          <h1>Fun with Dots, Level 3 – Anordnungen im Raster</h1>
+          <h1>Linien, Level 3 – Interaktion mit der Maus</h1>
         </div>
         <div class="column is-4 has-text-right">
-          <a target="_blank" href="https://github.com/cnoss/generative-gestaltung/edit/master/_assignments/02-punkt-03-advanced.md"><span
+          <a target="_blank" href="https://github.com/cnoss/generative-gestaltung/edit/master/_assignments/03-linien-03.md"><span
               class="icon"><i class="fa fa-edit"></i></span> Bearbeiten</a>
         </div>
       </div>
@@ -69,22 +69,11 @@
   
   <div class="container">
     <div class="content is-large">
-      <h2 id="p3-punkte-in-raster-angeordnet">P3 Punkte in Raster angeordnet</h2>
-<p>Erzeugen Sie ein Raster bestehend aus 10x10 schwarzen Punkten. Die Formation soll zentriert ausgerichtet sein.</p>
+      <h2 id="l5-ausgerichtete-linien">L5 Ausgerichtete Linien</h2>
+<p>Erzeugen Sie ein Raster aus Linien oder Linienformationen und richten Sie es dynamisch auf die Mausposition aus. Bei der Berechnung des Winkels könnte folgender Code helfen:</p>
 
-<h2 id="p31-unruhe-im-raster">P3.1 Unruhe im Raster</h2>
-<p>Erzeugen Sie ein Raster bestehend aus 20x10 schwarzen Punkten. Die Formation soll zentriert ausgerichtet sein. Die Größe der Punkte und Abstände soll sich nach der Größe der Zeichenfläche richten. Entlang der X-Achse soll die Ordnung der Punkte abnehmen, d.h. die Punkte ganz links im Raster haben alle den gleichen Abstand, je weiter ein Punkt jedoch rechts positioniert ist, desto stärker bricht er aus dem Raster aus. Binden Sie die Progession des Unruhewerts an einen Slider.</p>
-
-<p><strong>Für Profis:</strong> binden Sie die Anzahl der Punkte und den Abstand zwischen den Punkten an einen Slider. Der Abstand sollte dabei nicht absolut sein, sondern ein Vielfaches der <em>berechneten</em> Punktgröße.</p>
-
-<h2 id="p32-unruheintensität-abhängig-von-mausposition">P3.2 Unruheintensität abhängig von Mausposition</h2>
-<p>Wie zuvor, aber diesmal richtet sich die Intensität der <a href="https://p5js.org/reference/#/p5/random">Zufallswert</a> nach der Mausposition: je weiter sich die Maus rechts auf der Zeichenfläche befindet, desto größer ist der Zufallswert. Sobald Zufallszahlen ins Spiel kommen, lohnt sich ein Blick auf die <a href="https://p5js.org/reference/#/p5/randomSeed">randomSeed Funktion</a> von p5.</p>
-
-<h2 id="p33-unruhebereich-im-raster-abhängig-von-mausposition">P3.3 Unruhebereich im Raster abhängig von Mausposition</h2>
-<p>Wie 3.1, jedoch sollen die Punkte im Raster in Abhängigkeit von der X-Position der Maus aus dem Raster ausbrechen. Befindet sich die Maus z.B. im linken Bereich der Zeichenfläche, dann brechen hier die Punkte aus dem Raster heraus, befindet sie sich weiter rechts, brechen diese Punkte aus dem Raster.</p>
-
-<h2 id="p34-ruhebereich-im-raster-abhängig-von-mausposition">P3.4 Ruhebereich im Raster abhängig von Mausposition</h2>
-<p>Wie 3.2, aber diesmal sind die Punkte in der Nähe des Mauszeigers im Raster und je weiter ihre X-Position vom Mauszeiger entfernt ist, desto stärker brechen Sie aus den Raster aus.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let angle = atan2(mouseY - y, mouseX - x);
+</code></pre></div></div>
 
     </div>
   </div>

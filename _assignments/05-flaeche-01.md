@@ -11,3 +11,7 @@ Wie zuvor, aber diesmal erzeugen Sie mehrere linieare Anordnungen untereinander.
 
 ## FF1.2 Von der Linie zur Fläche, farbige Variante
 Wie zuvor, aber diesmal nutzen wir farbige Flächen. Nutzen Sie bitte nur zwei Grundfarben und variieren Sie Helligkeit und Sättigung. Eine interessante Idee könnte sein, dass im oberen linken Teil eher die eine Farbe und im unteren rechten Teil eher die andere Farbe verwendet wird. Eventuell hilft Ihnen [Kuler](https://color.adobe.com/) oder ein anderes Farbpaletten Tool bei der Auswahl der Farben.
+
+
+## FF1.3 Flächenteilungen im Goldenen Schnitt
+Teilen Sie die sichtbaren Flächen immer wieder auf Basis des goldenen Schnitts. Mit jedem Durchlauf wird der Sketch dadurch kleinteiliger.

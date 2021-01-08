@@ -151,9 +151,9 @@
 <p>Dann hätten wir bei jedem Klick das Array <em>balls</em> um eine neue Instanz von <em>Ball</em> ergänzt. Jetzt müssen wir in der <em>Draw</em> Funktion jeweils für alle Elements in <em>balls</em> die <em>zeichnen</em> Funktion aufrufen:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>balls.forEach(
-  (ball, index) =&gt; { 
-    ball.zeichnen();
-  }
+    function (ball) { 
+      ball.zeichnen();
+    }
 );
 </code></pre></div></div>
 
@@ -174,6 +174,8 @@
 			Console Logging
 	  	
 			Handtrack.js
+	  	
+			Interessante P5.js Funktionen und Beispiele
 	  	
 			Klassen in Javascript
 	  	

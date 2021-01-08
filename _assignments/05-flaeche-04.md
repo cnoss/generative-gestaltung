@@ -16,6 +16,3 @@ endShape(CLOSE);
 ```
 
 Binden Sie nun die Form der Quadrate an die Mausposition. Hierfür ist wieder die [dist Funktion](https://p5js.org/reference/#/p5/dist) sehr hilfreich.
-
-## FF5 Goldener Schnitt
-Teilen Sie die sichtbaren Flächen immer wieder auf Basis des goldenen Schnitts. Mit jedem Durchlauf wird der Sketch dadurch kleinteiliger.

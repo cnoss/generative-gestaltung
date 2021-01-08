@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% assign codesnippets = site.codesnippets | sort: 'title' %}
-{% assign tabtags = "Console" | split: "|" %}
+{% assign tabtags = "Console|Programmiertechnik|Inspiration" | split: "|" %}
 
 <section class="section">
   <div class="container">
@@ -49,12 +49,14 @@ layout: default
           {% endfor %}
         </div>
       </div>
-
       {% for navEle in tabtags %}
       <div class="assignments is-tab-content column is-two-thirds is-{{navEle}}">
         <div class="content assignment-overview">
 
-          {% for assignment in assignments %} {% if assignment.tags contains navEle %}
+          {% for codesnippet in codesnippets %}
+          
+          {% if codesnippet.tags contains navEle %}
+          
           <div class="assignment-overview__item">
               <a href="{{codesnippet.url | relative_url}}">
               <h2 class="title is-2" id="{{ codesnippet.id }}">{{ codesnippet.titel }}</h2>
