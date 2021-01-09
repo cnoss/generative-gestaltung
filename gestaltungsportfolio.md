@@ -18,9 +18,9 @@ Insgesamt umfasst das Portfolio **drei Artefakte**. Definieren Sie bitte eines I
 ## Bereitstellung/ Abgabetermin des Portfolios
 Das Portfolio muss bis zum 19. Februar 2021 via GitLab Page zur Verfügung gestellt werden. Hierfür wird in Kürze auch ein passender Startercode bereit gestellt. Darüber hinaus finden Sie hier ein kurzes Video, in dem der Prozess erklärt wird.
 
-<!-- Hierfür steht auch ein passender [Startercode](https://git.coco.study/students/ws1920/df12/startercode-gestaltungsportfolio) zur Verfügung. Diesen bitte *clonen* oder kopieren. Hier finden Sie ein [Beispiel für ein Gestaltungsportfolio](https://students.pages.coco.study/ws1920/df12/startercode-gestaltungsportfolio/). 
+Hierfür steht auch ein passender [Startercode](https://git.coco.study/students/ws1920/df12/startercode-gestaltungsportfolio) zur Verfügung. Diesen bitte *clonen* oder kopieren. Hier finden Sie ein [Beispiel für ein Gestaltungsportfolio](https://students.pages.coco.study/ws1920/df12/startercode-gestaltungsportfolio/). 
 
-{% include youtube.html id="Q45CyttzC0w" class="is-half" %}-->
+{% include youtube.html id="Q45CyttzC0w" class="is-half" %}
 
 ## Präsentation eines Motivs
 
