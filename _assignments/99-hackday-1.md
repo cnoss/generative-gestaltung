@@ -10,7 +10,7 @@ Gestalten und Entwicklen Sie im Rahmen dieser Freiarbeit einen interessanten, in
 - Ordnung und Unordnung
 - Nah und Fern
 - Bewegung und Stillstand
-
+- Kalt und Warm
 
 
 
