@@ -66,3 +66,14 @@ let bg = map(drawingParams.deviceData.y, 0, 1.5, 0, 255);
 background(bg);
 ellipse(x, y, 20);
 ```
+
+
+## C7 Externe Daten
+Bei dieser Aufgabe geht es darum externe Daten in den Sketch zu integrieren. Hierzu eignen sich vor allem Daten im [JSON Format](https://www.json.org/json-de.html). Hierzu gibt es ein kleines Beispiel in der p5.js Doku zur Funktion [loadJSON](https://p5js.org/reference/#/p5/loadJSON). 
+
+Als Beispieldaten werden hier [seismische Messungen](https://earthquake.usgs.gov/earthquakes/feed/) genutzt. 
+
+## Beispieldatensätze
+- [Seismische Daten im GeoJSON](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
+
+
