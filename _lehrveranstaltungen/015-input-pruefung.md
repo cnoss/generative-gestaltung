@@ -12,4 +12,4 @@ raum: https://th-koeln.zoom.us/j/81865505201
 info: |
 ---
 
-Einige Informationen und Gedanken zum Thema Prüfung, Präsentation und Argumentation von/ für Generative Gestaltung.
+Einige Informationen und Gedanken zum Thema [Prüfung, Präsentation und Argumentation von/ für Generative Gestaltung](../../material/generative-gestaltung-praesentieren.zip).
