@@ -24,7 +24,7 @@ let b = video.pixels[2];
 ```
 
 ## C3 Mandala mit Audio Input
-Wie zuvor, aber diesmal ziehen wir die Transparenz oder einen anderen Parameter aus dem Audiosignal. Dazu nutzen wir die [p5.sound](https://github.com/processing/p5.js-sound).
+Wie zuvor, aber diesmal ziehen wir die Transparenz oder einen anderen Parameter aus dem Audiosignal. Dazu nutzen wir die [p5.sound](https://p5js.org/reference/#/libraries/p5.sound).
 
 **Audiosignal akquirieren**
 ```

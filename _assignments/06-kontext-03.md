@@ -75,5 +75,5 @@ Als Beispieldaten werden hier [seismische Messungen](https://earthquake.usgs.gov
 
 ## Beispieldatensätze
 - [Seismische Daten im GeoJSON](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
-
+- [Data on COVID-19 (coronavirus) by Our World in Data](https://covid.ourworldindata.org/data/owid-covid-data.json)
 
