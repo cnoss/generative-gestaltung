@@ -86,7 +86,13 @@
   
   <div class="container codesnippet">
     <div class="content">
-      <h2 id="farbabmischung">Farbabmischung</h2>
+      <h2 id="virtueller-canvas">Virtueller Canvas</h2>
+<p>Für einige Usecases ist es extrem hilfreich nicht direkt auf den sichtbaren Canvas zu zeichenen, sondern einen virtuellen Canvas zu benutzen und diesen nachher auf der Zeichenfläche zu platzieren. Dabei hilft die Funktion <a href="https://p5js.org/reference/#/p5/createGraphics">createGraphics</a>. Es können auch mehrere virtuelle Canvases genutzt werden und bei der Montage via <a href="https://p5js.org/reference/#/p5/image">image</a> können auch unterschiedliche <a href="https://p5js.org/reference/#/p5/blendMode">blendModes</a> genutzt werden.</p>
+
+<h2 id="pixel-abtasten">Pixel abtasten</h2>
+<p>Wenn wir Bilder als Datenquelle nutzen, dann müssen wir die einzelnen Pixel abtasten/ auslesen. Dabei hilft die <a href="https://p5js.org/reference/#/p5/pixels">pixels</a> und die <a href="https://p5js.org/reference/#/p5/get">get</a> Funktion von p5.js. Auf der <a href="http://www.generative-gestaltung.de/2/">Generative Gestaltung Website</a> finden Sie auch ein schönes <a href="http://www.generative-gestaltung.de/2/sketches/?01_P/P_4_3_1_01">Anwendungsbeispiel</a> dazu.</p>
+
+<h2 id="farbabmischung">Farbabmischung</h2>
 
 <p>Mit der p5 Funktion <a href="https://p5js.org/reference/#/p5/lerpColor">LerpColor</a> können Sie einen Farbwert zwischen zwei gegebenen Farben ermitteln. Im Umgang mit Farbe ist das manchmal sehr hilfreich.</p>
 

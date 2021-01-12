@@ -4,6 +4,12 @@ autor: cn
 tags: Inspiration
 ---
 
+## Virtueller Canvas
+Für einige Usecases ist es extrem hilfreich nicht direkt auf den sichtbaren Canvas zu zeichenen, sondern einen virtuellen Canvas zu benutzen und diesen nachher auf der Zeichenfläche zu platzieren. Dabei hilft die Funktion [createGraphics](https://p5js.org/reference/#/p5/createGraphics). Es können auch mehrere virtuelle Canvases genutzt werden und bei der Montage via [image](https://p5js.org/reference/#/p5/image) können auch unterschiedliche [blendModes](https://p5js.org/reference/#/p5/blendMode) genutzt werden.
+
+## Pixel abtasten
+Wenn wir Bilder als Datenquelle nutzen, dann müssen wir die einzelnen Pixel abtasten/ auslesen. Dabei hilft die [pixels](https://p5js.org/reference/#/p5/pixels) und die [get](https://p5js.org/reference/#/p5/get) Funktion von p5.js. Auf der [Generative Gestaltung Website](http://www.generative-gestaltung.de/2/) finden Sie auch ein schönes [Anwendungsbeispiel](http://www.generative-gestaltung.de/2/sketches/?01_P/P_4_3_1_01) dazu.
+
 ## Farbabmischung
 
 Mit der p5 Funktion [LerpColor](https://p5js.org/reference/#/p5/lerpColor) können Sie einen Farbwert zwischen zwei gegebenen Farben ermitteln. Im Umgang mit Farbe ist das manchmal sehr hilfreich.

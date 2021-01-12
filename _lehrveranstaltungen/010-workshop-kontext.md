@@ -22,4 +22,3 @@ Heute wird außerdem das Thema für die zweite freie Arbeit vorgestellt.
 - [Simple Inputs](/generative-gestaltung/assignments/06-kontext-01/)
 - [Camera & Audio Input](/generative-gestaltung/assignments/06-kontext-02/)
 - [External Input](/generative-gestaltung/assignments/06-kontext-03/)
-- [Freie Aufgabe](/generative-gestaltung/assignments/99-hackday-2/)
