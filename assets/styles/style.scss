@@ -667,6 +667,10 @@ section.is-inverted{
       >* {
         margin-left: 50% !important;
       }
+
+      > table{
+        width: auto;
+      }
       h2{
         font-size: $bfs * 1.5;
       }

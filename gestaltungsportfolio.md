@@ -17,14 +17,24 @@ Das Gestaltungsportfolio besteht aus einer Auswahl Ihrer Arbeitsergebnisse zu de
 - Themenblock 2: Farbe 
 - Themenblock 3: Freie Arbeit (Hackday 1 & 2)
 
-Insgesamt umfasst das Portfolio **drei Artefakte**. Sie sollten aus dem Themenblock jeweils das Artefakt wählen, welches eine eigene Auseinandersetzung mit dem Thema erkennen lässt. Definieren Sie bitte eines Ihrer Artefakte als **Hauptmotiv**. Selbiges wird in der Bewertung besonders berücksichtigt. 
+Insgesamt umfasst das Portfolio **drei Artefakte**. Sie sollten aus dem Themenblock jeweils das Artefakt wählen, welches eine eigene Auseinandersetzung mit dem Thema erkennen lässt. Definieren Sie bitte eines Ihrer Artefakte als **Hauptmotiv**. Selbiges fließt mit **40%** in in die Gesamtwertung mit ein. Die beiden anderen Motive fließen mit jeweils **25%** in die Gesamtwertung ein. Somit ergibt sich folgende Zusammensetzung der Gesamtwertung:
+
+
 
 ## Bereitstellung/ Abgabetermin des Portfolios
 Das Portfolio muss bis zum 19. Februar 2021 via GitLab Page zur Verfügung gestellt werden. Hierfür wird in Kürze auch ein passender Startercode bereit gestellt. Darüber hinaus finden Sie hier ein kurzes Video, in dem der Prozess erklärt wird.
 
+{% include youtube.html id="4Ryj4CNAbpA" class="is-half" %}
+
 Hierfür steht auch ein passender [Startercode](https://git.coco.study/students/ws2021/df12-generative-gestaltung/startercode-gestaltungsportfolio-2020) zur Verfügung. Diesen bitte *clonen* oder kopieren. Hier finden Sie ein [Beispiel für ein Gestaltungsportfolio](https://cnoss.pages.coco.study/startercode-gestaltungsportfolio-2020/). 
 
-{% include youtube.html id="4Ryj4CNAbpA" class="is-half" %}
+| Prüfungsteil | Gewicht |
+| ------------- |:-------------|
+| Präsentation eines Motivs      | 10% |
+| Motive    | 25 % |
+| Hauptmotiv | 40% |
+
+
 
 ## Präsentation eines Motivs
 

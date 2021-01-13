@@ -9871,6 +9871,9 @@ section.is-inverted hr {
   .zweispalter .content > * {
     margin-left: 50% !important;
   }
+  .zweispalter .content > table {
+    width: auto;
+  }
   .zweispalter .content h2 {
     font-size: 1.5rem;
   }
