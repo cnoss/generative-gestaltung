@@ -13,3 +13,7 @@ info:
 ---
 
  Heute kann an den Aufgaben für das Gestaltungsportfolio und am Gestaltungsportfolio selbst weiter gearbeitet werden. Wer Support und Feedback braucht - ich bin den ganzen Tag da.
+
+ ## Assignments
+
+- [Hackday 12- Thema der zweiten Freiarbeit](/generative-gestaltung/assignments/99-hackday-2/)

@@ -15,4 +15,4 @@ info: |
 
 ## Assignments
 
-- [Hackday 1 - Thema der 1. Freiarbeit](/generative-gestaltung/assignments/99-hackday-1/)
+- [Hackday 1 - Thema der ersten Freiarbeit](/generative-gestaltung/assignments/99-hackday-1/)
