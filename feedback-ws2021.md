@@ -14,3 +14,13 @@ titel: Feedback WS20/21
  - noLoop
 
  a-zA-Z0-9 _ - .
+
+ ---
+
+ - http://127.0.0.1:5500/jvogel3/sketches/bewegte-formen/
+ - http://127.0.0.1:5500/mzens/sketches/FreieArbeitKaleidoskop/
+ - http://127.0.0.1:5500/mzens/sketches/FF4MovingShapes/
+ - http://127.0.0.1:5500/andma/sketches/L2.1(abgefahren)/
+ - http://127.0.0.1:5500/spasch/sketches/F2.2/
+ - http://127.0.0.1:5501/fwulf/sketches/light-waves/
+ - http://127.0.0.1:5501/mheimes/sketches/F2-mit-auto-Iteration/
