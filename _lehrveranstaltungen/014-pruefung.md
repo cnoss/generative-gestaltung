@@ -7,7 +7,7 @@ pflicht: false
 termine: 2021-01-15 13:00
 empfohlene-voraussetzungen:
 published: true
-dauer: 120
+dauer: 180
 raum: https://th-koeln.zoom.us/j/81865505201
 info: | 
   
