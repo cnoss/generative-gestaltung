@@ -47,7 +47,7 @@ Folgende Teilnehmer und Repos sind in meiner Liste:
 |Marcel|Grund|[https://git.coco.study/mgrund3/startercode-2020](https://git.coco.study/mgrund3/startercode-2020)|
 |Martin Frank|Ebendorff-Heidepriem|[https://git.coco.study/mebendor/startercode-2020](https://git.coco.study/mebendor/startercode-2020)|
 |Matthias Michael|Zens|[https://git.coco.study/mzens/startercode-2020](https://git.coco.study/mzens/startercode-2020)|
-|Maximilian Joseph|Heichling|[https://git.coco.study/mheichli/startercode-2020](https://git.coco.study/mheichli/startercode-2020)|
+|Maximilian Joseph|Heichling|[https://git.coco.study/mheichli/startercode-gestaltungsportfolio-2020](https://git.coco.study/mheichli/startercode-gestaltungsportfolio-2020)|
 |Michel|Heimes|[https://git.coco.study/mheimes/startercode-2020](https://git.coco.study/mheimes/startercode-2020)|
 |Sarah Liat|Ben Alexander|[https://git.coco.study/sbenalex/startercode-2020](https://git.coco.study/sbenalex/startercode-2020)|
 |Serkan|Gülbol|[https://git.coco.study/sguelbol/startercode-2020](https://git.coco.study/sguelbol/startercode-2020)|
