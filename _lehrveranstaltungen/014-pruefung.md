@@ -23,7 +23,6 @@ Folgende Teilnehmer und Repos sind in meiner Liste:
 
 | Vorname | Nachname | Repo |
 | ------------- |:-------------|:-------------|
-|Anass|Yaamouri||
 |Andreas|Ma|[https://git.coco.study/andma/startercode-2020](https://git.coco.study/andma/startercode-2020)|
 |Anthony Pierre|Aflatoun|[https://git.coco.study/aaflatou/startercode-2020](https://git.coco.study/aaflatou/startercode-2020)|
 |Benjamin Kevin|Geiger|[https://git.coco.study/bgeiger1/startercode-2020](https://git.coco.study/bgeiger1/startercode-2020)|
@@ -59,4 +58,3 @@ Folgende Teilnehmer und Repos sind in meiner Liste:
 |Timo|Scheer|[https://git.coco.study/tscheer/startercode-2020](https://git.coco.study/tscheer/startercode-2020)|
 |Timo Maximilian|Küsters|[https://git.coco.study/tkueste1/startercode-2020](https://git.coco.study/tkueste1/startercode-2020)|
 |Tommy|Pham|[https://git.coco.study/tpham6/startercode-2020](https://git.coco.study/tpham6/startercode-2020)|
-|Yassin Marcel|Merbouh||
