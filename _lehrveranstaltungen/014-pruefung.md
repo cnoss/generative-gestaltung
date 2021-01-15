@@ -82,7 +82,7 @@ Sie stellen das Motiv an Ihrem Rechner via Screensharing vor. Das Motiv muss abe
 |Julia|Vogel|[https://git.coco.study/jvogel3/startercode-2020](https://git.coco.study/jvogel3/startercode-2020)|
 |Julian|Gräfen|[https://git.coco.study/jgraefe1/startercode-2020](https://git.coco.study/jgraefe1/startercode-2020)|
 |Kaan|Sevinc|[https://git.coco.study/ksevinc/startercode-2020](https://git.coco.study/ksevinc/startercode-2020)|
-|Kristof Wilhelm|Heck||
+|Kristof Wilhelm|Heck|[https://gitlab.com/kristofheck/generative-gestaltung](https://gitlab.com/kristofheck/generative-gestaltung)|
 |Marcel|Grund|[https://git.coco.study/mgrund3/startercode-2020](https://git.coco.study/mgrund3/startercode-2020)|
 |Martin Frank|Ebendorff-Heidepriem|[https://git.coco.study/mebendor/startercode-2020](https://git.coco.study/mebendor/startercode-2020)|
 |Matthias Michael|Zens|[https://git.coco.study/mzens/startercode-2020](https://git.coco.study/mzens/startercode-2020)|
