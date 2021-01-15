@@ -17,9 +17,48 @@ Heute stellt jeder Teilnehmer eines seiner Motive/ Arbeiten vor. Die Vorstellung
 
 Sie stellen das Motiv an Ihrem Rechner via Screensharing vor. Das Motiv muss aber auch über Ihr Repo verfügbar sein und den Verzeichnisnamen **presentation** tragen. Für die Vorstellung haben Sie insgesamt **5 Minuten** Zeit. Darin enthalten ist auch die Umrüstzeit. Planen Sie also etwa **3 Minuten** Redezeit ein. Hier handelt es sich um eine Prüfung. Halten Sie daher Ihre Multicard und ein Kamerabild bereit. 
 
-Die Runningorder finden Sie ab Freitag Vormittag hier auf der Seite. 
+## Running Order:
 
-Folgende Teilnehmer und Repos sind in meiner Liste:
+- Benjamin Kevin Geiger
+- Matthias Michael Zens
+- Jasmin Blekic
+- Anass Yaamouri
+- Jakob Severin Arnold Lieser
+- Julia Vogel
+- Dogukan Kürkan
+- Dion Smith
+- Maximilian Joseph Heichling
+- Timo Maximilian Küsters
+- Marcel Grund
+- Britta Isabella Kettelhoit
+- Frederik Wulf
+- Tim Artarov
+- Hasret Timocin
+- Kaan Sevinc
+- Julian Gräfen
+- Andreas Ma
+- Serkan Gülbol
+- Bryan Shawn Hogan
+- Timo Scheer
+- Jonas Anetzberger
+- Martin Frank Ebendorff-Heidepriem
+- Michel Heimes
+- David Koltai
+- Simone Pasch
+- Jan Karim Samak
+- Christian Schwind
+- Hyedenma Sey
+- Tien Nguyen
+- Anthony Pierre Aflatoun
+- Eric Michel Roland Goerens
+- Tommy Pham
+- Sarah Liat Ben Alexander
+- Kristof Wilhelm Heck
+- Simon  Schnittker
+
+
+
+## Teilnehmer und Startercode Repos
 
 | Vorname | Nachname | Repo |
 | ------------- |:-------------|:-------------|
@@ -35,7 +74,7 @@ Folgende Teilnehmer und Repos sind in meiner Liste:
 |Eric Michel Roland|Goerens|[https://git.coco.study/egoerens/startercode-2020](https://git.coco.study/egoerens/startercode-2020)|
 |Frederik|Wulf|[https://git.coco.study/fwulf/startercode-2020](https://git.coco.study/fwulf/startercode-2020)|
 |Hasret|Timocin|[https://git.coco.study/htimocin/startercode-2020](https://git.coco.study/htimocin/startercode-2020)|
-|Hyedenma|Sey||
+|Hyedenma|Sey|[https://git.coco.study/hysey/startercode-2020](https://git.coco.study/hysey/startercode-2020)|
 |Jakob Severin Arnold|Lieser|[https://git.coco.study/jlieser/startercode-2020](https://git.coco.study/jlieser/startercode-2020)|
 |Jan Karim|Samak|[https://git.coco.study/jsamak/startercode-2020](https://git.coco.study/jsamak/startercode-2020)|
 |Jasmin|Blekic|[https://git.coco.study/jblekic/startercode-2020](https://git.coco.study/jblekic/startercode-2020)|
@@ -47,7 +86,7 @@ Folgende Teilnehmer und Repos sind in meiner Liste:
 |Marcel|Grund|[https://git.coco.study/mgrund3/startercode-2020](https://git.coco.study/mgrund3/startercode-2020)|
 |Martin Frank|Ebendorff-Heidepriem|[https://git.coco.study/mebendor/startercode-2020](https://git.coco.study/mebendor/startercode-2020)|
 |Matthias Michael|Zens|[https://git.coco.study/mzens/startercode-2020](https://git.coco.study/mzens/startercode-2020)|
-|Maximilian Joseph|Heichling|[https://git.coco.study/mheichli/startercode-gestaltungsportfolio-2020](https://git.coco.study/mheichli/startercode-gestaltungsportfolio-2020)|
+|Maximilian Joseph|Heichling|[https://git.coco.study/mheichli/startercode-2020](https://git.coco.study/mheichli/startercode-gestaltungsportfolio-2020)|
 |Michel|Heimes|[https://git.coco.study/mheimes/startercode-2020](https://git.coco.study/mheimes/startercode-2020)|
 |Sarah Liat|Ben Alexander|[https://git.coco.study/sbenalex/startercode-2020](https://git.coco.study/sbenalex/startercode-2020)|
 |Serkan|Gülbol|[https://git.coco.study/sguelbol/startercode-2020](https://git.coco.study/sguelbol/startercode-2020)|
