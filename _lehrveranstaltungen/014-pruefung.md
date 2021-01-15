@@ -20,8 +20,9 @@ Sie stellen das Motiv an Ihrem Rechner via Screensharing vor. Das Motiv muss abe
 ## Running Order:
 
 - Benjamin Kevin Geiger
-- Matthias Michael Zens
+- Tien Nguyen
 - Jasmin Blekic
+- Matthias Michael Zens
 - Anass Yaamouri
 - Jakob Severin Arnold Lieser
 - Julia Vogel
@@ -48,7 +49,6 @@ Sie stellen das Motiv an Ihrem Rechner via Screensharing vor. Das Motiv muss abe
 - Jan Karim Samak
 - Christian Schwind
 - Hyedenma Sey
-- Tien Nguyen
 - Anthony Pierre Aflatoun
 - Eric Michel Roland Goerens
 - Tommy Pham
