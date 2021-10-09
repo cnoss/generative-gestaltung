@@ -4,7 +4,7 @@ kuerzel: v-ko
 verantwortlich: cn
 typ: openspace
 pflicht: false
-termine: 2021-01-06 10:00, 2021-01-13 10:00
+termine: 2021-11-10 10:00, 2021-11-17 10:00
 empfohlene-voraussetzungen:
 published: true
 dauer: 240

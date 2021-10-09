@@ -4,7 +4,7 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: workshop
 pflicht: false
-termine: 2021-01-04 12:00
+termine: 2021-11-08 12:00
 empfohlene-voraussetzungen:
 published: true
 dauer: 270
@@ -19,8 +19,8 @@ info: |
 
 ## Material 
 Zugangscode ist *screendesign*
-- [Semiotik](https://th-koeln.github.io/mi-bachelor-screendesign/download/workshops/punkt-linie/010-theorie-semiotik.pdf)
-- [Der Punkt](https://th-koeln.github.io/mi-bachelor-screendesign/download/workshops/punkt-linie/020-punkt.pdf)
+- [Semiotik](https://cnoss.github.io/slides/presentations/screendesign/semiotik/)
+- [Der Punkt](https://cnoss.github.io/slides/presentations/screendesign/punkt/)
 
 ## Assignments
 - [Aufgabenset 1: Einzelne Punkte](/generative-gestaltung/assignments/02-punkt-01-basics/)

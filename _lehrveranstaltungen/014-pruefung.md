@@ -4,7 +4,7 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: pruefung
 pflicht: false
-termine: 2021-01-15 13:00
+termine: 2021-11-19 13:00
 empfohlene-voraussetzungen:
 published: true
 dauer: 180

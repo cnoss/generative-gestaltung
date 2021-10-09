@@ -4,7 +4,7 @@ kuerzel: v-ko
 verantwortlich: cn
 typ: retro
 pflicht: false
-termine: 2021-01-04 16:30, 2021-01-05 16:30, 2021-01-07 16:30, 2021-01-11 16:30, 2021-01-12 16:30, 2021-01-14 16:30
+termine: 2021-11-08 16:30, 2021-11-09 16:30, 2021-11-11 16:30, 2021-11-15 16:30, 2021-11-16 16:30, 2021-11-18 16:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 30

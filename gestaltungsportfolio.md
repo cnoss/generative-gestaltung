@@ -13,7 +13,7 @@ Der Kurs orientiert sich an den Themen Punkt, Linie, Fläche, Farbe & Kontext. D
 
 Das Gestaltungsportfolio besteht aus einer Auswahl Ihrer Arbeitsergebnisse zu den einzelnen Themen. Bitte wählen Sie jeweils **das beste Artefakt** zu folgenden **drei** Themenblöcken:
 
-- Themenblock 1: Punkt, Linie oder Fläche
+- Themenblock 1: Punkt, Linie **oder** Fläche
 - Themenblock 2: Farbe 
 - Themenblock 3: Freie Arbeit (Hackday 1 & 2)
 
@@ -30,9 +30,9 @@ Hierfür steht auch ein passender [Startercode](https://git.coco.study/students/
 
 | Prüfungsteil | Gewicht |
 | ------------- |:-------------|
-| Präsentation eines Motivs      | 10% |
+| Präsentation eines Motivs      | 15% |
 | Motive    | 25 % |
-| Hauptmotiv | 40% |
+| Hauptmotiv | 35% |
 
 
 
