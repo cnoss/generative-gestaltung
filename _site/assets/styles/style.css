@@ -9412,10 +9412,6 @@ html {
   line-height: 110%;
 }
 
-.timetable .timetable-wrap .veranstaltung .title + .subtitle {
-  margin-top: -0.8rem;
-}
-
 .timetable .timetable-wrap .veranstaltung .title {
   font-weight: bold;
 }

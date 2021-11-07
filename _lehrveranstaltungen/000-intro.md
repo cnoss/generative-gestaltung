@@ -28,7 +28,6 @@ Zur Vorbereitung gibt es auf der [Startseite des Kurses](/generative-gestaltung/
 
 ## Material
 Siehe [Startseite des Kurses](/generative-gestaltung/#vorbereitung).
-[Intro von Christian Faubel](https://fblchrstn.hotglue.me/?generative_gestaltung)
 
 ## Inspiration
 - [Jller](https://www.allesblinkt.com/projects/iller/)

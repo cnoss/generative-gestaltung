@@ -4,10 +4,10 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: workshop
 pflicht: false
-termine: 2021-11-09 10:00
+termine: 2021-11-09 10:30
 empfohlene-voraussetzungen:
 published: true
-dauer: 180
+dauer: 120
 raum: https://th-koeln.zoom.us/j/81865505201
 flag: show-at-homepage
 teaserImageURL: /assets/images/P3.jpg

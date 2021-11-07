@@ -42,14 +42,6 @@
       {% if i==8 %}{% assign offset = overlap-8 %}{% endif %}
       {% if i==9 %}{% assign offset = overlap-9 %}{% endif %}
 
-      {% capture offset-divs %}
-      {% for os in (1..offset) %}
-      <div class="column"></div>
-      {% endfor %}
-      {% endcapture %}
-
-      {{offset-divs}}
-
       {% for veranstaltung in lehrveranstaltungen %}
 
       {% assign termine = veranstaltung.termine | split: "," %}

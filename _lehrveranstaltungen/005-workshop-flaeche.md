@@ -7,7 +7,7 @@ pflicht: false
 termine: 2021-11-12 10:00
 empfohlene-voraussetzungen:
 published: true
-dauer: 180
+dauer: 120
 raum: https://th-koeln.zoom.us/j/81865505201
 info: |
   Zu guter Letzt befassen wir uns mit der Fläche. Hier haben wir, gegenüber der Linie, als wesentlichen zusätzlichen Gestaltungsparameter, das Verhältnis und die Form. 

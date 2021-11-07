@@ -1,5 +1,5 @@
 ---
-titel: Recap & Vorstellung einiger Arbeitsergebnisse
+titel: Recap, Fragen, Vorstellung von interessanten Problemen und Lösungen
 kuerzel: v-ko
 verantwortlich: cn
 typ: retro
