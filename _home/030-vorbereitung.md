@@ -27,4 +27,4 @@ Last but not least ist das Buch «Generative Gestaltung» und [die zugehörige W
 ## Startercode & weitere Repos
 Für die einzelnen Aufgaben liegt ein [Startercode Paket](https://git.coco.study/students/ws2122/df12-generative-gestaltung/startercode-ws202122) im [CoCo Gitlab](https://git.coco.study/). Dieses bitte forken, clonen oder herunterladen. Was rede ich: bitte forken und dann clonen. 
 
-Hier finden Sie auch noch weitere [Repos zum Kurs](https://git.coco.study/students/ws2122/df12-generative-gestaltung).
+<!-- Hier finden Sie auch noch weitere [Repos zum Kurs](https://git.coco.study/students/ws2122/df12-generative-gestaltung).-->
