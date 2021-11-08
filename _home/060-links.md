@@ -5,8 +5,7 @@ additionalClasses: has-top-seperator
 ---
 
 ## Zum Kurs
-- [Startercode und Repos zum Kurs](https://git.coco.study/students/ws2122/df12-generative-gestaltung)
-- [Aufzeichnung der Sessions ws20/21](https://ilias.th-koeln.de/goto.php?target=cat_1769374&client_id=ILIAS_FH_Koeln)
+- [Startercode und Repos zum Kurs](https://git.coco.study/students/ws2122/df12-generative-gestaltung/)
 
 ## References
 - [p5.js Doku](https://p5js.org/reference/)
@@ -19,11 +18,9 @@ additionalClasses: has-top-seperator
 
 ## VSCode & Erweiterungen
 - [Visual Studio Code](https://code.visualstudio.com/download)
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - [p5.js Snippets](https://marketplace.visualstudio.com/items?itemName=acidic9.p5js-snippets)
-- [JShint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.jshint)
-- [Linting with ESLint](https://www.youtube.com/watch?v=clzTwZgMlqE)
-
+- [Duplicate action](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-duplicate)
+- 
 ## Misc
 - [A Powerline style prompt for your shell](https://github.com/b-ryan/powerline-shell)
