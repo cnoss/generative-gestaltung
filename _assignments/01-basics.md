@@ -13,7 +13,7 @@ In diesem Kurs geht es primär nicht um eleganten, performaten (na gut, machmal 
 Wir arbeiten in 3-er Teams. Jeder erarbeitet seine eigene Lösung, also hier wird zunächst kein Pair Programming praktiziert. Die Teams sind aber erste Anlaufstelle bei Fragen, Problemen und Feedbackwünschen. In den Teams werden Ideen entwickelt und diskutiert. Die Teammitglieder sind Sparringspartner und Advocati Diaboli. Die Teams sitzen räumlich zusammen. Die Teams werden jeden Tag ausgelost und somit neu zusammen gestellt. -->
 
 ## Startpaket klonen und ausprobieren
-Bitte [forken](https://git.coco.study/students/ws2122/df12-generative-gestaltung/startercode-ws202122/-/forks/new) und klonen Sie folgendes [Starterpaket](https://git.coco.study/staff/df01/startercode). Auf der Basis werden wir die nächsten Tage arbeiten, also bitte an einen sinnvollen Platz legen ;)
+Bitte [forken](https://git.coco.study/students/ws2122/df12-generative-gestaltung/startercode-ws202122/-/forks/new) und klonen Sie folgendes [Starterpaket](https://git.coco.study/students/ws2122/df12-generative-gestaltung/startercode-ws202122). Auf der Basis werden wir die nächsten Tage arbeiten, also bitte an einen sinnvollen Platz legen ;)
 
 ## Projektstruktur
 Jede Idee/ Sketch wird in einem Folder abgelegt, der in sich geschlossen und lauffähig ist. Dementsprechend enthält der Folder mindestens folgende Dateien:
