@@ -3,6 +3,15 @@ titel: Farbige Punkte, Level 1
 tags: Farbe
 ---
 
+Setzen Sie den Farbmodus in Ihrer Setup Funktion auf `colorMode(HSL, 360,100,100,100)`. Damit steht Ihnen das HSL Farbmodell zur Verfügung. Es gelten folgende Parameter:
+```
+Hue: Farbwinkel 0-360°
+Saturation: Sättigung 0-100
+Lightness: Helligkeit 0-100
+
+Der letzte Parameter steuert die Transparenz.
+```
+
 ## F1 Farbige Punkte
 Erzeugen Sie eine lineare Anordnung von beliebig vielen Punkten. Die Farbe der Punkte soll entlang des Farbkreises sein. Hierbei könnte die [Map Funktion](https://p5js.org/reference/#/p5/map) hilfreich sein. Koppeln Sie ggf. verschiedene Parameter an Eingaben, z.B. über die Maus oder Tastatur.
 
