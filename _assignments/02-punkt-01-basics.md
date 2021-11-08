@@ -16,7 +16,7 @@ Positionieren Sie den Punkt auf der X-Achse auf entsprechend der Mausposition. H
 Positionieren Sie den Punkt auf der X-Achse entsprechend der Mausposition, allerdings soll sich der Punkt nicht über den Rand der Zeichenfläche hinaus bewegen. Ok, hier muss ein bisschen gerechnet werden. Hier könnte auch die [constrain](https://p5js.org/reference/#/p5/constrain)-Funktion helfen.
 
 ## P1.4 Punktgröße steht im Verhältnis zur Zeichenfläche
-Bislang hatte der Punkt eine absolute Größe. Jetzt soll sich die Größe des Punktes auf die Zeichenfläche beziehen, d.h. bei veränderter Größe der Zeichenfläche, soll auch der Punkt seine Größe ändern.
+Bislang hatte der Punkt eine absolute Größe. Jetzt soll sich die Größe des Punktes auf die Zeichenfläche beziehen, d.h. bei veränderter Größe der Zeichenfläche, soll auch der Punkt seine Größe ändern. Die Größe der Zeichenfläche lässt sich mit Hilfe der Umgebungsvariabeln [width](https://p5js.org/reference/#/p5/width) und [height](https://p5js.org/reference/#/p5/height) auslesen.
 
 ## P1.5 Punktgröße ist abhängig von der Mouseposition
 Jetzt koppeln wir die Größe des Punktes an die Mausposition.
