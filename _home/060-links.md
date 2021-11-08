@@ -21,6 +21,6 @@ additionalClasses: has-top-seperator
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - [p5.js Snippets](https://marketplace.visualstudio.com/items?itemName=acidic9.p5js-snippets)
 - [Duplicate action](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-duplicate)
-- 
+
 ## Misc
 - [A Powerline style prompt for your shell](https://github.com/b-ryan/powerline-shell)
