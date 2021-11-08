@@ -8,7 +8,7 @@ termine: 2021-11-09 10:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 120
-raum: https://th-koeln.zoom.us/j/81865505201
+raum: https://th-koeln.zoom.us/j/85350954867 Kenncode ist noss
 flag: show-at-homepage
 teaserImageURL: /assets/images/P3.jpg
 info: Jetzt entwickeln wir größere Formationen aus Punkten, die wir in verschiedenen Rastern anordnen. Neben unterschiedlichen Rastervarianten spielen hier die Themen Ordnung vs. Unordnung sowie Verdichtung und Auflösung meistens eine Rolle. Jetzt binden wir aber auch vermehrt Parameter an verschiedene externe Gegebenheiten, z.B. die Viewportgröße oder Zeigerposition.

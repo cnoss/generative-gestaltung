@@ -8,7 +8,7 @@ termine: 2021-11-09 13:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 180
-raum: https://th-koeln.zoom.us/j/81865505201
+raum: https://th-koeln.zoom.us/j/85350954867 Kenncode ist noss
 flag: show-at-homepage
 teaserImageURL: /assets/images/p-farbe-3-klein.jpg
 info: |

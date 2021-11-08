@@ -8,7 +8,7 @@ termine: 2021-11-19 16:00
 empfohlene-voraussetzungen:
 published: true
 dauer: 60
-raum: https://th-koeln.zoom.us/j/81865505201
+raum: https://th-koeln.zoom.us/j/85350954867 Kenncode ist noss
 info: | 
   Es gibt wenig, was man nicht noch besser machen kann. In dieser Retro zum Kurs geht es darum, unbewusste Qualitäten und Defizite des Kurses bewusst zu machen, um in der nächsten Iteration darauf reagieren zu können.
 ---

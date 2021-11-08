@@ -8,7 +8,7 @@ termine: 2021-11-08 10:00
 empfohlene-voraussetzungen: Grundkenntnisse Javascript, Coding Essentials I
 published: true
 dauer: 90
-raum: https://th-koeln.zoom.us/j/81865505201
+raum: https://th-koeln.zoom.us/j/85350954867 Kenncode ist noss
 info: Wie funktioniert der Kurs und das technische Setup?
 ---
 

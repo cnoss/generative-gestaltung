@@ -8,7 +8,7 @@ termine: 2021-11-19 13:00
 empfohlene-voraussetzungen:
 published: true
 dauer: 180
-raum: https://th-koeln.zoom.us/j/81865505201
+raum: https://th-koeln.zoom.us/j/85350954867 Kenncode ist noss
 info: | 
   
 ---

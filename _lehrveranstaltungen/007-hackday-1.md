@@ -8,7 +8,7 @@ termine: 2021-11-15 10:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 390
-raum: https://th-koeln.zoom.us/j/81865505201
+raum: https://th-koeln.zoom.us/j/85350954867 Kenncode ist noss
 info: |
   Heute gibt es die erste Challenge. Den Ausgangspunkt bilden einige Vorgaben, die den Rahmen bestimmen. Innerhalb diesen Rahmens, soll eine möglichst interessantes Motiv oder eine Motivreihe entwickelt werden.
 ---
