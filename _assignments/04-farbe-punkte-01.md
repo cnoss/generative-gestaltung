@@ -3,11 +3,11 @@ titel: Farbige Punkte, Level 1
 tags: Farbe
 ---
 
-Setzen Sie den Farbmodus in Ihrer Setup Funktion auf `colorMode(HSL, 360,100,100,100)`. Damit steht Ihnen das HSL Farbmodell zur Verfügung. Es gelten folgende Parameter:
+Setzen Sie den Farbmodus in Ihrer Setup Funktion auf `colorMode(HSB, 360,100,100,100)`. Damit steht Ihnen das HSL Farbmodell zur Verfügung. Es gelten folgende Parameter:
 ```
 Hue: Farbwinkel 0-360°
 Saturation: Sättigung 0-100
-Lightness: Helligkeit 0-100
+Brightness: Helligkeit 0-100
 
 Der letzte Parameter steuert die Transparenz.
 ```
