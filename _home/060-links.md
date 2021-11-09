@@ -6,6 +6,8 @@ additionalClasses: has-top-seperator
 
 ## Zum Kurs
 - [Startercode und Repos zum Kurs](https://git.coco.study/students/ws2122/df12-generative-gestaltung/)
+- [Meine Lösungen zu einigen Aufgaben](https://git.coco.study/cnoss/startercode-ws202122)
+- [Mitschnitte der Veranstaltungen](https://ilias.th-koeln.de/goto.php?target=cat_2082026&client_id=ILIAS_FH_Koeln)
 
 ## References
 - [p5.js Doku](https://p5js.org/reference/)

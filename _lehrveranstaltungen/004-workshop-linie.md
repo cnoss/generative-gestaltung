@@ -4,10 +4,10 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: workshop
 pflicht: false
-termine: 2021-11-11 10:30
+termine: 2021-11-11 13:00
 empfohlene-voraussetzungen:
 published: true
-dauer: 360
+dauer: 210
 raum: https://th-koeln.zoom.us/j/85350954867 Kenncode ist noss
 flag: show-at-homepage
 teaserImageURL: /assets/images/p-linie.jpg

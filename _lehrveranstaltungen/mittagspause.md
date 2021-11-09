@@ -4,7 +4,7 @@ kuerzel: v-ko
 verantwortlich: cn
 typ: other
 pflicht: false
-termine: 2021-11-08 12:30, 2021-11-09 12:30, 2021-11-11 12:30, 2021-11-15 12:30, 2021-11-16 12:30, 2021-11-18 12:30
+termine: 2021-11-08 12:30, 2021-11-09 12:30, 2021-11-15 12:30, 2021-11-16 12:30, 2021-11-18 12:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 45
