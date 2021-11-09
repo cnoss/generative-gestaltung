@@ -34,5 +34,5 @@ Wieder erzeugen wir farbige Punkte entlang des Farbkreises, diesmal jedoch in ei
 - Anzahl der Punkte
 - Größe der Punkte
 - Radius der Gesamtformation
-- Umfang des Farbkreises
+- Wertebereich des Farbwinkelbereichs (somit kann ich z.B. eine Farbwinkelbereich von 30 - 180° einstellen)
 - Alphawert der Punkte
