@@ -2,7 +2,7 @@
 <html lang="de">
 
 <head>
-  <title>Audioinput – Generative Gestaltung – Kurs im Modul «Designing Futures 1» // Code & Context</title>
+  <title>Schriften Als Flaeche – Generative Gestaltung – Kurs im Modul «Designing Futures 1» // Code & Context</title>
 
   <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -15,7 +15,7 @@
 
 </head>
 
-<body data-url="/codesnippets/audioinput/">
+<body data-url="/codesnippets/schriften-als-flaeche/">
   <section class="hero is-info is-large"
     style="background-image: url(/generative-gestaltung/assets/images/P3.2.png); background-size: contain; background-repeat: no-repeat; background-position: center center;">
     <!-- Hero header: will stick at the top -->
@@ -71,11 +71,11 @@
     <div class="content">
       <div class="columns">
         <div class="column is-8">
-          <h1>Audio Input</h1>
+          <h1>Schrift als Fläche</h1>
         </div>
 
         <div class="column is-4 has-text-right">
-          <a target="_blank" href="_codesnippets/audioinput.md"><span class="icon"><i class="fa fa-edit"></i></span>
+          <a target="_blank" href="_codesnippets/schriften-als-flaeche.md"><span class="icon"><i class="fa fa-edit"></i></span>
             Bearbeiten</a>
         </div>
       </div>
@@ -86,12 +86,100 @@
   
   <div class="container codesnippet">
     <div class="content">
-      <div class="js-video widescreen vimeo ">
-  <iframe src="https://www.youtube.com/embed/v4jgr0ppw8Q" frameborder="0" allowfullscreen=""></iframe>
-</div>
+      <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let fontPath, font, shiftX, shiftY, fontsize;
+let fontSizeFactor = 0.7;
+let items = [];
+</code></pre></div></div>
 
-<p>Mindestens ein Teilnehmer und ich hatten Probleme beim Audio Input. Das Problem hierbei ist, dass hierzu die <a href="https://developer.mozilla.org/de/docs/Web/API/Web_Audio_API">Web Audio API</a> genutzt wird, die speziellen Sicherheitsrichtlinien unterworfen ist. Eine davon ist die Nutzung von <em>https</em>. Das Video oben zeigt, wie eine <em>https</em> Verbindung für die Live Server Extension von Visual Studio Code erzeugt werden kann. Bei mir hat dies, in Kombination mit der Nutzung von <a href="https://www.mozilla.org/de/firefox/new/">Firefox</a> geholfen.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  opentype.load('../../assets/fonts/FreeSerifBold.otf', function(err, f) {
+    if (err) {
+      print(err);
+    } else {
+      font = f;
+      
+      shiftX = drawingParams.shiftX;
+      shiftY = drawingParams.shiftY;
+      fontsize = drawingParams.fontsize;
+      items.push(new Char("B", 2, shiftX, shiftY, fontsize));
 
+      loop();
+    }
+  });
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Char{ 
+  constructor(char, stepwidth, shiftX, shiftY, fontsize) { 
+    this.char = char;
+    this.stepwidth = stepwidth;
+    this.shiftX = shiftX;
+    this.shiftY = shiftY;
+    this.fontsize = fontsize;
+    this.path = this.getPath();
+  }
+
+  draw() { 
+    for (let i = 0; i &lt; drawingParams.runs; i++) { 
+      this.drawChar();
+    }
+  }
+
+  drawElement(element) { 
+    for (let i = 0; i &lt; element.length; i += this.stepwidth) {
+      let zufallX = random(drawingParams.minEntropy, drawingParams.maxEntropy) * (random(0,1) &lt; 0.5 ? -1 : 1);
+      let zufallY = random(drawingParams.minEntropy, drawingParams.maxEntropy) * (random(0,1) &lt; 0.5 ? -1 : 1);
+      vertex(element[i].x + zufallX, element[i].y + zufallY);
+    }
+  }
+
+  setShiftX(shiftX) { this.shiftX = shiftX; }
+  setShiftY(shiftY) { this.shiftY = shiftY; }
+  setStepwidth(stepwidth) { this.stepwidth = stepwidth; }
+  setFontsize(fontsize) {
+    this.fontsize = fontsize;
+    this.path = this.getPath();
+  }
+
+  drawChar() {
+    let elements = this.path.points;
+    let first = elements[0];
+    push();
+    translate(this.shiftX, this.shiftY);
+    beginShape();
+      this.drawElement(first);  
+      for (let i = 1; i &lt; elements.length; i++) {
+        beginContour();
+        this.drawElement(elements[i]);
+        endContour(CLOSE);
+      }
+    endShape(CLOSE);
+    pop();
+  }
+
+  getPath() {
+    let pathData = [];
+    let pointer = 0;
+    let fontPath = font.getPath(this.char, 0, this.fontsize * fontSizeFactor, this.fontsize);
+    let path = new g.Path(fontPath.commands);
+    path = g.resampleByLength(path, 1);
+    path.commands.forEach((command) =&gt; {
+      if (command.type === "Z") { pointer++; }
+      if (!pathData[pointer]) { pathData[pointer] = []; }
+      if (command.x) { pathData[pointer].push(command);}
+    });
+    for (let i = pathData.length -1; i &gt;= 0 ; i--) {
+      if (pathData[i].length === 0) { pathData.splice(i, 1); }
+    }
+  
+    let ret = {};
+    ret.points = pathData;
+    ret.bounds = {
+      w: path.bounds().width,
+      h: path.bounds().height
+    };
+    return ret;
+  }
+}
+</code></pre></div></div>
 
     </div>
   </div>
