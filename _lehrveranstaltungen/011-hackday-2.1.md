@@ -4,10 +4,10 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: hack
 pflicht: false
-termine: 2021-11-18 10:00
+termine: 2021-11-18 11:30
 empfohlene-voraussetzungen:
 published: true
-dauer: 380
+dauer: 280
 raum: https://th-koeln.zoom.us/j/85350954867 Kenncode ist noss
 info: 
 ---

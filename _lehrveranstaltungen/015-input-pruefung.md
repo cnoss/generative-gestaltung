@@ -4,7 +4,7 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: vortrag
 pflicht: false
-termine: 2021-11-16 14:00
+termine: 2021-11-18 10:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 60
