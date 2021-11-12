@@ -14,7 +14,6 @@ info: |
 ---
 
 ## Material 
-- [Folien Fläche](https://th-koeln.github.io/mi-bachelor-screendesign/download/workshops/flaeche-form/010-flaeche-und-form.pdf)
 - [Folien Figur & Grund](https://th-koeln.github.io/mi-bachelor-screendesign/download/workshops/flaeche-form/020-figur-und-grund.pdf)
 - [Folien Abstände & Proportionen](https://th-koeln.github.io/mi-bachelor-screendesign/download/workshops/systematische-proportionen-und-abstaende/systematische-proportionen-und-abstaende.pdf)
 
