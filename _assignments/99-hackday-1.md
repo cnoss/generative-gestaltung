@@ -3,14 +3,11 @@ titel: Freiarbeit 1
 tags: Hackday
 ---
 
-Thema folgt.
+Gestalten und entwicklen Sie im Rahmen dieser Freiarbeit einen interessanten Sketch, der dem Thema «Fading Contrast» gerecht wird. Hierbei ist es egal, ob Sie sich auf einen Farb-, Form- oder anderen Kontrast beziehen. Auch beides ist möglich. Auch der Einsatz von [Verdichtung und Auflösung](https://www.gabi-weber.de/projekte/aufloesung/) könnte hierbei interessant sein.
 
-<!--
-Gestalten und Entwicklen Sie im Rahmen dieser Freiarbeit einen interessanten, interaktiven Sketch, der auf eines der folgenden Gegensatzpaare einzahlt:
+Hier noch ein bisschen Lesestoff:
+- [Formkontrast](http://www.werkstatt.schelper.de/015/015.html)
+- [Flächengestaltung](http://www.zpg-gm.de/inhalte/zpg2_pdf/flaechengestaltung%202.pdf)
+- [Contrast and Meaning in Design](https://designmodo.com/contrast-meaning/)
+- [Elements & Principles of Design](http://teaching.ellenmueller.com/2d-design/resources/elements-principles-of-design/)
 
-- Figur und Grund, bzw. Vorgrund und Hintergrund
-- Verdichtung und Auflösung
-- Ordnung und Unordnung
-- Nah und Fern
-- Bewegung und Stillstand
-- Kalt und Warm -->
