@@ -87,27 +87,24 @@ let g = video.pixels[1];
 let b = video.pixels[2];
 </code></pre></div></div>
 
-<h2 id="c3-mandala-mit-audio-input">C3 Mandala mit Audio Input</h2>
-<p>Wie zuvor, aber diesmal ziehen wir die Transparenz oder einen anderen Parameter aus dem Audiosignal. Dazu nutzen wir die <a href="https://p5js.org/reference/#/libraries/p5.sound">p5.sound</a>.</p>
-
-<p><strong>Audiosignal akquirieren</strong></p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mic = new p5.AudioIn();
-mic.start();
-</code></pre></div></div>
-
-<p><strong>Pegel des Mikrofons holen</strong></p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mic.getLevel();
-</code></pre></div></div>
+<div class="js-video widescreen vimeo ">
+  <iframe src="https://www.youtube.com/embed/yhBjfCwBcAE" frameborder="0" allowfullscreen=""></iframe>
+</div>
+<div class="js-video widescreen vimeo ">
+  <iframe src="https://www.youtube.com/embed/K3gy_afGGaU" frameborder="0" allowfullscreen=""></iframe>
+</div>
 
 <h2 id="c4--c41-handtracking">C4 &amp; C4.1 Handtracking</h2>
 <p>Jetzt wird es lustig … und komlex. Wir nutzen <a href="https://github.com/victordibia/handtrack.js/">Handtracking.js</a> zur Steuerung. Dazu brauchen wir ein bisschen zusätzlichen Code. In der <em>ìndex.html</em> muss der Codeblock für <em>Handtrack.js</em> einkommentiert werden.</p>
 
 <p><strong>Ergänzungen für den Deklarationsblock</strong></p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let videoCapture;
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// Video Capturing
+let videoCapture;
 const handimg = document.getElementById("handimage");
 const canvasHT = document.getElementById("canvasHT");
 const context = canvasHT.getContext("2d");
 
+// Handtrack.js
 const modelParams = {
   flipHorizontal: true,   // flip e.g for video  
   maxNumBoxes: 20,        // maximum number of boxes to detect
@@ -118,6 +115,7 @@ const modelParams = {
 let imgindex = 1;
 let isVideo = false;
 let model = null;
+let modelData = {};
 </code></pre></div></div>
 
 <p><strong>Ergänzung der Custom Functions</strong></p>
@@ -133,12 +131,12 @@ let model = null;
 
 function runDetection() {
   model.detect(videoCapture).then(predictions =&gt; {
-    //console.log("Predictions: ", predictions);
-    if (predictions[0]) {
-      [drawingParams.x, drawingParams.y, drawingParams.w] = predictions[0].bbox;
-    }
-    if (predictions[1]) {
-      [drawingParams.cw] = predictions[1].bbox;
+    
+    const point = predictions.filter(function (prediction) { return prediction.label === 'point' });
+    const closed = predictions.filter(function (prediction) { return prediction.label === 'closed' });
+    
+    if (point.length &gt; 0) {
+      [modelData.x, modelData.y, modelData.w] = point[0].bbox;
     }
     if (isVideo) {
       requestAnimationFrame(runDetection);
@@ -148,27 +146,30 @@ function runDetection() {
 </code></pre></div></div>
 
 <p><strong>Ergänzung der Setup Funktion</strong></p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pixelDensity</span><span class="p">(</span><span class="m">1</span><span class="p">);</span>
-<span class="n">video</span> <span class="p">=</span> <span class="n">createCapture</span><span class="p">(</span><span class="n">VIDEO</span><span class="p">);</span>
-<span class="n">video</span><span class="p">.</span><span class="n">size</span><span class="p">(</span><span class="m">320</span><span class="p">,</span> <span class="m">240</span><span class="p">);</span>
-<span class="n">video</span><span class="p">.</span><span class="n">class</span><span class="p">(</span><span class="s2">"previewVideo"</span><span class="p">);</span>
-<span class="n">video</span><span class="p">.</span><span class="n">id</span><span class="p">(</span><span class="s2">"video"</span><span class="p">);</span>
-<span class="n">videoCapture</span> <span class="p">=</span> <span class="n">document</span><span class="p">.</span><span class="n">getElementById</span><span class="p">(</span><span class="s2">"video"</span><span class="p">);</span>
-<span class="n">video</span><span class="p">.</span><span class="n">hide</span><span class="p">();</span>
-
-<span class="p">//</span> <span class="nf">Load</span> <span class="n">the</span> <span class="k">model</span> <span class="k">and</span> <span class="n">start</span> <span class="n">video</span>
-<span class="n">handTrack</span><span class="p">.</span><span class="nf">load</span><span class="p">(</span><span class="n">modelParams</span><span class="p">).</span><span class="k">then</span><span class="p">(</span><span class="n">lmodel</span> <span class="p">=&gt;</span> <span class="p">{</span>
-  <span class="k">model</span> <span class="p">=</span> <span class="n">lmodel</span>
-  <span class="n">startVideo</span><span class="p">();</span>
-<span class="p">});</span>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="p">//</span> <span class="n">Handtrack</span><span class="p">.</span><span class="n">js</span>
+  <span class="n">pixelDensity</span><span class="p">(</span><span class="m">1</span><span class="p">);</span>
+  <span class="n">video</span> <span class="p">=</span> <span class="n">createCapture</span><span class="p">(</span><span class="n">VIDEO</span><span class="p">);</span>
+  <span class="n">video</span><span class="p">.</span><span class="n">size</span><span class="p">(</span><span class="m">320</span><span class="p">,</span> <span class="m">240</span><span class="p">);</span>
+  <span class="n">video</span><span class="p">.</span><span class="n">class</span><span class="p">(</span><span class="s2">"previewVideo"</span><span class="p">);</span>
+  <span class="n">video</span><span class="p">.</span><span class="n">id</span><span class="p">(</span><span class="s2">"video"</span><span class="p">);</span>
+  <span class="n">videoCapture</span> <span class="p">=</span> <span class="n">document</span><span class="p">.</span><span class="n">getElementById</span><span class="p">(</span><span class="s2">"video"</span><span class="p">);</span>
+  <span class="n">video</span><span class="p">.</span><span class="n">hide</span><span class="p">();</span>
+  
+  <span class="p">//</span> <span class="nf">Load</span> <span class="n">the</span> <span class="k">model</span> <span class="k">and</span> <span class="n">start</span> <span class="n">video</span>
+  <span class="n">handTrack</span><span class="p">.</span><span class="nf">load</span><span class="p">(</span><span class="n">modelParams</span><span class="p">).</span><span class="k">then</span><span class="p">(</span><span class="n">lmodel</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="k">model</span> <span class="p">=</span> <span class="n">lmodel</span>
+    <span class="n">startVideo</span><span class="p">();</span>
+  <span class="p">});</span>
 </code></pre></div></div>
 
 <p><strong>Nutzung der Daten in der Draw Funktion</strong></p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let x = map(drawingParams.x, 0, 320, 0, width);
-let y = map(drawingParams.y, 0, 240, 0, height);
-let w = map(drawingParams.y, 0, 320, 0, 100);
-let cw = map(drawingParams.cw, 0, 320, 0, 360);
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  const posX = map(modelData.x, 0, 320, 0, width);
+  const posY = map(modelData.y, 0, 240, 0, height);
+  const size = map(modelData.y, 0, 320, 0, 100);
 </code></pre></div></div>
+<div class="js-video widescreen vimeo ">
+  <iframe src="https://www.youtube.com/embed/aR-f4A0SKNQ" frameborder="0" allowfullscreen=""></iframe>
+</div>
 
     </div>
   </div>

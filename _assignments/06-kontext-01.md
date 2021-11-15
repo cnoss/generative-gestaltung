@@ -6,6 +6,8 @@ tags: Kontext
 ## C1 Zeichnen mit der Maus
 Wir zeichen Punkte, bezogen auf die aktuelle Mausposition auf den Screen. Wir zeichenen die Punkte genau da, wo sich die Maus aktuell befindet. Welche Mechaniken aus der realen Welt können wir auf die Zeichnung übertragen?
 
+{% include youtube.html id="Ynxh-c-kCLU" %}
+
 ## C1.2 Rorschach alike 
 Wir zeichen wieder Punkte oder Linien auf den Screen, aber jetzt spiegeln wir die Zeichnung über die Mittelachse(n). Die Spiegelungen lassen sich recht einfach mit folgendem Ansatz realisieren:
 

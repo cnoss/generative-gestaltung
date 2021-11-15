@@ -6,10 +6,17 @@ tags: Kontext
 ## C5 Bilddaten
 Nutzung eines Bildes als Datenquelle. Dazu nehmen wir ein bestehendes Foto, laden es in P5, vergröbern die Auflösung, anaysieren die Pixel und zeichnen das Bild zunächst mit Punkten nach. Die Punktgröße sollte minimal 3px sein, sonst wird der Rechner etwas zu warm. Der Canvas sollte aus gleichem Grund die Klasse *is-fixed* haben. Danach sind folgende Ergänzungen im Code erforderlich:
 
+**Variable im Deklarationsblock anlegen**
+```
+let img;
+```
+
 **Bild vorladen**
+
+Hierfür nutzen wir die p5.js Funktion [preload](https://p5js.org/reference/#/p5/preload). Dafür muss natürlich ein Bild im *images* Verzeichnis liegen.
 ```
 function preload() {
-  loadImage('img/farbig.jpg', setImage);
+  loadImage('images/farbig.jpg', setImage);
 }
 ```
 
@@ -23,10 +30,22 @@ function setImage(loadedImageFile) {
 
 **Pixelwerte akquirieren**
 ```
-let px = int(gridX * rectSize);
-let py = int(gridY * rectSize);
-let i = (py * img.width + px) * 4;
-fill(img.pixels[i], img.pixels[i+1], img.pixels[i+2], 255);
+const pixelSize = 10;
+const tileCount = floor(width / pixelSize);
+const rectSize = width / tileCount;
+
+img.loadPixels();
+  
+for (let gridX = 0; gridX < tileCount; gridX++) {
+  for (let gridY = 0; gridY < tileCount; gridY++) {
+    const px = int(gridX * rectSize);
+    const py = int(gridY * rectSize);
+    const i = (py * img.width + px) * 4;
+    
+    fill(img.pixels[i], img.pixels[i+1], img.pixels[i+2], 255);
+    ellipse(gridX * rectSize, gridY * rectSize, pixelSize);
+  }
+}
 ```
 
 ## C6 Daten vom Smartphone via Tramontana
@@ -76,5 +95,5 @@ Als Beispieldaten werden hier [seismische Messungen](https://earthquake.usgs.gov
 ## Beispiele & Beispieldatensätze
 - [Repo von Christian Faubel mit den Beispiel Sketches](https://git.coco.study/cfaubel1/startercode-2020/-/tree/master/sketches)
 - [Seismische Daten im GeoJSON](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
-- [Data on COVID-19 (coronavirus) by Our World in Data](https://covid.ourworldindata.org/data/owid-covid-data.json)
+- [Data on COVID-19 (coronavirus) by Our World in Data](https://github.com/owid/covid-19-data/tree/master/public/data)
 - [Weather Beispiel von der p5.js Seite](https://p5js.org/examples/hello-p5-weather.html)

@@ -72,9 +72,15 @@
       <h2 id="c5-bilddaten">C5 Bilddaten</h2>
 <p>Nutzung eines Bildes als Datenquelle. Dazu nehmen wir ein bestehendes Foto, laden es in P5, vergröbern die Auflösung, anaysieren die Pixel und zeichnen das Bild zunächst mit Punkten nach. Die Punktgröße sollte minimal 3px sein, sonst wird der Rechner etwas zu warm. Der Canvas sollte aus gleichem Grund die Klasse <em>is-fixed</em> haben. Danach sind folgende Ergänzungen im Code erforderlich:</p>
 
+<p><strong>Variable im Deklarationsblock anlegen</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let img;
+</code></pre></div></div>
+
 <p><strong>Bild vorladen</strong></p>
+
+<p>Hierfür nutzen wir die p5.js Funktion <a href="https://p5js.org/reference/#/p5/preload">preload</a>. Dafür muss natürlich ein Bild im <em>images</em> Verzeichnis liegen.</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function preload() {
-  loadImage('img/farbig.jpg', setImage);
+  loadImage('images/farbig.jpg', setImage);
 }
 </code></pre></div></div>
 
@@ -86,10 +92,22 @@
 </code></pre></div></div>
 
 <p><strong>Pixelwerte akquirieren</strong></p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let px = int(gridX * rectSize);
-let py = int(gridY * rectSize);
-let i = (py * img.width + px) * 4;
-fill(img.pixels[i], img.pixels[i+1], img.pixels[i+2], 255);
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>const pixelSize = 10;
+const tileCount = floor(width / pixelSize);
+const rectSize = width / tileCount;
+
+img.loadPixels();
+  
+for (let gridX = 0; gridX &lt; tileCount; gridX++) {
+  for (let gridY = 0; gridY &lt; tileCount; gridY++) {
+    const px = int(gridX * rectSize);
+    const py = int(gridY * rectSize);
+    const i = (py * img.width + px) * 4;
+    
+    fill(img.pixels[i], img.pixels[i+1], img.pixels[i+2], 255);
+    ellipse(gridX * rectSize, gridY * rectSize, pixelSize);
+  }
+}
 </code></pre></div></div>
 
 <h2 id="c6-daten-vom-smartphone-via-tramontana">C6 Daten vom Smartphone via Tramontana</h2>
@@ -137,7 +155,7 @@ ellipse(x, y, 20);
 <ul>
   <li><a href="https://git.coco.study/cfaubel1/startercode-2020/-/tree/master/sketches">Repo von Christian Faubel mit den Beispiel Sketches</a></li>
   <li><a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php">Seismische Daten im GeoJSON</a></li>
-  <li><a href="https://covid.ourworldindata.org/data/owid-covid-data.json">Data on COVID-19 (coronavirus) by Our World in Data</a></li>
+  <li><a href="https://github.com/owid/covid-19-data/tree/master/public/data">Data on COVID-19 (coronavirus) by Our World in Data</a></li>
   <li><a href="https://p5js.org/examples/hello-p5-weather.html">Weather Beispiel von der p5.js Seite</a></li>
 </ul>
 

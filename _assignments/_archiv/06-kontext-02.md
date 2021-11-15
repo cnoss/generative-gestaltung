@@ -25,19 +25,30 @@ let b = video.pixels[2];
 
 {% include youtube.html id="yhBjfCwBcAE" %}
 {% include youtube.html id="K3gy_afGGaU" %}
+## C3 Mandala mit Audio Input
+Wie zuvor, aber diesmal ziehen wir die Transparenz oder einen anderen Parameter aus dem Audiosignal. Dazu nutzen wir die [p5.sound](https://p5js.org/reference/#/libraries/p5.sound).
+
+**Audiosignal akquirieren**
+```
+mic = new p5.AudioIn();
+mic.start();
+```
+
+**Pegel des Mikrofons holen**
+```
+mic.getLevel();
+```
 
 ## C4 & C4.1 Handtracking
 Jetzt wird es lustig … und komlex. Wir nutzen [Handtracking.js](https://github.com/victordibia/handtrack.js/) zur Steuerung. Dazu brauchen wir ein bisschen zusätzlichen Code. In der *ìndex.html* muss der Codeblock für *Handtrack.js* einkommentiert werden.
 
 **Ergänzungen für den Deklarationsblock**
 ```
-// Video Capturing
 let videoCapture;
 const handimg = document.getElementById("handimage");
 const canvasHT = document.getElementById("canvasHT");
 const context = canvasHT.getContext("2d");
 
-// Handtrack.js
 const modelParams = {
   flipHorizontal: true,   // flip e.g for video  
   maxNumBoxes: 20,        // maximum number of boxes to detect
@@ -48,7 +59,6 @@ const modelParams = {
 let imgindex = 1;
 let isVideo = false;
 let model = null;
-let modelData = {};
 ```
 
 **Ergänzung der Custom Functions**
@@ -65,12 +75,12 @@ function startVideo() {
 
 function runDetection() {
   model.detect(videoCapture).then(predictions => {
-    
-    const point = predictions.filter(function (prediction) { return prediction.label === 'point' });
-    const closed = predictions.filter(function (prediction) { return prediction.label === 'closed' });
-    
-    if (point.length > 0) {
-      [modelData.x, modelData.y, modelData.w] = point[0].bbox;
+    //console.log("Predictions: ", predictions);
+    if (predictions[0]) {
+      [drawingParams.x, drawingParams.y, drawingParams.w] = predictions[0].bbox;
+    }
+    if (predictions[1]) {
+      [drawingParams.cw] = predictions[1].bbox;
     }
     if (isVideo) {
       requestAnimationFrame(runDetection);
@@ -81,26 +91,25 @@ function runDetection() {
 
 **Ergänzung der Setup Funktion**
 ```
-  // Handtrack.js
-  pixelDensity(1);
-  video = createCapture(VIDEO);
-  video.size(320, 240);
-  video.class("previewVideo");
-  video.id("video");
-  videoCapture = document.getElementById("video");
-  video.hide();
-  
-  // Load the model and start video
-  handTrack.load(modelParams).then(lmodel => {
-    model = lmodel
-    startVideo();
-  });
+pixelDensity(1);
+video = createCapture(VIDEO);
+video.size(320, 240);
+video.class("previewVideo");
+video.id("video");
+videoCapture = document.getElementById("video");
+video.hide();
+
+// Load the model and start video
+handTrack.load(modelParams).then(lmodel => {
+  model = lmodel
+  startVideo();
+});
 ```
 
 **Nutzung der Daten in der Draw Funktion**
 ```
-  const posX = map(modelData.x, 0, 320, 0, width);
-  const posY = map(modelData.y, 0, 240, 0, height);
-  const size = map(modelData.y, 0, 320, 0, 100);
+let x = map(drawingParams.x, 0, 320, 0, width);
+let y = map(drawingParams.y, 0, 240, 0, height);
+let w = map(drawingParams.y, 0, 320, 0, 100);
+let cw = map(drawingParams.cw, 0, 320, 0, 360);
 ```
-{% include youtube.html id="aR-f4A0SKNQ" %}
