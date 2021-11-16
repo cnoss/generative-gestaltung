@@ -2,7 +2,7 @@
 <html lang="de">
 
 <head>
-  <title>Klassen – Generative Gestaltung – Kurs im Modul «Designing Futures 1» // Code & Context</title>
+  <title>Use Presets – Generative Gestaltung – Kurs im Modul «Designing Futures 1» // Code & Context</title>
 
   <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -15,7 +15,7 @@
 
 </head>
 
-<body data-url="/codesnippets/klassen/">
+<body data-url="/codesnippets/use-presets/">
   <section class="hero is-info is-large"
     style="background-image: url(/generative-gestaltung/assets/images/P3.2.png); background-size: contain; background-repeat: no-repeat; background-position: center center;">
     <!-- Hero header: will stick at the top -->
@@ -71,11 +71,11 @@
     <div class="content">
       <div class="columns">
         <div class="column is-8">
-          <h1>Klassen in Javascript</h1>
+          <h1>Presets verwenden</h1>
         </div>
 
         <div class="column is-4 has-text-right">
-          <a target="_blank" href="_codesnippets/klassen.md"><span class="icon"><i class="fa fa-edit"></i></span>
+          <a target="_blank" href="_codesnippets/use-presets.md"><span class="icon"><i class="fa fa-edit"></i></span>
             Bearbeiten</a>
         </div>
       </div>
@@ -86,78 +86,45 @@
   
   <div class="container codesnippet">
     <div class="content">
-      <h2 id="klassen">Klassen</h2>
+      <p>Mit einem kleinen Trick kann man die GUI im Startercode Repo um Presets erweitern. Dies ist praktisch und sehr empfehlenswert, wenn man einen Sketch hat, der mit verschiedenen <em>DrawingParams</em> besonders gut wirkt.</p>
 
-<p>Wenn Elemente komplexer werden und/oder häufiger benötigt werden, lohnt sie der Einsatz von Klassen. Die Idee ist dabei, dass man mit Hilfe der Klasse eine Art Muster oder Template für ein Element, bzw. Objekt erzeugt und dieses Muster dann beliebig oft nutzen, bzw. instanzieren kann.</p>
+<p>Hierfür wird eine neue Version der <a href="https://git.coco.study/students/ws2122/df12-generative-gestaltung/startercode-ws202122/-/blob/main/assets/libs/p5.js/p5.gui.min.js">p5.gui.min.js</a> benötigt.</p>
 
-<h3 id="eine-klasse-erzeugen">Eine Klasse erzeugen</h3>
-<p>Die Klasse, also das Template wird wie folgt erzeugt:</p>
+<h3 id="deklarationsblock">Deklarationsblock</h3>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Ball {
-  constructor( x, y ) { 
-    this.x = x;
-    this.y = y;
-  }
-}
+<p>Hier fügen wir eine neue Variable an, in der wir später den Wert des aktuellen Presets speichern.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let currentPreset = false;
 </code></pre></div></div>
 
-<p>Jede Klasse braucht einen Konstruktor, der beim Instanzieren der Klasse automatisch ausgeführt wird. Bei der Instanzierung können Parameter übergeben werden, die dann mit dem Schlüsselwort <em>this.</em> an das Objekt gebunden werden, sprich: sie gelten nur innerhalb dieses Objekts.</p>
+<h3 id="drawingsparams">DrawingsParams</h3>
 
-<h3 id="ein-objekt-erzeugen">Ein Objekt erzeugen</h3>
+<p>Dann ergänzen wir die <em>DrawingParams</em> um ein Array mit den Namen der verschiedenen Presets.</p>
 
-<p>Nun können wir eine neue Instanz/ Objekt mit Hilfe der Klasse erzeugen. In diesem Beispiel wird ein neuer <em>Ball</em> auf Basis der Klasse <em>Ball</em> erzeugt und ihm wird die aktuelle Mausposition übergeben.</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let ball = new Ball(mouseX, mouseY);
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let drawingParams = {
+  scaleFactor: 1,
+  scaleFactorMax: 20,
+  saturation: 100,
+  preset: ['varianteA', 'varianteB']
+};
 </code></pre></div></div>
 
-<p>Sie sehen, sie sehen nichts. Trotzdem wurde in neues Objekt erzeugt und in der Variable <em>ball</em> gespeichert. Da die Klasse aber bislang nichts zeichnet, sehen wir auch nichts.</p>
+<h3 id="draw-function">Draw Function</h3>
 
-<h3 id="funktionen-in-klassen">Funktionen in Klassen</h3>
-<p>Klassen haben zumeist auch Funktionen, denn sie sollen ja irgendwas machen. In unserem Beispiel soll die etwas zeichnen, daher spendieren wir der Klasse noch die Funktion <em>zeichnen</em>:</p>
+<p>Dann ergänzen wir die <em>Draw Funktion</em> um eine Bedingung, in der wir die Presets verarbeiten. <em>Zeile 01</em> überprüft, ob sich das Preset verändert hat. <em>Zeile 2</em> speichert das neu gewählte Preset in <em>currentPreset</em>. <em>Zeile 03 bis 10</em> verarbeitet die verschiedenen Presets und aktualisiert, falls nötig, die Regler der <em>DrawingParams</em>.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Ball {
-  constructor( x, y ) { 
-    this.x = x;
-    this.y = y;
-    this.size = 20;
-    this.fill = 255;
-  }
-  zeichnen(){
-    fill(255);
-    ellipse(this.x, this.y, this.size);
-  }
-}
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>01  if (drawingParams.preset !== currentPreset) { 
+02    currentPreset = drawingParams.preset;
+03    if (drawingParams.preset === 'varianteA') { 
+04      sketchGUI.update('scaleFactor', 1);
+05      sketchGUI.update('saturation', 100);
+06    } else if (drawingParams.preset === 'varianteB') { 
+04      sketchGUI.update('scaleFactor', 5);
+05      sketchGUI.update('saturation', 10);
+10    }
+11  }
 </code></pre></div></div>
 
-<p>Diese Funktion müssen wir aber auch aufrufen:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ball.zeichnen();
-</code></pre></div></div>
-
-<h3 id="viele-instanzen-mit-arrays">Viele Instanzen mit Arrays</h3>
-
-<p>Meistens setzen wir Klassen ein, wenn wir die abgeleiteten Objekte mehrfach nutzen. Dabei helfen Arrays. Wir legen also zunächst ein leeres Array im Deklarationsbereich unseres Skripts an:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let balls = [];
-</code></pre></div></div>
-
-<p>Jetzt würden wir neue Instanzen/ Objekte diesem Array hinzugüfügen, z.B. beim Mausklick:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function mouseReleased() {
-  balls.push(new Ball(mouseX, mouseY));
-}
-</code></pre></div></div>
-
-<p>Dann hätten wir bei jedem Klick das Array <em>balls</em> um eine neue Instanz von <em>Ball</em> ergänzt. Jetzt müssen wir in der <em>Draw</em> Funktion jeweils für alle Elements in <em>balls</em> die <em>zeichnen</em> Funktion aufrufen:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>balls.forEach(
-    function (ball) { 
-      ball.zeichnen();
-    }
-);
-</code></pre></div></div>
-
-<p>Weitere Information finden Sie in den <a href="https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Klassen">MDN WebDocs</a> und bei <a href="https://www.youtube.com/watch?v=xG2Vbnv0wvg&amp;list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&amp;t=0s">Dan Shiffmanns COding Train</a>.</p>
 
     </div>
   </div>
