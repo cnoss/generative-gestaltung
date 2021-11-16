@@ -22,11 +22,28 @@ pop();
 ## C1.3 Mandala
 Wie zuvor, aber diesmal kopieren wir die Zeichnung rotierend auf der Montagefläche. Hierzu müssen wir mit [createGraphics](https://p5js.org/reference/#/p5/createGraphics) eine Art *virtuelle Zeichenfläche* erzeugen, die wie dann auf unserer Hauptzeichenfläche platzieren.
 
+### Deklarationsblock
+
 ```
-virtualCanvas = createGraphics(width, height);
-…
+let virtualCanvas;
+```
+
+### Setup Funktion
+
+```
+  virtualCanvas = createGraphics(width, height);
+  virtualCanvas.colorMode(HSB, 360, 100, 100, 100);
+  virtualCanvas.fill(0,0,0,100);
+  virtualCanvas.stroke(0,0,0,100);
+  virtualCanvas.strokeWeight(1);
+  virtualCanvas.smooth();
+```
+
+### Draw Funktion
+```
+
 virtualCanvas.ellipse(posX, posY, size);
-…
+
 for (let i = 0; i <= drawingParams.virtualCanvases; i++) { 
   push()
   rotate(i * drawingParams.rotAngle);
