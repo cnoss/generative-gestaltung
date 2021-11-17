@@ -24,9 +24,9 @@ Insgesamt umfasst das Portfolio **drei Artefakte**. Sie sollten aus dem Themenbl
 ## Bereitstellung/ Abgabetermin des Portfolios
 Das Portfolio muss bis Ende Februar 2022 via GitLab Page zur Verfügung gestellt werden. Hierfür wird in Kürze auch ein passender Startercode bereit gestellt. Darüber hinaus finden Sie hier ein kurzes Video, in dem der Prozess erklärt wird.
 
-{% include youtube.html id="4Ryj4CNAbpA" class="is-half" %}
+{% include youtube.html id="AdgXxSmvT_E" class="is-half" %}
 
-Hierfür steht auch ein passender [Startercode](https://git.coco.study/students/ws2122/df12-generative-gestaltung/startercode-gestaltungsportfolio-2020) zur Verfügung. Diesen bitte *clonen* oder kopieren. Hier finden Sie ein [Beispiel für ein Gestaltungsportfolio](https://cnoss.pages.coco.study/startercode-gestaltungsportfolio-2020/). 
+Hierfür steht auch ein passender [Startercode](https://git.coco.study/students/ws2122/df12-generative-gestaltung/startercode-gestaltungsportfolio-ws202122) zur Verfügung. Diesen bitte *clonen* oder kopieren. Hier finden Sie ein [Beispiel für ein Gestaltungsportfolio](https://cnoss.pages.coco.study/startercode-gestaltungsportfolio-ws202122/). 
 
 | Prüfungsteil | Gewicht |
 | ------------- |:-------------|
