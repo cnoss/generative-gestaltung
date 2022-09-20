@@ -6,7 +6,9 @@ code/*
 _site/code/*
 !_site/code/shared/
 .jekyll-cache/
+jekyll-cache/
 .jekyll-cache/*
+.idea/
 
 gg-portfolio-2019/
 gg-portfolio-2019/*
