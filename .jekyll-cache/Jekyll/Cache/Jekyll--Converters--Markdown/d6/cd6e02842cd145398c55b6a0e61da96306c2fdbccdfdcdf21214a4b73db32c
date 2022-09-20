@@ -1,7 +1,0 @@
-I"Ú<div class="js-video widescreen vimeo ">
-  <iframe src="https://www.youtube.com/embed/v4jgr0ppw8Q" frameborder="0" allowfullscreen=""></iframe>
-</div>
-
-<p>Mindestens ein Teilnehmer und ich hatten Probleme beim Audio Input. Das Problem hierbei ist, dass hierzu die <a href="https://developer.mozilla.org/de/docs/Web/API/Web_Audio_API">Web Audio API</a> genutzt wird, die speziellen Sicherheitsrichtlinien unterworfen ist. Eine davon ist die Nutzung von <em>https</em>. Das Video oben zeigt, wie eine <em>https</em> Verbindung fÃ¼r die Live Server Extension von Visual Studio Code erzeugt werden kann. Bei mir hat dies, in Kombination mit der Nutzung von <a href="https://www.mozilla.org/de/firefox/new/">Firefox</a> geholfen.</p>
-
-:ET
