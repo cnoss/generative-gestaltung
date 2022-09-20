@@ -1,4 +1,4 @@
-I"p<h2 id="l1-raster-aus-vertikalen-linien">L1 Raster aus vertikalen Linien</h2>
+I"�<h2 id="l1-raster-aus-vertikalen-linien">L1 Raster aus vertikalen Linien</h2>
 <p>Erzeugen Sie aus beliebig vielen vertikalen Linien ein Raster und zentrieren Sie die Formation im Format. Die Anzahl der Linien sollte mit einem Slider einstellbar sein. Die Linienposition auf der Y-Achse ist fix, die Position auf der X-Achse soll via Slider variert werden können. Varieren Sie weitere Parameter.</p>
 
 <h2 id="l11-raster-aus-vertikalen-liniensträngen">L1.1 Raster aus vertikalen Liniensträngen</h2>
@@ -18,7 +18,7 @@
 
 <p>Hier könnte zum ersten Mal eine Klasse hilfreich sein. Die entsprechende Klasse könnte in Javascript wie folgt implementiert werden:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Grid {
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Grid {
   constructor( angle ) { 
     this.angle = angle;
   }
@@ -39,14 +39,14 @@
 
 <p>In der <em>setup</em> Funktion und beim Drücken einer bestimmten Taste würde eine neue Instanz dieser Klasse einem Array zugefügt:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let grids = [];
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let grids = [];
 …
 grids.push(new Grid(drawingParams.angle)); 
 </code></pre></div></div>
 
 <p>Und in der <em>Draw</em> Funktion wird das Array durchlaufen und die Darstellung getriggert:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>grids.forEach(
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>grids.forEach(
   (item, index) =&gt; { 
     item.show();
     lastGrid = index;

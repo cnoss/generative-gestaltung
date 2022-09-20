@@ -1,4 +1,4 @@
-I"�<h2 id="l2-überlagerung-mit-bezier-kurven">L2 Überlagerung mit Bezier Kurven</h2>
+I"�<h2 id="l2-überlagerung-mit-bezier-kurven">L2 Überlagerung mit Bezier Kurven</h2>
 <p>Erzeugen Sie eine interessante Komposition aus einem Raster mit <a href="https://p5js.org/reference/#/p5/bezier">Bezier Kurven</a>.</p>
 
 <h2 id="l4-linien-in-radialer-anordnung">L4 Linien in radialer Anordnung</h2>
@@ -10,7 +10,7 @@
 <h2 id="l43-tordierte-radiale-anordnung-mit-ellipsen">L4.3 Tordierte radiale Anordnung mit Ellipsen</h2>
 <p>Wie 4.1, aber diesmal verwenden Sie keine Kreisbahnen, sondern elliptische Bahnen. Dazu einfach verschiedene Radien für die Berechnung der X- und Y-Position verwenden.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let x = cos(angle) * radius1;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let x = cos(angle) * radius1;
 let y = sin(angle) * radius2;
 </code></pre></div></div>
 :ET

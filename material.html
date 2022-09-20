@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+{% assign lehrveranstaltungen = site.lehrveranstaltungen %}
+{% assign items = "" | split: "" %}
+
+{% for lehrveranstaltung in lehrveranstaltungen %}
+{% if lehrveranstaltung.material %}
+{% capture item %}
+<li class="material-item">
+  <h3>{{lehrveranstaltung.titel}}</h3>
+  {{ lehrveranstaltung.material | markdownify }}
+</li>
+{% endcapture %}
+{% assign items = items | push: item %}
+{% endif %}
+{% endfor %}
+
+<section class="section">
+  <div class="container">
+
+    <h1 class="title is-1">Material</h1>
+    <hr>
+
+    <div class="content">
+      <p>Alle Folien und Präsentationen, die in den Veranstaltungen verwendet wurden in einer Übersicht.</p>
+    </div>
+
+    <ul class="material-list">
+      {% for item in items %}
+      {{item}}
+      {% endfor %}
+    </ul>
+  </div>
+</section>

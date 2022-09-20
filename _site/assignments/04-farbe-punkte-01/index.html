@@ -32,18 +32,11 @@
       <div class="nav-right nav-menu">
         <!--a href="/generative-gestaltung/angebote/" class="nav-item">Veranstaltungen</a-->
         <a href="/generative-gestaltung/assignments/" class="nav-item">Assignments</a>
+        <a href="/generative-gestaltung/gestaltungsportfolio/" class="nav-item">Gestaltungsportfolio</a>
         <a href="/generative-gestaltung/codesnippets/" class="nav-item">Code Snippets</a>
         <a href="/generative-gestaltung/timetable/" class="nav-item">Zeitplan</a>
-        <!--a href="/generative-gestaltung/niveaustufen/" class="nav-item">Artefakte & Bewertung</a-->
-        <!--a href="/generative-gestaltung/nomenklatur/" class="nav-item">Nomenklatur</a-->
-        <!--a href="/generative-gestaltung/gestaltungsportfolio/" class="nav-item">Gestaltungsportfolio</a-->
-        <!--a href="/generative-gestaltung/projekt-2018/" class="nav-item">Projekt</a-->
-        <!--a href="/generative-gestaltung/challenge-2017/" class="nav-item">Challenge</a-->
-        <!--a href="/generative-gestaltung/links/" class="nav-item">Links</a-->
-        <!--a href="/generative-gestaltung/faq/" class="nav-item">FAQ</a-->
-        <!--a href="https://github.com/th-koeln/mi-bachelor-wba1/issues/new" class="nav-item">Frage stellen</a-->
-        <!--a href="https://github.com/th-koeln/mi-bachelor-wba1/wiki" class="nav-item">WBA1 Wiki</a-->
-
+        <a href="/generative-gestaltung/building-blocks/" class="nav-item">Bausteine</a>
+        <a href="/generative-gestaltung/material/" class="nav-item">Material</a>
       </div>
     </div>
   </header>
@@ -69,8 +62,8 @@
   
   <div class="container">
     <div class="content is-large">
-      <p>Setzen Sie den Farbmodus in Ihrer Setup Funktion auf <code class="highlighter-rouge">colorMode(HSB, 360,100,100,100)</code>. Damit steht Ihnen das HSL Farbmodell zur Verfügung. Es gelten folgende Parameter:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hue: Farbwinkel 0-360°
+      <p>Setzen Sie den Farbmodus in Ihrer Setup Funktion auf <code class="language-plaintext highlighter-rouge">colorMode(HSB, 360,100,100,100)</code>. Damit steht Ihnen das HSL Farbmodell zur Verfügung. Es gelten folgende Parameter:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hue: Farbwinkel 0-360°
 Saturation: Sättigung 0-100
 Brightness: Helligkeit 0-100
 
@@ -83,7 +76,7 @@ Der letzte Parameter steuert die Transparenz.
 <h2 id="f11-farbige-punkte-mit-gui">F1.1 Farbige Punkte mit GUI</h2>
 <p>Wir nutzen den Sketch von zuvor, aber ergänzen diesen um eine GUI Komponente zur Steuerung der Parameter. Dazu verwenden wir die Library <a href="https://github.com/bitcraftlab/p5.gui">p5.gui</a>. Im Startercode ist die GUI bereits vorbereitet. Zur Nutzung setzen Sie den Wert von <em>canvasParams.gui</em> auf <em>true</em>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let canvasParams = {
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let canvasParams = {
   holder: document.getElementById("canvas"),
   state: false,
   mouseX: false,

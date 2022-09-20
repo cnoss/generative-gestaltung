@@ -4,11 +4,11 @@ kuerzel: v-ko
 verantwortlich: cn
 typ: openspace
 pflicht: false
-termine: 2021-11-17 10:00
+termine: 2022-11-09 14:00
 empfohlene-voraussetzungen:
 published: true
-dauer: 360
+dauer: 120
 raum: https://th-koeln.zoom.us/j/85350954867 Kenncode ist noss
 info: |
-  Für den Open Space wird keine Anwesenheit erwartet. Wer trotzdem Lust hat zu kommen, wer Feedback möchte, oder oder oder – ich bin am Standort ;) 
+  Für den Open Space wird keine Anwesenheit erwartet. Wer trotzdem Lust hat zu kommen, wer Feedback möchte, oder oder oder – ich bin online erreichbar ;) 
 ---

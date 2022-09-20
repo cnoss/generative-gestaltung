@@ -4,11 +4,11 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: hack
 pflicht: false
-termine: 2021-11-15 10:30
+termine: 2022-11-14 10:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 390
-raum: https://th-koeln.zoom.us/j/85350954867 Kenncode ist noss
+raum: Open Space, S22
 info: |
   Heute gibt es die erste Challenge. Den Ausgangspunkt bilden einige Vorgaben, die den Rahmen bestimmen. Innerhalb diesen Rahmens, soll eine möglichst interessantes Motiv oder eine Motivreihe entwickelt werden.
 ---

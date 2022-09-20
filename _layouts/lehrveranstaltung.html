@@ -59,6 +59,11 @@ layout: default
                 <p class="is-teaser">{{page.info}}</p>
                 {% endif %}
                 {{ content }}
+                
+                {% if page.material %}
+                <h2>Material</h2>
+                {{ page.material | markdownify }}
+                {% endif %}
             </div>
         </div>
     </div>

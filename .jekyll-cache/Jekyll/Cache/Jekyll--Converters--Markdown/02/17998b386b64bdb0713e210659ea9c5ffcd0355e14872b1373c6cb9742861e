@@ -1,87 +1,87 @@
-I"ü(<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="n">let</span> <span class="n">videoCapture</span><span class="p">;</span>
-<span class="n">const</span> <span class="n">handimg</span> <span class="p">=</span> <span class="n">document</span><span class="p">.</span><span class="n">getElementById</span><span class="p">(</span><span class="s2">"handimage"</span><span class="p">);</span>
-<span class="n">const</span> <span class="n">canvasHT</span> <span class="p">=</span> <span class="n">document</span><span class="p">.</span><span class="n">getElementById</span><span class="p">(</span><span class="s2">"canvasHT"</span><span class="p">);</span>
-<span class="n">const</span> <span class="n">context</span> <span class="p">=</span> <span class="n">canvasHT</span><span class="p">.</span><span class="n">getContext</span><span class="p">(</span><span class="s2">"2d"</span><span class="p">);</span>
+I"¿<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+let videoCapture;
+const handimg = document.getElementById("handimage");
+const canvasHT = document.getElementById("canvasHT");
+const context = canvasHT.getContext("2d");
 
-<span class="n">const</span> <span class="n">modelParams</span> <span class="p">=</span> <span class="p">{</span>
-  <span class="n">flipHorizontal</span><span class="p">:</span> <span class="nb">true</span><span class="p">,</span>   <span class="p">//</span> <span class="n">flip</span> <span class="n">e</span><span class="p">.</span><span class="n">g</span> <span class="n">for</span> <span class="n">video</span>  
-  <span class="n">maxNumBoxes</span><span class="p">:</span> <span class="m">20</span><span class="p">,</span>        <span class="p">//</span> <span class="n">maximum</span> <span class="n">number</span> <span class="k">of</span> <span class="n">boxes</span> <span class="k">to</span> <span class="n">detect</span>
-  <span class="n">iouThreshold</span><span class="p">:</span> <span class="m">0.5</span><span class="p">,</span>      <span class="p">//</span> <span class="n">ioU</span> <span class="n">threshold</span> <span class="n">for</span> <span class="n">non</span><span class="p">-</span><span class="k">max</span> <span class="n">suppression</span>
-  <span class="n">scoreThreshold</span><span class="p">:</span> <span class="m">0.6</span><span class="p">,</span>    <span class="p">//</span> <span class="n">confidence</span> <span class="n">threshold</span> <span class="n">for</span> <span class="n">predictions</span><span class="p">.</span>
-<span class="p">}</span>
+const modelParams = {
+  flipHorizontal: true,   // flip e.g for video  
+  maxNumBoxes: 20,        // maximum number of boxes to detect
+  iouThreshold: 0.5,      // ioU threshold for non-max suppression
+  scoreThreshold: 0.6,    // confidence threshold for predictions.
+}
 
-<span class="n">let</span> <span class="n">imgindex</span> <span class="p">=</span> <span class="m">1</span><span class="p">;</span>
-<span class="n">let</span> <span class="n">isVideo</span> <span class="p">=</span> <span class="nb">false</span><span class="p">;</span>
-<span class="n">let</span> <span class="k">model</span> <span class="p">=</span> <span class="n">null</span><span class="p">;</span>
-
-
-<span class="p">/*</span> <span class="p">###########################################################################</span>
-<span class="n">Custom</span> <span class="n">Functions</span>
-<span class="p">############################################################################</span> <span class="p">*/</span>
-
-<span class="k">function</span> <span class="n">startVideo</span><span class="p">()</span> <span class="p">{</span>
-  <span class="n">handTrack</span><span class="p">.</span><span class="n">startVideo</span><span class="p">(</span><span class="n">videoCapture</span><span class="p">).</span><span class="k">then</span><span class="p">(</span><span class="k">function</span> <span class="p">(</span><span class="n">status</span><span class="p">)</span> <span class="p">{</span>
-      <span class="k">if</span> <span class="p">(</span><span class="n">status</span><span class="p">)</span> <span class="p">{</span>
-          <span class="n">isVideo</span> <span class="p">=</span> <span class="nb">true</span>
-          <span class="n">runDetection</span><span class="p">()</span>
-      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-      <span class="p">}</span>
-  <span class="p">});</span>
-<span class="p">}</span>
-
-<span class="k">function</span> <span class="n">runDetection</span><span class="p">()</span> <span class="p">{</span>
-  <span class="k">model</span><span class="p">.</span><span class="n">detect</span><span class="p">(</span><span class="n">videoCapture</span><span class="p">).</span><span class="k">then</span><span class="p">(</span><span class="n">predictions</span> <span class="p">=&gt;</span> <span class="p">{</span>
-    <span class="p">//</span><span class="n">console</span><span class="p">.</span><span class="nb">log</span><span class="p">(</span><span class="s2">"Predictions: "</span><span class="p">,</span> <span class="n">predictions</span><span class="p">);</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">predictions</span><span class="p">[</span><span class="m">0</span><span class="p">])</span> <span class="p">{</span>
-      <span class="p">[</span><span class="n">drawingParams</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">drawingParams</span><span class="p">.</span><span class="n">y</span><span class="p">,</span> <span class="n">drawingParams</span><span class="p">.</span><span class="n">w</span><span class="p">]</span> <span class="p">=</span> <span class="n">predictions</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">bbox</span><span class="p">;</span>
-    <span class="p">}</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">predictions</span><span class="p">[</span><span class="m">1</span><span class="p">])</span> <span class="p">{</span>
-      <span class="p">[</span><span class="n">drawingParams</span><span class="p">.</span><span class="n">cw</span><span class="p">]</span> <span class="p">=</span> <span class="n">predictions</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">bbox</span><span class="p">;</span>
-    <span class="p">}</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">isVideo</span><span class="p">)</span> <span class="p">{</span>
-      <span class="n">requestAnimationFrame</span><span class="p">(</span><span class="n">runDetection</span><span class="p">);</span>
-    <span class="p">}</span>
-  <span class="p">});</span>
-<span class="p">}</span>
+let imgindex = 1;
+let isVideo = false;
+let model = null;
 
 
-<span class="p">/*</span> <span class="p">###########################################################################</span>
-<span class="n">P5</span> <span class="n">Functions</span>
-<span class="p">############################################################################</span> <span class="p">*/</span>
+/* ###########################################################################
+Custom Functions
+############################################################################ */
+
+function startVideo() {
+  handTrack.startVideo(videoCapture).then(function (status) {
+      if (status) {
+          isVideo = true
+          runDetection()
+      } else {
+      }
+  });
+}
+
+function runDetection() {
+  model.detect(videoCapture).then(predictions =&gt; {
+    //console.log("Predictions: ", predictions);
+    if (predictions[0]) {
+      [drawingParams.x, drawingParams.y, drawingParams.w] = predictions[0].bbox;
+    }
+    if (predictions[1]) {
+      [drawingParams.cw] = predictions[1].bbox;
+    }
+    if (isVideo) {
+      requestAnimationFrame(runDetection);
+    }
+  });
+}
 
 
-<span class="k">function</span> <span class="n">setup</span><span class="p">()</span> <span class="p">{</span>
+/* ###########################################################################
+P5 Functions
+############################################################################ */
 
-  <span class="n">let</span> <span class="n">canvas</span> <span class="p">=</span> <span class="n">createCanvas</span><span class="p">(</span><span class="n">canvasParams</span><span class="p">.</span><span class="n">w</span><span class="p">,</span> <span class="n">canvasParams</span><span class="p">.</span><span class="n">h</span><span class="p">);</span>
-  <span class="n">canvas</span><span class="p">.</span><span class="n">parent</span><span class="p">(</span><span class="s2">"canvas"</span><span class="p">);</span>
+
+function setup() {
+
+  let canvas = createCanvas(canvasParams.w, canvasParams.h);
+  canvas.parent("canvas");
 
   
-  <span class="n">colorMode</span><span class="p">(</span><span class="n">HSB</span><span class="p">,</span> <span class="m">360</span><span class="p">,</span> <span class="m">100</span><span class="p">,</span> <span class="m">100</span><span class="p">,</span> <span class="m">100</span><span class="p">);</span>
-  <span class="n">noStroke</span><span class="p">();</span>
-  <span class="n">angleMode</span><span class="p">(</span><span class="n">DEGREES</span><span class="p">);</span>
+  colorMode(HSB, 360, 100, 100, 100);
+  noStroke();
+  angleMode(DEGREES);
 
-  <span class="n">let</span> <span class="n">sketchGUI</span> <span class="p">=</span> <span class="n">createGui</span><span class="p">(</span><span class="s1">'Params'</span><span class="p">);</span>
-  <span class="n">sketchGUI</span><span class="p">.</span><span class="n">addObject</span><span class="p">(</span><span class="n">drawingParams</span><span class="p">);</span>
+  let sketchGUI = createGui('Params');
+  sketchGUI.addObject(drawingParams);
 
-  <span class="p">//</span> <span class="n">Video</span> <span class="n">Input</span>
-  <span class="n">pixelDensity</span><span class="p">(</span><span class="m">1</span><span class="p">);</span>
-  <span class="n">video</span> <span class="p">=</span> <span class="n">createCapture</span><span class="p">(</span><span class="n">VIDEO</span><span class="p">);</span>
-  <span class="n">video</span><span class="p">.</span><span class="n">size</span><span class="p">(</span><span class="m">320</span><span class="p">,</span> <span class="m">240</span><span class="p">);</span>
-  <span class="n">video</span><span class="p">.</span><span class="n">class</span><span class="p">(</span><span class="s2">"previewVideo"</span><span class="p">);</span>
-  <span class="n">video</span><span class="p">.</span><span class="n">id</span><span class="p">(</span><span class="s2">"video"</span><span class="p">);</span>
-  <span class="n">videoCapture</span> <span class="p">=</span> <span class="n">document</span><span class="p">.</span><span class="n">getElementById</span><span class="p">(</span><span class="s2">"video"</span><span class="p">);</span>
-  <span class="n">video</span><span class="p">.</span><span class="n">hide</span><span class="p">();</span>
+  // Video Input
+  pixelDensity(1);
+  video = createCapture(VIDEO);
+  video.size(320, 240);
+  video.class("previewVideo");
+  video.id("video");
+  videoCapture = document.getElementById("video");
+  video.hide();
 
-  <span class="p">//</span> <span class="nf">Load</span> <span class="n">the</span> <span class="k">model</span> <span class="k">and</span> <span class="n">start</span> <span class="n">video</span>
-  <span class="n">handTrack</span><span class="p">.</span><span class="nf">load</span><span class="p">(</span><span class="n">modelParams</span><span class="p">).</span><span class="k">then</span><span class="p">(</span><span class="n">lmodel</span> <span class="p">=&gt;</span> <span class="p">{</span>
-    <span class="k">model</span> <span class="p">=</span> <span class="n">lmodel</span>
-    <span class="n">startVideo</span><span class="p">();</span>
-  <span class="p">});</span>
+  // Load the model and start video
+  handTrack.load(modelParams).then(lmodel =&gt; {
+    model = lmodel
+    startVideo();
+  });
 
-  <span class="p">//</span> <span class="n">only</span> <span class="n">call</span> <span class="n">draw</span> <span class="n">when</span> <span class="k">then</span> <span class="n">gui</span> <span class="n">is</span> <span class="n">changed</span>
-  <span class="p">//</span> <span class="n">noLoop</span><span class="p">();</span>
-<span class="p">}</span>
+  // only call draw when then gui is changed
+  // noLoop();
+}
 
 </code></pre></div></div>
 :ET

@@ -229,6 +229,13 @@ $tt-grid-height: 60px;
         dt {
           display: inline-block;
           float: none;
+          margin-left: auto;
+        }
+
+        dt:after{
+          content: ": ";
+          display: inline-block;
+          margin-right: $bfs / 4;
         }
 
         dd+dt:before {
@@ -241,6 +248,22 @@ $tt-grid-height: 60px;
 
     &.is-workshop .card-header {
       background-color: $mi-gruen;
+
+      >.card-header-title {
+        color: #fff;
+      }
+    }
+
+    &.is-retro .card-header {
+      background-color: $mi-grau;
+
+      >.card-header-title {
+        color: #000;
+      }
+    }
+
+    &.is-hack .card-header {
+      background-color: $mi-lila;
 
       >.card-header-title {
         color: #fff;

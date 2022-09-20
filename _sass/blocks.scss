@@ -94,3 +94,30 @@
     }
   }
 }
+
+/* Material List
+########################################################################### */
+
+.material{
+
+  &-list{
+
+  }
+
+  &-item{
+    margin-bottom: $bfs;
+    border-left: solid $mi-grau 2px;
+    padding-left: $bfs / 2;
+    transition: border 300ms, padding 400ms;
+
+    &:hover{
+      border-left: solid $mi-gruen 4px;
+      padding-left: $bfs;
+    }
+
+    & > h3{
+      font-weight: 700;
+      margin-bottom: $bfs/4;
+    }
+  }
+}

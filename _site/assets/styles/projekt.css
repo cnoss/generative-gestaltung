@@ -4172,9 +4172,7 @@ a.box:active {
   width: 1%;
 }
 
-
-.table th,
-.content table th {
+.table th, .content table th {
   color: #363636;
   text-align: left;
 }
@@ -4308,67 +4306,67 @@ a.box:active {
   margin-right: -0.375em;
 }
 
-.tag:not(body).is-white {
+.tag.is-white:not(body) {
   background-color: white;
   color: #0a0a0a;
 }
 
-.tag:not(body).is-black {
+.tag.is-black:not(body) {
   background-color: #0a0a0a;
   color: white;
 }
 
-.tag:not(body).is-light {
+.tag.is-light:not(body) {
   background-color: whitesmoke;
   color: #363636;
 }
 
-.tag:not(body).is-dark {
+.tag.is-dark:not(body) {
   background-color: #363636;
   color: whitesmoke;
 }
 
-.tag:not(body).is-primary {
+.tag.is-primary:not(body) {
   background-color: #c81e0f;
   color: #fff;
 }
 
-.tag:not(body).is-info {
+.tag.is-info:not(body) {
   background-color: #222;
   color: #fff;
 }
 
-.tag:not(body).is-success {
+.tag.is-success:not(body) {
   background-color: #ea5a00;
   color: #fff;
 }
 
-.tag:not(body).is-warning {
+.tag.is-warning:not(body) {
   background-color: #aaaaaa;
   color: rgba(0, 0, 0, 0.7);
 }
 
-.tag:not(body).is-danger {
+.tag.is-danger:not(body) {
   background-color: #ff3860;
   color: #fff;
 }
 
-.tag:not(body).is-medium {
+.tag.is-medium:not(body) {
   font-size: 1rem;
 }
 
-.tag:not(body).is-large {
+.tag.is-large:not(body) {
   font-size: 1.25rem;
 }
 
-.tag:not(body).is-delete {
+.tag.is-delete:not(body) {
   margin-left: 1px;
   padding: 0;
   position: relative;
   width: 2em;
 }
 
-.tag:not(body).is-delete:before, .tag:not(body).is-delete:after {
+.tag.is-delete:not(body):before, .tag.is-delete:not(body):after {
   background-color: currentColor;
   content: "";
   display: block;
@@ -4379,25 +4377,25 @@ a.box:active {
   transform-origin: center center;
 }
 
-.tag:not(body).is-delete:before {
+.tag.is-delete:not(body):before {
   height: 1px;
   width: 50%;
 }
 
-.tag:not(body).is-delete:after {
+.tag.is-delete:not(body):after {
   height: 50%;
   width: 1px;
 }
 
-.tag:not(body).is-delete:hover, .tag:not(body).is-delete:focus {
+.tag.is-delete:not(body):hover, .tag.is-delete:not(body):focus {
   background-color: #e8e8e8;
 }
 
-.tag:not(body).is-delete:active {
+.tag.is-delete:not(body):active {
   background-color: #dbdbdb;
 }
 
-.tag:not(body).is-rounded {
+.tag.is-rounded:not(body) {
   border-radius: 290486px;
 }
 
@@ -4975,7 +4973,7 @@ a.dropdown-item.is-active {
 
 @media screen and (min-width: 769px), print {
   .level-left .level-item:not(:last-child),
-  .level-right .level-item:not(:last-child) {
+.level-right .level-item:not(:last-child) {
     margin-right: 0.75rem;
   }
 }
@@ -5363,7 +5361,7 @@ a.dropdown-item.is-active {
 
 @media screen and (min-width: 769px), print {
   .modal-content,
-  .modal-card {
+.modal-card {
     margin: 0 auto;
     max-height: calc(100vh - 40px);
     width: 640px;
@@ -5613,13 +5611,13 @@ a.nav-item:not(.button):hover {
   color: #363636;
 }
 
-.nav-item a:not(.button).is-active,
-a.nav-item:not(.button).is-active {
+.nav-item a.is-active:not(.button),
+a.nav-item.is-active:not(.button) {
   color: #363636;
 }
 
-.nav-item a:not(.button).is-tab,
-a.nav-item:not(.button).is-tab {
+.nav-item a.is-tab:not(.button),
+a.nav-item.is-tab:not(.button) {
   border-bottom: 1px solid transparent;
   border-top: 1px solid transparent;
   padding-bottom: calc(0.75rem - 1px);
@@ -5628,22 +5626,22 @@ a.nav-item:not(.button).is-tab {
   padding-top: calc(0.75rem - 1px);
 }
 
-.nav-item a:not(.button).is-tab:hover,
-a.nav-item:not(.button).is-tab:hover {
+.nav-item a.is-tab:not(.button):hover,
+a.nav-item.is-tab:not(.button):hover {
   border-bottom-color: #c81e0f;
   border-top-color: transparent;
 }
 
-.nav-item a:not(.button).is-tab.is-active,
-a.nav-item:not(.button).is-tab.is-active {
+.nav-item a.is-tab.is-active:not(.button),
+a.nav-item.is-tab.is-active:not(.button) {
   border-bottom: 3px solid #c81e0f;
   color: #c81e0f;
   padding-bottom: calc(0.75rem - 3px);
 }
 
 @media screen and (min-width: 1024px) {
-  .nav-item a:not(.button).is-brand,
-  a.nav-item:not(.button).is-brand {
+  .nav-item a.is-brand:not(.button),
+a.nav-item.is-brand:not(.button) {
     padding-left: 0;
   }
 }
@@ -5657,13 +5655,6 @@ a.nav-item:not(.button).is-tab.is-active {
   flex-shrink: 0;
   max-width: 100%;
   overflow: auto;
-}
-
-@media screen and (min-width: 960px) {
-  .nav-left,
-  .nav-right {
-    flex-basis: 0;
-  }
 }
 
 .nav-left {
@@ -5754,27 +5745,27 @@ a.nav-item:not(.button).is-tab.is-active {
 
 @media screen and (min-width: 1024px) {
   .navbar.is-white .navbar-start > .navbar-item,
-  .navbar.is-white .navbar-start .navbar-link,
-  .navbar.is-white .navbar-end > .navbar-item,
-  .navbar.is-white .navbar-end .navbar-link {
+.navbar.is-white .navbar-start .navbar-link,
+.navbar.is-white .navbar-end > .navbar-item,
+.navbar.is-white .navbar-end .navbar-link {
     color: #0a0a0a;
   }
   .navbar.is-white .navbar-start > a.navbar-item:hover, .navbar.is-white .navbar-start > a.navbar-item.is-active,
-  .navbar.is-white .navbar-start .navbar-link:hover,
-  .navbar.is-white .navbar-start .navbar-link.is-active,
-  .navbar.is-white .navbar-end > a.navbar-item:hover,
-  .navbar.is-white .navbar-end > a.navbar-item.is-active,
-  .navbar.is-white .navbar-end .navbar-link:hover,
-  .navbar.is-white .navbar-end .navbar-link.is-active {
+.navbar.is-white .navbar-start .navbar-link:hover,
+.navbar.is-white .navbar-start .navbar-link.is-active,
+.navbar.is-white .navbar-end > a.navbar-item:hover,
+.navbar.is-white .navbar-end > a.navbar-item.is-active,
+.navbar.is-white .navbar-end .navbar-link:hover,
+.navbar.is-white .navbar-end .navbar-link.is-active {
     background-color: #f2f2f2;
     color: #0a0a0a;
   }
   .navbar.is-white .navbar-start .navbar-link::after,
-  .navbar.is-white .navbar-end .navbar-link::after {
+.navbar.is-white .navbar-end .navbar-link::after {
     border-color: #0a0a0a;
   }
   .navbar.is-white .navbar-item.has-dropdown:hover .navbar-link,
-  .navbar.is-white .navbar-item.has-dropdown.is-active .navbar-link {
+.navbar.is-white .navbar-item.has-dropdown.is-active .navbar-link {
     background-color: #f2f2f2;
     color: #0a0a0a;
   }
@@ -5807,27 +5798,27 @@ a.nav-item:not(.button).is-tab.is-active {
 
 @media screen and (min-width: 1024px) {
   .navbar.is-black .navbar-start > .navbar-item,
-  .navbar.is-black .navbar-start .navbar-link,
-  .navbar.is-black .navbar-end > .navbar-item,
-  .navbar.is-black .navbar-end .navbar-link {
+.navbar.is-black .navbar-start .navbar-link,
+.navbar.is-black .navbar-end > .navbar-item,
+.navbar.is-black .navbar-end .navbar-link {
     color: white;
   }
   .navbar.is-black .navbar-start > a.navbar-item:hover, .navbar.is-black .navbar-start > a.navbar-item.is-active,
-  .navbar.is-black .navbar-start .navbar-link:hover,
-  .navbar.is-black .navbar-start .navbar-link.is-active,
-  .navbar.is-black .navbar-end > a.navbar-item:hover,
-  .navbar.is-black .navbar-end > a.navbar-item.is-active,
-  .navbar.is-black .navbar-end .navbar-link:hover,
-  .navbar.is-black .navbar-end .navbar-link.is-active {
+.navbar.is-black .navbar-start .navbar-link:hover,
+.navbar.is-black .navbar-start .navbar-link.is-active,
+.navbar.is-black .navbar-end > a.navbar-item:hover,
+.navbar.is-black .navbar-end > a.navbar-item.is-active,
+.navbar.is-black .navbar-end .navbar-link:hover,
+.navbar.is-black .navbar-end .navbar-link.is-active {
     background-color: black;
     color: white;
   }
   .navbar.is-black .navbar-start .navbar-link::after,
-  .navbar.is-black .navbar-end .navbar-link::after {
+.navbar.is-black .navbar-end .navbar-link::after {
     border-color: white;
   }
   .navbar.is-black .navbar-item.has-dropdown:hover .navbar-link,
-  .navbar.is-black .navbar-item.has-dropdown.is-active .navbar-link {
+.navbar.is-black .navbar-item.has-dropdown.is-active .navbar-link {
     background-color: black;
     color: white;
   }
@@ -5860,27 +5851,27 @@ a.nav-item:not(.button).is-tab.is-active {
 
 @media screen and (min-width: 1024px) {
   .navbar.is-light .navbar-start > .navbar-item,
-  .navbar.is-light .navbar-start .navbar-link,
-  .navbar.is-light .navbar-end > .navbar-item,
-  .navbar.is-light .navbar-end .navbar-link {
+.navbar.is-light .navbar-start .navbar-link,
+.navbar.is-light .navbar-end > .navbar-item,
+.navbar.is-light .navbar-end .navbar-link {
     color: #363636;
   }
   .navbar.is-light .navbar-start > a.navbar-item:hover, .navbar.is-light .navbar-start > a.navbar-item.is-active,
-  .navbar.is-light .navbar-start .navbar-link:hover,
-  .navbar.is-light .navbar-start .navbar-link.is-active,
-  .navbar.is-light .navbar-end > a.navbar-item:hover,
-  .navbar.is-light .navbar-end > a.navbar-item.is-active,
-  .navbar.is-light .navbar-end .navbar-link:hover,
-  .navbar.is-light .navbar-end .navbar-link.is-active {
+.navbar.is-light .navbar-start .navbar-link:hover,
+.navbar.is-light .navbar-start .navbar-link.is-active,
+.navbar.is-light .navbar-end > a.navbar-item:hover,
+.navbar.is-light .navbar-end > a.navbar-item.is-active,
+.navbar.is-light .navbar-end .navbar-link:hover,
+.navbar.is-light .navbar-end .navbar-link.is-active {
     background-color: #e8e8e8;
     color: #363636;
   }
   .navbar.is-light .navbar-start .navbar-link::after,
-  .navbar.is-light .navbar-end .navbar-link::after {
+.navbar.is-light .navbar-end .navbar-link::after {
     border-color: #363636;
   }
   .navbar.is-light .navbar-item.has-dropdown:hover .navbar-link,
-  .navbar.is-light .navbar-item.has-dropdown.is-active .navbar-link {
+.navbar.is-light .navbar-item.has-dropdown.is-active .navbar-link {
     background-color: #e8e8e8;
     color: #363636;
   }
@@ -5913,27 +5904,27 @@ a.nav-item:not(.button).is-tab.is-active {
 
 @media screen and (min-width: 1024px) {
   .navbar.is-dark .navbar-start > .navbar-item,
-  .navbar.is-dark .navbar-start .navbar-link,
-  .navbar.is-dark .navbar-end > .navbar-item,
-  .navbar.is-dark .navbar-end .navbar-link {
+.navbar.is-dark .navbar-start .navbar-link,
+.navbar.is-dark .navbar-end > .navbar-item,
+.navbar.is-dark .navbar-end .navbar-link {
     color: whitesmoke;
   }
   .navbar.is-dark .navbar-start > a.navbar-item:hover, .navbar.is-dark .navbar-start > a.navbar-item.is-active,
-  .navbar.is-dark .navbar-start .navbar-link:hover,
-  .navbar.is-dark .navbar-start .navbar-link.is-active,
-  .navbar.is-dark .navbar-end > a.navbar-item:hover,
-  .navbar.is-dark .navbar-end > a.navbar-item.is-active,
-  .navbar.is-dark .navbar-end .navbar-link:hover,
-  .navbar.is-dark .navbar-end .navbar-link.is-active {
+.navbar.is-dark .navbar-start .navbar-link:hover,
+.navbar.is-dark .navbar-start .navbar-link.is-active,
+.navbar.is-dark .navbar-end > a.navbar-item:hover,
+.navbar.is-dark .navbar-end > a.navbar-item.is-active,
+.navbar.is-dark .navbar-end .navbar-link:hover,
+.navbar.is-dark .navbar-end .navbar-link.is-active {
     background-color: #292929;
     color: whitesmoke;
   }
   .navbar.is-dark .navbar-start .navbar-link::after,
-  .navbar.is-dark .navbar-end .navbar-link::after {
+.navbar.is-dark .navbar-end .navbar-link::after {
     border-color: whitesmoke;
   }
   .navbar.is-dark .navbar-item.has-dropdown:hover .navbar-link,
-  .navbar.is-dark .navbar-item.has-dropdown.is-active .navbar-link {
+.navbar.is-dark .navbar-item.has-dropdown.is-active .navbar-link {
     background-color: #292929;
     color: whitesmoke;
   }
@@ -5966,27 +5957,27 @@ a.nav-item:not(.button).is-tab.is-active {
 
 @media screen and (min-width: 1024px) {
   .navbar.is-primary .navbar-start > .navbar-item,
-  .navbar.is-primary .navbar-start .navbar-link,
-  .navbar.is-primary .navbar-end > .navbar-item,
-  .navbar.is-primary .navbar-end .navbar-link {
+.navbar.is-primary .navbar-start .navbar-link,
+.navbar.is-primary .navbar-end > .navbar-item,
+.navbar.is-primary .navbar-end .navbar-link {
     color: #fff;
   }
   .navbar.is-primary .navbar-start > a.navbar-item:hover, .navbar.is-primary .navbar-start > a.navbar-item.is-active,
-  .navbar.is-primary .navbar-start .navbar-link:hover,
-  .navbar.is-primary .navbar-start .navbar-link.is-active,
-  .navbar.is-primary .navbar-end > a.navbar-item:hover,
-  .navbar.is-primary .navbar-end > a.navbar-item.is-active,
-  .navbar.is-primary .navbar-end .navbar-link:hover,
-  .navbar.is-primary .navbar-end .navbar-link.is-active {
+.navbar.is-primary .navbar-start .navbar-link:hover,
+.navbar.is-primary .navbar-start .navbar-link.is-active,
+.navbar.is-primary .navbar-end > a.navbar-item:hover,
+.navbar.is-primary .navbar-end > a.navbar-item.is-active,
+.navbar.is-primary .navbar-end .navbar-link:hover,
+.navbar.is-primary .navbar-end .navbar-link.is-active {
     background-color: #b01a0d;
     color: #fff;
   }
   .navbar.is-primary .navbar-start .navbar-link::after,
-  .navbar.is-primary .navbar-end .navbar-link::after {
+.navbar.is-primary .navbar-end .navbar-link::after {
     border-color: #fff;
   }
   .navbar.is-primary .navbar-item.has-dropdown:hover .navbar-link,
-  .navbar.is-primary .navbar-item.has-dropdown.is-active .navbar-link {
+.navbar.is-primary .navbar-item.has-dropdown.is-active .navbar-link {
     background-color: #b01a0d;
     color: #fff;
   }
@@ -6019,27 +6010,27 @@ a.nav-item:not(.button).is-tab.is-active {
 
 @media screen and (min-width: 1024px) {
   .navbar.is-info .navbar-start > .navbar-item,
-  .navbar.is-info .navbar-start .navbar-link,
-  .navbar.is-info .navbar-end > .navbar-item,
-  .navbar.is-info .navbar-end .navbar-link {
+.navbar.is-info .navbar-start .navbar-link,
+.navbar.is-info .navbar-end > .navbar-item,
+.navbar.is-info .navbar-end .navbar-link {
     color: #fff;
   }
   .navbar.is-info .navbar-start > a.navbar-item:hover, .navbar.is-info .navbar-start > a.navbar-item.is-active,
-  .navbar.is-info .navbar-start .navbar-link:hover,
-  .navbar.is-info .navbar-start .navbar-link.is-active,
-  .navbar.is-info .navbar-end > a.navbar-item:hover,
-  .navbar.is-info .navbar-end > a.navbar-item.is-active,
-  .navbar.is-info .navbar-end .navbar-link:hover,
-  .navbar.is-info .navbar-end .navbar-link.is-active {
+.navbar.is-info .navbar-start .navbar-link:hover,
+.navbar.is-info .navbar-start .navbar-link.is-active,
+.navbar.is-info .navbar-end > a.navbar-item:hover,
+.navbar.is-info .navbar-end > a.navbar-item.is-active,
+.navbar.is-info .navbar-end .navbar-link:hover,
+.navbar.is-info .navbar-end .navbar-link.is-active {
     background-color: #151515;
     color: #fff;
   }
   .navbar.is-info .navbar-start .navbar-link::after,
-  .navbar.is-info .navbar-end .navbar-link::after {
+.navbar.is-info .navbar-end .navbar-link::after {
     border-color: #fff;
   }
   .navbar.is-info .navbar-item.has-dropdown:hover .navbar-link,
-  .navbar.is-info .navbar-item.has-dropdown.is-active .navbar-link {
+.navbar.is-info .navbar-item.has-dropdown.is-active .navbar-link {
     background-color: #151515;
     color: #fff;
   }
@@ -6072,27 +6063,27 @@ a.nav-item:not(.button).is-tab.is-active {
 
 @media screen and (min-width: 1024px) {
   .navbar.is-success .navbar-start > .navbar-item,
-  .navbar.is-success .navbar-start .navbar-link,
-  .navbar.is-success .navbar-end > .navbar-item,
-  .navbar.is-success .navbar-end .navbar-link {
+.navbar.is-success .navbar-start .navbar-link,
+.navbar.is-success .navbar-end > .navbar-item,
+.navbar.is-success .navbar-end .navbar-link {
     color: #fff;
   }
   .navbar.is-success .navbar-start > a.navbar-item:hover, .navbar.is-success .navbar-start > a.navbar-item.is-active,
-  .navbar.is-success .navbar-start .navbar-link:hover,
-  .navbar.is-success .navbar-start .navbar-link.is-active,
-  .navbar.is-success .navbar-end > a.navbar-item:hover,
-  .navbar.is-success .navbar-end > a.navbar-item.is-active,
-  .navbar.is-success .navbar-end .navbar-link:hover,
-  .navbar.is-success .navbar-end .navbar-link.is-active {
+.navbar.is-success .navbar-start .navbar-link:hover,
+.navbar.is-success .navbar-start .navbar-link.is-active,
+.navbar.is-success .navbar-end > a.navbar-item:hover,
+.navbar.is-success .navbar-end > a.navbar-item.is-active,
+.navbar.is-success .navbar-end .navbar-link:hover,
+.navbar.is-success .navbar-end .navbar-link.is-active {
     background-color: #d15000;
     color: #fff;
   }
   .navbar.is-success .navbar-start .navbar-link::after,
-  .navbar.is-success .navbar-end .navbar-link::after {
+.navbar.is-success .navbar-end .navbar-link::after {
     border-color: #fff;
   }
   .navbar.is-success .navbar-item.has-dropdown:hover .navbar-link,
-  .navbar.is-success .navbar-item.has-dropdown.is-active .navbar-link {
+.navbar.is-success .navbar-item.has-dropdown.is-active .navbar-link {
     background-color: #d15000;
     color: #fff;
   }
@@ -6125,27 +6116,27 @@ a.nav-item:not(.button).is-tab.is-active {
 
 @media screen and (min-width: 1024px) {
   .navbar.is-warning .navbar-start > .navbar-item,
-  .navbar.is-warning .navbar-start .navbar-link,
-  .navbar.is-warning .navbar-end > .navbar-item,
-  .navbar.is-warning .navbar-end .navbar-link {
+.navbar.is-warning .navbar-start .navbar-link,
+.navbar.is-warning .navbar-end > .navbar-item,
+.navbar.is-warning .navbar-end .navbar-link {
     color: rgba(0, 0, 0, 0.7);
   }
   .navbar.is-warning .navbar-start > a.navbar-item:hover, .navbar.is-warning .navbar-start > a.navbar-item.is-active,
-  .navbar.is-warning .navbar-start .navbar-link:hover,
-  .navbar.is-warning .navbar-start .navbar-link.is-active,
-  .navbar.is-warning .navbar-end > a.navbar-item:hover,
-  .navbar.is-warning .navbar-end > a.navbar-item.is-active,
-  .navbar.is-warning .navbar-end .navbar-link:hover,
-  .navbar.is-warning .navbar-end .navbar-link.is-active {
+.navbar.is-warning .navbar-start .navbar-link:hover,
+.navbar.is-warning .navbar-start .navbar-link.is-active,
+.navbar.is-warning .navbar-end > a.navbar-item:hover,
+.navbar.is-warning .navbar-end > a.navbar-item.is-active,
+.navbar.is-warning .navbar-end .navbar-link:hover,
+.navbar.is-warning .navbar-end .navbar-link.is-active {
     background-color: #9d9d9d;
     color: rgba(0, 0, 0, 0.7);
   }
   .navbar.is-warning .navbar-start .navbar-link::after,
-  .navbar.is-warning .navbar-end .navbar-link::after {
+.navbar.is-warning .navbar-end .navbar-link::after {
     border-color: rgba(0, 0, 0, 0.7);
   }
   .navbar.is-warning .navbar-item.has-dropdown:hover .navbar-link,
-  .navbar.is-warning .navbar-item.has-dropdown.is-active .navbar-link {
+.navbar.is-warning .navbar-item.has-dropdown.is-active .navbar-link {
     background-color: #9d9d9d;
     color: rgba(0, 0, 0, 0.7);
   }
@@ -6178,27 +6169,27 @@ a.nav-item:not(.button).is-tab.is-active {
 
 @media screen and (min-width: 1024px) {
   .navbar.is-danger .navbar-start > .navbar-item,
-  .navbar.is-danger .navbar-start .navbar-link,
-  .navbar.is-danger .navbar-end > .navbar-item,
-  .navbar.is-danger .navbar-end .navbar-link {
+.navbar.is-danger .navbar-start .navbar-link,
+.navbar.is-danger .navbar-end > .navbar-item,
+.navbar.is-danger .navbar-end .navbar-link {
     color: #fff;
   }
   .navbar.is-danger .navbar-start > a.navbar-item:hover, .navbar.is-danger .navbar-start > a.navbar-item.is-active,
-  .navbar.is-danger .navbar-start .navbar-link:hover,
-  .navbar.is-danger .navbar-start .navbar-link.is-active,
-  .navbar.is-danger .navbar-end > a.navbar-item:hover,
-  .navbar.is-danger .navbar-end > a.navbar-item.is-active,
-  .navbar.is-danger .navbar-end .navbar-link:hover,
-  .navbar.is-danger .navbar-end .navbar-link.is-active {
+.navbar.is-danger .navbar-start .navbar-link:hover,
+.navbar.is-danger .navbar-start .navbar-link.is-active,
+.navbar.is-danger .navbar-end > a.navbar-item:hover,
+.navbar.is-danger .navbar-end > a.navbar-item.is-active,
+.navbar.is-danger .navbar-end .navbar-link:hover,
+.navbar.is-danger .navbar-end .navbar-link.is-active {
     background-color: #ff1f4b;
     color: #fff;
   }
   .navbar.is-danger .navbar-start .navbar-link::after,
-  .navbar.is-danger .navbar-end .navbar-link::after {
+.navbar.is-danger .navbar-end .navbar-link::after {
     border-color: #fff;
   }
   .navbar.is-danger .navbar-item.has-dropdown:hover .navbar-link,
-  .navbar.is-danger .navbar-item.has-dropdown.is-active .navbar-link {
+.navbar.is-danger .navbar-item.has-dropdown.is-active .navbar-link {
     background-color: #ff1f4b;
     color: #fff;
   }
@@ -6374,7 +6365,7 @@ a.navbar-item:hover, a.navbar-item.is-active,
     display: block;
   }
   .navbar-brand .navbar-item,
-  .navbar-tabs .navbar-item {
+.navbar-tabs .navbar-item {
     align-items: center;
     display: flex;
   }
@@ -6390,9 +6381,9 @@ a.navbar-item:hover, a.navbar-item.is-active,
 
 @media screen and (min-width: 1024px) {
   .navbar,
-  .navbar-menu,
-  .navbar-start,
-  .navbar-end {
+.navbar-menu,
+.navbar-start,
+.navbar-end {
     align-items: stretch;
     display: flex;
   }
@@ -6400,8 +6391,8 @@ a.navbar-item:hover, a.navbar-item.is-active,
     min-height: 3.25rem;
   }
   .navbar.is-transparent a.navbar-item:hover, .navbar.is-transparent a.navbar-item.is-active,
-  .navbar.is-transparent .navbar-link:hover,
-  .navbar.is-transparent .navbar-link.is-active {
+.navbar.is-transparent .navbar-link:hover,
+.navbar.is-transparent .navbar-link.is-active {
     background-color: transparent;
   }
   .navbar.is-transparent .navbar-item.has-dropdown.is-active .navbar-link, .navbar.is-transparent .navbar-item.has-dropdown.is-hoverable:hover .navbar-link {
@@ -6419,7 +6410,7 @@ a.navbar-item:hover, a.navbar-item.is-active,
     display: none;
   }
   .navbar-item,
-  .navbar-link {
+.navbar-link {
     align-items: center;
     display: flex;
   }
@@ -6516,11 +6507,11 @@ a.navbar-item:hover, a.navbar-item.is-active,
     margin-right: -1rem;
   }
   a.navbar-item.is-active,
-  .navbar-link.is-active {
+.navbar-link.is-active {
     color: #0a0a0a;
   }
   a.navbar-item.is-active:not(:hover),
-  .navbar-link.is-active:not(:hover) {
+.navbar-link.is-active:not(:hover) {
     background-color: transparent;
   }
   .navbar-item.has-dropdown:hover .navbar-link, .navbar-item.has-dropdown.is-active .navbar-link {
@@ -6673,7 +6664,7 @@ a.navbar-item:hover, a.navbar-item.is-active,
     flex-wrap: wrap;
   }
   .pagination-previous,
-  .pagination-next {
+.pagination-next {
     flex-grow: 1;
     flex-shrink: 1;
   }
@@ -8198,7 +8189,7 @@ label.panel-block:hover {
 
 .hero.is-white a.nav-item:hover, .hero.is-white a.nav-item.is-active,
 .hero.is-white .nav-item a:not(.button):hover,
-.hero.is-white .nav-item a:not(.button).is-active {
+.hero.is-white .nav-item a.is-active:not(.button) {
   color: #0a0a0a;
 }
 
@@ -8294,7 +8285,7 @@ label.panel-block:hover {
 
 .hero.is-black a.nav-item:hover, .hero.is-black a.nav-item.is-active,
 .hero.is-black .nav-item a:not(.button):hover,
-.hero.is-black .nav-item a:not(.button).is-active {
+.hero.is-black .nav-item a.is-active:not(.button) {
   color: white;
 }
 
@@ -8390,7 +8381,7 @@ label.panel-block:hover {
 
 .hero.is-light a.nav-item:hover, .hero.is-light a.nav-item.is-active,
 .hero.is-light .nav-item a:not(.button):hover,
-.hero.is-light .nav-item a:not(.button).is-active {
+.hero.is-light .nav-item a.is-active:not(.button) {
   color: #363636;
 }
 
@@ -8486,7 +8477,7 @@ label.panel-block:hover {
 
 .hero.is-dark a.nav-item:hover, .hero.is-dark a.nav-item.is-active,
 .hero.is-dark .nav-item a:not(.button):hover,
-.hero.is-dark .nav-item a:not(.button).is-active {
+.hero.is-dark .nav-item a.is-active:not(.button) {
   color: whitesmoke;
 }
 
@@ -8582,7 +8573,7 @@ label.panel-block:hover {
 
 .hero.is-primary a.nav-item:hover, .hero.is-primary a.nav-item.is-active,
 .hero.is-primary .nav-item a:not(.button):hover,
-.hero.is-primary .nav-item a:not(.button).is-active {
+.hero.is-primary .nav-item a.is-active:not(.button) {
   color: #fff;
 }
 
@@ -8678,7 +8669,7 @@ label.panel-block:hover {
 
 .hero.is-info a.nav-item:hover, .hero.is-info a.nav-item.is-active,
 .hero.is-info .nav-item a:not(.button):hover,
-.hero.is-info .nav-item a:not(.button).is-active {
+.hero.is-info .nav-item a.is-active:not(.button) {
   color: #fff;
 }
 
@@ -8774,7 +8765,7 @@ label.panel-block:hover {
 
 .hero.is-success a.nav-item:hover, .hero.is-success a.nav-item.is-active,
 .hero.is-success .nav-item a:not(.button):hover,
-.hero.is-success .nav-item a:not(.button).is-active {
+.hero.is-success .nav-item a.is-active:not(.button) {
   color: #fff;
 }
 
@@ -8870,7 +8861,7 @@ label.panel-block:hover {
 
 .hero.is-warning a.nav-item:hover, .hero.is-warning a.nav-item.is-active,
 .hero.is-warning .nav-item a:not(.button):hover,
-.hero.is-warning .nav-item a:not(.button).is-active {
+.hero.is-warning .nav-item a.is-active:not(.button) {
   color: rgba(0, 0, 0, 0.7);
 }
 
@@ -8966,7 +8957,7 @@ label.panel-block:hover {
 
 .hero.is-danger a.nav-item:hover, .hero.is-danger a.nav-item.is-active,
 .hero.is-danger .nav-item a:not(.button):hover,
-.hero.is-danger .nav-item a:not(.button).is-active {
+.hero.is-danger .nav-item a.is-active:not(.button) {
   color: #fff;
 }
 
@@ -9424,9 +9415,7 @@ label.panel-block:hover {
     color: #231f20;
     line-height: 130%;
   }
-  .zweispalter .content > h1,
-  .zweispalter .content > h2,
-  .zweispalter .content > h3 {
+  .zweispalter .content > h1, .zweispalter .content > h2, .zweispalter .content > h3 {
     margin-left: 0 !important;
     float: left;
     width: 48%;
@@ -9435,23 +9424,19 @@ label.panel-block:hover {
     text-align: right;
     hyphens: none;
   }
-  .zweispalter .content > h4,
-  .zweispalter .content > h5,
-  .zweispalter .content > h6 {
+  .zweispalter .content > h4, .zweispalter .content > h5, .zweispalter .content > h6 {
     font-weight: 600;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
   }
-  .zweispalter .content > h1,
-  .zweispalter .content > h2 {
+  .zweispalter .content > h1, .zweispalter .content > h2 {
     /*border-top: dotted 1px #aaa; */
     padding-top: 1rem;
     text-align: left;
     padding-right: 10%;
     padding-left: 0;
   }
-  .zweispalter .content > h1 + p,
-  .zweispalter .content > h2 + p {
+  .zweispalter .content > h1 + p, .zweispalter .content > h2 + p {
     margin-top: 4rem !important;
   }
   .zweispalter .content > h2:not(:first-child) {
@@ -9505,37 +9490,37 @@ label.panel-block:hover {
 
 @media (max-width: 999px) {
   html,
-  body {
+body {
     /*font-size: 60%;
 		line-height: 110%;*/
   }
   html .content h1,
-  body .content h1 {
+body .content h1 {
     font-size: 1.4rem;
     font-weight: 500;
   }
   html .content h2,
-  body .content h2 {
+body .content h2 {
     font-size: 1.2rem;
     font-weight: 500;
   }
   html .content h3,
-  body .content h3 {
+body .content h3 {
     font-size: 1rem;
     font-weight: 700;
   }
   html .content h4,
-  body .content h4 {
+body .content h4 {
     font-size: 1rem;
     font-weight: 600;
   }
   html .content h5,
-  body .content h5 {
+body .content h5 {
     font-size: 1rem;
     font-weight: 600;
   }
   html .content h6,
-  body .content h6 {
+body .content h6 {
     font-size: 1rem;
     font-weight: 600;
   }
@@ -9543,7 +9528,7 @@ label.panel-block:hover {
 
 @media print {
   section.hero,
-  .is-non-print {
+.is-non-print {
     display: none;
   }
 }

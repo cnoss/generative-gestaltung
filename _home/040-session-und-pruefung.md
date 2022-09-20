@@ -3,9 +3,9 @@ titel: Durchführung
 layout: block-simpletext-2colsWithHeadlineOnTop
 additionalClasses: has-top-seperator
 ---
-### Online Sessions
+### Onsite Sessions
 
-Die Sessions finden alle online statt. Hier finden Sie einen [Zeitplan](timetable/). Dort sind auch die jeweiligen Zoom Sessions verlinkt. Der Zugangscode ist immer mein *Nachname* in *kleinbuchstaben*. Zur Laufzeit der Veranstaltung gibt es einen [Mattermost Kanal](https://chat.coco.study/students/channels/class-generative-gestaltung), der für Fragen, Anmerkungen u.v.m. genutzt werden kann.
+Die Sessions finden überwiegend vor Ort im Open Space in der S22 statt. Im [Zeitplan](timetable/) finden Sie Infos zu den Sessions und dem Ort, an dem sie statt finden. Zur Laufzeit der Veranstaltung gibt es einen [Mattermost Kanal](https://chat.coco.study/students/channels/class-generative-gestaltung), der für Fragen, Anmerkungen u.v.m. genutzt werden kann.
 
 <!--more-->
 

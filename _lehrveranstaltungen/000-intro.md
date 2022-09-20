@@ -4,11 +4,11 @@ kuerzel: v-ko
 verantwortlich: cn
 typ: vortrag
 pflicht: false
-termine: 2021-11-08 10:00
+termine: 2022-11-07 10:00
 empfohlene-voraussetzungen: Grundkenntnisse Javascript, Coding Essentials I
 published: true
 dauer: 90
-raum: https://th-koeln.zoom.us/j/85350954867 Kenncode ist noss
+raum: Open Space, S22
 info: Wie funktioniert der Kurs und das technische Setup?
 ---
 

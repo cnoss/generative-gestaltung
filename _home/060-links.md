@@ -1,11 +1,11 @@
 ---
 titel: Links
-layout: block-simpletext
+layout: block-simpletext-2colsWithHeadlineOnTop
 additionalClasses: has-top-seperator
 ---
 
 ## Zum Kurs
-- [Startercode und Repos zum Kurs](https://git.coco.study/students/ws2122/df12-generative-gestaltung/)
+- [Startercode und Repos zum Kurs](https://git.coco.study/students/ws2123/df12-generative-gestaltung/)
 - [Meine Lösungen zu einigen Aufgaben](https://git.coco.study/cnoss/startercode-ws202122)
 - [Mitschnitte der Veranstaltungen](https://ilias.th-koeln.de/goto.php?target=cat_2082026&client_id=ILIAS_FH_Koeln)
 
@@ -26,3 +26,17 @@ additionalClasses: has-top-seperator
 
 ## Misc
 - [A Powerline style prompt for your shell](https://github.com/b-ryan/powerline-shell)
+
+<!--more-->
+
+## Javascript
+
+Wir nutzen im Kurs [p5.js](https://p5js.org/reference/) und somit im Wesentlichen Javascript. Warum? Es ist recht einfach (am Anfang), weit verbreitet, gut dokumentiert und vor allem: wir können unsere Ergebnisse direkt im Web-Browser ausführen und somit auch direkt publizieren. Gute Sache!
+
+Folgende Links könnten Ihnen hier helfen:
+- [What went wrong? Troubleshooting JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong)
+- [Storing the information you need — Variables](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables)
+- [Making decisions in your code — conditionals](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)
+- [Looping Code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code)
+- [Build your own function](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Build_your_own_function)
+- [Classes and constructors](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes_in_JavaScript)

@@ -33,18 +33,11 @@
       <div class="nav-right nav-menu">
         <!--a href="/generative-gestaltung/angebote/" class="nav-item">Veranstaltungen</a-->
         <a href="/generative-gestaltung/assignments/" class="nav-item">Assignments</a>
+        <a href="/generative-gestaltung/gestaltungsportfolio/" class="nav-item">Gestaltungsportfolio</a>
         <a href="/generative-gestaltung/codesnippets/" class="nav-item">Code Snippets</a>
         <a href="/generative-gestaltung/timetable/" class="nav-item">Zeitplan</a>
-        <!--a href="/generative-gestaltung/niveaustufen/" class="nav-item">Artefakte & Bewertung</a-->
-        <!--a href="/generative-gestaltung/nomenklatur/" class="nav-item">Nomenklatur</a-->
-        <!--a href="/generative-gestaltung/gestaltungsportfolio/" class="nav-item">Gestaltungsportfolio</a-->
-        <!--a href="/generative-gestaltung/projekt-2018/" class="nav-item">Projekt</a-->
-        <!--a href="/generative-gestaltung/challenge-2017/" class="nav-item">Challenge</a-->
-        <!--a href="/generative-gestaltung/links/" class="nav-item">Links</a-->
-        <!--a href="/generative-gestaltung/faq/" class="nav-item">FAQ</a-->
-        <!--a href="https://github.com/th-koeln/mi-bachelor-wba1/issues/new" class="nav-item">Frage stellen</a-->
-        <!--a href="https://github.com/th-koeln/mi-bachelor-wba1/wiki" class="nav-item">WBA1 Wiki</a-->
-
+        <a href="/generative-gestaltung/building-blocks/" class="nav-item">Bausteine</a>
+        <a href="/generative-gestaltung/material/" class="nav-item">Material</a>
       </div>
     </div>
   </header>
@@ -93,7 +86,7 @@
 <h3 id="eine-klasse-erzeugen">Eine Klasse erzeugen</h3>
 <p>Die Klasse, also das Template wird wie folgt erzeugt:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Ball {
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Ball {
   constructor( x, y ) { 
     this.x = x;
     this.y = y;
@@ -107,7 +100,7 @@
 
 <p>Nun können wir eine neue Instanz/ Objekt mit Hilfe der Klasse erzeugen. In diesem Beispiel wird ein neuer <em>Ball</em> auf Basis der Klasse <em>Ball</em> erzeugt und ihm wird die aktuelle Mausposition übergeben.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let ball = new Ball(mouseX, mouseY);
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let ball = new Ball(mouseX, mouseY);
 </code></pre></div></div>
 
 <p>Sie sehen, sie sehen nichts. Trotzdem wurde in neues Objekt erzeugt und in der Variable <em>ball</em> gespeichert. Da die Klasse aber bislang nichts zeichnet, sehen wir auch nichts.</p>
@@ -115,7 +108,7 @@
 <h3 id="funktionen-in-klassen">Funktionen in Klassen</h3>
 <p>Klassen haben zumeist auch Funktionen, denn sie sollen ja irgendwas machen. In unserem Beispiel soll die etwas zeichnen, daher spendieren wir der Klasse noch die Funktion <em>zeichnen</em>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Ball {
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Ball {
   constructor( x, y ) { 
     this.x = x;
     this.y = y;
@@ -131,26 +124,26 @@
 
 <p>Diese Funktion müssen wir aber auch aufrufen:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ball.zeichnen();
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ball.zeichnen();
 </code></pre></div></div>
 
 <h3 id="viele-instanzen-mit-arrays">Viele Instanzen mit Arrays</h3>
 
 <p>Meistens setzen wir Klassen ein, wenn wir die abgeleiteten Objekte mehrfach nutzen. Dabei helfen Arrays. Wir legen also zunächst ein leeres Array im Deklarationsbereich unseres Skripts an:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let balls = [];
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let balls = [];
 </code></pre></div></div>
 
 <p>Jetzt würden wir neue Instanzen/ Objekte diesem Array hinzugüfügen, z.B. beim Mausklick:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function mouseReleased() {
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function mouseReleased() {
   balls.push(new Ball(mouseX, mouseY));
 }
 </code></pre></div></div>
 
 <p>Dann hätten wir bei jedem Klick das Array <em>balls</em> um eine neue Instanz von <em>Ball</em> ergänzt. Jetzt müssen wir in der <em>Draw</em> Funktion jeweils für alle Elements in <em>balls</em> die <em>zeichnen</em> Funktion aufrufen:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>balls.forEach(
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>balls.forEach(
     function (ball) { 
       ball.zeichnen();
     }

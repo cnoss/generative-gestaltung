@@ -31,7 +31,7 @@
 			<p><strong>
 				{% assign check = lehrveranstaltung.info | strip_newlines %}
 				{% if check != ""  %}
-				{{lehrveranstaltung.info}}
+				{{lehrveranstaltung.info | truncatewords: 30 }}
 				{% endif %}
 			</strong></p>
 			

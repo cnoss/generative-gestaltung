@@ -4,16 +4,17 @@ kuerzel: w-lmw
 verantwortlich: cf
 typ: vortrag
 pflicht: false
-termine: 2021-11-08 14:30
+termine: 2022-11-07 14:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 45
-raum: https://th-koeln.zoom.us/j/85350954867 Kenncode ist noss
+raum: Open Space, S22
 info: 
+material: |
+    - [Intro von Christian Faubel](https://fblchrstn.hotglue.me/?generative_gestaltung)
 ---
 
 Wie hat sich das Thema *Generative Gestaltung* entwickelt? Wo kommt es her? Was sind interessante und vielleicht wichtige Meilensteine?
 
-## Material 
-[Intro von Christian Faubel](https://fblchrstn.hotglue.me/?generative_gestaltung)
+
 

@@ -4,11 +4,11 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: training
 pflicht: false
-termine: 2021-11-08 15:30, 2021-11-09 14:30, 2021-11-11 15:00, 2021-11-18 15:00
+termine: 2022-11-07 15:30, 2022-11-08 14:30, 2022-11-10 15:00, 2022-11-17 15:00
 empfohlene-voraussetzungen:
 published: true
 dauer: 90
-raum: https://th-koeln.zoom.us/j/85350954867 Kenncode ist noss
+raum: Open Space, S22, irgendwie in der Ecke
 info: |
   Hier werden einige der Aufgaben gemeinsam gelöst. Eine gute Gelegenheit für alle, die ihr Know-how noch ein bisschen auffrischen wollen.
 ---

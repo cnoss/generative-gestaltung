@@ -4,11 +4,11 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: vortrag
 pflicht: false
-termine: 2021-11-18 10:30
+termine: 2022-11-17 10:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 60
-raum: https://th-koeln.zoom.us/j/85350954867 Kenncode ist noss
+raum: Open Space, S22
 info: |
 ---
 
