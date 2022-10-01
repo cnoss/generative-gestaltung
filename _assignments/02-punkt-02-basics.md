@@ -36,7 +36,10 @@ angleSteps = 360 / anzahl-der-punkte
 
 **X- und Y-Position berechnen**
 ```
-for (let angle = 0; angle < 360; angle += angleSteps) 
-  x = cos(angle) * radius;
-  y = sin(angle) * radius;
+for (let angle = 0; angle < 360; angle += angleSteps){
+  const x = cos(angle) * radius;
+  const y = sin(angle) * radius;
+  
+  // do anything :)
+}
 ```
