@@ -19,7 +19,7 @@ Wie die Aufgabe zuvor: die Größe der Punkte wird von Ihnen definiert und die A
 Wieder werden beliebig viele Punkte linear angeordnet. Die Formation schlägt diesmal links an und läuft nach rechts in den Anschnitt. Die Größe der Punkte ist abhängig von der X-Position der Maus. Die Y-Position der Formation ist abhängig von der Y-Position der Maus.
 
 ## P2.5 Spiegelverkehrte Anordnung
-Wie zuvor, allerdings erzeugen wir jetzt zwei Formationen, die über die horizontale Mittelachse gespiegelt werden. Bei diesem Sketch könnte es interessant sein, die ganze Formation per Mausklick ein Stück zu drehen und so mehrere Ebenen übereinander zu legen.
+Wie zuvor, allerdings erzeugen wir jetzt zwei Formationen, die über die horizontale Mittelachse gespiegelt werden. Bei diesem Sketch könnte es interessant sein, die ganze Formation per Mausklick ein Stück zu [drehen](https://p5js.org/reference/#/p5/rotate) und so mehrere Ebenen übereinander zu legen.
 
 ## P2.6 Kreisförmige Anordnung
 Anstatt einer linearen Anordnung, platzieren wir die Punkte jetzt mal auf einem Kreis, d.h. wir erzeugen eine kreisförmige Formation von Punkten. Hierzu ist ein wenig Trigonometrie hilfreich:
