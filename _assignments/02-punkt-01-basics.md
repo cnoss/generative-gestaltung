@@ -10,7 +10,7 @@ Platzieren Sie einen [schwarzen](https://p5js.org/reference/#/p5/fill) [Punkt](h
 Platzieren Sie den Punkt in der Mitte der Zeichenfläche. Hier helfen die p5 Umgebungsvariabeln [width](https://p5js.org/reference/#/p5/width) und [height](https://p5js.org/reference/#/p5/height).
 
 ## P1.2 Beweglicher Punkt
-Positionieren Sie den Punkt auf der X-Achse auf entsprechend der Mausposition. Hierfür brauchen wir das p5 MouseEvent [mouseX](https://p5js.org/reference/#/p5/mouseX).
+Positionieren Sie den Punkt auf der X-Achse entsprechend der Mausposition. Hierfür brauchen wir das p5 MouseEvent [mouseX](https://p5js.org/reference/#/p5/mouseX).
 
 ## P1.3 Beweglicher Punkt bis zum Rand
 Positionieren Sie den Punkt auf der X-Achse entsprechend der Mausposition, allerdings soll sich der Punkt nicht über den Rand der Zeichenfläche hinaus bewegen. Ok, hier muss ein bisschen gerechnet werden. Hier könnte auch die [constrain](https://p5js.org/reference/#/p5/constrain)-Funktion helfen.
