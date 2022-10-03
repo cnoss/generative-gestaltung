@@ -1,9 +1,11 @@
+{% assign navigation = include.navigation %}
 <div class="hero-head has-background-radient">
   <header class="nav">
     <div class="container">
       <div class="nav-left">
         <a href="{{ site.baseurl }}/" class="nav-item"><img src="{{ site.avatar }}" /></a>
       </div>
+      {% if navigation != "false" %}
       <span class="nav-toggle">
         <span></span>
         <span></span>
@@ -18,6 +20,7 @@
         <a href="{{ site.baseurl }}/building-blocks/" class="nav-item">Bausteine</a>
         <a href="{{ site.baseurl }}/material/" class="nav-item">Material</a>
       </div>
+      {% endif %}
     </div>
   </header>
 </div>
