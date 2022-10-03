@@ -9,6 +9,6 @@ _site/code/*
 jekyll-cache/
 .jekyll-cache/*
 .idea/
-
+node_modules/
 gg-portfolio-2019/
 gg-portfolio-2019/*

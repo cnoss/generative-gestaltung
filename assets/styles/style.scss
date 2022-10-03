@@ -912,3 +912,24 @@ pre code {
   position: absolute;
 }
 
+.video-container{
+  border-top: solid 1px rgba(255,255,255,0.3);
+  border-bottom: solid 1px rgba(255,255,255,0.3);
+  padding-top: $bfs;
+  padding-bottom: $bfs;
+  aspect-ratio: 16/9;
+  width: 100%;
+  margin-left: 0 !important;
+
+  & iframe{
+    width: 100%;
+    height: 100%;
+  }
+
+  & figcaption p{
+    padding-top: $bfs;
+    text-align: left;
+    font-style: normal !important;
+    font-size: $bfs !important;
+  }
+}
