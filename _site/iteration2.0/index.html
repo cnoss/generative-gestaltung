@@ -55,6 +55,7 @@
   transform: scale(0.95);
   cursor: pointer;
 }
+
 .feed__item figure{
   margin: 0;
 }
@@ -111,6 +112,7 @@
   display: flex;
   flex-direction: row-reverse;
   background-color: #222;
+  padding-right: 1em;
 }
 
 .close-button{
@@ -157,6 +159,17 @@
   max-width: 120ch;
 }
 
+.iteration-id{
+  display: inline-block;
+}
+
+.iteration-id::after{
+  content: "//";
+  color: rgba(255,255,255,.3);
+  display: inline-block;
+  margin-left: 0.5ch;
+  margin-right: 0.5ch;
+}
 </style>
 
 <h1 class="headline"><span class="is-small">Ergebnisse aus dem Kurs</span>Generative Gestaltung</h1>
@@ -179,7 +192,7 @@
       <figure>
         <img loading="lazy" src="https://christiannoss.de/feed/gg-2021-pasch.jpg" alt="A touch of Silk von Simone Pasch">
         <ul class="info">
-          <li class="info__item"><a href="https://spasch.pages.coco.study/startercode-gestaltungsportfolio-2020/result-farbe/">A touch of Silk von Simone Pasch</a></li>
+          <li class="info__item"><span class="iteration-id">G1</span><a href="https://spasch.pages.coco.study/startercode-gestaltungsportfolio-2020/result-farbe/">A touch of Silk von Simone Pasch</a></li>
           <li class="info__item">WS20/21</li>
         </ul>
       </figure>
@@ -195,21 +208,21 @@
       </figure>
     </div-->
   
-    <!--div class="feed__item">
+    <div class="feed__item">
       <figure>
         <img loading="lazy" src="https://christiannoss.de/feed/gg-2021-anetzberger.jpg" alt="Audioreaktives und generativ erzeugtes 3D-Modell von Jonas Anetzberger">
         <ul class="info">
-          <li class="info__item"><a href="https://janetzbe.pages.coco.study/startercode-gestaltungsportfolio-2020/">Audioreaktives und generativ erzeugtes 3D-Modell von Jonas Anetzberger</a></li>
+          <li class="info__item"><span class="iteration-id">G2</span><a href="https://janetzbe.pages.coco.study/startercode-gestaltungsportfolio-2020/">Audioreaktives und generativ erzeugtes 3D-Modell von Jonas Anetzberger</a></li>
           <li class="info__item">WS20/21</li>
         </ul>
       </figure>
-    </div-->
+    </div>
   
     <div class="feed__item">
       <figure>
         <img loading="lazy" src="https://christiannoss.de/feed/gg-2021-schwind.jpg" alt="Banale Goldene Spirale? von Christian Schwind">
         <ul class="info">
-          <li class="info__item"><a href="https://cschwind.pages.coco.study/startercode-gestaltungsportfolio-2020/result-freie-arbeit/">Banale Goldene Spirale? von Christian Schwind</a></li>
+          <li class="info__item"><span class="iteration-id">G3</span><a href="https://cschwind.pages.coco.study/startercode-gestaltungsportfolio-2020/result-freie-arbeit/">Banale Goldene Spirale? von Christian Schwind</a></li>
           <li class="info__item">WS20/21</li>
         </ul>
       </figure>
@@ -231,7 +244,7 @@
       <figure>
         <img loading="lazy" src="https://christiannoss.de/feed/gg-2022-brode.png" alt="CURLZ_ von Henning Brode">
         <ul class="info">
-          <li class="info__item"><a href="https://hbrode.pages.coco.study/gestaltungsportfolio-ws-202122-henning-brode/result-farbe/">CURLZ_ von Henning Brode</a></li>
+          <li class="info__item"><span class="iteration-id">G4</span><a href="https://hbrode.pages.coco.study/gestaltungsportfolio-ws-202122-henning-brode/result-farbe/">CURLZ_ von Henning Brode</a></li>
           <li class="info__item">WS21/22</li>
         </ul>
       </figure>
@@ -242,21 +255,21 @@
       <figure>
         <img loading="lazy" src="https://christiannoss.de/feed/gg-2022-gonser.gif" alt="Die Schönheit von Zahlen von Laura Gonser">
         <ul class="info">
-          <li class="info__item"><a href="https://glaura.pages.coco.study/startercode-gestaltungsportfolio-ws202122/result-freie-arbeit/">Die Schönheit von Zahlen von Laura Gonser</a></li>
+          <li class="info__item"><span class="iteration-id">G5</span><a href="https://glaura.pages.coco.study/startercode-gestaltungsportfolio-ws202122/result-freie-arbeit/">Die Schönheit von Zahlen von Laura Gonser</a></li>
           <li class="info__item">WS21/22</li>
         </ul>
       </figure>
     </div>
   
-    <!--div class="feed__item">
+    <div class="feed__item">
       <figure>
         <img loading="lazy" src="https://christiannoss.de/feed/gg-2022-vidal.png" alt="Fading contrast von Luis Vidal">
         <ul class="info">
-          <li class="info__item"><a href="https://lvidaler.pages.coco.study/startercode-gestaltungsportfolio-ws202122/result-freie-arbeit/">Fading contrast von Luis Vidal</a></li>
+          <li class="info__item"><span class="iteration-id">G6</span><a href="https://lvidaler.pages.coco.study/startercode-gestaltungsportfolio-ws202122/result-freie-arbeit/">Fading contrast von Luis Vidal</a></li>
           <li class="info__item">WS21/22</li>
         </ul>
       </figure>
-    </div-->
+    </div>
   
     <!--div class="feed__item">
       <figure>
@@ -272,7 +285,7 @@
       <figure>
         <img loading="lazy" src="https://christiannoss.de/feed/gg-2021-alexander.jpg" alt="Fibonacci und Farbe in Kontrast von Sarah Li Alexander">
         <ul class="info">
-          <li class="info__item"><a href="https://sbenalex.pages.coco.study/startercode-gestaltungsportfolio-2020/result-farbe/">Fibonacci und Farbe in Kontrast von Sarah Li Alexander</a></li>
+          <li class="info__item"><span class="iteration-id">G7</span><a href="https://sbenalex.pages.coco.study/startercode-gestaltungsportfolio-2020/result-farbe/">Fibonacci und Farbe in Kontrast von Sarah Li Alexander</a></li>
           <li class="info__item">WS20/21</li>
         </ul>
       </figure>
@@ -292,7 +305,7 @@
       <figure>
         <img loading="lazy" src="https://christiannoss.de/feed/gg-2022-haseloh.jpg" alt="Meine Version vom Prisma von Joelina Haseloh">
         <ul class="info">
-          <li class="info__item"><a href="https://jhaseloh.pages.coco.study/gestaltungsportfolio-generative-gestaltung-ws-202122/result-freie-arbeit/">Meine Version vom Prisma von Joelina Haseloh</a></li>
+          <li class="info__item"><span class="iteration-id">G8</span><a href="https://jhaseloh.pages.coco.study/gestaltungsportfolio-generative-gestaltung-ws-202122/result-freie-arbeit/">Meine Version vom Prisma von Joelina Haseloh</a></li>
           <li class="info__item">WS21/22</li>
         </ul>
       </figure>
@@ -302,21 +315,21 @@
       <figure>
         <img loading="lazy" src="https://christiannoss.de/feed/gg-2021-nguyen.jpg" alt="Penrose-Dreieck à la Tien von Tien Nguyen">
         <ul class="info">
-          <li class="info__item"><a href="https://tnguye31.pages.coco.study/startercode-gestaltungsportfolio-2020/result-punkt-linie-flaeche/index.html">Penrose-Dreieck à la Tien von Tien Nguyen</a></li>
+          <li class="info__item"><span class="iteration-id">G9</span><a href="https://tnguye31.pages.coco.study/startercode-gestaltungsportfolio-2020/result-punkt-linie-flaeche/index.html">Penrose-Dreieck à la Tien von Tien Nguyen</a></li>
           <li class="info__item">WS20/21</li>
         </ul>
       </figure>
     </div>
   
-    <!--div class="feed__item">
+    <div class="feed__item">
       <figure>
         <img loading="lazy" src="https://christiannoss.de/feed/gg-2022-unkelbach.jpg" alt="Seegras im Sog der Strömung von Marc Unkelbach">
         <ul class="info">
-          <li class="info__item"><a href="https://munkelb1.pages.coco.study/gg-ws-202122-gestaltungsportfolio/">Seegras im Sog der Strömung von Marc Unkelbach</a></li>
+          <li class="info__item"><span class="iteration-id">G10</span><a href="https://munkelb1.pages.coco.study/gg-ws-202122-gestaltungsportfolio/">Seegras im Sog der Strömung von Marc Unkelbach</a></li>
           <li class="info__item">WS21/22</li>
         </ul>
       </figure>
-    </div-->
+    </div>
   
     <!--div class="feed__item">
       <figure>
@@ -333,7 +346,7 @@
       <figure>
         <img loading="lazy" src="https://christiannoss.de/feed/gg-2022-marx.jpg" alt="Thema Fading Contrasts - Organic Veins von Matthias Marx">
         <ul class="info">
-          <li class="info__item"><a href="https://mmarx6.pages.coco.study/gestaltungsportfolio-ws-202122-m-marx/result-freie-arbeit/">Thema Fading Contrasts - Organic Veins von Matthias Marx</a></li>
+          <li class="info__item"><span class="iteration-id">G11</span><a href="https://mmarx6.pages.coco.study/gestaltungsportfolio-ws-202122-m-marx/result-freie-arbeit/">Thema Fading Contrasts - Organic Veins von Matthias Marx</a></li>
           <li class="info__item">WS21/22</li>
         </ul>
       </figure>
@@ -355,7 +368,7 @@
       <figure>
         <img loading="lazy" src="https://christiannoss.de/feed/gg-2021-wulf.jpg" alt="Vielfätiges Verhalten von Noise von Frederik Wulf">
         <ul class="info">
-          <li class="info__item"><a href="https://fwulf.pages.coco.study/startercode-gestaltungsportfolio-2020/result-freie-arbeit/">Vielfätiges Verhalten von Noise von Frederik Wulf</a></li>
+          <li class="info__item"><span class="iteration-id">G12</span><a href="https://fwulf.pages.coco.study/startercode-gestaltungsportfolio-2020/result-freie-arbeit/">Vielfätiges Verhalten von Noise von Frederik Wulf</a></li>
           <li class="info__item">WS20/21</li>
         </ul>
       </figure>
@@ -376,7 +389,7 @@
       <figure>
         <img loading="lazy" src="https://christiannoss.de/feed/gg-2022-busch.png" alt="Zen von Daniel Busch">
         <ul class="info">
-          <li class="info__item"><a href="https://dbusch.pages.coco.study/startercode-gestaltungsportfolio-ws202122/result-freie-arbeit/">Zen von Daniel Busch</a></li>
+          <li class="info__item"><span class="iteration-id">G13</span><a href="https://dbusch.pages.coco.study/startercode-gestaltungsportfolio-ws202122/result-freie-arbeit/">Zen von Daniel Busch</a></li>
           <li class="info__item">WS21/22</li>
         </ul>
       </figure>
