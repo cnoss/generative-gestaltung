@@ -50,6 +50,7 @@ for (let gridX = 0; gridX < tileCount; gridX++) {
 
 {% include youtube.html id="Ge5Cqv7Zvd0" %}
 
+<!--
 ## C6 Daten vom Smartphone via Tramontana
 Via [Tramonata](https://tramontana.xyz/tramontanajavascriptgettingstarted_2_2) verknüpfen wir unseren Sketch mit dem Smartphone. Das ist recht einfach, aber schlecht dokumentiert. Wir müssen zunächst die [Tramontana App](https://tramontana.xyz/) auf unserem Smartphone installieren und das Smartphone und der Rechner müssen im gleichen Netzsegment sein. Die p5.js Unterstützung ist gerade mal zwei Monate alt. Daher sind [Dokumentation](https://github.com/pierdr/Tramontana-for-Javascript) und Beispiele noch sehr rudimentär. 
 
@@ -81,13 +82,13 @@ device.start("IP_ADRESSE_DIE_AUF_DEM_GERAET_GEZEIGT_WIRD", function (e) {
 
 **Daten verwerten**
 ```
-let x = map(drawingParams.deviceData.r, 0, 3, 0, width / 2);
-let y = map(drawingParams.deviceData.p, 0, 1.5, 0, height / 2);
-let bg = map(drawingParams.deviceData.y, 0, 1.5, 0, 255);
+const x = map(drawingParams.deviceData.r, 0, 3, 0, width / 2);
+const y = map(drawingParams.deviceData.p, 0, 1.5, 0, height / 2);
+const bg = map(drawingParams.deviceData.y, 0, 1.5, 0, 255);
 background(bg);
 ellipse(x, y, 20);
 ```
-
+-->
 
 ## C7 Externe Daten
 Bei dieser Aufgabe geht es darum externe Daten in den Sketch zu integrieren. Hierzu eignen sich vor allem Daten im [JSON Format](https://www.json.org/json-de.html). Hierzu gibt es ein kleines Beispiel in der p5.js Doku zur Funktion [loadJSON](https://p5js.org/reference/#/p5/loadJSON). 
@@ -95,7 +96,6 @@ Bei dieser Aufgabe geht es darum externe Daten in den Sketch zu integrieren. Hie
 Als Beispieldaten werden hier [seismische Messungen](https://earthquake.usgs.gov/earthquakes/feed/) genutzt. 
 
 ## Beispiele & Beispieldatensätze
-- [Repo von Christian Faubel mit den Beispiel Sketches](https://git.coco.study/cfaubel1/startercode-2020/-/tree/master/sketches)
 - [Seismische Daten im GeoJSON](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
 - [Data on COVID-19 (coronavirus) by Our World in Data](https://github.com/owid/covid-19-data/tree/master/public/data)
 - [Weather Beispiel von der p5.js Seite](https://p5js.org/examples/hello-p5-weather.html)

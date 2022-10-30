@@ -16,6 +16,11 @@ info: |
 ## Beispielcode
 - [Code für die verschiedenen Inputs](/generative-gestaltung/material/context.zip)
 
+## Material
+- [Mappa.js](https://mappa.js.org) is a library to facilitate work between the canvas element and existing map libraries and APIs.
+- [ml5.js](https://ml5js.org) ml5.js aims to make machine learning approachable for a broad audience of artists, creative coders, and students.
+- [Handtrack.js](https://victordibia.com/handtrack.js/#/) allows developers to detect multiple hand poses from an image, in any orientation, in the browser. It uses an object detection neural network model, optimized to run in Javascript via Tensorflow.js.
+
 ## Assignments
 - [Simple Inputs](/generative-gestaltung/assignments/06-kontext-01/)
 - [Camera & Audio Input](/generative-gestaltung/assignments/06-kontext-02/)

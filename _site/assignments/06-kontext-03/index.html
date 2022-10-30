@@ -109,13 +109,15 @@ for (let gridX = 0; gridX &lt; tileCount; gridX++) {
   <iframe src="https://www.youtube.com/embed/Ge5Cqv7Zvd0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
-<h2 id="c6-daten-vom-smartphone-via-tramontana">C6 Daten vom Smartphone via Tramontana</h2>
-<p>Via <a href="https://tramontana.xyz/tramontanajavascriptgettingstarted_2_2">Tramonata</a> verknüpfen wir unseren Sketch mit dem Smartphone. Das ist recht einfach, aber schlecht dokumentiert. Wir müssen zunächst die <a href="https://tramontana.xyz/">Tramontana App</a> auf unserem Smartphone installieren und das Smartphone und der Rechner müssen im gleichen Netzsegment sein. Die p5.js Unterstützung ist gerade mal zwei Monate alt. Daher sind <a href="https://github.com/pierdr/Tramontana-for-Javascript">Dokumentation</a> und Beispiele noch sehr rudimentär.</p>
+<!--
+## C6 Daten vom Smartphone via Tramontana
+Via [Tramonata](https://tramontana.xyz/tramontanajavascriptgettingstarted_2_2) verknüpfen wir unseren Sketch mit dem Smartphone. Das ist recht einfach, aber schlecht dokumentiert. Wir müssen zunächst die [Tramontana App](https://tramontana.xyz/) auf unserem Smartphone installieren und das Smartphone und der Rechner müssen im gleichen Netzsegment sein. Die p5.js Unterstützung ist gerade mal zwei Monate alt. Daher sind [Dokumentation](https://github.com/pierdr/Tramontana-for-Javascript) und Beispiele noch sehr rudimentär. 
 
-<p>Im Startercode muss in der <em>index.html</em> der <em>Tramontana</em> Codeblock einkommentiert werden.</p>
+Im Startercode muss in der *index.html* der *Tramontana* Codeblock einkommentiert werden.
 
-<p><strong>Tramontana remote verbinden</strong></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>device.start("IP_ADRESSE_DIE_AUF_DEM_GERAET_GEZEIGT_WIRD", function (e) {
+**Tramontana remote verbinden**
+```
+device.start("IP_ADRESSE_DIE_AUF_DEM_GERAET_GEZEIGT_WIRD", function (e) {
   if (e == undefined) {
     device.makeVibrate();
     device.subscribeAttitude( 60 ,function(ip,e){
@@ -135,15 +137,17 @@ for (let gridX = 0; gridX &lt; tileCount; gridX++) {
     console.log(e);
   }
 });
-</code></pre></div></div>
+```
 
-<p><strong>Daten verwerten</strong></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let x = map(drawingParams.deviceData.r, 0, 3, 0, width / 2);
-let y = map(drawingParams.deviceData.p, 0, 1.5, 0, height / 2);
-let bg = map(drawingParams.deviceData.y, 0, 1.5, 0, 255);
+**Daten verwerten**
+```
+const x = map(drawingParams.deviceData.r, 0, 3, 0, width / 2);
+const y = map(drawingParams.deviceData.p, 0, 1.5, 0, height / 2);
+const bg = map(drawingParams.deviceData.y, 0, 1.5, 0, 255);
 background(bg);
 ellipse(x, y, 20);
-</code></pre></div></div>
+```
+-->
 
 <h2 id="c7-externe-daten">C7 Externe Daten</h2>
 <p>Bei dieser Aufgabe geht es darum externe Daten in den Sketch zu integrieren. Hierzu eignen sich vor allem Daten im <a href="https://www.json.org/json-de.html">JSON Format</a>. Hierzu gibt es ein kleines Beispiel in der p5.js Doku zur Funktion <a href="https://p5js.org/reference/#/p5/loadJSON">loadJSON</a>.</p>
@@ -152,7 +156,6 @@ ellipse(x, y, 20);
 
 <h2 id="beispiele--beispieldatensätze">Beispiele &amp; Beispieldatensätze</h2>
 <ul>
-  <li><a href="https://git.coco.study/cfaubel1/startercode-2020/-/tree/master/sketches">Repo von Christian Faubel mit den Beispiel Sketches</a></li>
   <li><a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php">Seismische Daten im GeoJSON</a></li>
   <li><a href="https://github.com/owid/covid-19-data/tree/master/public/data">Data on COVID-19 (coronavirus) by Our World in Data</a></li>
   <li><a href="https://p5js.org/examples/hello-p5-weather.html">Weather Beispiel von der p5.js Seite</a></li>
