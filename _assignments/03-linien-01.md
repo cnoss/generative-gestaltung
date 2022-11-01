@@ -64,3 +64,11 @@ grids.forEach(
 
 ## L1.6 Angeschnittene Linienraster
 Erzeugen Sie zwei Linienraster mit horizontalen Linien verschiedener Länge. Ein Linienraster soll dabei links an der Zeichenfläche anschlagen, das andere rechts. Die Länge der Linien sollte variieren, so dass in der Mitte teilweise Überschneidungen und teilweise Negativräume entstehen.
+
+
+<figure class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLfnobFnVauQCtwXewGeTbyldxgimSfp7V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figcaption>
+Ein paar Anregungen zur Lösung der Aufgaben gibt es in dieser Playlist.
+</figcaption>
+</figure>

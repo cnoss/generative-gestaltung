@@ -21,7 +21,7 @@ Wie 3.1, jedoch sollen die Punkte im Raster in Abhängigkeit von der X-Position 
 Wie 3.2, aber diesmal sind die Punkte in der Nähe des Mauszeigers im Raster und je weiter ihre X-Position vom Mauszeiger entfernt ist, desto stärker brechen Sie aus den Raster aus.
 
 <figure class="video-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6mqqIH0A2j4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLfnobFnVauQDTnRx-OLJQaNEDQcIJ4QNi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <figcaption>
 Ein paar Anregungen zur Lösung der Aufgaben gibt es in dieser Playlist.
 </figcaption>

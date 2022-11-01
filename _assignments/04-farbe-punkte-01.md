@@ -38,7 +38,7 @@ Wieder erzeugen wir farbige Punkte entlang des Farbkreises, diesmal jedoch in ei
 - Alphawert der Punkte
 
 <figure class="video-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VmjDK7_LoSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLfnobFnVauQCcCzRrcpIGFlXEOiVdvjMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <figcaption>
 Ein paar Anregungen zur Lösung der Aufgaben gibt es in dieser Playlist.
 </figcaption>

@@ -14,7 +14,7 @@ Da die Punktgröße ja durch den Slider vorgegeben ist und die Wahrscheinlichkei
 Dann erzeugen wir meherere dieser Ringe, wobei die Anzahl auch via Slider eingestellt werden kann. Der Radius der Ringe sollte jeweils so erhöht werden, dass ein gleichmäßiges Raster entsteht. Nun können wir hier einige Parameter zur Farbsteuerung mit Geometrieparametern verknüpfen.
 
 <figure class="video-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/084da6vvAHs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLfnobFnVauQCcCzRrcpIGFlXEOiVdvjMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <figcaption>
 Ein paar Anregungen zur Lösung der Aufgaben gibt es in dieser Playlist.
 </figcaption>
