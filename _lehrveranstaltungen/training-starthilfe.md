@@ -10,5 +10,5 @@ published: true
 dauer: 90
 raum: Open Space, S22, irgendwie in der Ecke
 info: |
-  Diese Session richtet an Rookies, die nicht so recht wissen wo und wie sie anfangen sollen. Sahrah wird in ihrer gewohnt sympathischen und kompetenten Art die Session durchführen und gemeinsam mit den Teilnehmer:innen die Aufgaben bearbeiten und lössen.
+  Diese Session richtet sich an Rookies, die nicht so recht wissen wo und wie sie anfangen sollen. Sahrah wird in ihrer gewohnt sympathischen und kompetenten Art die Session durchführen und gemeinsam mit den Teilnehmer:innen die Aufgaben bearbeiten und lösen.
 ---
