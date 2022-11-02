@@ -6,7 +6,7 @@ typ: vortrag
 pflicht: false
 termine: 2022-11-07 14:30
 empfohlene-voraussetzungen:
-published: true
+published: false
 dauer: 45
 raum: Open Space, S22
 info: 

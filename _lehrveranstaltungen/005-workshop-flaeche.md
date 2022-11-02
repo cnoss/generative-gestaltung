@@ -7,14 +7,18 @@ pflicht: false
 termine: 2022-11-11 10:00
 empfohlene-voraussetzungen:
 published: true
-dauer: 120
-raum: Open Space, S22
+dauer: 150
+raum: Zoom(Zugangsdaten sind unten)
 info: |
   Zu guter Letzt befassen wir uns mit der Fläche. Hier haben wir, gegenüber der Linie, als wesentlichen zusätzlichen Gestaltungsparameter, das Verhältnis und die Form. 
 material: |
   - [Folien Figur & Grund](https://th-koeln.github.io/mi-bachelor-screendesign/download/workshops/flaeche-form/020-figur-und-grund.pdf)
   - [Folien Abstände & Proportionen](https://th-koeln.github.io/mi-bachelor-screendesign/download/workshops/systematische-proportionen-und-abstaende/systematische-proportionen-und-abstaende.pdf)
 ---
+
+## Zugangsdaten
+- Link: [Zoom Session](https://th-koeln.zoom.us/j/6078076173?pwd=TjZXb1BoRUxYTktNQnVmZTducVhBQT09)
+- Zugangscode: noss
 
 ## Assignments
 - [Einfache Flächenanordnungen](/generative-gestaltung/assignments/05-flaeche-01/)

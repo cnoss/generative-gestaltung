@@ -7,7 +7,7 @@ pflicht: false
 termine: 2022-11-07 10:00
 empfohlene-voraussetzungen: Grundkenntnisse Javascript, Coding Essentials I
 published: true
-dauer: 90
+dauer: 120
 raum: Open Space, S22
 info: Wie funktioniert der Kurs und das technische Setup?
 ---
