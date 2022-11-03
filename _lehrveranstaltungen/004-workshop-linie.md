@@ -4,10 +4,10 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: workshop
 pflicht: false
-termine: 2022-11-10 13:00
+termine: 2022-11-11 10:00
 empfohlene-voraussetzungen:
 published: true
-dauer: 210
+dauer: 180
 raum: Open Space, S22
 flag: show-at-homepage
 teaserImageURL: /assets/images/p-linie.jpg
