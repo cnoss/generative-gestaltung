@@ -4,6 +4,15 @@ autor: cn
 tags: Inspiration
 ---
 
+
+Hier eine kleine Übersicht über praktische, hilfreiche und teils interessante Funktionen und Konzepte, die p5.js bereit stellt. Falls was fehlt, bitte melden.
+
+## Dimensionen des Canvas
+Die Eigenschaften [width](https://p5js.org/reference/#/p5/width) und [height](https://p5js.org/reference/#/p5/height) stellen die Breite und Höhe der Darstellungsfläche bereit.
+
+## Mausposition
+Die Position der Maus lässt sich mit [mouseX](https://p5js.org/reference/#/p5/mouseX) und [mouseY](https://p5js.org/reference/#/p5/mouseY) abfragen. Die Umgebung für Generative Gestaltung stellt auch die Mausposition via `canvasParams.mouseX` und `canvasParams.mouseY` bereit. Wenn diese Eigenschaften genutzt werden, ist die Mausposition im *Lock-Modus* (einmal L auf der Tastatur) fixert und die Maus kann frei bewegt werden, ohne Einfluss auf die Eigenschaften `canvasParams.mouseX` und `canvasParams.mouseY` zu nehmen.
+
 ## Virtueller Canvas
 Für einige Usecases ist es extrem hilfreich nicht direkt auf den sichtbaren Canvas zu zeichenen, sondern einen virtuellen Canvas zu benutzen und diesen nachher auf der Zeichenfläche zu platzieren. Dabei hilft die Funktion [createGraphics](https://p5js.org/reference/#/p5/createGraphics). Es können auch mehrere virtuelle Canvases genutzt werden und bei der Montage via [image](https://p5js.org/reference/#/p5/image) können auch unterschiedliche [blendModes](https://p5js.org/reference/#/p5/blendMode) genutzt werden.
 
@@ -27,7 +36,7 @@ Sobald wir mit Formen arbeiten, sind [Transformationen](https://p5js.org/referen
 
 ## Beispiel: Kollisionsberechnung
 
-Bewegung fasziniert oftmals, daher hier ein Codebeispiel zum Thema [Kollision](https://p5js.org/examples/motion-circle-collision.htm).
+Bewegung fasziniert oftmals, daher hier ein Codebeispiel zum Thema [Kollision](https://p5js.org/examples/motion-circle-collision.html).
 
 
 ## Beispiel: Ausrichtung auf die Maus

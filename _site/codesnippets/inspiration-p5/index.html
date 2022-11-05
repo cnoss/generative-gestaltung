@@ -82,7 +82,15 @@
   
   <div class="container codesnippet">
     <div class="content">
-      <h2 id="virtueller-canvas">Virtueller Canvas</h2>
+      <p>Hier eine kleine Übersicht über praktische, hilfreiche und teils interessante Funktionen und Konzepte, die p5.js bereit stellt. Falls was fehlt, bitte melden.</p>
+
+<h2 id="dimensionen-des-canvas">Dimensionen des Canvas</h2>
+<p>Die Eigenschaften <a href="https://p5js.org/reference/#/p5/width">width</a> und <a href="https://p5js.org/reference/#/p5/height">height</a> stellen die Breite und Höhe der Darstellungsfläche bereit.</p>
+
+<h2 id="mausposition">Mausposition</h2>
+<p>Die Position der Maus lässt sich mit <a href="https://p5js.org/reference/#/p5/mouseX">mouseX</a> und <a href="https://p5js.org/reference/#/p5/mouseY">mouseY</a> abfragen. Die Umgebung für Generative Gestaltung stellt auch die Mausposition via <code class="language-plaintext highlighter-rouge">canvasParams.mouseX</code> und <code class="language-plaintext highlighter-rouge">canvasParams.mouseY</code> bereit. Wenn diese Eigenschaften genutzt werden, ist die Mausposition im <em>Lock-Modus</em> (einmal L auf der Tastatur) fixert und die Maus kann frei bewegt werden, ohne Einfluss auf die Eigenschaften <code class="language-plaintext highlighter-rouge">canvasParams.mouseX</code> und <code class="language-plaintext highlighter-rouge">canvasParams.mouseY</code> zu nehmen.</p>
+
+<h2 id="virtueller-canvas">Virtueller Canvas</h2>
 <p>Für einige Usecases ist es extrem hilfreich nicht direkt auf den sichtbaren Canvas zu zeichenen, sondern einen virtuellen Canvas zu benutzen und diesen nachher auf der Zeichenfläche zu platzieren. Dabei hilft die Funktion <a href="https://p5js.org/reference/#/p5/createGraphics">createGraphics</a>. Es können auch mehrere virtuelle Canvases genutzt werden und bei der Montage via <a href="https://p5js.org/reference/#/p5/image">image</a> können auch unterschiedliche <a href="https://p5js.org/reference/#/p5/blendMode">blendModes</a> genutzt werden.</p>
 
 <h2 id="pixel-abtasten">Pixel abtasten</h2>
@@ -102,7 +110,7 @@
 
 <h2 id="beispiel-kollisionsberechnung">Beispiel: Kollisionsberechnung</h2>
 
-<p>Bewegung fasziniert oftmals, daher hier ein Codebeispiel zum Thema <a href="https://p5js.org/examples/motion-circle-collision.htm">Kollision</a>.</p>
+<p>Bewegung fasziniert oftmals, daher hier ein Codebeispiel zum Thema <a href="https://p5js.org/examples/motion-circle-collision.html">Kollision</a>.</p>
 
 <h2 id="beispiel-ausrichtung-auf-die-maus">Beispiel: Ausrichtung auf die Maus</h2>
 

@@ -426,7 +426,12 @@ section.is-inverted{
 // Code
 /* ######################################################################### */
 
+.codesnippet p{
+  max-width: 80ch;
+}
+
 .content{
+
 
   div.highlighter-rouge{
 

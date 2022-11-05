@@ -7,7 +7,7 @@ tags: Programmiertechnik
 
 ## Klassen
 
-Wenn Elemente komplexer werden und/oder häufiger benötigt werden, lohnt sie der Einsatz von Klassen. Die Idee ist dabei, dass man mit Hilfe der Klasse eine Art Muster oder Template für ein Element, bzw. Objekt erzeugt und dieses Muster dann beliebig oft nutzen, bzw. instanzieren kann. 
+Wenn Elemente komplexer werden, häufiger benötigt werden oder individuelle Eigenschaften haben, dann lohnt sich der Einsatz von Klassen. Die Idee ist dabei, dass man mit Hilfe der Klasse eine Art Muster oder Template erzeugt und dieses Muster dann beliebig oft nutzen, also instanzieren kann. Eine Instanz einer Klasse ist ein Objekt.
 
 ### Eine Klasse erzeugen
 Die Klasse, also das Template wird wie folgt erzeugt:
@@ -30,7 +30,7 @@ Jede Klasse braucht einen Konstruktor, der beim Instanzieren der Klasse automati
 Nun können wir eine neue Instanz/ Objekt mit Hilfe der Klasse erzeugen. In diesem Beispiel wird ein neuer *Ball* auf Basis der Klasse *Ball* erzeugt und ihm wird die aktuelle Mausposition übergeben.
 
 ```
-let ball = new Ball(mouseX, mouseY);
+const ball = new Ball(mouseX, mouseY);
 ```
 
 Sie sehen, sie sehen nichts. Trotzdem wurde in neues Objekt erzeugt und in der Variable *ball* gespeichert. Da die Klasse aber bislang nichts zeichnet, sehen wir auch nichts.
@@ -61,13 +61,13 @@ ball.zeichnen();
 
 ### Viele Instanzen mit Arrays
 
-Meistens setzen wir Klassen ein, wenn wir die abgeleiteten Objekte mehrfach nutzen. Dabei helfen Arrays. Wir legen also zunächst ein leeres Array im Deklarationsbereich unseres Skripts an:
+Meistens setzen wir Klassen ein, wenn wir viele Objekte erzeugen wollen. Für unsere Zwecke benötigen wir hier zumeist Arrays. Wir legen also zunächst ein leeres Array im Deklarationsbereich unseres Skripts an:
 
 ```
 let balls = [];
 ```
 
-Jetzt würden wir neue Instanzen/ Objekte diesem Array hinzugüfügen, z.B. beim Mausklick:
+Jetzt würden wir neue Objekte diesem Array hinzugüfügen, z.B. beim Mausklick:
 
 ```
 function mouseReleased() {

@@ -84,7 +84,7 @@
     <div class="content">
       <h2 id="klassen">Klassen</h2>
 
-<p>Wenn Elemente komplexer werden und/oder häufiger benötigt werden, lohnt sie der Einsatz von Klassen. Die Idee ist dabei, dass man mit Hilfe der Klasse eine Art Muster oder Template für ein Element, bzw. Objekt erzeugt und dieses Muster dann beliebig oft nutzen, bzw. instanzieren kann.</p>
+<p>Wenn Elemente komplexer werden, häufiger benötigt werden oder individuelle Eigenschaften haben, dann lohnt sich der Einsatz von Klassen. Die Idee ist dabei, dass man mit Hilfe der Klasse eine Art Muster oder Template erzeugt und dieses Muster dann beliebig oft nutzen, also instanzieren kann. Eine Instanz einer Klasse ist ein Objekt.</p>
 
 <h3 id="eine-klasse-erzeugen">Eine Klasse erzeugen</h3>
 <p>Die Klasse, also das Template wird wie folgt erzeugt:</p>
@@ -103,7 +103,7 @@
 
 <p>Nun können wir eine neue Instanz/ Objekt mit Hilfe der Klasse erzeugen. In diesem Beispiel wird ein neuer <em>Ball</em> auf Basis der Klasse <em>Ball</em> erzeugt und ihm wird die aktuelle Mausposition übergeben.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let ball = new Ball(mouseX, mouseY);
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>const ball = new Ball(mouseX, mouseY);
 </code></pre></div></div>
 
 <p>Sie sehen, sie sehen nichts. Trotzdem wurde in neues Objekt erzeugt und in der Variable <em>ball</em> gespeichert. Da die Klasse aber bislang nichts zeichnet, sehen wir auch nichts.</p>
@@ -132,12 +132,12 @@
 
 <h3 id="viele-instanzen-mit-arrays">Viele Instanzen mit Arrays</h3>
 
-<p>Meistens setzen wir Klassen ein, wenn wir die abgeleiteten Objekte mehrfach nutzen. Dabei helfen Arrays. Wir legen also zunächst ein leeres Array im Deklarationsbereich unseres Skripts an:</p>
+<p>Meistens setzen wir Klassen ein, wenn wir viele Objekte erzeugen wollen. Für unsere Zwecke benötigen wir hier zumeist Arrays. Wir legen also zunächst ein leeres Array im Deklarationsbereich unseres Skripts an:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let balls = [];
 </code></pre></div></div>
 
-<p>Jetzt würden wir neue Instanzen/ Objekte diesem Array hinzugüfügen, z.B. beim Mausklick:</p>
+<p>Jetzt würden wir neue Objekte diesem Array hinzugüfügen, z.B. beim Mausklick:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function mouseReleased() {
   balls.push(new Ball(mouseX, mouseY));
