@@ -13,5 +13,9 @@ Hier ein Beispielsketch:
 - [Demo](https://cnoss.pages.coco.study/startercode-ws202122/sketches/working-with-fonts/)
 - [Code des Sketches](https://git.coco.study/cnoss/startercode-ws202122/-/tree/main/sketches/working-with-fonts)
 
-Kurzes Erklärvideo dazu:
-{% include youtube.html id="kdKK3nAsP8s" %}
+<figure class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLfnobFnVauQAWl99_uwNOMin3PoexKVmC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figcaption>
+Ein paar Anregungen zur Lösung der Aufgaben gibt es in dieser Playlist.
+</figcaption>
+</figure>

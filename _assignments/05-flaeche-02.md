@@ -25,3 +25,10 @@ Nutzen Sie ein ähnliches Setup wie zuvor. Diesmal bleibt der Hintergrund jedoch
 Nutzen Sie das gleiche Setup wie zuvor, aber fügen Sie der Komposition eine Tiefenstaffelung hinzu, indem Sie:
 1. die hinten liegenden Elemente dunkler zeichnen
 2. jedem Element einen Schatten geben
+
+<figure class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLfnobFnVauQAWl99_uwNOMin3PoexKVmC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figcaption>
+Ein paar Anregungen zur Lösung der Aufgaben gibt es in dieser Playlist.
+</figcaption>
+</figure>

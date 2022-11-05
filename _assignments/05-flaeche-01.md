@@ -15,3 +15,11 @@ Wie zuvor, aber diesmal nutzen wir farbige Flächen. Nutzen Sie bitte nur zwei G
 
 ## FF1.3 Flächenteilungen im Goldenen Schnitt
 Teilen Sie die sichtbaren Flächen immer wieder auf Basis des goldenen Schnitts. Mit jedem Durchlauf wird der Sketch dadurch kleinteiliger.
+
+
+<figure class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLfnobFnVauQAWl99_uwNOMin3PoexKVmC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figcaption>
+Ein paar Anregungen zur Lösung der Aufgaben gibt es in dieser Playlist.
+</figcaption>
+</figure>
