@@ -97,7 +97,7 @@
 }
 </code></pre></div></div>
 
-<p>Jede Klasse braucht einen Konstruktor, der beim Instanzieren der Klasse automatisch ausgeführt wird. Bei der Instanzierung können Parameter übergeben werden, die dann mit dem Schlüsselwort <em>this.</em> an das Objekt gebunden werden, sprich: sie gelten nur innerhalb dieses Objekts.</p>
+<p>Jede Klasse braucht einen Konstruktor, der beim Instanzieren der Klasse automatisch ausgeführt wird. Bei der Instanzierung können Parameter übergeben werden, die dann mit dem Schlüsselwort <em>this.</em> an das Objekt gebunden werden, sprich: sie gelten nur innerhalb dieses Objekts. In der Dev-Umgebung die wir im Kurs nutzen habe ich einen Bereich für Klassen reserviert.</p>
 
 <h3 id="ein-objekt-erzeugen">Ein Objekt erzeugen</h3>
 
@@ -106,7 +106,7 @@
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>const ball = new Ball(mouseX, mouseY);
 </code></pre></div></div>
 
-<p>Sie sehen, sie sehen nichts. Trotzdem wurde in neues Objekt erzeugt und in der Variable <em>ball</em> gespeichert. Da die Klasse aber bislang nichts zeichnet, sehen wir auch nichts.</p>
+<p>Sie sehen, sie sehen nichts. Trotzdem wurde in neues Objekt erzeugt und in der Variable <em>ball</em> gespeichert. Da die Klasse aber bislang nichts zeichnet, sehen wir auch nichts. Diese Codezeile platzieren wir z.B. in der <em>Setup</em> oder <em>Draw</em> Funktion.</p>
 
 <h3 id="funktionen-in-klassen">Funktionen in Klassen</h3>
 <p>Klassen haben zumeist auch Funktionen, denn sie sollen ja irgendwas machen. In unserem Beispiel soll die etwas zeichnen, daher spendieren wir der Klasse noch die Funktion <em>zeichnen</em>:</p>
@@ -125,19 +125,19 @@
 }
 </code></pre></div></div>
 
-<p>Diese Funktion müssen wir aber auch aufrufen:</p>
+<p>Diese Funktion müssen wir aber auch in der <em>Draw</em> Funktion aufrufen:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ball.zeichnen();
 </code></pre></div></div>
 
 <h3 id="viele-instanzen-mit-arrays">Viele Instanzen mit Arrays</h3>
 
-<p>Meistens setzen wir Klassen ein, wenn wir viele Objekte erzeugen wollen. Für unsere Zwecke benötigen wir hier zumeist Arrays. Wir legen also zunächst ein leeres Array im Deklarationsbereich unseres Skripts an:</p>
+<p>Meistens setzen wir Klassen ein, wenn wir viele Objekte erzeugen wollen. Für unsere Zwecke benötigen wir hier zumeist Arrays. Wir legen also zunächst ein leeres Array im Deklarationsbereich (gaaaaanz oben) unseres Skripts an:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let balls = [];
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>const balls = [];
 </code></pre></div></div>
 
-<p>Jetzt würden wir neue Objekte diesem Array hinzugüfügen, z.B. beim Mausklick:</p>
+<p>Jetzt würden wir neue Objekte diesem Array hinzugüfügen, z.B. beim Mausklick. Hierfür ist in unserer Dev-Umgebung schon eine entsprechende Funktion vorbereitet.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function mouseReleased() {
   balls.push(new Ball(mouseX, mouseY));

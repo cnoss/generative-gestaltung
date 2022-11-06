@@ -21,7 +21,7 @@ class Ball {
 }
 ```
 
-Jede Klasse braucht einen Konstruktor, der beim Instanzieren der Klasse automatisch ausgeführt wird. Bei der Instanzierung können Parameter übergeben werden, die dann mit dem Schlüsselwort *this.* an das Objekt gebunden werden, sprich: sie gelten nur innerhalb dieses Objekts.
+Jede Klasse braucht einen Konstruktor, der beim Instanzieren der Klasse automatisch ausgeführt wird. Bei der Instanzierung können Parameter übergeben werden, die dann mit dem Schlüsselwort *this.* an das Objekt gebunden werden, sprich: sie gelten nur innerhalb dieses Objekts. In der Dev-Umgebung die wir im Kurs nutzen habe ich einen Bereich für Klassen reserviert.
 
 
 
@@ -33,7 +33,7 @@ Nun können wir eine neue Instanz/ Objekt mit Hilfe der Klasse erzeugen. In dies
 const ball = new Ball(mouseX, mouseY);
 ```
 
-Sie sehen, sie sehen nichts. Trotzdem wurde in neues Objekt erzeugt und in der Variable *ball* gespeichert. Da die Klasse aber bislang nichts zeichnet, sehen wir auch nichts.
+Sie sehen, sie sehen nichts. Trotzdem wurde in neues Objekt erzeugt und in der Variable *ball* gespeichert. Da die Klasse aber bislang nichts zeichnet, sehen wir auch nichts. Diese Codezeile platzieren wir z.B. in der *Setup* oder *Draw* Funktion.
 
 ### Funktionen in Klassen
 Klassen haben zumeist auch Funktionen, denn sie sollen ja irgendwas machen. In unserem Beispiel soll die etwas zeichnen, daher spendieren wir der Klasse noch die Funktion *zeichnen*:
@@ -53,21 +53,23 @@ class Ball {
 }
 ```
 
-Diese Funktion müssen wir aber auch aufrufen:
+Diese Funktion müssen wir aber auch in der *Draw* Funktion aufrufen:
 
 ```
 ball.zeichnen();
 ```
 
+
+
 ### Viele Instanzen mit Arrays
 
-Meistens setzen wir Klassen ein, wenn wir viele Objekte erzeugen wollen. Für unsere Zwecke benötigen wir hier zumeist Arrays. Wir legen also zunächst ein leeres Array im Deklarationsbereich unseres Skripts an:
+Meistens setzen wir Klassen ein, wenn wir viele Objekte erzeugen wollen. Für unsere Zwecke benötigen wir hier zumeist Arrays. Wir legen also zunächst ein leeres Array im Deklarationsbereich (gaaaaanz oben) unseres Skripts an:
 
 ```
-let balls = [];
+const balls = [];
 ```
 
-Jetzt würden wir neue Objekte diesem Array hinzugüfügen, z.B. beim Mausklick:
+Jetzt würden wir neue Objekte diesem Array hinzugüfügen, z.B. beim Mausklick. Hierfür ist in unserer Dev-Umgebung schon eine entsprechende Funktion vorbereitet.
 
 ```
 function mouseReleased() {
