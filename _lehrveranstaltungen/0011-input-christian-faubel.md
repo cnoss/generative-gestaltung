@@ -4,9 +4,9 @@ kuerzel: w-lmw
 verantwortlich: cf
 typ: vortrag
 pflicht: false
-termine: 2022-11-07 14:30
+termine: 2022-11-22 14:30
 empfohlene-voraussetzungen:
-published: false
+published: true
 dauer: 45
 raum: Open Space, S22
 info: 

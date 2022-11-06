@@ -1,0 +1,24 @@
+{% assign items = site.inspiration | sort: 'title' %}
+
+<h2 class="pb-3">Inspiration & Beispiele</h2>
+
+<div class="is-tight-overview">
+{% for item in items %}
+<a class="card is-invers" href="{{item.src }}">
+    
+    <div class="card-image">
+        <figure class="image">
+          <img src="{{item.id | append: ".jpg" | relative_url}}" alt="{{item.title}}">
+        </figure>
+    </div>
+    
+    <div class="card-content">
+    	<div class="content">
+            <h3>{{item.titel}}</h3>
+            <p>{{item.text}}</p>
+            <p style="color: #999999;">{{item.tags | join:', '}}</p>
+    	</div>
+    </div>
+</a>
+{% endfor %}
+</div>

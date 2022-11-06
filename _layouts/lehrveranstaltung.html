@@ -64,6 +64,11 @@ layout: default
                 <h2>Material</h2>
                 {{ page.material | markdownify }}
                 {% endif %}
+
+                {% if page.include %}
+                {% include {{page.include}} %}
+                {% endif %}
+
             </div>
         </div>
     </div>

@@ -112,6 +112,8 @@ collections:
     output: false
   codesnippets:
     output: true
+  inspiration:
+    output: true
 
 defaults:
   -

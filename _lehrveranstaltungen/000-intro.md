@@ -10,9 +10,20 @@ published: true
 dauer: 120
 raum: Open Space, S22
 info: Wie funktioniert der Kurs und das technische Setup?
+include: inspiration.html
+
 ---
 
 In dieser Session gibt es einen kurzen thematischen Rundflug über das Themenfeld, sowie die Kursinhalte und -ziele. Wir schauen uns eine inspirierende Projekte an und kümmern uns um sinnvolle technische Setups.
+
+## Ablauf
+- Hallo! Wer kann was?
+- Generative Gestaltung in Code & Context. Worum geht es hier und warum das Ganze?
+- Generative Gestaltung im richtigen Leben.
+- Learnings aus den letzten Generative Gestaltung Kursen.
+- Überblick über die zwei Wochen: wo wollen wir hin?
+- Überblick über das Material: Website, Aufgaben, etc.
+- Kleiner Tauch-ein in die genutzte Dev Umgebung.
 
 
 ## Was muss ich vorbereiten und/ oder mitbringen?
