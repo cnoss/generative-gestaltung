@@ -24,8 +24,6 @@ Jetzt koppeln wir die Größe des Punktes an die Mausposition.
 ## P1.6 Zwei gegeneinanderlaufende bewegliche Punkte
 Positionieren Sie diesmal zwei Punkte auf der X-Achse. Diesmal folgt der eine Punkt der Mausposition, der andere nimmt immer die gespiegelte Position ein. Auf der Y-Achse sind beide Punkte gleich zu positionieren. Somit überlagern sich die Punkte in der Mitte.
 
-**Für die Profis:** Der Punkt kann mit der Maus genommen und in Richtung der X-Achse geschubst werden, am Rand und in der Mitte prallt der Punkt zurück.
-
 
 <figure class="video-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLfnobFnVauQBvOA3GITOLNUuTRcbYWtf8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

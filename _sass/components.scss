@@ -101,3 +101,12 @@
   grid-template-columns: repeat(auto-fit, minmax(36ch, 1fr));
   gap: 1rem;
 }
+
+// Intro
+// ###########################################################################
+
+.zweispalter .content .intro{
+  font-size: 1.20em;
+  margin-left: 0 !important;
+  max-width: 80ch;
+}
