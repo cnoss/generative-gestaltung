@@ -9214,6 +9214,10 @@ label.panel-block:hover {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.card.is-invers .tags {
+  color: rgba(255, 255, 255, 0.4);
+}
+
 .card .card-image figure {
   margin: 0 !important;
   border: none !important;
