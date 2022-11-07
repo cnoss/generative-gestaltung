@@ -2,7 +2,7 @@
 <html lang="de">
 
 <head>
-  <title>Schriften Als Flaeche – Generative Gestaltung – Kurs im Modul «Designing Futures 1» // Code & Context // Wintersemester 22/23</title>
+  <title>Shortcuts – Generative Gestaltung – Kurs im Modul «Designing Futures 1» // Code & Context // Wintersemester 22/23</title>
 
   <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -15,7 +15,7 @@
 
 </head>
 
-<body data-url="/codesnippets/schriften-als-flaeche/">
+<body data-url="/codesnippets/shortcuts/">
   <section class="hero is-info is-large"
     style="background-image: url(/generative-gestaltung/assets/images/P3.2.png); background-size: contain; background-repeat: no-repeat; background-position: center center;">
     <!-- Hero header: will stick at the top -->
@@ -67,11 +67,11 @@
     <div class="content">
       <div class="columns">
         <div class="column is-8">
-          <h1>Schrift als Fläche</h1>
+          <h1>Shortcuts</h1>
         </div>
 
         <div class="column is-4 has-text-right">
-          <a target="_blank" href="_codesnippets/schriften-als-flaeche.md"><span class="icon"><i class="fa fa-edit"></i></span>
+          <a target="_blank" href="_codesnippets/shortcuts.md"><span class="icon"><i class="fa fa-edit"></i></span>
             Bearbeiten</a>
         </div>
       </div>
@@ -82,100 +82,20 @@
   
   <div class="container codesnippet">
     <div class="content">
-      <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let fontPath, font, shiftX, shiftY, fontsize;
-let fontSizeFactor = 0.7;
-let items = [];
-</code></pre></div></div>
+      <p>Shortcuts helfen immer! Man kann nicht alle kennen oder gar können, aber zu allen Funktionen, die man häufig braucht, sollte man den Shortcut kennen, z.B. speichern, suchen, kopieren, etc.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  opentype.load('../../assets/fonts/FreeSerifBold.otf', function(err, f) {
-    if (err) {
-      print(err);
-    } else {
-      font = f;
-      
-      shiftX = drawingParams.shiftX;
-      shiftY = drawingParams.shiftY;
-      fontsize = drawingParams.fontsize;
-      items.push(new Char("B", 2, shiftX, shiftY, fontsize));
+<h3 id="visual-studio-code">Visual Studio Code</h3>
+<ul>
+  <li><a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">Keyboard shortcuts for macOS</a></li>
+  <li><a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Keyboard shortcuts for Windows</a></li>
+</ul>
 
-      loop();
-    }
-  });
-</code></pre></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Char{ 
-  constructor(char, stepwidth, shiftX, shiftY, fontsize) { 
-    this.char = char;
-    this.stepwidth = stepwidth;
-    this.shiftX = shiftX;
-    this.shiftY = shiftY;
-    this.fontsize = fontsize;
-    this.path = this.getPath();
-  }
-
-  draw() { 
-    for (let i = 0; i &lt; drawingParams.runs; i++) { 
-      this.drawChar();
-    }
-  }
-
-  drawElement(element) { 
-    for (let i = 0; i &lt; element.length; i += this.stepwidth) {
-      let zufallX = random(drawingParams.minEntropy, drawingParams.maxEntropy) * (random(0,1) &lt; 0.5 ? -1 : 1);
-      let zufallY = random(drawingParams.minEntropy, drawingParams.maxEntropy) * (random(0,1) &lt; 0.5 ? -1 : 1);
-      vertex(element[i].x + zufallX, element[i].y + zufallY);
-    }
-  }
-
-  setShiftX(shiftX) { this.shiftX = shiftX; }
-  setShiftY(shiftY) { this.shiftY = shiftY; }
-  setStepwidth(stepwidth) { this.stepwidth = stepwidth; }
-  setFontsize(fontsize) {
-    this.fontsize = fontsize;
-    this.path = this.getPath();
-  }
-
-  drawChar() {
-    let elements = this.path.points;
-    let first = elements[0];
-    push();
-    translate(this.shiftX, this.shiftY);
-    beginShape();
-      this.drawElement(first);  
-      for (let i = 1; i &lt; elements.length; i++) {
-        beginContour();
-        this.drawElement(elements[i]);
-        endContour(CLOSE);
-      }
-    endShape(CLOSE);
-    pop();
-  }
-
-  getPath() {
-    let pathData = [];
-    let pointer = 0;
-    let fontPath = font.getPath(this.char, 0, this.fontsize * fontSizeFactor, this.fontsize);
-    let path = new g.Path(fontPath.commands);
-    path = g.resampleByLength(path, 1);
-    path.commands.forEach((command) =&gt; {
-      if (command.type === "Z") { pointer++; }
-      if (!pathData[pointer]) { pathData[pointer] = []; }
-      if (command.x) { pathData[pointer].push(command);}
-    });
-    for (let i = pathData.length -1; i &gt;= 0 ; i--) {
-      if (pathData[i].length === 0) { pathData.splice(i, 1); }
-    }
-  
-    let ret = {};
-    ret.points = pathData;
-    ret.bounds = {
-      w: path.bounds().width,
-      h: path.bounds().height
-    };
-    return ret;
-  }
-}
-</code></pre></div></div>
+<h3 id="browser">Browser</h3>
+<ul>
+  <li><a href="https://shortcutworld.com/Safari/mac/Safari-Browser_Shortcuts">Safari</a></li>
+  <li><a href="https://www.drweb.de/chrome-tastenkombinationen/">Chrome</a></li>
+  <li><a href="https://support.mozilla.org/de/kb/Tastaturkuerzel">Firefox</a></li>
+</ul>
 
     </div>
   </div>

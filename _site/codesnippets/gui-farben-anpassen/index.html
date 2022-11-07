@@ -85,6 +85,61 @@
       <p>Es gab Beschwerden über die Farbe der GUI :) Um diese anpassen zu können hat Matthias Marx freundlicherweise einen Workaround geschrieben und via Codepen bereit gestellt:
 <a href="https://codepen.io/mmarx54/pen/WNEyBge?editors=1010">CodePen zum Anpassen der GUI Farben</a></p>
 
+<h2 id="in-der-indexhtml-einsetzen">In der <em>index.html</em> einsetzen</h2>
+
+<p>Einfach den folgenden Codeschnippsel in die index.html vor den &lt; /head&gt; Tag setzen.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  &lt;style&gt;
+    .qs_main {
+        color: var(--textColor) !important;
+    }
+    body .material-icons {
+      color: var(--textColor) !important;
+    }
+    .qs_main input[type='range' i] {
+      background: var(--rangeBackground);
+    }
+    .qs_main input[type='range']::-webkit-slider-thumb {
+      background: var(--rangeBtnBackground);
+    }
+    body .qs_content {
+        background-color: var(--paramSectionBackground);
+    }
+  &lt;/style&gt;
+</code></pre></div></div>
+
+<h2 id="in-der-sketchjs-einsetzen">In der <em>sketch.js</em> einsetzen</h2>
+
+<p>Den Javascript Code irgendwo in den Sketch setzen und dort die Farben anpassen. Am schönsten wäre natürlich irgendwo am Anfang ;)</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// Style the Parameter Bar
+let parameterStyling =  {
+  textColor: {
+    color: '#9313ce', // Color for Text
+    cssVariable: '--textColor' // do not change this
+  },
+  rangeSliderBtn: {
+    color: '#9313ce', // Bg-Color for Range Button
+    cssVariable: '--rangeBtnBackground'  // do not change this
+  },
+  rangeSliderBackground: {
+    color: 'rgba(255,255,255,.05)', // Background of the Slider
+    cssVariable: '--rangeBackground' // do not change this
+  },
+  backgroundFullSection: {
+    color: 'rgba(120,120,120,0.1)', // Background of the full Parameter Section
+    cssVariable: '--paramSectionBackground' // do not change this
+  }
+}
+
+// Set them to HTML Index
+for(let i in parameterStyling) {
+  let paramStyle = parameterStyling[i];
+  document.documentElement.style.setProperty(paramStyle.cssVariable, `${paramStyle.color}`);
+}
+</code></pre></div></div>
+
+
     </div>
   </div>
 </section>
@@ -110,6 +165,8 @@
 			RGB in HSB umrechnen
 	  	
 			Schrift als Fläche
+	  	
+			Shortcuts
 	  	
 			Mögliche Lösung zur Aufgabe «Unruhe im Raster»
 	  	
