@@ -8,7 +8,7 @@ termine: 2022-11-11 10:00
 empfohlene-voraussetzungen:
 published: true
 dauer: 180
-raum: Open Space, S22
+raum: Zoom(Zugangsdaten sind unten)
 flag: show-at-homepage
 teaserImageURL: /assets/images/p-linie.jpg
 info: |
@@ -18,6 +18,10 @@ material: |
   - [Foliansatz Linie](https://th-koeln.github.io/mi-bachelor-screendesign/download/workshops/punkt-linie/040-Linie.pdf)
   - [Foliansatz Körper und Umwelterfahrung](https://th-koeln.github.io/mi-bachelor-screendesign/download/inputs/woche-3/020-koerper-und-umwelterfahrung.pdf)
 ---
+
+## Zugangsdaten
+- Link: [Zoom Session](https://th-koeln.zoom.us/j/6078076173?pwd=TjZXb1BoRUxYTktNQnVmZTducVhBQT09)
+- Zugangscode: noss
 
 ## Assignments
 - [Linien, Level 1 – Anordnungen im Raster](/generative-gestaltung/assignments/03-linien-01/)
