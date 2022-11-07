@@ -12,7 +12,7 @@ Erzeugen Sie ein Raster bestehend aus 20x10 schwarzen Punkten. Die Formation sol
 **Für Profis:** binden Sie die Anzahl der Punkte und den Abstand zwischen den Punkten an einen Slider. Der Abstand sollte dabei nicht absolut sein, sondern ein Vielfaches der *berechneten* Punktgröße. 
 
 ## P3.2 Unruheintensität abhängig von Mausposition
-Wie zuvor, aber diesmal richtet sich die Intensität der [Zufallswert](https://p5js.org/reference/#/p5/random) nach der Mausposition: je weiter sich die Maus rechts auf der Zeichenfläche befindet, desto größer ist der Zufallswert. Sobald Zufallszahlen ins Spiel kommen, lohnt sich ein Blick auf die [randomSeed Funktion](https://p5js.org/reference/#/p5/randomSeed) von p5.
+Wie zuvor, aber diesmal richtet sich die Intensität des [Zufallswerts](https://p5js.org/reference/#/p5/random) nach der Mausposition: je weiter sich die Maus rechts auf der Zeichenfläche befindet, desto größer ist der Zufallswert. Sobald Zufallszahlen ins Spiel kommen, lohnt sich ein Blick auf die [randomSeed Funktion](https://p5js.org/reference/#/p5/randomSeed) von p5.
 
 ## P3.3 Unruhebereich im Raster abhängig von Mausposition
 Wie 3.1, jedoch sollen die Punkte im Raster in Abhängigkeit von der X-Position der Maus aus dem Raster ausbrechen. Befindet sich die Maus z.B. im linken Bereich der Zeichenfläche, dann brechen hier die Punkte aus dem Raster heraus, befindet sie sich weiter rechts, brechen diese Punkte aus dem Raster. Hierbei kann die [dist Funktion](https://p5js.org/reference/#/p5/dist) sehr hilfreich sein.
