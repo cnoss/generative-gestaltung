@@ -23,7 +23,10 @@ material: |
 - Link: [Zoom Session](https://th-koeln.zoom.us/j/6078076173?pwd=TjZXb1BoRUxYTktNQnVmZTducVhBQT09)
 - Zugangscode: noss
 
+Die Session wird aufgezeichnet.
+
 ## Assignments
 - [Linien, Level 1 – Anordnungen im Raster](/generative-gestaltung/assignments/03-linien-01/)
 - [Linien, Level 2 – Beziés und radiale Anordnungen](/generative-gestaltung/assignments/03-linien-02/)
 - [Linien, Level 3 – Interaktion mit der Maus](/generative-gestaltung/assignments/03-linien-03/)
+
