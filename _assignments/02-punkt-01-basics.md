@@ -22,7 +22,7 @@ Bislang hatte der Punkt eine absolute Größe. Jetzt soll sich die Größe des P
 Jetzt koppeln wir die Größe des Punktes an die Mausposition.
 
 ## P1.6 Zwei gegeneinanderlaufende bewegliche Punkte
-Positionieren Sie diesmal zwei Punkte auf der X-Achse. Diesmal folgt der eine Punkt der Mausposition, der andere nimmt immer die gespiegelte Position ein. Auf der Y-Achse sind beide Punkte gleich zu positionieren. Somit überlagern sich die Punkte in der Mitte.
+Positionieren Sie diesmal zwei Punkte auf der X-Achse. Diesmal folgt der eine Punkt der Mausposition, der andere nimmt immer die gespiegelte Position ein. Auf der Y-Achse sind beide Punkte gleich zu positionieren, d.h. die Punkte auf `y=height/2` zu platzieren. Somit überlagern sich die Punkte in der Mitte.
 
 
 <figure class="video-container">
