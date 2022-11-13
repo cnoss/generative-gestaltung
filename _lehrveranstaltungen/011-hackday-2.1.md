@@ -17,4 +17,15 @@ Im Rahmen des Themas soll ein Sketch oder eine Reihe von Sketches erarbeitet wer
 
 ## Assignments
 
-- [Hackday 2- Thema der zweiten Freiarbeit](/generative-gestaltung/assignments/99-hackday-2/)
+- [Hackday 1 - Thema der ersten Freiarbeit](/generative-gestaltung/assignments/99-hackday-1/)
+- [Hackday 2 - Thema der zweiten Freiarbeit](/generative-gestaltung/assignments/99-hackday-2/)
+
+
+
+
+<figure class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ov1H-VFKYxQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figcaption>
+Ein paar Anregungen zur Lösung der Aufgaben gibt es in dieser Playlist.
+</figcaption>
+</figure>
