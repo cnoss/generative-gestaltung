@@ -10,10 +10,11 @@ published: true
 dauer: 280
 raum: Open Space, S22
 info: 
+    Beim Hackday geht es darum, das erarbeitete Repertoire im Rahmen einer konkreten Aufgabenstellung, eines Themengebiets oder einer Leitfrage einzusetzen.
 ---
 
-Heute gibt es die zweite Challenge. Den Ausgangspunkt bilden inhaltliche Vorgaben, die den Rahmen bestimmen. Innerhalb diesen Rahmens, soll eine möglichst interessantes Motiv oder eine Motivreihe entwickelt werden.
+Im Rahmen des Themas soll ein Sketch oder eine Reihe von Sketches erarbeitet werden, die möglichst gut auf das Thema einzahlen. Ein Sketch aus den beiden Themengebieten der Hackdays kommt in Ihr [Gestatungsportfolio](/generative-gestaltung/gestaltungsportfolio/). Falls Sie einen bestehenden Sketch, sei es aus einer Aufgabe oder von einer externen Quelle, dann machen Sie dies bitte explizit.
 
 ## Assignments
 
-- [Hackday 12- Thema der zweiten Freiarbeit](/generative-gestaltung/assignments/99-hackday-2/)
+- [Hackday 2- Thema der zweiten Freiarbeit](/generative-gestaltung/assignments/99-hackday-2/)

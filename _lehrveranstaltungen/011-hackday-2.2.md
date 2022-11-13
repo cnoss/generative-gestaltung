@@ -16,4 +16,4 @@ info:
 
  ## Assignments
 
-- [Hackday 12- Thema der zweiten Freiarbeit](/generative-gestaltung/assignments/99-hackday-2/)
+- [Hackday 2 - Thema der zweiten Freiarbeit](/generative-gestaltung/assignments/99-hackday-2/)
