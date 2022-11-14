@@ -82,16 +82,17 @@
   
   <div class="container codesnippet">
     <div class="content">
-      <p><a href="https://p5js.org/reference/#/p5/preload">preload</a>
-<a href="https://p5js.org/reference/#/p5/loadJSON">loadJSON</a></p>
+      <p>Wenn wir (externe) Daten nutzen wollen, müssen wir diese erst mal laden. Das sollte passieren, bevor der Sketch irgendetwas anderes macht. Dafür gibt es in p5.js die <a href="https://p5js.org/reference/#/p5/preload">Preload Funktion</a>. Diese wird noch vor der Setup Funktion ausgeführt. Innerhalb der Preload Funktion die Daten via <a href="https://p5js.org/reference/#/p5/loadJSON">loadJSON</a> laden. Die Daten müssen dafür im <a href="https://www.json.org/json-de.html">JSON Format</a> vorliegen.</p>
+
+<p>Hier finden Sie ein bisschen <a href="https://github.com/cnoss/p5-working-with-data-example">Beispielcode</a>.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let earthquakes;
+
 function preload() {
   // Get the most recent earthquake in the database
-  let url =
-   'https://earthquake.usgs.gov/earthquakes/feed/v1.0/' +
-    'summary/all_day.geojson';
-    earthquakes = loadJSON(url);
+  let url = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson';
+    
+  earthquakes = loadJSON(url);
 }
 </code></pre></div></div>
 
