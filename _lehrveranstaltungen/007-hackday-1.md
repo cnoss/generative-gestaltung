@@ -7,7 +7,7 @@ pflicht: false
 termine: 2022-11-14 10:30, 
 empfohlene-voraussetzungen:
 published: true
-dauer: 390
+dauer: 330
 raum: Open Space, S22
 info: |
   Beim Hackday geht es darum, das erarbeitete Repertoire im Rahmen einer konkreten Aufgabenstellung, eines Themengebiets oder einer Leitfrage einzusetzen.
