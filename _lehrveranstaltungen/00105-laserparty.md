@@ -4,7 +4,7 @@ kuerzel: w-lmw
 verantwortlich: fp
 typ: training
 pflicht: false
-termine: 2022-11-16 11:30
+termine: 2022-11-23 11:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 330
