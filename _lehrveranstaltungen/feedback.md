@@ -6,7 +6,7 @@ typ: feedback
 pflicht: false
 termine: 2022-11-16 13:00
 empfohlene-voraussetzungen:
-published: true
+published: false
 dauer: 120
 raum: https://th-koeln.zoom.us/j/85350954867 Kenncode ist noss
 info: |
