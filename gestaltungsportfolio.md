@@ -17,7 +17,7 @@ Das Gestaltungsportfolio besteht aus einer Auswahl Ihrer Arbeitsergebnisse zu de
 - Themenblock 2: Farbe 
 - Themenblock 3: Freie Arbeit (Hackday 1 & 2)
 
-Insgesamt umfasst das Portfolio **drei Artefakte**. Sie sollten aus dem Themenblock jeweils das Artefakt wählen, welches eine eigene Auseinandersetzung mit dem Thema erkennen lässt. Definieren Sie bitte eines Ihrer Artefakte als **Hauptmotiv**. Selbiges fließt mit **40%** in in die Gesamtwertung mit ein. Die beiden anderen Motive fließen mit jeweils **25%** in die Gesamtwertung ein. Somit ergibt sich folgende Zusammensetzung der Gesamtwertung:
+Insgesamt umfasst das Portfolio **drei Artefakte**. Sie sollten aus dem Themenblock jeweils das Artefakt wählen, welches eine eigene Auseinandersetzung mit dem Thema erkennen lässt. Definieren Sie bitte eines Ihrer Artefakte als **Hauptmotiv**. Selbiges fließt mit **35%** in in die Gesamtwertung mit ein. Die beiden anderen Motive fließen mit jeweils **25%** in die Gesamtwertung ein. Somit ergibt sich folgende Zusammensetzung der Gesamtwertung:
 
 
 
@@ -31,7 +31,7 @@ Nutzen Sie für Ihr Gestaltungsportfolio bitte folgenden [Startercode](https://g
 | Prüfungsteil | Gewicht |
 | ------------- |:-------------|
 | Präsentation eines Motivs      | 15% |
-| Motive    | 25 % |
+| Nebenmotive    | 25 % |
 | Hauptmotiv | 35% |
 
 
