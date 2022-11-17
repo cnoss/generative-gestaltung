@@ -4,7 +4,7 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: retro
 pflicht: false
-termine: 2022-11-19 16:00
+termine: 2022-11-18 16:00
 empfohlene-voraussetzungen:
 published: true
 dauer: 60
