@@ -22,7 +22,7 @@ Insgesamt umfasst das Portfolio **drei Artefakte**. Sie sollten aus dem Themenbl
 
 
 ## Bereitstellung/ Abgabetermin des Portfolios
-Das Portfolio muss bis Ende Februar 2022 via GitLab Page zur Verfügung gestellt werden. Anbei ein kurzes Video, in dem der Prozess erklärt wird.
+Das Portfolio muss bis Ende Februar 2023 via GitLab Page zur Verfügung gestellt werden. Anbei ein kurzes Video, in dem der Prozess erklärt wird.
 
 {% include youtube.html id="AdgXxSmvT_E" class="is-half" %}
 
