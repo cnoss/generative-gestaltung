@@ -938,3 +938,27 @@ pre code {
     font-size: $bfs !important;
   }
 }
+
+
+/* Sticky Navigation
+############################################################################ */
+
+body > section{
+  z-index: 1;
+  position: relative;
+
+  &.hero{
+    z-index: 2;
+  }
+}
+
+.hero-head{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  a:active{
+    font-weight: bold;
+  }
+}
+

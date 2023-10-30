@@ -6,6 +6,8 @@ tags: Motion
 ## M1 eindimensionaler Agent
 Erzeugen Sie einen eindimensionaler Agenten, der auf einer Achse zwischen den Rändern der Zeichenfläche pendelt. Binden Sie die Transparenz der Hintergrundfarbe an einen Slider. Bilden Sie den Agenten mit einer Klasse ab, so dass Sie beim Mausklick einen weitere Instanz des Agenten erzeugen können, idealerweise an der Position des Mausklicks.
 
+**obligatorisch**
+
 ## M1.1 zweidimensionaler Agent
 Wie zuvor, aber diesmal soll sich der Agent "frei" auf der Zeichenfläche bewegen und an den Rändern der Zeichenfläche abprallen.
 

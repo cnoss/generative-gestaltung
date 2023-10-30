@@ -8,7 +8,7 @@ termine: 2022-11-23 11:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 330
-raum: Open Space, S22
+raum: Open Space, S28
 info: |
   Wer Arbeiten, die im Kurs entstanden sind, mal in die physische Welt überführen möchte, kann sich in dieser Einführung das erforderliche Know-How in Sachen *Lasercutting* zukommen lassen. Yeah.
 ---

@@ -4,11 +4,11 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: workshop
 pflicht: false
-termine: 2022-11-10 10:00
+termine: 2023-11-16 10:00
 empfohlene-voraussetzungen:
 published: true
 dauer: 390
-raum: Open Space, S22
+raum: Open Space, S28
 flag: show-at-homepage
 teaserImageURL: /assets/images/p-farbe-3-klein.jpg
 info: |

@@ -4,11 +4,11 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: workshop
 pflicht: false
-termine: 2022-11-08 10:00
+termine: 2023-11-14 10:00
 empfohlene-voraussetzungen:
 published: true
 dauer: 390
-raum: Open Space, S22
+raum: Open Space, S28
 flag: show-at-homepage
 teaserImageURL: /assets/images/P3.jpg
 info: | 
@@ -16,7 +16,7 @@ info: |
 material: |
     Zugangscode ist *screendesign*
     - [Foliensatz Räumlichkeit](https://cnoss.github.io/slides/presentations/screendesign/raeumlichkeit/)
-    - [Foliensatz Gestaltgesetze](https://th-koeln.github.io/mi-bachelor-screendesign/download/inputs/woche-5/gestaltgesetze.pdf)
+    - [Foliensatz Gestaltgesetze](https://cnoss.github.io/slides/presentations/screendesign/gestaltgesetze/)
 
 ---
 

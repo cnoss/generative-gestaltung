@@ -4,11 +4,11 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: workshop
 pflicht: false
-termine: 2022-11-15 13:30
+termine: 2023-11-21 13:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 180
-raum: Open Space, S22
+raum: Open Space, S28
 info: |
   Den «Context» aus dem Namen des Studiengangs fassen wir in diesem Kurs sehr pragmatisch auf. Unsere Sketches sollen nicht autark sein, sondern auf irgendeine Art mit der Umwelt interagieren, auf sie reagieren oder sie transformieren. Dies haben wir bereits in den ersten Fingerübungen gemacht, denn hier wurde z.B. auf die Größe der Darstellungsfläche reagiert. Auch das Binden von Parametern an die GUI zahlt auf dieses Ziel ein. In diesem Workshop wollen wir den Kontext jedoch noch deutlich stärker und direkter einbinden und auf ihn Bezug nehmen.
 ---

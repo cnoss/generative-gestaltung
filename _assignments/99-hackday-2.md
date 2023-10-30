@@ -5,6 +5,9 @@ tags:
     - Freiarbeit
 ---
 
+Thema folgt
+
+<!--
 Gestalten und entwickeln Sie im Rahmen dieser Freiarbeit einen interessanten Sketch, der sich mit dem Mapping oder der Visualisierung von Daten befasst. Im Ergebnis muss kein Sketch entstehen, welcher die zugrunde liegenden Daten erklärt oder verständlich macht, sondern auch Visualisierungen, die mit den Daten spielen, selbige auf interessante Weise rearrangieren oder inszenieren sind sehr willkommen.
 
 Hierbei können verschiedenste Daten als Basis genommen werden. Anbei einige Beispiele:
@@ -46,3 +49,4 @@ Und es gäbe noch unzählige andere APIs :)
 - Musik
 - Bilder
 - Filme
+-->

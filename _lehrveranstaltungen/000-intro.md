@@ -4,11 +4,11 @@ kuerzel: v-ko
 verantwortlich: cn
 typ: vortrag
 pflicht: false
-termine: 2022-11-07 10:00
+termine: 2023-11-13 10:00
 empfohlene-voraussetzungen: Grundkenntnisse Javascript, Coding Essentials I
 published: true
 dauer: 120
-raum: Open Space, S22
+raum: Open Space, S28
 info: Wie funktioniert der Kurs und das technische Setup?
 include: inspiration.html
 material: |

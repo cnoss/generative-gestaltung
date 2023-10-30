@@ -8,6 +8,8 @@ Erzeugen Sie ein flächenfüllendes Punktraster. Der Farbwert (hue) ist zunächs
 
 Im nächsten Schritt soll der Farbwert stetig im Farbkreis wandern, also immer von 0 bis 360° Grad.
 
+**obligatorisch**
+
 ## F2.2 Komplementärkontrast
 Erzeugen Sie, wie zuvor, ein flächenfüllendes Punktraster. Die Helligkeit soll mit der Y-Achse nach unten hin abnehmen. Erzeugen Sie einen Komplementärkontrast auf der X-Achse an der Position der Maus, d.h. alle Punkte links nehmen der Maus haben die Ausgangsfarbe und alle Punkte rechts neben der Maus die zugehörige Komplementärfarbe. Sie könnten die Ausgangsfarbe an die Y-Position der Maus binden.
 
@@ -19,6 +21,8 @@ Wir erzeugen wieder ein flächenfüllendes Punktraster. Diesmal soll ein Quantit
 - Farbwinkel der Grundfarbe
 - Winkelabstand der Kontrastfarbe
 - Mengenverteilung zwischen Grund- und Kontrastfarbe
+
+**obligatorisch**
 
 <figure class="video-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLfnobFnVauQCcCzRrcpIGFlXEOiVdvjMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

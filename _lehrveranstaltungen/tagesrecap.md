@@ -4,11 +4,11 @@ kuerzel: v-ko
 verantwortlich: cn
 typ: retro
 pflicht: false
-termine: 2022-11-07 16:30, 2022-11-08 16:30, 2022-11-10 16:00, 2022-11-14 16:00, 2022-11-15 16:30
+termine: 2023-11-13 16:30, 2023-11-14 16:30, 2023-11-16 16:00, 2023-11-20 16:00, 2023-11-21 16:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 30
-raum: Open Space, S22
+raum: Open Space, S28
 info: |
   Wir schauen uns einige Ergebnisse, Learnings und Arbeitsstände des Tages an und rekapitulieren die wesentlichen Themen und Herausforderungen.
 ---

@@ -4,11 +4,11 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: hack
 pflicht: false
-termine: 2022-11-14 10:30, 
+termine: 2023-11-20 10:30, 
 empfohlene-voraussetzungen:
 published: true
 dauer: 330
-raum: Open Space, S22
+raum: Open Space, S28
 info: |
   Beim Hackday geht es darum, das erarbeitete Repertoire im Rahmen einer konkreten Aufgabenstellung, eines Themengebiets oder einer Leitfrage einzusetzen.
 ---

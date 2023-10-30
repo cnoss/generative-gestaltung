@@ -8,7 +8,7 @@ termine: 2022-11-22 14:30
 empfohlene-voraussetzungen:
 published: false
 dauer: 45
-raum: Open Space, S22
+raum: Open Space, S28
 info: 
 material: |
     - [Intro von Christian Faubel](https://fblchrstn.hotglue.me/?generative_gestaltung)

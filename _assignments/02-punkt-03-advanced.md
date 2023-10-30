@@ -6,8 +6,12 @@ tags: Punkt
 ## P3 Punkte in Raster angeordnet
 Erzeugen Sie ein Raster bestehend aus 10x10 schwarzen Punkten. Die Formation soll zentriert ausgerichtet sein.
 
+**obligatorisch**
+
 ## P3.1 Unruhe im Raster
 Erzeugen Sie ein Raster bestehend aus 20x10 schwarzen Punkten. Die Formation soll zentriert ausgerichtet sein. Die Größe der Punkte und Abstände soll sich nach der Größe der Zeichenfläche richten. Entlang der X-Achse soll die Ordnung der Punkte abnehmen, d.h. die Punkte ganz links im Raster haben alle den gleichen Abstand, je weiter ein Punkt jedoch rechts positioniert ist, desto stärker bricht er aus dem Raster aus. Dazu brauchen wir [Zufallswerte](https://p5js.org/reference/#/p5/random). Sobald Zufallszahlen ins Spiel kommen, lohnt sich ein Blick auf die [randomSeed Funktion](https://p5js.org/reference/#/p5/randomSeed) von p5. Binden Sie die Progession des Unruhewerts an einen Slider.
+
+**obligatorisch**
 
 **Für Profis:** binden Sie die Anzahl der Punkte und den Abstand zwischen den Punkten an einen Slider. Der Abstand sollte dabei nicht absolut sein, sondern ein Vielfaches der *berechneten* Punktgröße. 
 

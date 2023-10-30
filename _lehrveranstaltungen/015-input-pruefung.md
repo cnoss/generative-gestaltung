@@ -4,11 +4,11 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: vortrag
 pflicht: false
-termine: 2022-11-17 10:30
+termine: 2023-11-23 10:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 60
-raum: Open Space, S22
+raum: Open Space, S28
 info: |
 ---
 
