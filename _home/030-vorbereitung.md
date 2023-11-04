@@ -25,6 +25,6 @@ Vom gleichen Autor gibt es das Buch [The Nature of Code](https://natureofcode.co
 Last but not least ist das Buch «Generative Gestaltung» und [die zugehörige Website](http://www.generative-gestaltung.de/2/) von Benedikt Groß, Hartmut Bohnacker, Julia Laub und Claudius Lazzeroni absolut empfehlenswert. Auf der Website gibt es jede Menge gute Beispiele und den dazu gehörigen Code. Das Buch ist bei uns in der Bibliothek mehrfach vorhanden. 
 
 ## Startercode & weitere Repos
-Für die einzelnen Aufgaben liegt ein [Startercode Paket](https://git.coco.study/students/ws2223/df12-generative-gestaltung/dev-environment-generative-gestaltung) im [CoCo Gitlab](https://git.coco.study/). Dieses bitte forken und clonen. 
+Für die einzelnen Aufgaben liegt ein [Startercode Paket](https://git.coco.study/students/ws2324/df12-generative-gestaltung/dev-environment-generative-gestaltung) im [CoCo Gitlab](https://git.coco.study/). Dieses bitte forken und clonen. 
 
 Den Startercode für das Gestaltungsportfolio finden Sie auf der [Infosteite zum Gestaltungsportfolio](/generative-gestaltung/gestaltungsportfolio/).
