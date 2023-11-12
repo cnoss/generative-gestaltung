@@ -16,7 +16,6 @@ info: |
 
   Zunächst nutzen wir nur den Gestaltungsparamater Position. Später nutzen wir auch Größe, Anzahl, Tonwert sowie Deckkraft und versuchen Grundlagen der Räumlichkeit auf unsere Kompositionen anzuwenden. 
 material: |
-  Zugangscode ist *screendesign*
   - [Semiotik](https://cnoss.github.io/slides/presentations/screendesign/semiotik/)
   - [Der Punkt](https://cnoss.github.io/slides/presentations/screendesign/punkt/) 
 ---
