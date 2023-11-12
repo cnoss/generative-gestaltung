@@ -14,8 +14,7 @@ teaserImageURL: /assets/images/p-farbe-3-klein.jpg
 info: |
   Jetzt wird es bunt. Wir bleiben immer noch beim Punkt als Gestaltungselement, aber nehmen jetzt etwas systematischer Farbe und Transparenz hinzu. Wie befassen und kurz mit den verschiedenen Farbssystemen und Farbwahrnehmung und lassen dann verschiedene Regeln rund um die farbige Welt in unseren Code einfließen.
 material: |
-  Zugangscode ist *screendesign*
-  - [Foliensatz Farbe](https://th-koeln.github.io/mi-bachelor-screendesign/download/inputs/woche-9/farbe.pdf)
+  - [Foliensatz Farbe](https://cnoss.github.io/slides/presentations/screendesign/farben/)
   - [Adobe Kuler](https://color.adobe.com/de/create)
 ---
 

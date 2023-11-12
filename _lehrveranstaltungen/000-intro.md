@@ -41,9 +41,3 @@ Zur Vorbereitung gibt es auf der [Startseite des Kurses](/generative-gestaltung/
 - Arrays
 - Maps
 - OOP (light)
-
-
-## Material
-Siehe [Startseite des Kurses](/generative-gestaltung/#vorbereitung).
-
-## Inspiration

@@ -17,14 +17,16 @@ material: |
   Zugangscode ist *screendesign*
   - [Foliansatz Linie](https://cnoss.github.io/slides/presentations/screendesign/linie/)
   - [Foliansatz Körper und Umwelterfahrung](https://th-koeln.github.io/mi-bachelor-screendesign/download/inputs/woche-3/020-koerper-und-umwelterfahrung.pdf)
-  - [Mitschnitt des Inputs](https://ilias.th-koeln.de/goto.php?target=fold_2363027&client_id=ILIAS_FH_Koeln)
+
 ---
 
+<!--
 ## Zugangsdaten
 - Link: [Zoom Session](https://th-koeln.zoom.us/j/6078076173?pwd=TjZXb1BoRUxYTktNQnVmZTducVhBQT09)
 - Zugangscode: noss
 
 Die Session wird aufgezeichnet.
+-->
 
 ## Assignments
 - [Linien, Level 1 – Anordnungen im Raster](/generative-gestaltung/assignments/03-linien-01/)
