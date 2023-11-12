@@ -6,7 +6,7 @@ typ: training
 pflicht: false
 termine: 2023-11-13 15:30, 2023-11-14 14:30, 2023-11-16 15:00, 2023-11-23 15:00
 empfohlene-voraussetzungen:
-published: true
+published: false
 dauer: 90
 raum: Open Space, S28, irgendwo in der Ecke
 info: |
