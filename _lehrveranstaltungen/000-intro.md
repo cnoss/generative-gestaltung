@@ -19,8 +19,8 @@ material: |
 In dieser Session gibt es einen kurzen thematischen Rundflug über das Themenfeld, sowie die Kursinhalte und -ziele. Wir schauen uns eine inspirierende Projekte an und kümmern uns um sinnvolle technische Setups.
 
 ## Ablauf
-- Hallo! Wer kann was?
-- Generative Gestaltung in Code & Context. Worum geht es hier und warum das Ganze?
+- Hallo! [Wer kann was](https://miro.com/app/board/uXjVNPtETpM=/?moveToWidget=3458764569717581468&cot=14)?
+- [Generative Gestaltung in Code & Context](https://coco.study/module/). Worum geht es hier und warum das Ganze?
 - Generative Gestaltung im richtigen Leben.
 - Learnings aus den letzten Generative Gestaltung Kursen.
 - Überblick über die zwei Wochen: wo wollen wir hin?
