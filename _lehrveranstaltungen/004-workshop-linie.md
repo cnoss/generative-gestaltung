@@ -8,7 +8,7 @@ termine: 2023-11-17 10:00
 empfohlene-voraussetzungen:
 published: true
 dauer: 180
-raum: "Zoom – Zugangsdaten kommen via [Mattermost](https://chat.coco.study/students/channels/class-generative-gestaltung)"
+raum: "Zoom – Zugangsdaten sind kommen via Mattermost"
 flag: show-at-homepage
 teaserImageURL: /assets/images/p-linie.jpg
 info: |
@@ -20,13 +20,8 @@ material: |
 
 ---
 
-<!--
-## Zugangsdaten
-- Link: [Zoom Session](https://th-koeln.zoom.us/j/6078076173?pwd=TjZXb1BoRUxYTktNQnVmZTducVhBQT09)
-- Zugangscode: noss
-
-Die Session wird aufgezeichnet.
--->
+## Generative Gestaltung // Mattermost Kanal
+- [Mattermost](https://chat.coco.study/students/channels/class-generative-gestaltung)"
 
 ## Assignments
 - [Linien, Level 1 – Anordnungen im Raster](/generative-gestaltung/assignments/03-linien-01/)
