@@ -20,8 +20,10 @@ material: |
 
 ---
 
+
 ## Generative Gestaltung // Mattermost Kanal
-- [Mattermost](https://chat.coco.study/students/channels/class-generative-gestaltung)"
+- [Mattermost](https://chat.coco.study/students/channels/class-generative-gestaltung)
+
 
 ## Assignments
 - [Linien, Level 1 – Anordnungen im Raster](/generative-gestaltung/assignments/03-linien-01/)
