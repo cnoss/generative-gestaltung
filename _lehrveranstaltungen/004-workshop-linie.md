@@ -8,7 +8,7 @@ termine: 2023-11-17 10:00
 empfohlene-voraussetzungen:
 published: true
 dauer: 180
-raum: Zoom(Zugangsdaten sind unten)
+raum: "Zoom – Zugangsdaten kommen via [Mattermost](https://chat.coco.study/students/channels/class-generative-gestaltung)"
 flag: show-at-homepage
 teaserImageURL: /assets/images/p-linie.jpg
 info: |
