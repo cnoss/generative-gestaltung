@@ -8,7 +8,7 @@ termine: 2023-11-16 10:00
 empfohlene-voraussetzungen:
 published: true
 dauer: 390
-raum: Open Space, S28
+raum: "Zoom - Zugangsdaten kommen via Mattermost"
 flag: show-at-homepage
 teaserImageURL: /assets/images/p-farbe-3-klein.jpg
 info: |
@@ -17,6 +17,9 @@ material: |
   - [Foliensatz Farbe](https://cnoss.github.io/slides/presentations/screendesign/farben/)
   - [Adobe Kuler](https://color.adobe.com/de/create)
 ---
+
+## Generative Gestaltung // Mattermost Kanal
+- [Mattermost](https://chat.coco.study/students/channels/class-generative-gestaltung)"
 
 ## Assignments
 - [Farbige Punkte, Level 1](/generative-gestaltung/assignments/04-farbe-punkte-01/)
