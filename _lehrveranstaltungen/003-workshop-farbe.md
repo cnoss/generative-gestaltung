@@ -19,7 +19,7 @@ material: |
 ---
 
 ## Generative Gestaltung // Mattermost Kanal
-- [Mattermost](https://chat.coco.study/students/channels/class-generative-gestaltung)"
+- [Mattermost](https://chat.coco.study/students/channels/class-generative-gestaltung)
 
 ## Assignments
 - [Farbige Punkte, Level 1](/generative-gestaltung/assignments/04-farbe-punkte-01/)
