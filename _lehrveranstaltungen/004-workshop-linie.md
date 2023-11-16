@@ -14,9 +14,7 @@ teaserImageURL: /assets/images/p-linie.jpg
 info: |
   Weiter geht es zur Linie. Auch hier nutzen wir Raster in denen wir gerade Linien zunächst horizontal und vertikal anordnen. Danach experimentieren wir mit Lage und Farbe der Linien. Schlussendlich befassen wir uns mit Kurven und Schwingungsfiguren.
 material: |
-  Zugangscode ist *screendesign*
   - [Foliansatz Linie](https://cnoss.github.io/slides/presentations/screendesign/linie/)
-  - [Foliansatz Körper und Umwelterfahrung](https://th-koeln.github.io/mi-bachelor-screendesign/download/inputs/woche-3/020-koerper-und-umwelterfahrung.pdf)
 
 ---
 
