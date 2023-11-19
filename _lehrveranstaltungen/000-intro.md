@@ -23,6 +23,8 @@ In dieser Session gibt es einen kurzen thematischen Rundflug über das Themenfel
 - [Generative Gestaltung in Code & Context](https://coco.study/module/). Worum geht es hier und warum das Ganze?
 - Generative Gestaltung im richtigen Leben.
 - Learnings aus den letzten Generative Gestaltung Kursen.
+      - Was ich erwarte 😎
+      - Wir coden am ersten und zweiten Tag so viel wie möglich zusammen!    
 - Überblick über die zwei Wochen: wo wollen wir hin?
 - Wie funktioniert die Veranstaltung? Was ist das Ziel? Wie geht die Prüfung?
 - Überblick über das Material: Website, Aufgaben, etc.
