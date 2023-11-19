@@ -11,7 +11,7 @@ Falls Sie diesen Sketch am Freitag präsentieren, interessieren mich folgende Fr
 - Warum haben Sie sich für diesen Sketch entschieden?
 - Wie und inwiefern haben Sie ihn verbessert, verfeinert oder erweitert?
 - Wie gehen Sie mit Farbe oder Farblosigkeit im Sketch um?
-- Wie gehen Sie mit Räumlichkeit, Gestaltgesetzen und Kräften um?
+- Wie gehen Sie mit Räumlichkeit, Gestaltgesetzen und Kräften um? 👀
 
 <!--
 Gestalten und entwicklen Sie im Rahmen dieser Freiarbeit einen interessanten Sketch, der sich mit dem Begriff «Growth» auseinander setzt. Der Begriff kann hierbei auf vielfältige Weise interpretiert werden, wichtig ist eine Veränderung über die Zeit.
