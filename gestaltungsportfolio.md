@@ -22,7 +22,7 @@ Insgesamt umfasst das Portfolio **drei Artefakte**. Sie sollten aus dem Themenbl
 
 
 ## Bereitstellung/ Abgabetermin des Portfolios
-Das Portfolio muss bis Ende Februar 2023 via GitLab Page zur Verfügung gestellt werden. Anbei ein kurzes Video, in dem der Prozess erklärt wird.
+Das Portfolio muss bis Ende Februar 2024 via GitLab Page zur Verfügung gestellt werden. Anbei ein kurzes Video, in dem der Prozess erklärt wird.
 
 {% include youtube.html id="AdgXxSmvT_E" class="is-half" %}
 
@@ -38,7 +38,7 @@ Nutzen Sie für Ihr Gestaltungsportfolio bitte folgenden [Startercode](https://g
 
 ## Präsentation eines Motivs
 
-Am [letzten Tag der Veranstaltung](/generative-gestaltung/lehrveranstaltungen/014-pruefung/) stellt jeder Teilnehmer eines seiner Motive vor. Dazu stehen pro Vorstellung **5 Minuten** zur Verfügung. Wählen Sie das Artefakt aus, welches sie gestalterisch am Besten argumentieren können. Versuchen Sie möglichst objektiv, fundiert, fachlich und professionell zu erläutern. Begründen Sie Ihre Gestaltung anstatt sie zu beschreiben.
+Am [letzten Tag der Veranstaltung](/generative-gestaltung/lehrveranstaltungen/014-pruefung/) stellt jede:r Teilnehmer:in eines ihrer Motive vor. Dazu stehen pro Vorstellung **5 Minuten** zur Verfügung. Wählen Sie das Artefakt aus, welches Sie gestalterisch am Besten argumentieren können. Versuchen Sie möglichst objektiv, fundiert, fachlich und professionell zu erläutern. Begründen Sie Ihre Gestaltung anstatt sie zu beschreiben.
 
 ## Bewertung
 

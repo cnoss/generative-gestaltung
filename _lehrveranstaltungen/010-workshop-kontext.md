@@ -1,5 +1,5 @@
 ---
-titel: Kontext
+titel: Kontext & Fläche
 kuerzel: w-lmw
 verantwortlich: cn
 typ: workshop
