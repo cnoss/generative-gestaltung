@@ -16,8 +16,6 @@ material: |
   - [Folien Abstände & Proportionen](https://th-koeln.github.io/mi-bachelor-screendesign/download/workshops/systematische-proportionen-und-abstaende/systematische-proportionen-und-abstaende.pdf)
 ---
 
-
-
 ## Assignments
 - [Einfache Flächenanordnungen](/generative-gestaltung/assignments/05-flaeche-01/)
 - [Transformationen](/generative-gestaltung/assignments/05-flaeche-02/)

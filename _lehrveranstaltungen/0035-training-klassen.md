@@ -4,7 +4,7 @@ kuerzel: w-lmw
 verantwortlich: sh
 typ: training
 pflicht: false
-termine: 2023-11-20 10:45
+termine: 2023-11-21 11:00
 empfohlene-voraussetzungen:
 published: true
 dauer: 60
