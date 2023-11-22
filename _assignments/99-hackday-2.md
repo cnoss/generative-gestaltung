@@ -5,7 +5,7 @@ tags:
     - Freiarbeit
 ---
 
-Thema folgt
+Gestalten und entwicklen Sie im Rahmen dieser Freiarbeit einen Sketch der eine **Transformation**, also eine Veränderung über die Zeit oder die Fläche, visualsiert. Die Veränderung kann ohne äußere Einwirkung statt finden. Der Sketch kann aber auch auf Impulse, Interaktionen oder andere Werte von außen reagieren. Wichtig ist, dass die Transformation wiederkehrend ist, sprich der Ausgangszustand wiedererlangt wird.
 
 <!--
 Gestalten und entwickeln Sie im Rahmen dieser Freiarbeit einen interessanten Sketch, der sich mit dem Mapping oder der Visualisierung von Daten befasst. Im Ergebnis muss kein Sketch entstehen, welcher die zugrunde liegenden Daten erklärt oder verständlich macht, sondern auch Visualisierungen, die mit den Daten spielen, selbige auf interessante Weise rearrangieren oder inszenieren sind sehr willkommen.
