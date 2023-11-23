@@ -26,7 +26,7 @@ Das Portfolio muss bis Ende Februar 2024 via GitLab Page zur Verfügung gestellt
 
 {% include youtube.html id="AdgXxSmvT_E" class="is-half" %}
 
-Nutzen Sie für Ihr Gestaltungsportfolio bitte folgenden [Startercode](https://git.coco.study/students/ws2324/df12-generative-gestaltung/startercode-gestaltungsportfolio-ws202324). Diesen bitte *clonen* oder kopieren. Hier finden Sie ein [Beispiel für ein Gestaltungsportfolio](https://cnoss.pages.coco.study/startercode-gestaltungsportfolio-ws202324/). 
+Nutzen Sie für Ihr Gestaltungsportfolio bitte folgenden [Startercode](https://git.coco.study/students/ws2324/df12-generative-gestaltung/startercode-gestaltungsportfolio-ws202324). Diesen bitte *clonen* oder kopieren. Hier finden Sie ein [Beispiel für ein Gestaltungsportfolio](https://students.pages.coco.study/ws2324/df12-generative-gestaltung/startercode-gestaltungsportfolio-ws202324/). 
 
 | Prüfungsteil | Gewicht |
 | ------------- |:-------------|
