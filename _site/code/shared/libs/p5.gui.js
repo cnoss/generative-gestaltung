@@ -135,6 +135,19 @@
       }
       qs.bindParams(object, params);
     };
+    
+    this.update = function (key, value) { 
+      if (key === 'undefined' || !value === 'undefined' ) { console.error("No Parameters defined. Key and value required: obj.update(key, value)"); return false; }
+      try {
+        qs.setValue(key, value);
+      } catch (e) {
+        if (e instanceof TypeError) {
+          console.error(key + " is not a known GUI Element.");
+        } else {
+           logMyErrors(e);
+        }
+      }
+    }
 
     // noLoop() to call draw every time the gui changes when we are not looping
     this.noLoop = function() {
