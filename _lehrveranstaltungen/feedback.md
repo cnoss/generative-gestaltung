@@ -4,7 +4,7 @@ kuerzel: v-ko
 verantwortlich: cn
 typ: feedback
 pflicht: false
-termine: 2023-11-22 13:00
+termine: 2024-11-20 13:00
 empfohlene-voraussetzungen:
 published: false
 dauer: 120

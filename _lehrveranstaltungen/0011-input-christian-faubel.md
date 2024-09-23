@@ -4,7 +4,7 @@ kuerzel: w-lmw
 verantwortlich: cf
 typ: vortrag
 pflicht: false
-termine: 2022-11-22 14:30
+termine: 2022-11-20 14:30
 empfohlene-voraussetzungen:
 published: false
 dauer: 45

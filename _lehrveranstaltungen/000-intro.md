@@ -4,7 +4,7 @@ kuerzel: v-ko
 verantwortlich: cn
 typ: vortrag
 pflicht: false
-termine: 2023-11-13 10:00
+termine: 2024-11-11 10:00
 empfohlene-voraussetzungen: Grundkenntnisse Javascript, Coding Essentials I
 published: true
 dauer: 120

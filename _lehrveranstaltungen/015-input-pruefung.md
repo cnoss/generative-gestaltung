@@ -4,7 +4,7 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: vortrag
 pflicht: false
-termine: 2023-11-23 10:30
+termine: 2024-11-21 10:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 60

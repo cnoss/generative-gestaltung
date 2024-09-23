@@ -4,7 +4,7 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: hack
 pflicht: false
-termine: 2023-11-20 10:30, 
+termine: 2024-11-18 10:30, 
 empfohlene-voraussetzungen:
 published: true
 dauer: 330

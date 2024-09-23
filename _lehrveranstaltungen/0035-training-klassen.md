@@ -1,10 +1,10 @@
 ---
 titel: Klassen
 kuerzel: w-lmw
-verantwortlich: sh
+verantwortlich: seg
 typ: training
 pflicht: false
-termine: 2023-11-21 11:00
+termine: 2024-11-19 11:00
 empfohlene-voraussetzungen:
 published: true
 dauer: 60

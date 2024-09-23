@@ -4,7 +4,7 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: training
 pflicht: false
-termine: 2023-11-13 15:30, 2023-11-14 14:30, 2023-11-16 15:00, 2023-11-23 15:00
+termine: 2024-11-11 15:30, 2024-11-12 14:30, 2024-11-14 15:00, 2024-11-21 15:00
 empfohlene-voraussetzungen:
 published: false
 dauer: 90
