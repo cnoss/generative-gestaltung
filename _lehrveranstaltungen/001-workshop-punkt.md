@@ -4,7 +4,7 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: workshop
 pflicht: false
-termine: 2024-11-11 12:00
+termine: 2024-11-11 11:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 300
