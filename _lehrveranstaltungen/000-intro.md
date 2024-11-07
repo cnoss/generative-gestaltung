@@ -8,7 +8,7 @@ termine: 2024-11-11 09:30
 empfohlene-voraussetzungen: Grundkenntnisse Javascript, Coding Essentials I
 published: true
 dauer: 120
-raum: Open Space, S28
+raum: Open Space, S22
 info: Wie funktioniert der Kurs und das technische Setup?
 include: inspiration.html
 material: |

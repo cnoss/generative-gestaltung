@@ -4,11 +4,11 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: workshop
 pflicht: false
-termine: 2024-11-12 10:00
+termine: 2024-11-12 09:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 390
-raum: Open Space, S28
+raum: Open Space, S22
 flag: show-at-homepage
 teaserImageURL: /assets/images/P3.jpg
 info: | 

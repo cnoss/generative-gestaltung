@@ -4,11 +4,11 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: hack
 pflicht: false
-termine: 2024-11-22 10:00
+termine: 2024-11-22 09:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 180
-raum: Open Space, S28
+raum: Open Space, S22
 info: 
 ---
 

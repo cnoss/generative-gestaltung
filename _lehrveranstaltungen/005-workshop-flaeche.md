@@ -4,11 +4,11 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: workshop
 pflicht: false
-termine: 2024-11-19 10:00
+termine: 2024-11-19 09:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 120
-raum: Open Space, S28
+raum: Open Space, S22
 info: |
   Zu guter Letzt befassen wir uns mit der Fläche. Hier haben wir, gegenüber der Linie, als wesentlichen zusätzlichen Gestaltungsparameter, das Verhältnis und die Form. 
 material: |
@@ -21,3 +21,5 @@ material: |
 - [Transformationen](/generative-gestaltung/assignments/05-flaeche-02/)
 - [Typografische Transformationen](/generative-gestaltung/assignments/05-flaeche-03/)
 - [Bewegte Formen](/generative-gestaltung/assignments/05-flaeche-04/)
+
+

@@ -8,7 +8,7 @@ termine: 2024-11-22 13:00
 empfohlene-voraussetzungen:
 published: true
 dauer: 180
-raum: Open Space, S28
+raum: Open Space, S22
 info: | 
   
 ---

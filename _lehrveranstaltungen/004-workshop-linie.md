@@ -4,10 +4,10 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: workshop
 pflicht: false
-termine: 2024-11-15 10:00
+termine: 2024-11-15 09:30
 empfohlene-voraussetzungen:
 published: true
-dauer: 180
+dauer: 210
 raum: "Zoom – Zugangsdaten sind kommen via Mattermost"
 flag: show-at-homepage
 teaserImageURL: /assets/images/p-linie.jpg

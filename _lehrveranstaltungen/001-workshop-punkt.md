@@ -8,7 +8,7 @@ termine: 2024-11-11 11:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 300
-raum: Open Space, S28
+raum: Open Space, S22
 flag: show-at-homepage
 teaserImageURL: /assets/images/P2.3.jpg
 info: |

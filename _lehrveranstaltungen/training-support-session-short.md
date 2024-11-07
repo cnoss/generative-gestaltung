@@ -8,7 +8,7 @@ termine: 2024-11-10 12:00
 empfohlene-voraussetzungen:
 published: false
 dauer: 60
-raum: Open Space, S28, irgendwo in der Ecke
+raum: Open Space, S22
 info: |
   Hier werden einige der Aufgaben gemeinsam gelöst. Eine gute Gelegenheit für alle, die ihr Know-how noch ein bisschen auffrischen wollen.
 ---

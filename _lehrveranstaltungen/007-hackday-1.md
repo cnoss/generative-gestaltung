@@ -4,11 +4,11 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: hack
 pflicht: false
-termine: 2024-11-18 10:30, 
+termine: 2024-11-18 09:30, 
 empfohlene-voraussetzungen:
 published: true
-dauer: 330
-raum: Open Space, S28
+dauer: 390
+raum: Open Space, S22
 info: |
   Beim Hackday geht es darum, das erarbeitete Repertoire im Rahmen einer konkreten Aufgabenstellung, eines Themengebiets oder einer Leitfrage einzusetzen.
 ---
