@@ -8,25 +8,25 @@ tags: Inspiration
 Hier eine kleine Übersicht über praktische, hilfreiche und teils interessante Funktionen und Konzepte, die p5.js bereit stellt. Falls was fehlt, bitte melden.
 
 ## Dimensionen des Canvas
-Die Eigenschaften [width](https://p5js.org/reference/#/p5/width) und [height](https://p5js.org/reference/#/p5/height) stellen die Breite und Höhe der Darstellungsfläche bereit.
+Die Eigenschaften [width](https://p5js.org/reference/p5/width) und [height](https://p5js.org/reference/p5/height) stellen die Breite und Höhe der Darstellungsfläche bereit.
 
 ## Mausposition
-Die Position der Maus lässt sich mit [mouseX](https://p5js.org/reference/#/p5/mouseX) und [mouseY](https://p5js.org/reference/#/p5/mouseY) abfragen. Die Umgebung für Generative Gestaltung stellt auch die Mausposition via `canvasParams.mouseX` und `canvasParams.mouseY` bereit. Wenn diese Eigenschaften genutzt werden, ist die Mausposition im *Lock-Modus* (einmal L auf der Tastatur) fixert und die Maus kann frei bewegt werden, ohne Einfluss auf die Eigenschaften `canvasParams.mouseX` und `canvasParams.mouseY` zu nehmen.
+Die Position der Maus lässt sich mit [mouseX](https://p5js.org/reference/p5/mouseX) und [mouseY](https://p5js.org/reference/p5/mouseY) abfragen. Die Umgebung für Generative Gestaltung stellt auch die Mausposition via `canvasParams.mouseX` und `canvasParams.mouseY` bereit. Wenn diese Eigenschaften genutzt werden, ist die Mausposition im *Lock-Modus* (einmal L auf der Tastatur) fixert und die Maus kann frei bewegt werden, ohne Einfluss auf die Eigenschaften `canvasParams.mouseX` und `canvasParams.mouseY` zu nehmen.
 
 ## Virtueller Canvas
-Für einige Usecases ist es extrem hilfreich nicht direkt auf den sichtbaren Canvas zu zeichenen, sondern einen virtuellen Canvas zu benutzen und diesen nachher auf der Zeichenfläche zu platzieren. Dabei hilft die Funktion [createGraphics](https://p5js.org/reference/#/p5/createGraphics). Es können auch mehrere virtuelle Canvases genutzt werden und bei der Montage via [image](https://p5js.org/reference/#/p5/image) können auch unterschiedliche [blendModes](https://p5js.org/reference/#/p5/blendMode) genutzt werden.
+Für einige Usecases ist es extrem hilfreich nicht direkt auf den sichtbaren Canvas zu zeichenen, sondern einen virtuellen Canvas zu benutzen und diesen nachher auf der Zeichenfläche zu platzieren. Dabei hilft die Funktion [createGraphics](https://p5js.org/reference/p5/createGraphics). Es können auch mehrere virtuelle Canvases genutzt werden und bei der Montage via [image](https://p5js.org/reference/p5/image) können auch unterschiedliche [blendModes](https://p5js.org/reference/p5/blendMode) genutzt werden.
 
 ## Pixel abtasten
-Wenn wir Bilder als Datenquelle nutzen, dann müssen wir die einzelnen Pixel abtasten/ auslesen. Dabei hilft die [pixels](https://p5js.org/reference/#/p5/pixels) und die [get](https://p5js.org/reference/#/p5/get) Funktion von p5.js. Auf der [Generative Gestaltung Website](http://www.generative-gestaltung.de/2/) finden Sie auch ein schönes [Anwendungsbeispiel](http://www.generative-gestaltung.de/2/sketches/?01_P/P_4_3_1_01) dazu.
+Wenn wir Bilder als Datenquelle nutzen, dann müssen wir die einzelnen Pixel abtasten/ auslesen. Dabei hilft die [pixels](https://p5js.org/reference/p5/pixels) und die [get](https://p5js.org/reference/p5/get) Funktion von p5.js. Auf der [Generative Gestaltung Website](http://www.generative-gestaltung.de/2/) finden Sie auch ein schönes [Anwendungsbeispiel](http://www.generative-gestaltung.de/2/sketches/?01_P/P_4_3_1_01) dazu.
 
 ## Farbabmischung
 
-Mit der p5 Funktion [LerpColor](https://p5js.org/reference/#/p5/lerpColor) können Sie einen Farbwert zwischen zwei gegebenen Farben ermitteln. Im Umgang mit Farbe ist das manchmal sehr hilfreich.
+Mit der p5 Funktion [LerpColor](https://p5js.org/reference/p5/lerpColor) können Sie einen Farbwert zwischen zwei gegebenen Farben ermitteln. Im Umgang mit Farbe ist das manchmal sehr hilfreich.
 
 
 ## Strecken teilen
 
-Ähnlich wie *LerpColor* lässt sich mit der [Lerp](https://p5js.org/reference/#/p5/lerp)-Funktion eine Strecke teilen, bzw. ein Wert zwischen zwei Werten ermitteln.
+Ähnlich wie *LerpColor* lässt sich mit der [Lerp](https://p5js.org/reference/p5/lerp)-Funktion eine Strecke teilen, bzw. ein Wert zwischen zwei Werten ermitteln.
 
 
 ## Transformationen
@@ -41,7 +41,7 @@ Bewegung fasziniert oftmals, daher hier ein Codebeispiel zum Thema [Kollision](h
 
 ## Beispiel: Ausrichtung auf die Maus
 
-Hierzu ist die Berechung des [arctan2](https://p5js.org/reference/#/p5/atan2) sehr hilfreich. Hier ein [komplettes Beispiel](https://p5js.org/examples/math-arctangent.html).
+Hierzu ist die Berechung des [arctan2](https://p5js.org/reference/p5/atan2) sehr hilfreich. Hier ein [komplettes Beispiel](https://p5js.org/examples/math-arctangent.html).
 
 
 ## Beispiel: Abstand berechnen

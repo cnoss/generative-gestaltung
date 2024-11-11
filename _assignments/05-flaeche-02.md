@@ -4,7 +4,7 @@ tags: Fläche & Form
 ---
 
 ## FF2 Transformation der Form
-Teilen Sie die Zeichenfläche in ein Raster von 3x3 Segmenten. Jedes Segment soll eine eigene Hintergrundfarbe bekommen. Die Hintergrundfarben sollten einen harmonischen, warmen Farbklang aus maximal drei Grundfarben ergeben. Erzeugen Sie jetzt zeilenweise von links oben nach rechts unten eine Transformation von einem Dreieck (links oben) zu einem Kreis (rechts unten). Nutzen Sie bitte nur eine weiße Umrandungslinie für die Darstellung der Form. Hierzu sind [Shapes](https://p5js.org/reference/#/p5/beginShape) erforderlich, z.B.
+Teilen Sie die Zeichenfläche in ein Raster von 3x3 Segmenten. Jedes Segment soll eine eigene Hintergrundfarbe bekommen. Die Hintergrundfarben sollten einen harmonischen, warmen Farbklang aus maximal drei Grundfarben ergeben. Erzeugen Sie jetzt zeilenweise von links oben nach rechts unten eine Transformation von einem Dreieck (links oben) zu einem Kreis (rechts unten). Nutzen Sie bitte nur eine weiße Umrandungslinie für die Darstellung der Form. Hierzu sind [Shapes](https://p5js.org/reference/p5/beginShape) erforderlich, z.B.
 
 ```
 beginShape();

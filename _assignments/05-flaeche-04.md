@@ -15,4 +15,4 @@ vertex(30, 75);
 endShape(CLOSE);
 ```
 
-Binden Sie nun die Form der Quadrate an die Mausposition. Hierfür ist wieder die [dist Funktion](https://p5js.org/reference/#/p5/dist) sehr hilfreich.
+Binden Sie nun die Form der Quadrate an die Mausposition. Hierfür ist wieder die [dist Funktion](https://p5js.org/reference/p5/dist) sehr hilfreich.

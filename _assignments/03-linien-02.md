@@ -4,7 +4,7 @@ tags: Linie
 ---
 
 ## L2 Überlagerung mit Bezier Kurven
-Erzeugen Sie eine interessante Komposition aus einem Raster mit [Bezier Kurven](https://p5js.org/reference/#/p5/bezier).
+Erzeugen Sie eine interessante Komposition aus einem Raster mit [Bezier Kurven](https://p5js.org/reference/p5/bezier).
 
 ## L4 Linien in radialer Anordnung
 Erzeugen Sie ein radiales Linienraster mit konzentrischer Anordnung, d.h. die Linien beginnen alle in der Mitte der Zeichenfläche und gehen dann radial nach außen. Nutzen Sie z.B. verschiedene Linienlägen, Linienstärken oder gar mehrere konzentrische Formationen auf der Z-Achse, um eine interessante Gesamtkomposition zu erzielen.

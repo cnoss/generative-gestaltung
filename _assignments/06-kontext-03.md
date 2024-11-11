@@ -13,7 +13,7 @@ let img;
 
 **Bild vorladen**
 
-Hierfür nutzen wir die p5.js Funktion [preload](https://p5js.org/reference/#/p5/preload). Dafür muss natürlich ein Bild im *images* Verzeichnis liegen.
+Hierfür nutzen wir die p5.js Funktion [preload](https://p5js.org/reference/p5/preload). Dafür muss natürlich ein Bild im *images* Verzeichnis liegen.
 ```
 function preload() {
   loadImage('images/farbig.jpg', setImage);
@@ -91,7 +91,7 @@ ellipse(x, y, 20);
 -->
 
 ## C7 Externe Daten
-Bei dieser Aufgabe geht es darum externe Daten in den Sketch zu integrieren. Hierzu eignen sich vor allem Daten im [JSON Format](https://www.json.org/json-de.html). Hierzu gibt es ein kleines Beispiel in der p5.js Doku zur Funktion [loadJSON](https://p5js.org/reference/#/p5/loadJSON). 
+Bei dieser Aufgabe geht es darum externe Daten in den Sketch zu integrieren. Hierzu eignen sich vor allem Daten im [JSON Format](https://www.json.org/json-de.html). Hierzu gibt es ein kleines Beispiel in der p5.js Doku zur Funktion [loadJSON](https://p5js.org/reference/p5/loadJSON). 
 
 Als Beispieldaten werden hier [seismische Messungen](https://earthquake.usgs.gov/earthquakes/feed/) genutzt. 
 

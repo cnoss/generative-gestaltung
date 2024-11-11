@@ -22,7 +22,7 @@ pop();
 ```
 
 ## C1.3 Mandala
-Wie zuvor, aber diesmal kopieren wir die Zeichnung rotierend auf der Montagefläche. Hierzu müssen wir mit [createGraphics](https://p5js.org/reference/#/p5/createGraphics) eine Art *virtuelle Zeichenfläche* erzeugen, die wie dann auf unserer Hauptzeichenfläche platzieren.
+Wie zuvor, aber diesmal kopieren wir die Zeichnung rotierend auf der Montagefläche. Hierzu müssen wir mit [createGraphics](https://p5js.org/reference/p5/createGraphics) eine Art *virtuelle Zeichenfläche* erzeugen, die wie dann auf unserer Hauptzeichenfläche platzieren.
 
 ### Deklarationsblock
 

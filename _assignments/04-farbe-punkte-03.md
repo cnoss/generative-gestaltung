@@ -9,7 +9,7 @@ Jetzt wird es etwas komplex. Wir erstellen ein radiales Raster aus Punkten. Dabe
 let U = TWO_PI * radius;
 ```
 
-Da die Punktgröße ja durch den Slider vorgegeben ist und die Wahrscheinlichkeit, dass der Umfang der Kreisbahn zufällig genauso groß ist, um die ermittelte Anzahl der Punkte darauf platziert zu können, müssen wir die Punkte in einem gleichmäßigen Abstand auf der Kreisbahn platzieren. Hierfür ist die Nutzung des Bogenmaßes(Radian) ziemlich praktisch. P5 bietet mit [degrees](https://p5js.org/reference/#/p5/degrees) und [radians](https://p5js.org/reference/#/p5/radians) Funktionen zur Umrechnung von Grad- in Bogenmaß. Im Ergebnis sollte ein Kreisring aus Punkten entstehen.
+Da die Punktgröße ja durch den Slider vorgegeben ist und die Wahrscheinlichkeit, dass der Umfang der Kreisbahn zufällig genauso groß ist, um die ermittelte Anzahl der Punkte darauf platziert zu können, müssen wir die Punkte in einem gleichmäßigen Abstand auf der Kreisbahn platzieren. Hierfür ist die Nutzung des Bogenmaßes(Radian) ziemlich praktisch. P5 bietet mit [degrees](https://p5js.org/reference/p5/degrees) und [radians](https://p5js.org/reference/p5/radians) Funktionen zur Umrechnung von Grad- in Bogenmaß. Im Ergebnis sollte ein Kreisring aus Punkten entstehen.
 
 Dann erzeugen wir meherere dieser Ringe, wobei die Anzahl auch via Slider eingestellt werden kann. Der Radius der Ringe sollte jeweils so erhöht werden, dass ein gleichmäßiges Raster entsteht. Nun können wir hier einige Parameter zur Farbsteuerung mit Geometrieparametern verknüpfen.
 

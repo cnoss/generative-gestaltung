@@ -13,7 +13,7 @@ Der letzte Parameter steuert die Transparenz.
 ```
 
 ## F1 Farbige Punkte
-Erzeugen Sie eine lineare Anordnung von beliebig vielen Punkten. Die Farbe der Punkte soll entlang des Farbkreises sein. Hierbei könnte die [Map Funktion](https://p5js.org/reference/#/p5/map) hilfreich sein. Koppeln Sie ggf. verschiedene Parameter an Eingaben, z.B. über die Maus oder Tastatur.
+Erzeugen Sie eine lineare Anordnung von beliebig vielen Punkten. Die Farbe der Punkte soll entlang des Farbkreises sein. Hierbei könnte die [Map Funktion](https://p5js.org/reference/p5/map) hilfreich sein. Koppeln Sie ggf. verschiedene Parameter an Eingaben, z.B. über die Maus oder Tastatur.
 
 
 **obligatorisch**

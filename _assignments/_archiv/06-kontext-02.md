@@ -4,7 +4,7 @@ tags: Kontext
 ---
 
 ## C2 Mandala mit Kamera Input
-Wie Aufgabe C1.3, aber diesmal ziehen wir die Farbe aus dem Kamerabild mit Hilfe der p5 Funktion [createCapture](https://p5js.org/reference/#/p5/createCapture).
+Wie Aufgabe C1.3, aber diesmal ziehen wir die Farbe aus dem Kamerabild mit Hilfe der p5 Funktion [createCapture](https://p5js.org/reference/p5/createCapture).
 
 **Kamerabild akquirieren**
 

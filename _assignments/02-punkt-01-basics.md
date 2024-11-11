@@ -4,27 +4,27 @@ tags: Punkt
 ---
 
 ## P1 Ein dummer Punkt
-Platzieren Sie einen [schwarzen](https://p5js.org/reference/#/p5/fill) [Punkt](https://p5js.org/reference/#/p5/ellipse) beliebiger Größe auf der [weißen Zeichenfläche](https://p5js.org/reference/#/p5/background).
+Platzieren Sie einen [schwarzen](https://p5js.org/reference/p5/fill) [Punkt](https://p5js.org/reference/p5/ellipse) beliebiger Größe auf der [weißen Zeichenfläche](https://p5js.org/reference/p5/background).
 
 **obligatorisch**
 
 ## P1.1 Zentrierter Punkt
-Platzieren Sie den Punkt in der Mitte der Zeichenfläche. Hier helfen die p5 Umgebungsvariabeln [width](https://p5js.org/reference/#/p5/width) und [height](https://p5js.org/reference/#/p5/height).
+Platzieren Sie den Punkt in der Mitte der Zeichenfläche. Hier helfen die p5 Umgebungsvariabeln [width](https://p5js.org/reference/p5/width) und [height](https://p5js.org/reference/p5/height).
 
 **obligatorisch**
 
 ## P1.2 Beweglicher Punkt
-Positionieren Sie den Punkt auf der X-Achse entsprechend der Mausposition. Hierfür brauchen wir das p5 MouseEvent [mouseX](https://p5js.org/reference/#/p5/mouseX).
+Positionieren Sie den Punkt auf der X-Achse entsprechend der Mausposition. Hierfür brauchen wir das p5 MouseEvent [mouseX](https://p5js.org/reference/p5/mouseX).
 
 **obligatorisch**
 
 ## P1.3 Beweglicher Punkt bis zum Rand
-Positionieren Sie den Punkt auf der X-Achse entsprechend der Mausposition, allerdings soll sich der Punkt nicht über den Rand der Zeichenfläche hinaus bewegen. Ok, hier muss ein bisschen gerechnet werden. Hier könnte auch die [constrain](https://p5js.org/reference/#/p5/constrain)-Funktion helfen.
+Positionieren Sie den Punkt auf der X-Achse entsprechend der Mausposition, allerdings soll sich der Punkt nicht über den Rand der Zeichenfläche hinaus bewegen. Ok, hier muss ein bisschen gerechnet werden. Hier könnte auch die [constrain](https://p5js.org/reference/p5/constrain)-Funktion helfen.
 
 **obligatorisch**
 
 ## P1.4 Punktgröße steht im Verhältnis zur Zeichenfläche
-Bislang hatte der Punkt eine absolute Größe. Jetzt soll sich die Größe des Punktes auf die Zeichenfläche beziehen, d.h. bei veränderter Größe der Zeichenfläche, soll auch der Punkt seine Größe ändern. Die Größe der Zeichenfläche lässt sich mit Hilfe der Umgebungsvariabeln [width](https://p5js.org/reference/#/p5/width) und [height](https://p5js.org/reference/#/p5/height) auslesen.
+Bislang hatte der Punkt eine absolute Größe. Jetzt soll sich die Größe des Punktes auf die Zeichenfläche beziehen, d.h. bei veränderter Größe der Zeichenfläche, soll auch der Punkt seine Größe ändern. Die Größe der Zeichenfläche lässt sich mit Hilfe der Umgebungsvariabeln [width](https://p5js.org/reference/p5/width) und [height](https://p5js.org/reference/p5/height) auslesen.
 
 **obligatorisch**
 
