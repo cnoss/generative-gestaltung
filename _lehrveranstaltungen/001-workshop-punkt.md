@@ -7,7 +7,7 @@ pflicht: false
 termine: 2024-11-11 11:30
 empfohlene-voraussetzungen:
 published: true
-dauer: 300
+dauer: 270
 raum: Open Space, S22
 flag: show-at-homepage
 teaserImageURL: /assets/images/P2.3.jpg
