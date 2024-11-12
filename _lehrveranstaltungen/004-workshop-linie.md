@@ -8,7 +8,7 @@ termine: 2024-11-15 09:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 210
-raum: "Zoom – Zugangsdaten sind kommen via Mattermost"
+raum: "Open Space, S22"
 flag: show-at-homepage
 teaserImageURL: /assets/images/p-linie.jpg
 info: |
