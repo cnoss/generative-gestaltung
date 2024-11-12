@@ -22,7 +22,7 @@ Wie zuvor, aber diesmal richtet sich die Intensität des [Zufallswerts](https://
 Wie 3.1, jedoch sollen die Punkte im Raster in Abhängigkeit von der X-Position der Maus aus dem Raster ausbrechen. Befindet sich die Maus z.B. im linken Bereich der Zeichenfläche, dann brechen hier die Punkte aus dem Raster heraus, befindet sich die Maus weiter rechts, brechen hier die Punkte aus dem Raster: der Unruhebereich verschiebt sich also mit dem Raster. Hierbei kann die [dist Funktion](https://p5js.org/reference/p5/dist) sehr hilfreich sein. Auch die [map Funktion](https://p5js.org/reference/p5/map) kann hier helfen.
 
 ## P3.4 Ruhebereich im Raster abhängig von Mausposition
-Wie 3.2, aber diesmal sind die Punkte in der Nähe des Mauszeigers im Raster und je weiter ihre X-Position vom Mauszeiger entfernt ist, desto stärker brechen Sie aus den Raster aus.
+Wie 3.3, aber diesmal sind die Punkte in der Nähe des Mauszeigers im Raster und je weiter ihre X-Position vom Mauszeiger entfernt ist, desto stärker brechen Sie aus den Raster aus.
 
 <figure class="video-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLfnobFnVauQDTnRx-OLJQaNEDQcIJ4QNi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
