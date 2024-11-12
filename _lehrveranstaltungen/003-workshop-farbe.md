@@ -8,7 +8,7 @@ termine: 2024-11-14 09:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 390
-raum: "Raum Open Space, S22"
+raum: "Open Space, S22"
 flag: show-at-homepage
 teaserImageURL: /assets/images/p-farbe-3-klein.jpg
 info: |
