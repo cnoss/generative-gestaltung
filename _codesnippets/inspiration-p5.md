@@ -36,22 +36,22 @@ Sobald wir mit Formen arbeiten, sind [Transformationen](https://p5js.org/referen
 
 ## Beispiel: Kollisionsberechnung
 
-Bewegung fasziniert oftmals, daher hier ein Codebeispiel zum Thema [Kollision](https://p5js.org/examples/motion-circle-collision.html).
+Bewegung fasziniert oftmals, daher hier ein Codebeispiel zum Thema [Kollision](https://archive.p5js.org/examples/motion-circle-collision.html).
 
 
 ## Beispiel: Ausrichtung auf die Maus
 
-Hierzu ist die Berechung des [arctan2](https://p5js.org/reference/p5/atan2) sehr hilfreich. Hier ein [komplettes Beispiel](https://p5js.org/examples/math-arctangent.html).
+Hierzu ist die Berechung des [arctan2](https://archive.p5js.org/reference/p5/atan2) sehr hilfreich. Hier ein [komplettes Beispiel](https://archive.p5js.org/examples/math-arctangent.html).
 
 
 ## Beispiel: Abstand berechnen
 
-Die Bezugnahme auf die Mausposition oder andere Eingabegeräte kann sehr interessant sein und lädt den Betrachter oft zur Interation ein. Hier ist die Berechnung des [Distanz](https://p5js.org/examples/math-distance-2d.html) oftmals erforderlich.
+Die Bezugnahme auf die Mausposition oder andere Eingabegeräte kann sehr interessant sein und lädt den Betrachter oft zur Interation ein. Hier ist die Berechnung des [Distanz](https://archive.p5js.org/examples/math-distance-2d.html) oftmals erforderlich.
 
 
 ## Beispiel: Lineare Interpolation
 
-Natürlich Bewegung in den Sketches macht sie meist interessanter und lebendiger. Hierfür ist die Zuhilfenahme von [Linearer Interpolation](https://p5js.org/examples/math-linear-interpolation.html) oftmals eine große Hilfe.
+Natürlich Bewegung in den Sketches macht sie meist interessanter und lebendiger. Hierfür ist die Zuhilfenahme von [Linearer Interpolation](https://archive.p5js.org/examples/math-linear-interpolation.html) oftmals eine große Hilfe.
 
 
 ## Beispiel: Wiederholung mit sehr dünnen Strichstärken
