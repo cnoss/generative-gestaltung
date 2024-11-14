@@ -15,7 +15,7 @@ Das Gestaltungsportfolio besteht aus einer Auswahl Ihrer Arbeitsergebnisse zu de
 
 - Themenblock 1: Punkt, Linie **oder** Fläche
 - Themenblock 2: Farbe 
-- Themenblock 3: Freie Arbeit (Hackday 1 & 2)
+- Themenblock 3: Freie Arbeit (Hackday)
 
 Insgesamt umfasst das Portfolio **drei Artefakte**. Sie sollten aus dem Themenblock jeweils das Artefakt wählen, welches eine eigene Auseinandersetzung mit dem Thema erkennen lässt. Definieren Sie bitte eines Ihrer Artefakte als **Hauptmotiv**. Selbiges fließt mit **35%** in in die Gesamtwertung mit ein. Die beiden anderen Motive fließen mit jeweils **25%** in die Gesamtwertung ein. Somit ergibt sich folgende Zusammensetzung der Gesamtwertung:
 
