@@ -1,5 +1,5 @@
 ---
-titel: Freiarbeit 2 (Hackday)
+titel: Freiarbeit (Hackday)
 tags: 
     - Hackday
     - Freiarbeit

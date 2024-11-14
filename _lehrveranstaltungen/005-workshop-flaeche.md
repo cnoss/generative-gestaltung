@@ -1,5 +1,5 @@
 ---
-titel: Flächen & Kontext
+titel: Flächen & Formen
 kuerzel: w-lmw
 verantwortlich: cn
 typ: workshop
@@ -7,7 +7,7 @@ pflicht: false
 termine: 2024-11-19 09:30
 empfohlene-voraussetzungen:
 published: true
-dauer: 120
+dauer: 390
 raum: Open Space, S22
 info: |
   Zu guter Letzt befassen wir uns mit der Fläche. Hier haben wir, gegenüber der Linie, als wesentlichen zusätzlichen Gestaltungsparameter, das Verhältnis und die Form. 

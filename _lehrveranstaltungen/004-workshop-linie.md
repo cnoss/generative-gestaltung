@@ -14,8 +14,6 @@ teaserImageURL: /assets/images/p-linie.jpg
 info: |
   Weiter geht es zur Linie. Auch hier nutzen wir Raster in denen wir gerade Linien zunächst horizontal und vertikal anordnen. Danach experimentieren wir mit Lage und Farbe der Linien. Schlussendlich befassen wir uns mit Kurven und Schwingungsfiguren.
 material: |
-  - [Figur & Grund](https://cnoss.github.io/slides/presentations/screendesign/figur-und-grund/)
-  - [Proportionen & Abstände](https://cnoss.github.io/slides/presentations/screendesign/proportionen-und-abstaende/)
   - [Foliensatz Linie](https://cnoss.github.io/slides/presentations/screendesign/linie/)
 
 ---
