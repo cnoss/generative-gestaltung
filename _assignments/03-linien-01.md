@@ -9,7 +9,7 @@ Erzeugen Sie aus beliebig vielen vertikalen Linien ein Raster und zentrieren Sie
 **obligatorisch**
 
 ## L1.1 Raster aus vertikalen Liniensträngen
-Unterteilen Sie die Darstellungsfläche in mehere Reihen und füllen Sie die einzelnen Reihen mit vertikalen Linien. Die Abstände zwischen den Linien und die Lienienstärke soll in den verschiedenen Reihen unterschiedlich sein.
+Unterteilen Sie die Darstellungsfläche in mehrere Reihen und füllen Sie die einzelnen Reihen mit vertikalen Linien komplett auf. Die Reihen sollten unterschiedliche Höhen haben. Die Abstände zwischen den Linien und die Lienienstärke soll in den verschiedenen Reihen unterschiedlich sein.
 
 ## L1.2 Raster wird nach außen dunkler
 Wie zuvor, aber diesmal koppeln wir die Helligkeit an die X-Position des Elements, d.h. je weiter das Element von der Mitte entfernt ist, desto dunkler wird es dargestellt. Die Linienanfänge haben einen Bezug zu den Linienenden der vorhergehenden Reihe.
