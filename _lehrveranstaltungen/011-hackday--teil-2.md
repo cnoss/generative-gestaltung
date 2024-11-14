@@ -1,5 +1,5 @@
 ---
-titel: Hackday & Feedback
+titel: Hackday
 kuerzel: w-lmw
 verantwortlich: cn
 typ: hack
