@@ -48,7 +48,6 @@ for (let gridX = 0; gridX < tileCount; gridX++) {
 }
 ```
 
-{% include youtube.html id="Ge5Cqv7Zvd0" %}
 
 <!--
 ## C6 Daten vom Smartphone via Tramontana
@@ -90,6 +89,10 @@ ellipse(x, y, 20);
 ```
 -->
 
+## C6 Daten aus ML Modellen
+Hier sollen Daten aus [ML5 Libr](https://docs.ml5js.org/#/) für Visualisierungen genutzt werden, z.B. aus dem [BodyPose Modell](https://docs.ml5js.org/#/reference/bodypose). ml5.js ist eine benutzerfreundliche JavaScript-Bibliothek, die auf TensorFlow.js basiert und maschinelles Lernen direkt im Browser ermöglicht. Sie bietet eine einfache API und vortrainierte Modelle für Aufgaben wie Bildklassifikation, Objekterkennung, Sprachverarbeitung und Pose-Tracking. Ziel ist es, maschinelles Lernen für Kreative, Künstler und Entwickler zugänglich zu machen, insbesondere für interaktive und kreative Projekte. Als Open-Source-Bibliothek arbeitet ml5.js eng mit Tools wie p5.js zusammen und richtet sich an eine breite, inklusive Community.
+
+
 ## C7 Externe Daten
 Bei dieser Aufgabe geht es darum externe Daten in den Sketch zu integrieren. Hierzu eignen sich vor allem Daten im [JSON Format](https://www.json.org/json-de.html). Hierzu gibt es ein kleines Beispiel in der p5.js Doku zur Funktion [loadJSON](https://p5js.org/reference/p5/loadJSON). 
 
@@ -97,5 +100,13 @@ Als Beispieldaten werden hier [seismische Messungen](https://earthquake.usgs.gov
 
 ## Beispiele & Beispieldatensätze
 - [Seismische Daten im GeoJSON](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
-- [Data on COVID-19 (coronavirus) by Our World in Data](https://github.com/owid/covid-19-data/tree/master/public/data)
-- [Weather Beispiel von der p5.js Seite](https://p5js.org/examples/hello-p5-weather.html)
+- [Data Art Sources von Artnome](https://www.artnome.com/art-data)
+- [Weather Beispiel von der p5.js Seite](https://archive.p5js.org/examples/hello-p5-weather.html)
+- [Public Real-Time Datasets and Sources](https://github.com/bytewax/awesome-public-real-time-datasets)
+
+<figure class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=nl3xiwUTuXVIIr5e&amp;list=PLfnobFnVauQAePm-jOlxCEO7DGdSMkHKF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figcaption>
+Ein paar Anregungen zur Lösung der Aufgaben gibt es in dieser Playlist.
+</figcaption>
+</figure>

@@ -23,9 +23,6 @@ let g = video.pixels[1];
 let b = video.pixels[2];
 ```
 
-{% include youtube.html id="yhBjfCwBcAE" %}
-{% include youtube.html id="K3gy_afGGaU" %}
-
 ## C4 & C4.1 Handtracking
 Jetzt wird es lustig … und komlex. Wir nutzen [Handtracking.js](https://github.com/victordibia/handtrack.js/) zur Steuerung. Dazu brauchen wir ein bisschen zusätzlichen Code. In der *ìndex.html* muss der Codeblock für *Handtrack.js* einkommentiert werden.
 
@@ -103,4 +100,12 @@ function runDetection() {
   const posY = map(modelData.y, 0, 240, 0, height);
   const size = map(modelData.y, 0, 320, 0, 100);
 ```
-{% include youtube.html id="aR-f4A0SKNQ" %}
+
+
+
+<figure class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=nl3xiwUTuXVIIr5e&amp;list=PLfnobFnVauQAePm-jOlxCEO7DGdSMkHKF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figcaption>
+Ein paar Anregungen zur Lösung der Aufgaben gibt es in dieser Playlist.
+</figcaption>
+</figure>

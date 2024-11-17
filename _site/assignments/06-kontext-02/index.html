@@ -82,13 +82,6 @@ let g = video.pixels[1];
 let b = video.pixels[2];
 </code></pre></div></div>
 
-<div class="js-video widescreen vimeo ">
-  <iframe src="https://www.youtube.com/embed/yhBjfCwBcAE" frameborder="0" allowfullscreen=""></iframe>
-</div>
-<div class="js-video widescreen vimeo ">
-  <iframe src="https://www.youtube.com/embed/K3gy_afGGaU" frameborder="0" allowfullscreen=""></iframe>
-</div>
-
 <h2 id="c4--c41-handtracking">C4 &amp; C4.1 Handtracking</h2>
 <p>Jetzt wird es lustig … und komlex. Wir nutzen <a href="https://github.com/victordibia/handtrack.js/">Handtracking.js</a> zur Steuerung. Dazu brauchen wir ein bisschen zusätzlichen Code. In der <em>ìndex.html</em> muss der Codeblock für <em>Handtrack.js</em> einkommentiert werden.</p>
 
@@ -162,9 +155,13 @@ function runDetection() {
   const posY = map(modelData.y, 0, 240, 0, height);
   const size = map(modelData.y, 0, 320, 0, 100);
 </code></pre></div></div>
-<div class="js-video widescreen vimeo ">
-  <iframe src="https://www.youtube.com/embed/aR-f4A0SKNQ" frameborder="0" allowfullscreen=""></iframe>
-</div>
+
+<figure class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=nl3xiwUTuXVIIr5e&amp;list=PLfnobFnVauQAePm-jOlxCEO7DGdSMkHKF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+  <figcaption>
+    <p>Ein paar Anregungen zur Lösung der Aufgaben gibt es in dieser Playlist.</p>
+  </figcaption>
+</figure>
 
     </div>
   </div>
