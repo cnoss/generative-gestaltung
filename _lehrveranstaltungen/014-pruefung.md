@@ -4,10 +4,10 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: pruefung
 pflicht: false
-termine: 2024-11-22 13:00
+termine: 2024-11-22 14:00
 empfohlene-voraussetzungen:
 published: true
-dauer: 180
+dauer: 120
 raum: Open Space, S22
 info: | 
   
