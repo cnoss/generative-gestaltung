@@ -13,3 +13,6 @@ info: |
 ---
 
 Einige Informationen und Gedanken zum Thema [Prüfung, Präsentation und Argumentation von/ für Generative Gestaltung](../../material/generative-gestaltung-praesentieren.zip).
+
+## Mitschnitt
+- [Video von 21.11.2024](https://www.youtube.com/watch?v=C-ZiBNyJZmE)
