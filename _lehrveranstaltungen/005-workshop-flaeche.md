@@ -12,8 +12,8 @@ raum: Open Space, S22
 info: |
   Zu guter Letzt befassen wir uns mit der Fläche. Hier haben wir, gegenüber der Linie, als wesentlichen zusätzlichen Gestaltungsparameter, das Verhältnis und die Form. 
 material: |
-  - [Folien Figur & Grund](https://th-koeln.github.io/mi-bachelor-screendesign/download/workshops/flaeche-form/020-figur-und-grund.pdf)
-  - [Folien Abstände & Proportionen](https://th-koeln.github.io/mi-bachelor-screendesign/download/workshops/systematische-proportionen-und-abstaende/systematische-proportionen-und-abstaende.pdf)
+  - [Folien Figur & Grund](https://cnoss.github.io/slides/presentations/screendesign/figur-und-grund/)
+  - [Folien Abstände & Proportionen](https://cnoss.github.io/slides/presentations/screendesign/proportionen-und-abstaende/)
 ---
 
 ## Beispielcode
