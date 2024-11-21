@@ -13,12 +13,11 @@ info:
     Beim Hackday geht es darum, das erarbeitete Repertoire im Rahmen einer konkreten Aufgabenstellung, eines Themengebiets oder einer Leitfrage einzusetzen.
 ---
 
-Im Rahmen des Themas soll ein Sketch oder eine Reihe von Sketches erarbeitet werden, die möglichst gut auf das Thema einzahlen. Ein Sketch aus den beiden Themengebieten der Hackdays kommt in Ihr [Gestatungsportfolio](/generative-gestaltung/gestaltungsportfolio/). Falls Sie einen bestehenden Sketch, sei es aus einer Aufgabe oder von einer externen Quelle, nutzen dann machen Sie dies bitte explizit.
+Im Rahmen des Themas soll ein Sketch oder eine Reihe von Sketches erarbeitet werden, die möglichst gut auf eines der gegebenen Themen einzahlen. Ein Sketch aus den beiden Themengebieten des Hackday kommt in ihr [Gestatungsportfolio](/generative-gestaltung/gestaltungsportfolio/). Falls Sie einen bestehenden Sketch, sei es aus einer Aufgabe oder von einer externen Quelle, nutzen dann machen Sie dies bitte explizit.
 
 ## Assignments
 
-- [Hackday 1 - Thema der ersten Freiarbeit](/generative-gestaltung/assignments/99-hackday-1/)
-- [Hackday 2 - Thema der zweiten Freiarbeit](/generative-gestaltung/assignments/99-hackday-2/)
+- [Hackday Themen 2024](/generative-gestaltung/assignments/99-hackday/)
 
 <!--
 
