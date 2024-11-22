@@ -109,16 +109,16 @@
 
 <p>Dann ergänzen wir die <em>Draw Funktion</em> um eine Bedingung, in der wir die Presets verarbeiten. <em>Zeile 01</em> überprüft, ob sich das Preset verändert hat. <em>Zeile 2</em> speichert das neu gewählte Preset in <em>currentPreset</em>. <em>Zeile 03 bis 10</em> verarbeitet die verschiedenen Presets und aktualisiert, falls nötig, die Regler der <em>DrawingParams</em>.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>01  if (drawingParams.preset !== currentPreset) { 
-02    currentPreset = drawingParams.preset;
-03    if (drawingParams.preset === 'varianteA') { 
-04      sketchGUI.update('scaleFactor', 1);
-05      sketchGUI.update('saturation', 100);
-06    } else if (drawingParams.preset === 'varianteB') { 
-04      sketchGUI.update('scaleFactor', 5);
-05      sketchGUI.update('saturation', 10);
-10    }
-11  }
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if (drawingParams.preset !== currentPreset) { 
+  currentPreset = drawingParams.preset;
+  if (drawingParams.preset === 'varianteA') { 
+    sketchGUI.update('scaleFactor', 1);
+    sketchGUI.update('saturation', 100);
+  } else if (drawingParams.preset === 'varianteB') { 
+    sketchGUI.update('scaleFactor', 5);
+    sketchGUI.update('saturation', 10);
+  }
+}
 </code></pre></div></div>
 
 <div class="js-video widescreen vimeo ">

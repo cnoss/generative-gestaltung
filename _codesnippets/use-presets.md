@@ -34,16 +34,16 @@ let drawingParams = {
 Dann ergänzen wir die *Draw Funktion* um eine Bedingung, in der wir die Presets verarbeiten. *Zeile 01* überprüft, ob sich das Preset verändert hat. *Zeile 2* speichert das neu gewählte Preset in *currentPreset*. *Zeile 03 bis 10* verarbeitet die verschiedenen Presets und aktualisiert, falls nötig, die Regler der *DrawingParams*.
 
 ```
-01  if (drawingParams.preset !== currentPreset) { 
-02    currentPreset = drawingParams.preset;
-03    if (drawingParams.preset === 'varianteA') { 
-04      sketchGUI.update('scaleFactor', 1);
-05      sketchGUI.update('saturation', 100);
-06    } else if (drawingParams.preset === 'varianteB') { 
-04      sketchGUI.update('scaleFactor', 5);
-05      sketchGUI.update('saturation', 10);
-10    }
-11  }
+if (drawingParams.preset !== currentPreset) { 
+  currentPreset = drawingParams.preset;
+  if (drawingParams.preset === 'varianteA') { 
+    sketchGUI.update('scaleFactor', 1);
+    sketchGUI.update('saturation', 100);
+  } else if (drawingParams.preset === 'varianteB') { 
+    sketchGUI.update('scaleFactor', 5);
+    sketchGUI.update('saturation', 10);
+  }
+}
 ```
 
 {% include youtube.html id="YQp8X2PYfpc" %}
