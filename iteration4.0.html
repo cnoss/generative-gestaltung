@@ -1,0 +1,526 @@
+---
+layout: fullscreen
+titel: Iteration 2.0
+---
+
+<style>
+
+.logo{
+  display: flex;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.feed-overview{
+  margin-bottom: 5rem;
+}
+.feed-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  row-gap: 2em;
+  column-gap: 2em;
+}
+.feed__item {
+  position: relative;
+  font-weight: 200;
+  color: #b3b3b3;
+  transition: transform .6s;
+  display: flex;
+  flex-direction: column;
+  background-color: #111;
+}
+.feed__item > * {
+  transform: scale(0.7);
+  transition: transform .6s;
+}
+
+.feed__item:hover > *{
+  transform: scale(0.95);
+  cursor: pointer;
+}
+
+.feed__item figure{
+  margin: 0;
+}
+.feed__item img {
+  aspect-ratio: 1/1;
+  width: 100%;
+  object-fit: cover;
+}
+.feed__item .info {
+  padding: 7.7px 0 19.8px 0;
+  transition: padding .2s;
+  margin: 0;
+}
+.feed__item .info .info__item{
+  display: block;
+  text-align: left;
+}
+
+.feed__item a {
+  font-weight: 500;
+  color: #ea5a00;
+}
+
+.stage{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: -100vw;
+  top:0;
+  bottom: 0;
+  transition: left .3s ease-in;
+}
+
+.stage.is-active{
+  left: 0;
+}
+
+.stage > iframe{
+  width: 100%;
+  height: 100%;
+}
+
+.section{
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  left: 0;
+  top:0;
+  right: 0;
+  bottom: 0;
+}
+
+.stage-navigation{
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #222;
+  padding-right: 1em;
+}
+
+.close-button{
+  padding: 0.5em;
+  transition: all .2s;
+}
+
+.close-button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.content.is-large .headline{
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+
+.content.is-large .headline .is-small{
+  display: block;
+  font-size: 1rem;
+  text-transform: none;
+}
+
+.iteration-text{
+  margin-bottom: 5rem;
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+}
+
+.secondary-text{
+  opacity: 0.6;
+  transition: opacity .2s;
+  align-self: flex-end;
+}
+
+.secondary-text:hover{
+  opacity: 1;
+}
+
+.main-text, .secondary-text{
+  padding-bottom: 3rem;
+  max-width: 120ch;
+}
+
+.iteration-id{
+  display: inline-block;
+}
+
+.iteration-id::after{
+  content: "//";
+  color: rgba(255,255,255,.3);
+  display: inline-block;
+  margin-left: 0.5ch;
+  margin-right: 0.5ch;
+}
+
+.stage-content{
+  background-image: url("../assets/images/puff.svg");
+  background-color: rgba(0,0,0,.8);
+  width: 100%;
+  height: 100%;
+}
+
+
+.stage-content iframe{
+  width: 100%;
+  height: 100%;
+}
+
+</style>
+
+<h1 class="headline"><span class="is-small">Ergebnisse aus dem Kurs</span>Generative Gestaltung</h1>
+
+<div class="feed-overview">
+  <div class="feed-content">
+  
+    <div class="feed__item">
+      <figure>
+        <img loading="lazy" src="../assets/images/iteration/4/gg-sketch-freie-arbeit-frith.jpg" alt="curious particles">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://fplath1.pages.coco.study/generative-gestaltung-portfolio-ws-202324/result-freie-arbeit/">curious particles:
+            Ein vielseitiges Partikelsystem von Frithjof Plath</a></li>
+          <li class="info__item">WS23/24</li>
+        </ul>
+      </figure>
+    </div>
+
+    <div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://jgrote2.pages.coco.study/startercode-gestaltungsportfolio-ws202324/result-freie-arbeit/Moire_scheibe.jpg" alt="Moiré Scheibe">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://jgrote2.pages.coco.study/startercode-gestaltungsportfolio-ws202324/result-freie-arbeit/">Moiré Scheibe von Jakob Grote</a></li>
+          <li class="info__item">WS23/24</li>
+        </ul>
+      </figure>
+    </div>
+
+    <div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://lstawiar.pages.coco.study/startercode-gestaltungsportfolio-ws-202324-lina-stawiarski/result-freie-arbeit/haupt2.png" alt="Verwandlung der Sterne">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://lstawiar.pages.coco.study/startercode-gestaltungsportfolio-ws-202324-lina-stawiarski/result-freie-arbeit/">Verwandlung der Sterne von Lina Stawiarski</a></li>
+          <li class="info__item">WS23/24</li>
+        </ul>
+      </figure>
+    </div>
+
+    <div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://rlanzabu.pages.coco.study/startercode-gestaltungsportfolio-ws202324/result-farbe/portfolio_farbe.jpg" alt="A Symphony of Curves">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://rlanzabu.pages.coco.study/startercode-gestaltungsportfolio-ws202324/result-farbe/">A Symphony of Curves: Exploring the dance of colors von Raffaella Lanza</a></li>
+          <li class="info__item">WS23/24</li>
+        </ul>
+      </figure>
+    </div>
+
+    <div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://nwiesel.pages.coco.study/startercode-gestaltungsportfolio-ws202324/result-farbe/prisma-diamonds.JPG" alt="Prisma Diamonds">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://nwiesel.pages.coco.study/startercode-gestaltungsportfolio-ws202324/result-farbe/">Prisma Diamonds: Beauty in disguise von Niklas Wiesel</a></li>
+          <li class="info__item">WS23/24</li>
+        </ul>
+      </figure>
+    </div>
+
+    <div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://msiry.pages.coco.study/startercode-gestaltungsportfolio-ws-202324-manuel-mario-siry/result-freie-arbeit/gg-sketch-freie-arbeit.jpg" alt="Bauhaus">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://msiry.pages.coco.study/startercode-gestaltungsportfolio-ws-202324-manuel-mario-siry/result-freie-arbeit/">Bauhaus: Geometrische Formen von Manuel Mario Siry</a></li>
+          <li class="info__item">WS23/24</li>
+        </ul>
+      </figure>
+    </div>
+
+    <div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://mbegmato.pages.coco.study/startercode-gestaltungsportfolio-ws202324/result-freie-arbeit/hackday.png" alt="Freie Arbeit">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://mbegmato.pages.coco.study/startercode-gestaltungsportfolio-ws202324/result-freie-arbeit/">Freie Arbeit von Madina Begmatova</a></li>
+          <li class="info__item">WS23/24</li>
+        </ul>
+      </figure>
+    </div>
+
+    <div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://fplath1.pages.coco.study/generative-gestaltung-portfolio-ws-202324/result-farbe/gg-result-farbe.jpg" alt="Friendly Dots">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://fplath1.pages.coco.study/generative-gestaltung-portfolio-ws-202324/result-farbe/">Friendly Dots: Farbe, Form und Positivität von Frithoj Plath</a></li>
+          <li class="info__item">WS23/24</li>
+        </ul>
+      </figure>
+    </div>
+
+    <div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://jgrote2.pages.coco.study/startercode-gestaltungsportfolio-ws202324/result-punkt-linie-flaeche/preview.jpg" alt="R G B Waves">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://jgrote2.pages.coco.study/startercode-gestaltungsportfolio-ws202324/result-punkt-linie-flaeche/">R G B Waves von Jakob Grote</a></li>
+          <li class="info__item">WS23/24</li>
+        </ul>
+      </figure>
+    </div>
+
+    <div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://skayis.pages.coco.study/startercode-gestaltungsportfolio-ws-202324-skayis/result-freie-arbeit/result-freie-arbeit.jpg" alt="Beat Distortions">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://skayis.pages.coco.study/startercode-gestaltungsportfolio-ws-202324-skayis/result-freie-arbeit/">Beat Distortions: Musikvisualisierung zum Mitfühlen von Sila Alenya Kayis</a></li>
+          <li class="info__item">WS23/24</li>
+        </ul>
+      </figure>
+    </div>
+
+    <!--div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://ahayd.pages.coco.study/startercode-gestaltungsportfolio-ws202223/result-punkt-linie-flaeche/gg-sketch-punkt.jpg" alt="Gleichsamkeit">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://ahayd.pages.coco.study/startercode-gestaltungsportfolio-ws202223/result-punkt-linie-flaeche/">Gleichsamkeit von Annika Lara Hayd</a></li>
+          <li class="info__item">WS23/24</li>
+        </ul>
+      </figure>
+    </div-->
+
+    <!--div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://mlange8.pages.coco.study/startercode-gestaltungsportfolio-ws202223/result-punkt-linie-flaeche/gg-sketch-punkt.png" alt="Netz aus Punkten">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://mlange8.pages.coco.study/startercode-gestaltungsportfolio-ws202223/result-punkt-linie-flaeche/">Netz aus Punkten von Maurice Lucien Lange</a></li>
+          <li class="info__item">WS22/23</li>
+        </ul>
+      </figure>
+    </div>
+
+
+
+
+    <div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://christiannoss.de/feed/gg-2022-unkelbach.jpg" alt="Seegras im Sog der Strömung von Marc Unkelbach">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://munkelb1.pages.coco.study/gg-ws-202122-gestaltungsportfolio/result-freie-arbeit/">Seegras im Sog der Strömung von Marc Unkelbach</a></li>
+          <li class="info__item">WS21/22</li>
+        </ul>
+      </figure>
+    </div>
+
+    <div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://christiannoss.de/feed/gg-2022-marx.jpg" alt="Thema Fading Contrasts - Organic Veins von Matthias Marx">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://mmarx6.pages.coco.study/gestaltungsportfolio-ws-202122-m-marx/result-freie-arbeit/">Thema Fading Contrasts - Organic Veins von Matthias Marx</a></li>
+          <li class="info__item">WS21/22</li>
+        </ul>
+      </figure>
+    </div>  
+
+    <div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://christiannoss.de/feed/gg-2022-brode.png" alt="CURLZ_ von Henning Brode">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://hbrode.pages.coco.study/gestaltungsportfolio-ws-202122-henning-brode/result-farbe/">CURLZ_ von Henning Brode</a></li>
+          <li class="info__item">WS21/22</li>
+        </ul>
+      </figure>
+    </div>
+      
+    <div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://christiannoss.de/feed/gg-2022-haseloh.jpg" alt="Meine Version vom Prisma von Joelina Haseloh">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://jhaseloh.pages.coco.study/gestaltungsportfolio-generative-gestaltung-ws-202122/result-freie-arbeit/">Meine Version vom Prisma von Joelina Haseloh</a></li>
+          <li class="info__item">WS21/22</li>
+        </ul>
+      </figure>
+    </div>
+  
+    <div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://christiannoss.de/feed/gg-2022-gonser.gif" alt="Die Schönheit von Zahlen von Laura Gonser">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://glaura.pages.coco.study/startercode-gestaltungsportfolio-ws202122/result-freie-arbeit/">Die Schönheit von Zahlen von Laura Gonser</a></li>
+          <li class="info__item">WS21/22</li>
+        </ul>
+      </figure>
+    </div>
+  
+    <div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://christiannoss.de/feed/gg-2022-vidal.png" alt="Fading contrast von Luis Vidal">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://lvidaler.pages.coco.study/startercode-gestaltungsportfolio-ws202122/result-freie-arbeit/">Fading contrast von Luis Vidal</a></li>
+          <li class="info__item">WS21/22</li>
+        </ul>
+      </figure>
+    </div>
+
+    <div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://christiannoss.de/feed/gg-2022-busch.png" alt="Zen von Daniel Busch">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://dbusch.pages.coco.study/startercode-gestaltungsportfolio-ws202122/result-freie-arbeit/">Zen von Daniel Busch</a></li>
+          <li class="info__item">WS21/22</li>
+        </ul>
+      </figure>
+    </div>
+
+    <div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://christiannoss.de/feed/gg-2021-pasch.jpg" alt="A touch of Silk von Simone Pasch">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://spasch.pages.coco.study/startercode-gestaltungsportfolio-2020/result-farbe/">A touch of Silk von Simone Pasch</a></li>
+          <li class="info__item">WS20/21</li>
+        </ul>
+      </figure>
+    </div>
+  
+    <div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://christiannoss.de/feed/gg-2021-anetzberger.jpg" alt="Audioreaktives und generativ erzeugtes 3D-Modell von Jonas Anetzberger">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://janetzbe.pages.coco.study/startercode-gestaltungsportfolio-2020/result-freie-arbeit/">Audioreaktives und generativ erzeugtes 3D-Modell von Jonas Anetzberger</a></li>
+          <li class="info__item">WS20/21</li>
+        </ul>
+      </figure>
+    </div>
+  
+    <div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://christiannoss.de/feed/gg-2021-schwind.jpg" alt="Banale Goldene Spirale? von Christian Schwind">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://cschwind.pages.coco.study/startercode-gestaltungsportfolio-2020/result-freie-arbeit/">Banale Goldene Spirale? von Christian Schwind</a></li>
+          <li class="info__item">WS20/21</li>
+        </ul>
+      </figure>
+    </div>
+  
+    <div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://christiannoss.de/feed/gg-2021-alexander.jpg" alt="Fibonacci und Farbe in Kontrast von Sarah Li Alexander">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://sbenalex.pages.coco.study/startercode-gestaltungsportfolio-2020/result-farbe/">Fibonacci und Farbe in Kontrast von Sarah Li Alexander</a></li>
+          <li class="info__item">WS20/21</li>
+        </ul>
+      </figure>
+    </div>
+  
+    <div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://christiannoss.de/feed/gg-2021-nguyen.jpg" alt="Penrose-Dreieck à la Tien von Tien Nguyen">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://tnguye31.pages.coco.study/startercode-gestaltungsportfolio-2020/result-punkt-linie-flaeche/index.html">Penrose-Dreieck à la Tien von Tien Nguyen</a></li>
+          <li class="info__item">WS20/21</li>
+        </ul>
+      </figure>
+    </div>
+  
+    <div class="feed__item">
+      <figure>
+        <img loading="lazy" src="https://christiannoss.de/feed/gg-2021-wulf.jpg" alt="Vielfätiges Verhalten von Noise von Frederik Wulf">
+        <ul class="info">
+          <li class="info__item"><span class="iteration-id" data-js-id></span><a href="https://fwulf.pages.coco.study/startercode-gestaltungsportfolio-2020/result-freie-arbeit/">Vielfätiges Verhalten von Noise von Frederik Wulf</a></li>
+          <li class="info__item">WS20/21</li>
+        </ul>
+      </figure>
+    </div-->
+  
+  </div>
+</div>
+
+<div class="iteration-text">
+  <div class="main-text" lang="de">
+    <p>Der Kurs ist Teil des Moduls «Designing Futures 1» im ersten Fachsemester und zahlt auf das Handlungsfeld
+      «Creative Coding» ein. Hier ist unter anderem die Zielsetzung, Absolvent:innen an eine kreative Arbeitsweise heran
+      zu führen und ein Verständnis von Coding als kreative Disziplin zur Erzeugung von Klängen, Bildern, Animationen
+      und synästhetischen, oftmals echtzeitgenerierten Interaktionen aufzubauen.</p>
+
+    <p>Der Kurs befähigt die Teilnehmer:innen zu einem kreativen Ausdruck mit Code, indem sie Algorithmen als Mittel zum
+      Ausdruck von Ästhetik nutzen, ästhetische Gesichtspunkte analysieren und einschätzen, Werke audio-visueller Kunst
+      und Design erstellen und eine eigene Formensprache entwickeln. Die Teilnehmer:innen des Kurses können eigene
+      Konzepte und Code für regelbasierte und generierte Artefakte analysieren und entwickeln.</p>
+
+    <p>
+      Dazu werden im Kurs die klassischen Grundlagen der visuellen Gestaltung: Punkt, Linie, Fläche, Farbe und Form als
+      Basis der gestalterischen Auseinandersetzung genutzt und im späteren Verlauf um die Themen Bewegung, Steuerung,
+      Reaktion auf äußere Einwirkung ergänzt. Die Bearbeitung der verschiedenen Themen und Aufgaben macht Spaß, ist sehr
+      interessant, fordert heraus, trainiert sowohl Gestaltungs- als auch Coding Skills und führt manchmal zu Lösungen
+      und Ergebnissen, mit denen man anfangs überhaupt nicht gerechnet hätte.</p>
+  </div>
+  <div class="secondary-text" lang="en">
+    <p>The course is part of the module "Designing Futures 1" in the first semester and pays attention to the field of
+      activity "Creative Coding". Here, among other things, the objective is to introduce graduates to a creative way of
+      working and to build an understanding of coding as a creative discipline for producing sounds, images, animations,
+      and synaesthetic, often real-time generated interactions.</p>
+    <p>
+      The course will enable students to express themselves creatively with code by using algorithms as a means of
+      expressing aesthetics, analyzing and evaluating aesthetic considerations, creating works of audio-visual art and
+      design, and developing their own formal language. Participants in the course will be able to analyze and develop
+      their own concepts and code for rule-based and generated artifacts.</p>
+    <p>
+      For this purpose, the course uses the classical basics of visual design: point, line, surface, color and form as a
+      basis for the creative discussion and adds the topics of movement, control and reaction to external influences
+      later on. Working on the various topics and tasks is fun, very interesting, challenging, trains both design and
+      coding skills, and sometimes leads to solutions and results that one would not have expected at all in the
+      beginning.</p>
+  </div>
+</div>
+
+<div class="stage">
+  <nav class="stage-navigation">
+    <div class="close-button"><span class="icon"><i class="fa fa-close"></i></span></div>
+      <!-- A div is not a button, I know :( -->
+  </nav>
+  
+  <div class="stage-content">
+    <iframe id="stageContent" width="200" height="300" frameborder="0" scrolling="no" allowfullscreen></iframe>
+  </div>
+
+
+</div>
+
+<script>
+
+const hideStage = () => {
+  document.querySelector('.stage').classList.remove('is-active');
+  document.querySelector('#stageContent').src = '';
+}
+
+const feedItems = document.querySelectorAll('.feed__item');
+feedItems.forEach((item, index) => {
+  item.addEventListener('click', (event) => {
+    event.preventDefault();
+    const url = item.querySelector('a').href;
+    const stageContent = document.querySelector('#stageContent');
+    stageContent.src = url;
+    
+    const stage = document.querySelector('.stage');
+    stage.classList.add('is-active');
+  });
+});
+
+const closeButton = document.querySelector('.close-button');
+closeButton.addEventListener('click', () => {
+  hideStage();
+});
+
+const addIDs = () => {
+  const iterationIDs = document.querySelectorAll("[data-js-id]");
+  iterationIDs.forEach((id, index) => {
+    id.innerHTML = `G${index + 1}`;
+  });
+}
+
+document.onkeydown = function(evt) {
+    evt = evt || window.event;
+    if (evt.keyCode == 27) {
+      hideStage();
+    }
+};
+
+document.addEventListener("DOMContentLoaded", () => {
+  addIDs();
+});
+</script>
