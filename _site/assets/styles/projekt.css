@@ -1895,8 +1895,8 @@ a.box:active {
   position: relative;
   width: 1em;
   position: absolute;
-  left: calc(50% - 1em / 2);
-  top: calc(50% - 1em / 2);
+  left: calc(50% - (1em / 2));
+  top: calc(50% - (1em / 2));
   position: absolute !important;
 }
 .button.is-static {
