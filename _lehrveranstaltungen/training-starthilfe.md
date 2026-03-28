@@ -4,7 +4,7 @@ kuerzel: w-lmw
 verantwortlich: seg
 typ: training
 pflicht: false
-termine: 2024-11-11 11:30, 2024-11-12 10:30
+termine: 2026-05-11 11:30, 2026-05-12 10:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 90

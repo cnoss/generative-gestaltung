@@ -3,6 +3,8 @@ layout: page
 titel: Gestaltungsportfolio
 ---
 
+> **Wichtiger Hinweis:** Die Prüfungsform wird sich in diesem Jahr ändern. Das Gestaltungsportfolio wird nicht mehr in der hier beschriebenen Form erstellt werden. Die folgende Beschreibung dient nur als Referenz für frühere Durchläufe. Aktuelle Informationen zur neuen Prüfungsform folgen im Verlauf des Kurses.
+
 Der Kurs orientiert sich an den Themen Punkt, Linie, Fläche, Farbe & Kontext. Das Gestaltungsportfolio dokumentiert die gestalterische Auseinandersetzung der Studierenden mit basalen Fragen und Themen im Kontext Generativer Gestaltung, sowie die handwerklichen Fertigkeiten in der Kreation und Umsetzung. Dabei sollen folgende Fragen beantwortet werden:
 
 - wie gut wurden die Aufgaben und Themen verstanden und umgesetzt

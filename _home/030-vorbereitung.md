@@ -27,4 +27,6 @@ Last but not least ist das Buch «Generative Gestaltung» und [die zugehörige W
 ## Startercode & weitere Repos
 Für die einzelnen Aufgaben liegt ein [Startercode Paket](https://git.coco.study/students/ws2425/df12-generative-gestaltung/dev-environment-generative-gestaltung-2024-25) im [CoCo Gitlab](https://git.coco.study/). Dieses bitte forken und clonen. 
 
+> **Hinweis:** Die Prüfungsform wird sich ändern. Informationen zum Portfolio folgen im Verlauf des Kurses.
+
 Den Startercode für das Gestaltungsportfolio finden Sie auf der [Infosteite zum Gestaltungsportfolio](/generative-gestaltung/gestaltungsportfolio/).

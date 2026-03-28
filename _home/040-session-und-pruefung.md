@@ -11,6 +11,8 @@ Die Sessions finden überwiegend vor Ort im Open Space in der S22 statt. Im [Zei
 
 ### Prüfung 
 
+> **Hinweis:** Die Prüfungsform wird sich in diesem Jahr ändern. Das Gestaltungsportfolio wird in einer anderen Form erstellt werden. Details dazu folgen im Verlauf des Kurses.
+
 Der Kurs wird benotet. Die Note wird auf Basis eine Gestaltungsporfolios gebildet. Ein Artefakt aus dem Portfolio wird am letzten Tag des Workshops [präsentiert, argumentiert und reflektiert](https://coco.study/pruefungsformen/).
 
 Die Bewertung erfolgt entlang eines Niveaustufenmodells. Hier finden Sie weitere Informationen zum [Portfolio und dessen Bewertung](/generative-gestaltung/gestaltungsportfolio/).

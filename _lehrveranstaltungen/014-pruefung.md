@@ -4,7 +4,7 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: pruefung
 pflicht: false
-termine: 2024-11-22 14:00
+termine: 2026-05-22 14:00
 empfohlene-voraussetzungen:
 published: true
 dauer: 120
@@ -12,6 +12,8 @@ raum: Open Space, S22
 info: | 
   
 ---
+
+> **Wichtiger Hinweis:** Die Prüfungsform hat sich in diesem Jahr geändert. Die genauen Modalitäten wurden in der vorherigen Session besprochen.
 
 Heute stellt jede:r Teilnehmer:in eines seiner Motive/ Arbeiten vor. Die Vorstellung fließt zu 15% in die Gesamtbewertung ein. Weitere Informationen zur Vorstellung und zur Bewertung finden Sie bei den [Informationen zum Gestaltungsportfolio](/generative-gestaltung/gestaltungsportfolio/).
 

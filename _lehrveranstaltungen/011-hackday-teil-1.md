@@ -4,7 +4,7 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: hack
 pflicht: false
-termine: 2024-11-21 10:30
+termine: 2026-05-21 10:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 330
@@ -12,6 +12,8 @@ raum: Open Space, S22
 info: 
     Beim Hackday geht es darum, das erarbeitete Repertoire im Rahmen einer konkreten Aufgabenstellung, eines Themengebiets oder einer Leitfrage einzusetzen.
 ---
+
+> **Hinweis:** Die Prüfungsform hat sich geändert. Details zum neuen Portfolio-Format werden im Kurs bekannt gegeben.
 
 Im Rahmen des Themas soll ein Sketch oder eine Reihe von Sketches erarbeitet werden, die möglichst gut auf eines der gegebenen Themen einzahlen. Ein Sketch aus den beiden Themengebieten des Hackday kommt in ihr [Gestatungsportfolio](/generative-gestaltung/gestaltungsportfolio/). Falls Sie einen bestehenden Sketch, sei es aus einer Aufgabe oder von einer externen Quelle, nutzen dann machen Sie dies bitte explizit.
 
