@@ -14,7 +14,7 @@ titel: Abgabe und Prüfung
 <div class="intro">
 <p>Den Abschluss des Kurses bildet die Konzeption, Gestaltung, Umsetzung, Inszenierung und Dokumentation eines interaktiven Artefakts, das sie auf Basis des Hackday-Themas entwickeln. Das Artefakt nutzt die im Kurs erarbeiteten gestalterischen und algorithmischen Mittel und reagiert auf Eingaben über Tastatur oder die GUI unseres {{dev-environment}}s. Es bildet zugleich den Ausgangspunkt für den anschließenden Kurs Interaction Design, in dem es um weitere Interaktionsformen erweitert wird.</p>
 
-<p>Damit ihr Projekt sichtbar, anschlussfähig und reflektiert wird, dokumentieren sie es in einer Case Study: einer einseitigen Webseite, die ihr Artefakt zeigt, seine Genese erzählt und die Erkenntnisse benennt, die Sie aus der Arbeit mitnehmen. Ihre Case Study Website muss über das Coco Gitlab veröffentlicht werden (Gitlab Page).</p>
+<p>Damit ihr Projekt sichtbar, anschlussfähig und reflektiert wird, dokumentieren sie es in einer Case Study: einer einseitigen Webseite, die ihr Artefakt zeigt, seine Genese erzählt und die Erkenntnisse benennt, die sie aus der Arbeit mitnehmen. Ihre Case Study Website muss über das Coco Gitlab veröffentlicht werden (Gitlab Page).</p>
 
 <p>Die Case Study erfüllt drei Funktionen: sie ist die Grundlage, auf der ich ihnen Feedback geben kann. Sie macht ihr Projekt für eine fremde dritte Person verständlich, etwa für Besucher:innen einer Ausstellung oder für Kommiliton:innen aus einem späteren Semester. Und sie zwingt sie selbst dazu, einen Schritt zurückzutreten und das eigene Vorgehen einzuordnen.
 Für diese Case Study Website stelle ich ihnen eine Vorlage bereit, welche sie übernehmen oder anpassen können. Eine eigene Umsetzung ist auch möglich. Die Case Study (Website) ist kein Schreibprojekt. Sie soll visuell tragen, kurz im Text bleiben und schnell erfassbar sein.</p>
@@ -55,7 +55,7 @@ Feedback ist in diesem Kurs nicht Begleitmusik, sondern Hauptmedium des Lernens.
 
 ## Case-Study-Website und Stationen
 
-Die Case-Study-Website dokumentiert nicht nur das Endergebnis, sondern auch die Entwicklung. Sie zeigen, wo Sie gestartet sind, welche Stationen Sie auf dem Weg passiert haben und wo Sie schließlich angekommen sind. Damit erfüllt die Website drei Funktionen gleichzeitig.
+Die Case-Study-Website dokumentiert nicht nur das Endergebnis, sondern auch die Entwicklung. Sie zeigen, wo sie gestartet sind, welche Stationen sie auf dem Weg passiert haben und wo sie schließlich angekommen sind. Damit erfüllt die Website drei Funktionen gleichzeitig.
 
 ### Reflexionsraum
 Indem sie ihre Arbeit in Stationen zerlegen und diese kommentieren, treten sie einen Schritt zurück und ordnen das eigene Vorgehen ein. Was war die Idee? Was hat funktioniert? Was hat sich verändert und warum?
@@ -71,7 +71,7 @@ Das Herzstück der Case-Study-Website ist eine Abfolge von Stationen, die den We
 
 Eine Vorstufe ist ein eigenständiger Zwischenstand ihrer Arbeit, der einen erkennbaren Unterschied zum nächsten Schritt aufweist. Das kann eine frühere Version desselben Sketches sein, ein verworfener Pfad, eine Variante mit anderem gestalterischem oder algorithmischem Ansatz, oder eine bewusst reduzierte Vorform, an der sie ein einzelnes Element erprobt haben. Wichtig ist nicht, dass die Vorstufen *schöner* werden, sondern dass sie den Entwicklungsweg sichtbar machen.
 
-**Pro Station zeigen Sie:**
+Pro Station zeigen sie:
 - einen Screenshot oder einen eingebetteten Sketch, der die Station visuell vergegenwärtigt,
 - einen Link zum lauffähigen Sketch, damit man die Station selbst ausprobieren kann,
 - eine kurze Erläuterung nach festem Schema: Was war die Absicht? Was ist passiert? Was nehme ich mit in die nächste Station?
@@ -87,7 +87,7 @@ Abgabetermin ist das Ende der Modulwoche. Sie stellen ihre Case Study Webseite v
 
 - ein Video des finalen Sketches, das den Sketch ind Aktion zeigt,
 - Verlinkung zum finalen Sketch,
-- ein bis zwei Vorstufen mit Screenshot, Ereläuterungen und Link zum Sketch, über den sich die jeweilige Vorstufe ausprobieren lässt,
+- ein bis zwei Vorstufen mit Screenshot, Erläuterungen und Link zum Sketch, über den sich die jeweilige Vorstufe ausprobieren lässt,
 - die Erläuterungen zu Artefakt, Vorstufen und Erkenntnis gemäß den Sektionen der Case Study.
 
 
@@ -120,7 +120,7 @@ Die Case Study ist souverän umgesetzt und trägt den Entwicklungsweg sicher dur
 
 **Auseinandersetzung & Iteration:** Die Stationen zeigen einen nachvollziehbaren Entwicklungsweg, Veränderungen sind begründet. Die Erkenntnis ist substantiell und projektbezogen.
 
-**Vermittlung:** Verständlich aufbereitet, kleine Lücken möglich. Hero und Captions tragen.
+**Vermittlung:** Verständlich aufbereitet, kleine Lücken möglich. Video und Erläuterungen sind nachvollziebar und verständlich.
 
 **Gestalterisches Repertoire:** Sichere Anwendung des Repertoires mit eigenständiger Variation der Aufgabenstellung.
 
