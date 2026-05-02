@@ -4,11 +4,11 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: workshop
 pflicht: false
-termine: 2026-05-14 09:30
+termine: 2026-05-15 09:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 390
-raum: "Open Space, S22"
+raum: "R423, S28"
 flag: show-at-homepage
 teaserImageURL: /assets/images/p-farbe-3-klein.jpg
 info: |

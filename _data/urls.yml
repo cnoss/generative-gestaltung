@@ -17,3 +17,7 @@ ilias:
 ilias-pruefung:
   name: Ilias
   url: https://ilias.th-koeln.de/goto.php?target=crs_1161102&client_id=ILIAS_FH_Koeln
+
+dev-environment:
+  name: Dev Environment
+  url: https://git.coco.study/students/ss26/designing-futures-2/generative-gestaltung/dev-environment-generative-gestaltung-2026

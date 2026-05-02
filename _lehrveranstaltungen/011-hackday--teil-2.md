@@ -8,7 +8,7 @@ termine: 2026-05-22 09:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 180
-raum: Open Space, S22
+raum: R423, S28
 info: 
 ---
 

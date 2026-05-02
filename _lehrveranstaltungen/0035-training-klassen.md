@@ -8,7 +8,7 @@ termine: 2026-05-19 11:00
 empfohlene-voraussetzungen:
 published: true
 dauer: 60
-raum: Open Space, S22
+raum: R423, S28
 info: |
   Wenn Elemente komplexer werden, häufiger benötigt werden oder individuelle Eigenschaften haben, dann lohnt sich der Einsatz von Klassen. Die Idee ist dabei, dass man mit Hilfe der Klasse eine Art Muster oder Template erzeugt und dieses Muster dann beliebig oft nutzen, also instanzieren kann. Eine Instanz einer Klasse ist ein Objekt.
 material: |

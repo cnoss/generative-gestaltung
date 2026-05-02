@@ -8,7 +8,7 @@ termine: 2026-05-19 09:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 390
-raum: Open Space, S22
+raum: R423, S28
 info: |
   Zu guter Letzt befassen wir uns mit der Fläche. Hier haben wir, gegenüber der Linie, als wesentlichen zusätzlichen Gestaltungsparameter, das Verhältnis und die Form. 
 material: |

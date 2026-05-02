@@ -8,7 +8,7 @@ termine: 2026-05-11 09:30
 empfohlene-voraussetzungen: Grundkenntnisse Javascript, Coding Essentials I
 published: true
 dauer: 120
-raum: Open Space, S22
+raum: R423, S28
 info: Wie funktioniert der Kurs und das technische Setup?
 include: inspiration.html
 material: |
@@ -26,7 +26,7 @@ In dieser Session gibt es einen kurzen thematischen Rundflug über das Themenfel
       - Was ich erwarte 😎
       - Wir coden am ersten und zweiten Tag so viel wie möglich zusammen!    
 - Überblick über die zwei Wochen: wo wollen wir hin?
-- Wie funktioniert die Veranstaltung? Was ist das Ziel? Wie geht die Prüfung?
+- Wie funktioniert die Veranstaltung? Was ist das Ziel? Was können Sie mitnehmen? Wann gilt der Kurs als bestanden?
 - Überblick über das Material: Website, Aufgaben, etc.
 - Kleiner Tauch-ein in die genutzte Dev Umgebung.
 - [Wie komme ich gescheit durch den Kurs?](/generative-gestaltung/wie-komme-ich-gescheit-durch-den-kurs/)

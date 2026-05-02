@@ -8,7 +8,7 @@ termine: 2026-05-21 09:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 60
-raum: Open Space, S22
+raum: R423, S28
 info: |
 material: |
   - [Präsentieren im Studium/ Design](/generative-gestaltung/material/generative-gestaltung-praesentieren)
