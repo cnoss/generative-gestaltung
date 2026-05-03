@@ -18,6 +18,3 @@ material: |
 > **Wichtiger Hinweis:** Die Prüfungsform hat sich in diesem Jahr geändert. Die genauen Modalitäten werden in dieser Session besprochen.
 
 Einige Informationen und Gedanken zum Thema [Prüfung, Präsentation und Argumentation von/ für Generative Gestaltung](../../material/generative-gestaltung-praesentieren).
-
-## Mitschnitt
-- [Video von 21.11.2024](https://www.youtube.com/watch?v=C-ZiBNyJZmE)

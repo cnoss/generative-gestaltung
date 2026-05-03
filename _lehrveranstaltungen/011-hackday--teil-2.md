@@ -1,5 +1,5 @@
 ---
-titel: Hackday
+titel: Hackday Thema weiter entwickeln
 kuerzel: w-lmw
 verantwortlich: cn
 typ: hack
@@ -12,10 +12,4 @@ raum: R423, S28
 info: 
 ---
 
-> **Hinweis:** Die Prüfungsform hat sich geändert. Details zum neuen Format werden im Kurs bekannt gegeben.
-
- Heute kann an den Aufgaben für das Gestaltungsportfolio und am Gestaltungsportfolio selbst weiter gearbeitet werden. Wer Support und Feedback braucht - ich bin den ganzen Tag da.
-
- ## Assignments
-
-- [Hackday 2 - Thema der zweiten Freiarbeit](/generative-gestaltung/assignments/99-hackday-2/)
+Der Vormittag ist die letzte Gelegenheit, vor der finalen Feedbackrunde noch am Artefakt zu arbeiten. Sie schließen offene Punkte ab, schleifen an einzelnen Stellen nach und bringen Ihren Sketch in den Zustand, in dem Sie ihn am Nachmittag zeigen wollen. Wir sind weiterhin für Feedback und Support vor Ort.

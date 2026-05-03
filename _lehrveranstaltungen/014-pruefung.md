@@ -1,38 +1,20 @@
 ---
-titel: Präsentation eines Motivs
+titel: Finale Feedbackrunde (verpflichtend)
 kuerzel: w-lmw
 verantwortlich: cn
 typ: pruefung
 pflicht: false
-termine: 2026-05-22 14:00
+termine: 2026-05-22 13:00
 empfohlene-voraussetzungen:
 published: true
-dauer: 120
+dauer: 180
 raum: R423, S28
 info: | 
   
 ---
 
-> **Wichtiger Hinweis:** Die Prüfungsform hat sich in diesem Jahr geändert. Die genauen Modalitäten wurden in der vorherigen Session besprochen.
+Am Freitag der Kurswoche treffen wir uns zur finalen Feedbackrunde. Im Mittelpunkt steht ausschließlich Ihr Artefakt, das zu diesem Zeitpunkt einen tragfähigen Stand erreicht haben sollte. Die Case-Study-Website ist noch nicht Gegenstand dieser Runde, sie kann zu diesem Zeitpunkt auch noch unfertig oder gar nicht begonnen sein.
 
-Heute stellt jede:r Teilnehmer:in eines seiner Motive/ Arbeiten vor. Die Vorstellung fließt zu 15% in die Gesamtbewertung ein. Weitere Informationen zur Vorstellung und zur Bewertung finden Sie bei den [Informationen zum Gestaltungsportfolio](/generative-gestaltung/gestaltungsportfolio/).
+Sie zeigen Ihren Sketch, demonstrieren die Interaktion und ordnen kurz ein, wo Sie stehen. Sie erhalten von mir eine Rückmeldung entlang der inhaltlichen Bewertungsdimensionen, also Auseinandersetzung & Iteration, gestalterisches Repertoire und algorithmisches Repertoire. 
 
-Für die Vorstellung haben Sie insgesamt **5 Minuten** Zeit. Darin enthalten ist auch die Umrüstzeit. Planen Sie also etwa **3 Minuten** Redezeit ein. Hier handelt es sich um eine Prüfung. Halten Sie daher Ihre Multicard bereit. 
-
-## Running Order:
-
-2. Mattia Dario Anselmetti  
-1. Lara Katharina Faßbender  
-3. Moritz Lach 
-5. Lennard Ahrens  
-6. Johanna Brück  
-7. Lena Timmermann  
-8. Marie Sophie Hahn  
-9. Sophie Hamacher  
-10. Jannis Herforth  
-12. Nick Haverkamp  
-13. Carina Lennartz  
-14. Simon Harry Winkel  
-15. Anastasiia Lomanovska  
-16. Finn Simon Große Oevermann  
-17. Tristan Meyne  
+**Der Termin ist verbindlich.**
