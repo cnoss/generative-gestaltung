@@ -7,7 +7,7 @@ pflicht: false
 termine: 2026-05-21 10:30
 empfohlene-voraussetzungen:
 published: true
-dauer: 330
+dauer: 240
 raum: R423, S28
 info: 
     Beim Hackday geht es darum, das erarbeitete Repertoire im Rahmen einer konkreten Aufgabenstellung, eines Themengebiets oder einer Leitfrage einzusetzen.
