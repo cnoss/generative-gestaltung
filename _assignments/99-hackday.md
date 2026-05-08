@@ -1,8 +1,10 @@
 ---
 titel: Freiarbeit (Hackday)
+published: false
 tags: 
     - Hackday
     - Freiarbeit
+
 ---
 
 Thema 1: Gestalten und entwicklen Sie im Rahmen dieser Freiarbeit ein generatives Ökosystem. Hierbei soll ein Algorithmus dafür sorgen, dass Formen wachsen, interagieren und ggf. wieder verschwinden. 
