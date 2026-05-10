@@ -31,6 +31,7 @@ In dieser Session gibt es einen kurzen thematischen Rundflug über das Themenfel
 - Kleiner Tauch-ein in die genutzte Dev Umgebung.
 - [Wie komme ich gescheit durch den Kurs?](/generative-gestaltung/wie-komme-ich-gescheit-durch-den-kurs/)
 - (Aufgabenblöcke für) heute
+- [Nutzung von KI](/generative-gestaltung/wie-komme-ich-gescheit-durch-den-kurs/)
 
 > mehr Ermutigung/ positives Feedback 👻
 

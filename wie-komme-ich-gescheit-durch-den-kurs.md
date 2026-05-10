@@ -81,6 +81,8 @@ KI-Werkzeuge gehören mittlerweile zum Alltag in Studium und Job. Für diesen Ku
 
 **Eigenständige gestalterische Entscheidungen sind das Differenzierungsmerkmal.** Wenn alle im Kurs ähnliche Prompts an ähnliche Modelle geben, entsteht eine ähnliche Bildwelt. Was am Ende auf dem Rundgang sichtbar wird, sind die Arbeiten, in denen jemand eine Entscheidung getroffen hat, die das Modell so nicht vorgeschlagen hätte.
 
+**Fehler sind in der generativen Gestaltung oft das eigentliche Material.** Viele der interessantesten Ergebnisse oder Twists entstehen, weil ein Parameter an der falschen Stelle landet, eine Schleife einen Schritt zu weit läuft oder zwei Werte vertauscht sind. Das «falsche» Verhalten zeigt etwas, das niemand so geplant hatte, und genau daraus wird oft eine eigene gestalterische Entscheidung. Eine KI, die Code generiert, der auf Anhieb funktioniert, schließt diesen Zufallspfad systematisch aus. Sie bekommen das Erwartbare, nicht das Überraschende.
+
 **Die Case-Study-Website zeigt einen Entwicklungsweg.** Wenn dieser Weg im Wesentlichen aus Prompts an ein Modell besteht, ist die Genese nicht Ihre. Die Reflexion fällt entsprechend dünn aus, und das wird in der Bewertung sichtbar.
 
 **Sie können nicht reflektieren, was Sie nicht durchdrungen haben.** Die Erkenntnis-Sektion verlangt eine Einsicht, die über das Projekt hinaus trägt. Diese Einsichten entstehen aus eigenem Tun, nicht aus delegiertem Tun.
