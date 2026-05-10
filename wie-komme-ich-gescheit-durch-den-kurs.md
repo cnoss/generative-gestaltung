@@ -66,3 +66,30 @@ Die Aufgaben adressieren verschiedene Themen und Skills. Wesentliches Ziel ist, 
 
 **Flächen, Tag 6**
 - FF2 und FF2.2 vom Aufgabenset [Transformationen](/generative-gestaltung/assignments/05-flaeche-02/)
+
+## Nutzung von KI im Kurs
+
+KI-Werkzeuge gehören mittlerweile zum Alltag in Studium und Job. Für diesen Kurs lohnt sich allerdings ein zweiter Blick darauf, an welcher Stelle ihr Einsatz weiterhilft und an welcher er dem Besser-werden im Weg steht.
+
+**Der Kurs trainiert Code als gestalterisches Werkzeug, nicht als Mittel zum Zweck.** Generative Gestaltung ist genau dann interessant, wenn Sie selbst entscheiden, was an welcher Stelle geschieht. Eine KI, die Ihnen einen funktionierenden Sketch generiert, nimmt Ihnen genau die Entscheidungen ab, deren Treffen das eigentliche Lernziel ist.
+
+**Was Sie nicht selbst geschrieben haben, können Sie nicht souverän verändern.** Ein generierter Sketch funktioniert oft beim ersten Lauf, aber sobald Sie ihn iterieren, anpassen, mit anderen Bausteinen kombinieren oder im Kurs Interaction Design erweitern wollen, fehlt das Verständnis für das, was unter der Hülle passiert. Sie werden dann wieder die KI bitten, was den Effekt nur verschiebt.
+
+**Programmieren ist hier eine Form des Denkens.** Die Sackgassen, das Debuggen, das Stutzen über das eigene Ergebnis, sind nicht Reibung auf dem Weg zum Sketch, sondern wesentlicher Teil dessen, was Sie hier lernen. Wer diese Reibung wegoptimiert, optimiert auch das Lernen weg.
+
+**KI-generierter generativer Code sieht in der Regel aus wie KI-generierter generativer Code.** Modelle reproduzieren das, was im Trainingsmaterial häufig vorkommt, also Perlin-Flow-Fields, kreisende Partikel, generische Grids. Eine eigene gestalterische Position entsteht dort, wo Sie etwas anders machen, als die Modelle vorschlagen würden. Die «Beste Lösung» in den Niveaustufen verlangt genau das.
+
+**Eigenständige gestalterische Entscheidungen sind das Differenzierungsmerkmal.** Wenn alle im Kurs ähnliche Prompts an ähnliche Modelle geben, entsteht eine ähnliche Bildwelt. Was am Ende auf dem Rundgang sichtbar wird, sind die Arbeiten, in denen jemand eine Entscheidung getroffen hat, die das Modell so nicht vorgeschlagen hätte.
+
+**Die Case-Study-Website zeigt einen Entwicklungsweg.** Wenn dieser Weg im Wesentlichen aus Prompts an ein Modell besteht, ist die Genese nicht Ihre. Die Reflexion fällt entsprechend dünn aus, und das wird in der Bewertung sichtbar.
+
+**Sie können nicht reflektieren, was Sie nicht durchdrungen haben.** Die Erkenntnis-Sektion verlangt eine Einsicht, die über das Projekt hinaus trägt. Diese Einsichten entstehen aus eigenem Tun, nicht aus delegiertem Tun.
+
+**Die Dev-Umgebung ist klein und auf den Kurs zugeschnitten.** Modelle kennen sie nicht zuverlässig. Was Sie an generiertem Code zurückbekommen, passt oft nicht zur Bausteinlogik, ist mit eigenen GUI-Elementen versetzt oder ignoriert die Darstellungsflächen-Logik. Sie werden mehr Zeit damit verbringen, KI-Output an die Umgebung anzupassen, als wenn Sie sich von Anfang an mit den vorhandenen Bausteinen beschäftigen.
+
+**Feedback ist die Hauptwährung des Kurses.** Mein Feedback zielt auf Ihre Entscheidungen, Ihre Sackgassen, Ihre Reflexion. Wenn das, woran Sie arbeiten, im Wesentlichen Modell-Output ist, läuft mein Feedback ins Leere, weil ich nicht zu Ihrer Auseinandersetzung Stellung nehme, sondern zu der eines Modells.
+
+**Der Rundgang prüft Ihre Vermittlungsfähigkeit.** Wer auf Rückfragen zu seinem eigenen Sketch nicht antworten kann, weil er die Logik dahinter nicht selbst aufgebaut hat, fällt sofort auf. Das ist im Berufsleben später nicht anders.
+
+
+**KI als Sparringspartner, nicht als Codeproduzent.** Es spricht nichts dagegen, ein Modell zu nutzen, um eine Idee zu schärfen, einen Begriff nachzuschlagen, einen Lösungsweg zu diskutieren oder einen Bug zu erklären. Was hier nicht zielführend ist, ist die Delegation des eigentlichen gestalterischen und programmatischen Tuns. Die Faustregel: Lassen Sie sich erklären, nicht generieren.

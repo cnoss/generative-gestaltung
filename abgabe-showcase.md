@@ -96,6 +96,13 @@ Abgabetermin ist das Ende der Modulwoche. Sie stellen Ihre Case Study Webseite v
 
 Zur Abgabe gehört außerdem die Teilnahme am Rundgang am Vormittag des letzten Modultags, bei dem Sie Ihr Artefakt persönlich vorstellen.
 
+## Formale Voraussetzungen
+Ihr Sketch läuft in der bereitgestellten Dev-Umgebung und nutzt deren Bausteine. Das hat zwei konkrete Folgen für Ihre Abgabe:
+Erstens nutzen Sie für die Steuerung Ihres Sketches ausschließlich die GUI-Elemente der Dev-Umgebung. Eigene Menüs, Bedienleisten oder andere selbstgebaute GUI-Elemente sind nicht zulässig. Damit bleibt die Bedienlogik aller Sketches im Kurs einheitlich und für die Übergabe in den anschließenden Kurs Interaction Design anschlussfähig.
+
+Zweitens muss Ihr Sketch auf die in der Dev-Umgebung wählbaren Darstellungsflächen reagieren, also auf das quadratische Format, auf 16:9 und auf den Vollbildmodus. Ein Sketch, der nur in einer einzigen Darstellungsfläche funktioniert, erfüllt die Voraussetzungen nicht.
+
+Diese beiden Punkte sind formale Mindestanforderungen und nicht Teil der inhaltlichen Bewertung. Wer sie nicht erfüllt, hat den Kurs nicht bestanden, unabhängig von der gestalterischen oder algorithmischen Qualität des Sketches im Übrigen.
 
 ## Niveaustufen
 
@@ -174,6 +181,9 @@ Mindestens eine der vier Dimensionen ist substantiell unterschritten, sodass die
 
 **Algorithmisches Repertoire:** Sketch unvollständig oder läuft nicht.
 
+**Algorithmisches Repertoire:** Sketch unvollständig oder läuft nicht. Auch ein Sketch, der außerhalb der bereitgestellten Dev-Umgebung läuft, eigene GUI-Elemente verwendet oder nicht auf die Darstellungsflächen reagiert, fällt in diese Stufe.
+
 **Kundenperspektive:** Der Kunde würde die Abnahme verweigern, das Honorar zurückfordern und im Kollegenkreis warnen vor einer weiteren Beauftragung.
+
 
 > Eine Case Study im Design ist eine strukturierte Darstellung eines Designprojekts also eine Art „Dokumentation mit Story“, die zeigt, wie ein Problem gelöst wurde. Sie wird häufig in Portfolios von Designer:innen verwendet, um nicht nur das Ergebnis zu zeigen, sondern vor allem den Denkprozess und die Entwicklungsschritte dahinter.

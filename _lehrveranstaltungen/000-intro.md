@@ -5,7 +5,7 @@ verantwortlich: cn
 typ: vortrag
 pflicht: false
 termine: 2026-05-11 09:30
-empfohlene-voraussetzungen: Grundkenntnisse Javascript, Coding Essentials I
+empfohlene-voraussetzungen: Grundkenntnisse Javascript, Coding Essentials
 published: true
 dauer: 120
 raum: R423, S28
@@ -19,8 +19,8 @@ material: |
 In dieser Session gibt es einen kurzen thematischen Rundflug über das Themenfeld, sowie die Kursinhalte und -ziele. Wir schauen uns eine inspirierende Projekte an und kümmern uns um sinnvolle technische Setups.
 
 ## Ablauf
-- Hallo! [Wer kann was](https://miro.com/app/board/uXjVNPtETpM=/?moveToWidget=3458764569717581468&cot=14)?
-- [Generative Gestaltung in Code & Context](https://coco.study/module/). Worum geht es hier und warum das Ganze?
+- Hallo! [Wer kann was](/generative-gestaltung/assignments/00-wer-kann-was/)?
+- [Generative Gestaltung in Code & Context](https://core.pages.coco.study/reakkreditierung/curriculum24/module/230-designing-futures-2/). Worum geht es hier und warum das Ganze?
 - Generative Gestaltung im richtigen Leben.
 - Learnings aus den letzten Generative Gestaltung Kursen.
       - Was ich erwarte 😎
@@ -35,7 +35,7 @@ In dieser Session gibt es einen kurzen thematischen Rundflug über das Themenfel
 > mehr Ermutigung/ positives Feedback 👻
 
 ## Was muss ich vorbereiten und/ oder mitbringen?
-Zur Vorbereitung gibt es auf der [Startseite des Kurses](/generative-gestaltung/#vorbereitung) ensprechende Hinweise. Die Inhalte aus [Coding Essentials I](https://staff.pages.coco.study/ce01/learning-materials/) sollten sitzen. Wir werden in diesem Kurs auf folgende Inhalte zurück greifen:
+Zur Vorbereitung gibt es auf der [Startseite des Kurses](/generative-gestaltung/#vorbereitung) ensprechende Hinweise. Die Kompetenzen aus *Coding Essentials* sollten sitzen. Wir werden in diesem Kurs auf folgende Inhalte zurück greifen:
 
 - Variables
 - Conditions
@@ -43,3 +43,18 @@ Zur Vorbereitung gibt es auf der [Startseite des Kurses](/generative-gestaltung/
 - Arrays
 - Maps
 - OOP (light)
+
+
+## Real World CC
+- [Studio Drift](https://studiodrift.com)
+- [Onformative](https://onformative.com)
+- [Nervous System](https://n-e-r-v-o-u-s.com/projects/)
+- [Refik Anadol Studio](https://refikanadol.com/works/)
+- [Universal Everything](https://www.universaleverything.com/experience-design)
+- [Random International](https://www.random-international.com)
+
+- [Giorgia Lupi](https://giorgialupi.com)
+- [Stefanie Posavec](https://www.stefanieposavec.com)
+- [Jer Thorp](https://www.jerthorp.me)
+- [Pitch Interactive](https://pitchinteractive.com)
+- [Moritz Stefaner](https://truth-and-beauty.net)
