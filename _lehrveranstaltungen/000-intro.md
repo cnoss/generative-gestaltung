@@ -19,8 +19,9 @@ material: |
 In dieser Session gibt es einen kurzen thematischen Rundflug über das Themenfeld, sowie die Kursinhalte und -ziele. Wir schauen uns eine inspirierende Projekte an und kümmern uns um sinnvolle technische Setups.
 
 ## Ablauf
-- Hallo! [Wer kann was](/generative-gestaltung/assignments/00-wer-kann-was/)?
+- Check-in
 - [Generative Gestaltung in Code & Context](https://core.pages.coco.study/reakkreditierung/curriculum24/module/230-designing-futures-2/). Worum geht es hier und warum das Ganze?
+- [Wer kann was](/generative-gestaltung/assignments/00-wer-kann-was/)?
 - Generative Gestaltung im richtigen Leben.
 - Learnings aus den letzten Generative Gestaltung Kursen.
       - Was ich erwarte 😎
@@ -34,6 +35,18 @@ In dieser Session gibt es einen kurzen thematischen Rundflug über das Themenfel
 - [Nutzung von KI](/generative-gestaltung/wie-komme-ich-gescheit-durch-den-kurs/)
 
 > mehr Ermutigung/ positives Feedback 👻
+
+## Code of Conduct
+
+- freundlichen, offenen und professionellen Umgang
+- Commitment und Leistungsbereitschaft
+- Support untereinander
+- offene Ansprache von Kritik oder bei Problemen und LOB
+- Verantwortungsbewusstsein
+- Wertschätzung
+- Anwesenheit
+- Devices sind während der Vorträge bitte aus
+- Raum
 
 ## Was muss ich vorbereiten und/ oder mitbringen?
 Zur Vorbereitung gibt es auf der [Startseite des Kurses](/generative-gestaltung/#vorbereitung) ensprechende Hinweise. Die Kompetenzen aus *Coding Essentials* sollten sitzen. Wir werden in diesem Kurs auf folgende Inhalte zurück greifen:
