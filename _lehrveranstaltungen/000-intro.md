@@ -12,7 +12,7 @@ raum: R423, S28
 info: Wie funktioniert der Kurs und das technische Setup?
 include: inspiration.html
 material: |
-    - [Inspiration & Beispiele](../inspiration/)
+    - [Inspiration & Beispiele](/generative-gestaltung/inspiration/)
     - [Wie komme ich gescheit durch den Kurs?](/generative-gestaltung/wie-komme-ich-gescheit-durch-den-kurs/)
 ---
 
