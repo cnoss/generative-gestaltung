@@ -41,6 +41,6 @@ Positionieren Sie diesmal zwei Punkte auf der X-Achse. Diesmal folgt der eine Pu
 <figure class="video-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLfnobFnVauQBvOA3GITOLNUuTRcbYWtf8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <figcaption>
-Ein paar Anregungen zur Lösung der Aufgaben gibt es in dieser Playlist.
+Ein paar Anregungen zur Lösung der Aufgaben gibt es in dieser <a href="https://www.youtube.com/playlist?list=PLfnobFnVauQBvOA3GITOLNUuTRcbYWtf8">Playlist</a>.
 </figcaption>
 </figure>
