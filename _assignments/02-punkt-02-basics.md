@@ -14,7 +14,7 @@ Jetzt wird's ein bissl komplex. Die Punkte werden wieder linear angeordnet. Die 
 **obligatorisch**
 
 ## P2.2 Anzahl der Punkte ist abhängig von der Größe der Zeichenfläche
-Gleiches Setup wie in der Aufgabe zuvor, aber nun wird die Größe der Punkte von Ihnen definiert und die Anzahl der Punkte soll automatisch ermittelt werden, so dass gleichmäßig viele in die Zeichenfläche passen.
+Gleiches Setup wie in der Aufgabe zuvor, aber nun wird die Größe der Punkte von Ihnen definiert und die Anzahl der Punkte soll automatisch ermittelt werden, so dass gleichmäßig viele in die Zeichenfläche passen. Hier könnte die Funktion [int()](https://p5js.org/reference/p5/int/) hilfreich sein.
 
 **obligatorisch**
 
