@@ -9,7 +9,7 @@ Platzieren Sie beliebig viele schwarze Punkte einer Größe, linear auf der X-Ac
 **obligatorisch**
 
 ## P2.1 Punktgröße ist abhängig von der Größe der Zeichenfläche
-Jetzt wird's ein bissl komplex. Die Punkte werden wieder linear angeordnet. Die Anzahl der Punkte wird durch Sie definiert, z.B. 16. Die Punkte werden linear angeordnet und im Format zentriert. Der Abstand zwischen zwei Punkten entspricht dem Durchmesser der Punkte. Die Größe und damit auch der Abstand soll sich automatisch nach der Größe der Zeichenfläche richten. Hierbei könnte eventuell die p5 Translate Prozedur [translate](https://p5js.org/reference/p5/translate) helfen.
+Jetzt wird's ein bissl komplex. Die Punkte werden wieder linear angeordnet. Die Anzahl der Punkte wird durch Sie definiert, z.B. 16. Die Punkte werden linear angeordnet und im Format zentriert. Der Abstand zwischen zwei Punkten entspricht dem Durchmesser der Punkte. Die Größe und damit auch der Abstand soll sich automatisch nach der Größe der Zeichenfläche richten. 
 
 **obligatorisch**
 
