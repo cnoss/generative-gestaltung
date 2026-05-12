@@ -1,10 +1,10 @@
 ---
-titel: Starthilfe
+titel: Starthilfe/ Coding Session
 kuerzel: w-lmw
 verantwortlich: seg
 typ: training
 pflicht: false
-termine: 2026-05-11 11:30, 2026-05-12 10:30
+termine: 2026-05-11 11:30, 2026-05-12 14:10
 empfohlene-voraussetzungen:
 published: true
 dauer: 90

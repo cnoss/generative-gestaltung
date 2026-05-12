@@ -4,7 +4,7 @@ kuerzel: v-ko
 verantwortlich: cn
 typ: other
 pflicht: false
-termine: 2026-05-11 13:00, 2026-05-12 12:30, 2026-05-18 12:30, 2026-05-19 12:00, 2026-05-21 12:30
+termine: 2026-05-11 13:00, 2026-05-12 12:00, 2026-05-18 12:30, 2026-05-19 12:00, 2026-05-21 12:30
 empfohlene-voraussetzungen:
 published: true
 dauer: 45
