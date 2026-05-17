@@ -14,7 +14,7 @@ info: |
 ---
 
 ## Beispielcode
-- [Code für die verschiedenen Inputs 2024](/generative-gestaltung/material/context-ws2425.zip)
+- [Codebeispiele für die verschiedenen Inputs](/generative-gestaltung/material/context.zip)
 
 ## Material
 - [p5.js Libraries](https://p5js.org/libraries/)

@@ -3,6 +3,8 @@ titel: Linien, Level 2 – Beziés und radiale Anordnungen
 tags: Linie
 ---
 
+Spätestens beim Thema Linien und Ausrichtung von Linien kann der Einsatz von [Perlin Noise](/generative-gestaltung/codesnippets/noise) interessant sein. 
+
 ## L2 Überlagerung mit Bezier Kurven
 Erzeugen Sie eine interessante Komposition aus einem Raster mit [Bezier Kurven](https://p5js.org/reference/p5/bezier). Hier gibt es eine [kleine Demo zu Bezier Kurven](https://www.desmos.com/calculator/djydz2jqhn?lang=de).
 

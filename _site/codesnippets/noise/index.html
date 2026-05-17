@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <title>Noise – Generative Gestaltung – Kurs im Modul «Designing Futures 2» // Code & Context // Sommersemester 2026</title>
+
+  <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans&PT+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/generative-gestaltung/assets/styles/style.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="/generative-gestaltung/assets/images/favicon.ico">
+
+</head>
+
+<body data-url="/codesnippets/noise/">
+  <section class="hero is-info is-large"
+    style="background-image: url(/generative-gestaltung/assets/images/P3.2.png); background-size: contain; background-repeat: no-repeat; background-position: center center;">
+    <!-- Hero header: will stick at the top -->
+    
+<div class="hero-head has-background-radient">
+  <header class="nav">
+    <div class="container">
+      <div class="nav-left">
+        <a href="/generative-gestaltung/" class="nav-item"><img src="/generative-gestaltung/assets/images/Keyvisual_White_Heavy_Strokes-110px.png" /></a>
+      </div>
+      
+      <span class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+      <div class="nav-right nav-menu">
+        <!--a href="/generative-gestaltung/angebote/" class="nav-item">Veranstaltungen</a-->
+        <a href="/generative-gestaltung/assignments/" class="nav-item">Assignments</a>
+        <a href="/generative-gestaltung/abgabe-showcase/" class="nav-item">Case Study (Abgabe)</a>
+        <a href="/generative-gestaltung/codesnippets/" class="nav-item">Code Snippets</a>
+        <a href="/generative-gestaltung/timetable/" class="nav-item">Zeitplan</a>
+        <a href="/generative-gestaltung/material/" class="nav-item">Material</a>
+      </div>
+      
+    </div>
+  </header>
+</div>
+
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body is-header has-background-radient">
+      <div class="container">
+        <h1 class="title is-1 has-text-shadow">
+          Generative Gestaltung
+        </h1>
+        <h2 class="subtitle is-3 has-text-shadow">
+          Kurs im Modul «Designing Futures 2» // Code & Context // Sommersemester 2026
+        </h2>
+      </div>
+    </div>
+
+  </section>
+
+  
+
+<section class="section">
+  <div class="container">
+    <div class="content">
+      <div class="columns">
+        <div class="column is-8">
+          <h1>Perlin Noise</h1>
+        </div>
+
+        <div class="column is-4 has-text-right">
+          <a target="_blank" href="_codesnippets/noise.md"><span class="icon"><i class="fa fa-edit"></i></span>
+            Bearbeiten</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  
+  <div class="container codesnippet">
+    <div class="content">
+      <p>Perlin Noise ist eine Methode, um <em>natürlich wirkende</em> Zufallswerte zu erzeugen.
+Im Gegensatz zu reinem Zufall (random()), der sprunghaft ist, liefert Perlin Noise weiche, zusammenhängende Übergänge. In p5.js wird die über die Funktion <a href="https://p5js.org/reference/p5/noise/">noise()</a> bereitgestellt.</p>
+
+<h2 id="unterschied-random-vs-noise">Unterschied: random() vs noise()</h2>
+
+<p>Random</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let x = random(100);
+
+// Ergebnisse springen chaotisch:
+
+12, 87, 3, 65, 91 ...
+</code></pre></div></div>
+
+<p>Perlin Noise</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let x = noise(t);
+
+// Ergebnisse ändern sich weich:
+
+0.51, 0.52, 0.53, 0.54 ...
+
+</code></pre></div></div>
+
+<p>Dadurch eignet sich Noise perfekt für:</p>
+
+<ul>
+  <li>organische Animationen</li>
+  <li>Terrain-Generierung</li>
+  <li>Wolken/Wasser</li>
+  <li>Flow Fields</li>
+  <li>Kamerabewegungen</li>
+  <li>generative Kunst</li>
+</ul>
+
+<h2 id="grundidee-in-p5js">Grundidee in p5.js</h2>
+
+<p>Hier bewegt sich der Kreis weich horizontal.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let t = 0;
+function setup() {
+  createCanvas(400, 400);
+}
+function draw() {
+  background(220);
+  let x = noise(t) * width;
+  circle(x, 200, 40);
+  t += 0.01;
+}
+
+</code></pre></div></div>
+
+<h2 id="wie-funktioniert-noise">Wie funktioniert noise()?</h2>
+
+<p>noise() akzeptiert 1D, 2D oder 3D Koordinaten.</p>
+
+<p><strong>1D Noise:</strong> ist gut für zeitliche Veränderungen.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>noise(x)
+</code></pre></div></div>
+
+<p><strong>2D Noise:</strong> ist ideal für Höhenkarten, Terrain und Texturen</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>noise(x, y)
+</code></pre></div></div>
+
+<p><strong>Beispiel:</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let n = noise(x * 0.01, y * 0.01);
+</code></pre></div></div>
+
+<p>Die Multiplikation mit 0.01 bestimmt die „Zoomstufe“.</p>
+
+<p><strong>3D Noise:</strong> für mehrdimensionale Übergange, z.B. x/y für Position und z für die Zeit.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>noise(x, y, z)
+</code></pre></div></div>
+
+<h2 id="wichtige-konzepte">Wichtige Konzepte</h2>
+
+<h3 id="scale--frequency">Scale / Frequency</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>noise(x * 0.01)
+</code></pre></div></div>
+
+<ul>
+  <li>kleine Werte → große weiche Formen</li>
+  <li>große Werte → detailreicher / hektischer</li>
+</ul>
+
+<h2 id="animation-über-zeit">Animation über Zeit</h2>
+
+<p>Noise wird oft entlang einer Achse „gescannt“.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>t += 0.01;
+</code></pre></div></div>
+
+<h3 id="noise-seed">Noise Seed</h3>
+
+<p>Mit noiseSeed() bekommt man reproduzierbare Ergebnisse:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>noiseSeed(99);
+</code></pre></div></div>
+
+<p><strong>Beispiel: Terrain</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function setup() {
+  createCanvas(400, 400);
+  noLoop();
+}
+function draw() {
+  background(0);
+  for (let x = 0; x &lt; width; x += 5) {
+    let h = noise(x * 0.01) * 200;
+    stroke(255);
+    line(x, height, x, height - h);
+  }
+}
+
+</code></pre></div></div>
+
+<p>Das erzeugt eine organisch wirkende Landschaft.</p>
+
+<p><strong>Beispiel: Flow Field</strong></p>
+
+<p>Perlin Noise wird oft genutzt, um Richtungen zu erzeugen.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let angle = noise(x * 0.01, y * 0.01) * TWO_PI;
+</code></pre></div></div>
+
+<p>Dadurch bekommen Partikel natürliche Bewegungen.</p>
+
+<h2 id="fractal-noise--octaves">Fractal Noise / Octaves</h2>
+
+<p>p5.js unterstützt mehrere Noise-Ebenen:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>noiseDetail(octaves, falloff);
+</code></pre></div></div>
+
+<p><strong>Beispiel:</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>noiseDetail(4, 0.5);
+</code></pre></div></div>
+
+<ul>
+  <li>mehr Octaves → mehr Details</li>
+  <li>Falloff → Stärke feiner Ebenen</li>
+</ul>
+
+<h2 id="typische-formel">Typische Formel</h2>
+
+<p>Für Bewegung:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>x = noise(t) * width;
+y = noise(t + 1000) * height;
+</code></pre></div></div>
+<p>Der Offset (+1000) verhindert gleiche Werte.</p>
+
+<h2 id="warum-perlin-noise-so-beliebt-ist">Warum Perlin Noise so beliebt ist</h2>
+
+<p>Weil echte Natur selten komplett zufällig ist.</p>
+
+<p>Perlin Noise simuliert:</p>
+
+<ul>
+  <li>Kontinuität</li>
+  <li>lokale Ähnlichkeit</li>
+  <li>organische Strukturen</li>
+</ul>
+
+<p>Deshalb sieht vieles damit sofort natürlicher aus.</p>
+
+<h2 id="typische-anfängerfehler">Typische Anfängerfehler</h2>
+
+<p><strong>Zu große Schritte</strong> wirken wieder zufällig.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>t += 1;
+</code></pre></div></div>
+
+<p>Besser:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>t += 0.01;
+</code></pre></div></div>
+
+<p><strong>Kein Scaling</strong> führt oft zu extrem hektischen Mustern.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>noise(x)
+</code></pre></div></div>
+
+<p>Besser:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>noise(x * 0.01)
+</code></pre></div></div>
+
+<p><strong>Alle Achsen gleich verwenden</strong> erzeugt eine Spiegelachse in der Darstellung, bzw. eine diagonale Bewegung.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>x = noise(t)
+y = noise(t)
+</code></pre></div></div>
+
+<p>Besser:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>x = noise(t)
+y = noise(t + 1000)
+</code></pre></div></div>
+
+<h2 id="organisches-beispiel">Organisches Beispiel</h2>
+
+<p>Hier wird eine weich fließende Partikelbewegung erzeugt.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>let t = 0;
+
+function setup() {
+  createCanvas(500, 500);
+  noStroke();
+}
+
+function draw() {
+  background(20, 20);
+  for (let i = 0; i &lt; 200; i++) {
+    let x = noise(i * 0.1, t) * width;
+    let y = noise(i * 0.1, t + 1000) * height;
+    fill(255, 120);
+    circle(x, y, 8);
+  }
+  t += 0.003;
+}
+
+</code></pre></div></div>
+
+<h2 id="gute-ressourcen">Gute Ressourcen</h2>
+
+<ul>
+  <li><a href="https://p5js.org/reference/p5/noise/">p5.js – noise()</a></li>
+  <li><a href="https://natureofcode.com/">The Nature of Code</a></li>
+  <li><a href="https://thecodingtrain.com/tracks/noise-algorithms">The Coding Train – Noise Algorithms</a></li>
+</ul>
+
+    </div>
+  </div>
+</section>
+
+<!--section class="section">
+	<div class="modulbeschreibung">
+		<div class="container">
+			<div class="content">
+				
+			
+			Audio Input
+	  	
+			Console Logging
+	  	
+			Farben der GUI anpassen
+	  	
+			Handtrack.js
+	  	
+			Interessante P5.js Funktionen und Beispiele
+	  	
+			Klassen in Javascript
+	  	
+			Perlin Noise
+	  	
+			RGB in HSB umrechnen
+	  	
+			Schrift als Fläche
+	  	
+			Shortcuts
+	  	
+			Mögliche Lösung zur Aufgabe «Unruhe im Raster»
+	  	
+			Presets verwenden
+	  	
+			Mit Daten arbeiten
+	  	
+	  	</div>
+		</div>
+	</div>
+</section-->
+
+  <footer class="footer is-non-print">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <ul class="menu-list">
+          <li><a href="/generative-gestaltung/" class="nav-item">Startseite</a></li>
+          <li><a href="/generative-gestaltung/timetable/" class="nav-item">Zeitplan</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <div class="content is-small">
+          <p markdown="1">Website zum Kurs «Generative Gestaltung» im [Studiengang Code &
+            Context](https://www.th-koeln.de/studium/code--context-bachelor_62103.php) der [TH
+            Köln](https://www.th-koeln.de/hochschule/impressum_8159.php).</p>
+          <p markdown="1">Verantwortlicher Dozent ist [Prof. Christian Noss](https://github.com/cnoss).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.3/showdown.min.js"></script>
+<script type="text/javascript" src="/generative-gestaltung/assets/js/gg.js"></script>
+</body>
+
+</html>
