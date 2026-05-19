@@ -115,7 +115,7 @@ Diese beiden Punkte sind formale Mindestanforderungen und nicht Teil der inhaltl
 
 ### Beste Lösung
 
-Die Case Study überzeugt, überrascht, lädt zur Interaktion und Diskussion ein, weil das Artefakt eine eigenständige gestalterische Position bezieht und der Weg dorthin sauber erzählt wird.
+Die Case Study überzeugt, überrascht, lädt zur Interaktion und Diskussion ein, weil das Artefakt eine eigenständige gestalterische Position bezieht und der Weg dorthin nachvollziebar und interessant erzählt wird.
 
 **Auseinandersetzung & Iteration:** Die Stationen zeigen einen substantiellen Entwicklungsweg, samt nachvollziehbarer Bruchstelle oder produktiver Sackgasse. Die Erkenntnis-Sektion enthält eine Einsicht, die über das Projekt hinaus trägt.
 
