@@ -27,4 +27,4 @@ Last but not least ist das Buch «Generative Gestaltung» und [die zugehörige W
 ## Startercode & weitere Repos
 Für die einzelnen Aufgaben liegt ein [Startercode Paket](https://git.coco.study/students/ss26/designing-futures-2/generative-gestaltung/dev-environment-generative-gestaltung-2026) im [CoCo Gitlab](https://git.coco.study/). Dieses bitte forken und clonen. 
 
-Die Vorlage für die Case Study Website folgt in Kürze. 
+Hier finden sie die [Vorlage für die Case Study Website](https://git.coco.study/students/ss26/designing-futures-2/generative-gestaltung/startercode-case-study).
