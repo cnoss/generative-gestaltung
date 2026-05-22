@@ -9,6 +9,8 @@ empfohlene-voraussetzungen:
 published: true
 dauer: 60
 raum: R423, S28
+material: |
+  - [Keep, Drop, Try, Refect](https://cnoss.github.io/slides/presentations/misc/about-me/)
 info: | 
   Es gibt wenig, was man nicht noch besser machen kann. In dieser Retro zum Kurs geht es darum, unbewusste Qualitäten und Defizite des Kurses, aber auch des eigenen Handelns bewusst zu machen, um in der nächsten Iteration oder im nächsten Kurs darauf reagieren zu können.
 ---
