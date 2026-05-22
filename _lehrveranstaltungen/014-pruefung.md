@@ -18,3 +18,33 @@ Am Freitag der Kurswoche treffen wir uns zur finalen Feedbackrunde. Im Mittelpun
 Sie zeigen Ihren Sketch, demonstrieren die Interaktion und ordnen kurz ein, wo Sie stehen. Sie erhalten von mir eine Rückmeldung entlang der inhaltlichen Bewertungsdimensionen, also Auseinandersetzung & Iteration, gestalterisches Repertoire und algorithmisches Repertoire. 
 
 **Der Termin ist verbindlich.**
+
+## Running Order
+
+- Noah Francis William	Scharnetzki
+- Tobias Peter Werner	Holzportz
+- Julian	Wennmacher
+- Gisa Maria	Köpp
+- Elisabeth Anna Ingrid	Schäfer
+- Emre	Özel
+- Junseo	Lee
+- Clara Maria	Heller
+- Kian	Najarajampour
+- Nils Laurin	Igelmund
+- Tim	Fischer
+- Nurefsan	Tanis
+- Maxim	Sukhorukov
+- Johann Hugo	Möhling
+- Ron David	Fleisher
+- Annouk Ida Marie	Preiß
+- Laura Maria	Emmerich
+- Nezaket Melda	Düzgün
+- Anselm Wassili	Ficht
+- Kai Sven	Rickus
+- Merlin Daniel	Schwethelm
+- Michael	Kling
+- Chanel	Anure Ahmad
+- Jannis Cedric	Braun
+- Matti Johannes	Hoff
+- Lorenz Herwig Joachim	Bartsch
+- Almouthana	Alkhallawi
